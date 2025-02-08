@@ -9,6 +9,7 @@ from .misc import get_current_season
 import re
 from bs4 import BeautifulSoup
 from codecs import encode, decode
+import datetime
 
 def get_valid_teams(browser, season=None):
 	"""
@@ -178,3 +179,170 @@ def get_scouting_report(browser, team=None, season=None, conference_only=False):
 		stats_df[stat[0]] = stat[1]
 		stats_df[stat[0]+'.Rank'] = stat[2]
 	return stats_df
+
+
+def get_float(v):
+	try:
+		return float(v)
+	except:
+		return v
+
+
+def generate_team_stats(team_name, four_factors, team_stats, team_stats_def, points_dist):
+	ff = {k: get_float(four_factors.loc[team_name][k]) for k in four_factors.columns}
+	ts = {k: get_float(team_stats.loc[team_name][k]) for k in team_stats.columns}
+	pd = {k: get_float(points_dist.loc[team_name][k]) for k in points_dist.columns}
+	tsd = {k: get_float(team_stats_def.loc[team_name][k]) for k in team_stats_def.columns}
+
+	return {
+		**ff,
+		**ts,
+		**pd,
+		**tsd,
+	}
+
+# TODO: UPDATE TO TAKE LIST OF DATES
+def get_next_opponent(browser, team_name, date_time_formatted):
+	print('team_name ' + team_name)
+	try:
+		# DATES_TO_CHECK = [date_time_formatted]
+		DATES_TO_CHECK =[
+			'Tue Mar 26',
+			'Wed Mar 27',
+			'Thu Mar 28',
+			'Fri Mar 29',
+		]
+
+		schedule = get_schedule(browser, team_name)
+		schedule = schedule.set_index('Date')
+		
+		for date in DATES_TO_CHECK:
+			try:
+				game = schedule.loc[date]
+				opponent = game['Opponent Name']
+				result = game['Result']
+				return (opponent, result)
+			except:
+				pass
+
+		return (None, None)
+	except:
+		print('retrying get opponent for: ' + team_name)
+		return get_next_opponent(browser, team_name, date_time_formatted)
+
+def get_player_expanded(browser, date_time_formatted, team_with_spaces=None, four_factors=None, team_stats=None, team_stats_def=None, points_dist=None):
+	"""
+	Scrapes a team's schedule from (https://kenpom.com/team.php) into a dataframe.
+
+	Args:
+		browser (mechanicalsoul StatefulBrowser): Authenticated browser with full access to kenpom.com generated
+			by the `login` function
+		team: Used to determine which team to scrape for schedule.
+		season (str, optional): Used to define different seasons. 2002 is the earliest available season.
+
+	Returns:
+		team_df (pandas dataframe): Dataframe containing a team's schedule for the given season.
+
+	Raises:
+		ValueError if `season` is less than 2002.
+		ValueError if `season` is greater than the current year.
+		ValueError if `team` is not in the valid team list.
+	"""
+	print('Starting for: ' + team_with_spaces)
+	try:
+
+		url = 'https://kenpom.com/player-expanded.php'
+
+		date = datetime.date.today()
+		currentYear = date.strftime("%Y")
+
+		season = int(currentYear)
+
+		if team_with_spaces==None or team_with_spaces not in get_valid_teams(browser, season):
+				raise ValueError(
+					'the team does not exist in kenpom in the given year.  Check that the spelling matches (https://kenpom.com) exactly.')
+		
+		# Sanitize team name
+		team = team_with_spaces.replace(" ", "+")
+		team = team.replace("&", "%26")
+		
+		url = url + "?team=" + str(team)
+		url = url + "&y=" + str(season)
+
+		browser.open(url)
+		schedule = browser.get_current_page()
+
+		table = schedule.find_all('table')[0]
+		stats_df = pd.read_html(str(table))[0]
+		stats_df = stats_df.rename(columns={ 'Unnamed: 0': 'Number', 'Unnamed: 1': 'Name'})
+		stats_df = stats_df[pd.to_numeric(stats_df.Number, errors='coerce').notnull()]
+		
+		stats_df['Name'] = stats_df['Name'].str.replace('\d+', '')
+		stats_df['Name'] = stats_df['Name'].str.replace(' National Rank', '')
+		stats_df['Name'] = stats_df['Name'].str.replace('National Rank', '')
+		
+		# super hack for Player of the Year rankings
+		# TODO: This is broken for KJ Simpson
+		for x in range(0, 20):
+			stats_df['Name'] = stats_df['Name'].str.replace(f' {x}', '')
+
+		# super hack for removing player ranks by stat from player stats DF
+		for index, row in stats_df.iterrows():
+			for column, value in row.items():
+				if column == 'Name':
+					name = value
+					continue
+				
+				stats_df.at[index, column] = get_float(value.split(' ', 1)[0]) if isinstance(value, str) and ' ' in value else get_float(value)
+
+		stats_df = stats_df.set_index('Name')
+
+		# TODO: 1 vs 2 --> Bug for Chicago St. --> No conference table --> super hack for now
+		table = schedule.find_all('table')[2] if len(schedule.find_all('table')) == 3 else schedule.find_all('table')[1]
+		minutes_df = pd.read_html(str(table))[0]
+		minutes_df = minutes_df.fillna(0)
+
+		memoized_team_stats = {}
+		memoized_next_opponent_stats = {}
+
+		players = set()
+		for x in range(1, 7):
+			game = minutes_df.iloc[[-x]]
+			game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+			game = game.sum(axis=0)
+
+			for name, val in game.items(): # iteritems()
+				name = name[0].replace('\xa0', ' ')
+				stats_df.loc[name, f'Game -{x}'] = val
+				players.add(name)
+
+		for player in players:
+			stats_df.loc[player, 'Team'] = team
+
+			if team not in memoized_team_stats:
+				memoized_team_stats[team] = generate_team_stats(team_with_spaces, four_factors, team_stats, team_stats_def, points_dist)
+
+			for k, v in memoized_team_stats.get(team).items():
+				stats_df.loc[player, f'Team.{k}'] = v
+
+			if team not in memoized_next_opponent_stats:
+				opponent, result = get_next_opponent(browser, team_with_spaces, date_time_formatted)
+				memoized_next_opponent_stats[team] = generate_team_stats(opponent, four_factors, team_stats, team_stats_def, points_dist) if opponent is not None else None
+
+			# team may not have any more games so need to check
+			if memoized_next_opponent_stats[team] is not None:
+				stats_df.loc[player, 'NextOpponent'] = opponent
+				stats_df.loc[player, 'KenPomResult'] = result
+				for k, v in memoized_next_opponent_stats.get(team).items():
+					stats_df.loc[player, f'Opponent.{k}'] = v
+
+		return stats_df
+	except:
+		tb = traceback.format_exc()
+		print(tb)
+		return
+		
+		# print('trying againg for: ' + team)
+		# return get_player_expanded(browser, team=team)
+
+	

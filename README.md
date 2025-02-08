@@ -1,4 +1,12 @@
+# TOM NOTES 2/27/24
+* See todoist for some good notes
+* See local computer for old code
+* See Google Drive for an old spreadsheet KenPomUpdated3-23
+
+TODO: Determine path forward on automizing
+
 # kenpompy - Basketball for Nerds
+
 [![Documentation Status](https://readthedocs.org/projects/kenpompy/badge/?version=latest)](https://kenpompy.readthedocs.io/en/latest/?badge=latest) [![codecov](https://codecov.io/gh/j-andrews7/kenpompy/branch/master/graph/badge.svg)](https://codecov.io/gh/j-andrews7/kenpompy)
 
 <p align="center"> 
