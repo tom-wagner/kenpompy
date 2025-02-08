@@ -7,18 +7,22 @@ import pandas as pd
 from io import StringIO
 from .misc import get_current_season
 import re
+from cloudscraper import CloudScraper
 from bs4 import BeautifulSoup
 from codecs import encode, decode
+from typing import Optional
+from .utils import get_html
 import datetime
+import traceback
 
-def get_valid_teams(browser, season=None):
+def get_valid_teams(browser: CloudScraper, season: Optional[str]=None):
 	"""
 	Scrapes the teams (https://kenpom.com) into a list.
 
 	Args:
-		browser (mechanicalsoup.StatefulBrowser): Authenticated browser with full access to kenpom.com generated
+		browser (CloudScraper): Authenticated browser with full access to kenpom.com generated
 			by the `login` function
-		season (str, optional): Used to define different seasons. 2002 is the earliest available season.
+		season (str, optional): Used to define different seasons. 1999 is the earliest available season.
 
 	Returns:
 		team_list (list): List containing all valid teams for the given season on kenpom.com.
@@ -27,8 +31,7 @@ def get_valid_teams(browser, season=None):
 	url = "https://kenpom.com"
 	url = url + '?y=' + str(season)
 
-	browser.open(url)
-	teams = browser.get_current_page()
+	teams = BeautifulSoup(get_html(browser, url), "html.parser")
 	table = teams.find_all('table')[0]
 	team_df = pd.read_html(StringIO(str(table)))
 	# Get only the team column.
@@ -43,21 +46,21 @@ def get_valid_teams(browser, season=None):
 
 	return team_list
 
-def get_schedule(browser, team=None, season=None):
+def get_schedule(browser: CloudScraper, team: Optional[str]=None, season: Optional[str]=None):
 	"""
 	Scrapes a team's schedule from (https://kenpom.com/team.php) into a dataframe.
 
 	Args:
-		browser (mechanicalsoup.StatefulBrowser): Authenticated browser with full access to kenpom.com generated
+		browser (CloudScraper): Authenticated browser with full access to kenpom.com generated
 			by the `login` function
-		team: Used to determine which team to scrape for schedule.
-		season (str, optional): Used to define different seasons. 2002 is the earliest available season.
+		team (str, optional): Used to determine which team to scrape for schedule.
+		season (str, optional): Used to define different seasons. 1999 is the earliest available season.
 
 	Returns:
 		team_df (pandas dataframe): Dataframe containing a team's schedule for the given season.
 
 	Raises:
-		ValueError if `season` is less than 2002.
+		ValueError if `season` is less than 1999.
 		ValueError if `season` is greater than the current year.
 		ValueError if `team` is not in the valid team list.
 	"""
@@ -66,9 +69,9 @@ def get_schedule(browser, team=None, season=None):
 	current_season = get_current_season(browser)
 
 	if season:
-		if int(season) < 2002:
+		if int(season) < 1999:
 			raise ValueError(
-				'season cannot be less than 2002, as data only goes back that far.')
+				'season cannot be less than 1999, as data only goes back that far.')
 		if int(season) > int(current_season):
 			raise ValueError(
 				'season cannot be greater than the current year.')
@@ -85,8 +88,7 @@ def get_schedule(browser, team=None, season=None):
 	url = url + "?team=" + str(team)
 	url = url + "&y=" + str(season)
 
-	browser.open(url)
-	schedule = browser.get_current_page()
+	schedule = BeautifulSoup(get_html(browser, url), "html.parser")
 	table = schedule.find_all('table')[1]
 	schedule_df = pd.read_html(StringIO(str(table)))
 
@@ -120,21 +122,21 @@ def get_schedule(browser, team=None, season=None):
 
 	return schedule_df.reset_index(drop=True)
 
-def get_scouting_report(browser, team=None, season=None, conference_only=False):
+def get_scouting_report(browser: CloudScraper, team: str, season: Optional[int]=None, conference_only: bool=False):
 	"""
     Retrieves and parses team scouting report data from (https://kenpom.com/team.php) into a dictionary.
 
     Args:
-    	browser (mechanicalsoup.StatefulBrowser): The mechanize browser object for web scraping.
+    	browser (CloudScraper): The mechanize browser object for web scraping.
     	team (str): team: Used to determine which team to scrape for schedule.
-    	season (int, optional): Used to define different seasons. 2002 is the earliest available season.
+    	season (int, optional): Used to define different seasons. 1999 is the earliest available season.
     	conference_only (bool, optional): When True, only conference-related stats are retrieved; otherwise, all stats are fetched.
 
     Returns:
     	dict: A dictionary containing various team statistics.
 
     Raises:
-    	ValueError if the provided season is earlier than 2002 or greater than the current year
+    	ValueError if the provided season is earlier than 1999 or greater than the current year
 		ValueError if the team name is invalid or not found in the specified year
 	"""
 
@@ -143,9 +145,9 @@ def get_scouting_report(browser, team=None, season=None, conference_only=False):
 	current_season = get_current_season(browser)
 
 	if season:
-		if int(season) < 2002:
+		if int(season) < 1999:
 			raise ValueError(
-				'season cannot be less than 2002, as data only goes back that far.')
+				'season cannot be less than 1999, as data only goes back that far.')
 		if int(season) > current_season:
 			raise ValueError(
 				'season cannot be greater than the current year.')
@@ -162,8 +164,8 @@ def get_scouting_report(browser, team=None, season=None, conference_only=False):
 	url = url + "?team=" + str(team)
 	url = url + "&y=" + str(season)
 
-	browser.open(url)
-	scouting_report_scripts = browser.page.find("script", { "type": "text/javascript", "src": ""} )
+	report = BeautifulSoup(get_html(browser, url), "html.parser")
+	scouting_report_scripts = report.find("script", { "type": "text/javascript", "src": ""} )
 
 	extraction_pattern = re.compile(r"\$\(\"td#(?P<token>[A-Za-z0-9]+)\"\)\.html\(\"(.+)\"\);")
 	if conference_only:
@@ -179,7 +181,6 @@ def get_scouting_report(browser, team=None, season=None, conference_only=False):
 		stats_df[stat[0]] = stat[1]
 		stats_df[stat[0]+'.Rank'] = stat[2]
 	return stats_df
-
 
 def get_float(v):
 	try:
@@ -201,16 +202,14 @@ def generate_team_stats(team_name, four_factors, team_stats, team_stats_def, poi
 		**tsd,
 	}
 
-# TODO: UPDATE TO TAKE LIST OF DATES
+
 def get_next_opponent(browser, team_name, date_time_formatted):
 	print('team_name ' + team_name)
 	try:
-		# DATES_TO_CHECK = [date_time_formatted]
-		DATES_TO_CHECK =[
-			'Tue Mar 26',
-			'Wed Mar 27',
-			'Thu Mar 28',
-			'Fri Mar 29',
+		today = datetime.datetime.today()
+		DATES_TO_CHECK = [
+			(today + datetime.timedelta(days=i)).strftime('%a %b %d')
+			for i in range(4)
 		]
 
 		schedule = get_schedule(browser, team_name)
@@ -269,8 +268,8 @@ def get_player_expanded(browser, date_time_formatted, team_with_spaces=None, fou
 		url = url + "?team=" + str(team)
 		url = url + "&y=" + str(season)
 
-		browser.open(url)
-		schedule = browser.get_current_page()
+		# MANUAL ADJUSTMENT 2-8-25
+		schedule = BeautifulSoup(get_html(browser, url), "html.parser")
 
 		table = schedule.find_all('table')[0]
 		stats_df = pd.read_html(str(table))[0]

@@ -12,3 +12,4 @@
 __pycache__/
 /.sos/*.xlsx
 *.xlsx
+.DS_Store

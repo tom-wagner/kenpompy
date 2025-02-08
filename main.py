@@ -5,6 +5,8 @@ import kenpompy.team as kp_team
 import pandas as pd
 from functools import reduce
 from datetime import datetime
+import time
+from random import randint
 
 # usage `python3 03-19-2024`
 def main_fn(date_string):
@@ -47,9 +49,11 @@ def main_fn(date_string):
     teams = kp_team.get_valid_teams(browser)
     print('teams')
     print(teams)
-    dfs = [
-        kp_team.get_player_expanded(browser, formatted_date, team_with_spaces=team, team_stats=team_stats, team_stats_def=team_stats_def, four_factors=four_factors, points_dist=points_dist)
-        for team in teams]
+    dfs = []
+    for team in teams[:5]:
+        df = kp_team.get_player_expanded(browser, formatted_date, team_with_spaces=team, team_stats=team_stats, team_stats_def=team_stats_def, four_factors=four_factors, points_dist=points_dist)
+        dfs.append(df)
+        time.sleep(randint(2, 5))
     
     player_df = pd.concat(dfs)
     player_df = player_df[player_df.NextOpponent.notnull()]
