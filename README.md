@@ -1,7 +1,11 @@
-# TOM NOTES 2/27/24
-* See todoist for some good notes
-* See local computer for old code
+# NOTES 2/27/24
+* See todoist for some good notes (https://app.todoist.com/app/task/march-madness-code-65PrggxmCmqh7P4f)
+* See local computer for old code (need to figure out how to push again)
 * See Google Drive for an old spreadsheet KenPomUpdated3-23
+
+# NOTES 3/5/25
+1. Run code with `python3 main.py 03-05-2025`
+2. Not sure on configuration for rate limiter
 
 TODO: Determine path forward on automizing
 

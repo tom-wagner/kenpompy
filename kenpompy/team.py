@@ -208,7 +208,7 @@ def get_next_opponent(browser, team_name, date_time_formatted):
 	try:
 		today = datetime.datetime.today()
 		DATES_TO_CHECK = [
-			(today + datetime.timedelta(days=i)).strftime('%a %b %d')
+			(today + datetime.timedelta(days=i)).strftime('%a %b %-d')
 			for i in range(4)
 		]
 
