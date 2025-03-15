@@ -8,6 +8,8 @@ from datetime import datetime
 import time
 from random import randint
 import numpy as np
+import os
+import shutil
 
 # usage `python3 03-19-2024`
 def main_fn(date_string):
@@ -35,8 +37,6 @@ def main_fn(date_string):
 
     team_stats_def = kp_summary.get_teamstats(browser, True)
     team_stats_def = team_stats_def.set_index('Team')
-    print('team_stats_def')
-    print(team_stats_def)
 
     # prevent clashing column names
     for column in team_stats_def.columns:
@@ -51,8 +51,8 @@ def main_fn(date_string):
     print('teams')
     print(teams)
     dfs = []
-    for team in teams[90:105]:
-        df = kp_team.get_player_expanded(browser, formatted_date, team_with_spaces=team, team_stats=team_stats, team_stats_def=team_stats_def, four_factors=four_factors, points_dist=points_dist)
+    for team in teams[:50]:
+        df = kp_team.get_player_expanded(browser, date_string, team_with_spaces=team, team_stats=team_stats, team_stats_def=team_stats_def, four_factors=four_factors, points_dist=points_dist)
         dfs.append(df)
         time.sleep(randint(2, 5))
     
@@ -66,27 +66,34 @@ def main_fn(date_string):
     print(player_df)
     print(player_df.columns.tolist())
 
-    # four_factors.to_excel(f"{formatted_date}.xlsx",
-    #             sheet_name='TeamFourFactors')
+    four_factors.to_excel(f"{formatted_date}.xlsx",
+                sheet_name='TeamFourFactors')
 
-    # with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
-    #     team_stats.to_excel(writer, sheet_name='TeamStats')
+    with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
+        team_stats.to_excel(writer, sheet_name='TeamStats')
 
-    # with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
-    #     points_dist.to_excel(writer, sheet_name='PointsDist')
+    with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
+        points_dist.to_excel(writer, sheet_name='PointsDist')
 
-    # with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
-    #     player_df.to_excel(writer, sheet_name='PlayerStats')
+    with pd.ExcelWriter(f'{formatted_date}.xlsx', mode='a') as writer:  
+        player_df.to_excel(writer, sheet_name='PlayerStats')
+
+    # Move the file
+    source = f'{formatted_date}.xlsx'
+    destination = os.path.join('excel_outputs', f'{formatted_date} {datetime.now().strftime("%I:%M:%S %p")}.xlsx')
+    shutil.move(source, destination)
 
 
-    return [four_factors, team_stats, points_dist, player_df]
+    return [four_factors, team_stats, team_stats_def, points_dist, player_df]
 
 
-def calculate_player_props(player_df, four_factors, team_stats, points_dist):
+def calculate_player_props(four_factors, team_stats, team_stats_def, points_dist, player_df):
     """
     Calculate player props using the logic from PlayerStats.csv with team total calibration
     """
     def calculate_minutes_projection(player_row):
+        # URGENT TODO: Add ETR PROJECTIONS / MANUAL OVERRIDE
+
         """Calculate projected minutes based on recent games"""
         recent_games = []
         for i in range(1, 7):  # Last 6 games
@@ -101,12 +108,6 @@ def calculate_player_props(player_df, four_factors, team_stats, points_dist):
         weights = weights / weights.sum()
         return np.average(recent_games, weights=weights)
 
-    def calculate_pace_factor(team_row, opp_row):
-        """Calculate pace factor based on team and opponent tempo"""
-        team_tempo = float(team_row['AdjTempo'])
-        opp_tempo = float(opp_row['AdjTempo'])
-        return (team_tempo * 0.6 + opp_tempo * 0.4) / 100.0
-
     # Track team-level projections for scaling
     team_projections = {}
     
@@ -117,229 +118,383 @@ def calculate_player_props(player_df, four_factors, team_stats, points_dist):
         if pd.isna(player.get('NextOpponent')):
             continue
             
-        team_name = player['Team']
-        opp_name = player['NextOpponent']
+        team_name = normalize_team_name(player['Team'])
+        opp_name = normalize_team_name(player['NextOpponent'])
         
         # Get team and opponent data
         team_factors = four_factors.loc[team_name]
         opp_factors = four_factors.loc[opp_name]
+        opp_def_stats = team_stats_def.loc[opp_name]
         team_shooting = team_stats.loc[team_name]
         team_points = points_dist.loc[team_name]
+
+        [team_pace, opp_pace] = [float(team_factors['AdjTempo']), float(opp_factors['AdjTempo'])]
+        [high_pace, low_pace] = [max(team_pace, opp_pace), min(team_pace, opp_pace)]
+        proj_poss = (high_pace * .7) + (low_pace * .3)
         
         # Initialize team tracking if needed
         if team_name not in team_projections:
+            initial_projections[team_name] = {}
+            kp_total = float(player['KenPomResult'].split('-')[0].replace('W, ', '')) if player['KenPomResult'].startswith('W') else float(player['KenPomResult'].split('-')[1]) if not pd.isna(player.get('KenPomResult')) else None
             team_projections[team_name] = {
-                'KP_TOTAL': float(player['Team.KenPomResult'].split('-')[0]) if not pd.isna(player.get('Team.KenPomResult')) else None,
+                'KP_TOTAL': kp_total,
+                'pace': proj_poss,
                 'initial_points': 0,
-                'initial_assists': 0,
-                'expected_team_assists': float(team_shooting['A%']) * team_projections[team_name]['KP_TOTAL'] / 100,  # Team assist rate * projected points
-                'players': []
+                'three_pt_makes': 0,
+                'three_pt_misses': 0,
+                'two_pt_makes': 0,
+                'two_pt_misses': 0,
+                'total_fga': 0,
+                'total_misses': 0,
+                'total_ft_attempts': 0,
+                'total_ft_misses': 0,
+                'live_ball_ft_misses': 0,
+                'ft_makes': 0,
+                'turnovers': 0
             }
         
         # Base calculations
         proj_minutes = calculate_minutes_projection(player)
-        if proj_minutes < 5:
-            continue
-            
-        pace_factor = calculate_pace_factor(team_factors, opp_factors)
-        team_poss_per_min = float(team_factors['AdjTempo']) / 200
-        proj_poss = proj_minutes * team_poss_per_min * pace_factor
         
-        # Points calculation
-        usage_rate = min(float(player.get('Usage', 20)), 35) / 100
-        shot_poss = proj_poss * usage_rate
-        fga = shot_poss * 0.85
-        
-        three_pt_rate = float(team_shooting['3PA%']) / 100
+        player_to_rate = float(player.get('TORate', 15)) / 100
+        opp_def_to_rate = float(opp_factors['Def-TO%']) / 100
+
+        weighted_to_rate = (player_to_rate * 0.7) + (opp_def_to_rate * 0.3)
+
+        # Get player's possession usage rate
+        poss_rate = float(player.get('%Poss', 20)) / 100  # Percentage of possessions used while on floor
+
+        # Get player's foul drawn rate per 40 minutes and adjust to per-possession
+        fd_per_40 = float(player.get('FD/40', 4.0))  # Fouls drawn per 40 minutes
+        fd_per_poss = fd_per_40 / proj_poss  # Convert directly to per possession
+
+        # Calculate possessions that end in a field goal attempt
+        player_poss = proj_poss * poss_rate
+
+        # Calculate possessions that don't result in shots:
+        # - weighted_to_rate is the portion that end in turnovers
+        # - fd_per_poss * 0.35 is the portion that end in non-shooting fouls
+        non_shooting_poss_rate = weighted_to_rate + (fd_per_poss * 0.35)
+
+        # Calculate possessions that can result in shots
+        shooting_poss = player_poss * (1 - non_shooting_poss_rate)
+
+        fga = shooting_poss
+
+        # Calculate player's actual 3PA rate
+        player_3pa_rate = fga / proj_poss if proj_poss > 0 else team_shooting['3PA%'] / 100
+
+        # Get opponent's 3PA% allowed
+        opp_3pa_allowed = float(opp_def_stats['Def.3PA%'])
+
+        # Weight 70% player tendency, 30% opponent allowance
+        three_pt_rate = (player_3pa_rate * 0.70) + (opp_3pa_allowed / 100 * 0.30)
         three_pa = fga * three_pt_rate
         two_pa = fga * (1 - three_pt_rate)
         
-        three_pt_pct = float(player.get('Player.3Pt%', team_shooting['3P%'])) / 100
-        two_pt_pct = float(player.get('Player.2Pt%', team_shooting['2P%'])) / 100
+        # 3PT%: 70% player, 30% opponent defense
+        player_3pt = float(player.get('Player.3Pt%', team_shooting['3P%']))  # Use player 3P% or fall back to team
+        opp_3pt_defense = float(opp_def_stats['Def.3P%']) / 100
+        three_pt_pct = (player_3pt * 0.70) + (opp_3pt_defense * 0.30)
+
+        # 2PT%: 65% player, 35% opponent defense
+        player_2pt = float(player.get('Player.2Pt%', team_shooting['2P%']))  # Use player 2P% or fall back to team
+        opp_2pt_defense = float(opp_def_stats['Def.2P%']) / 100
+        two_pt_pct = (player_2pt * 0.65) + (opp_2pt_defense * 0.35)
         
+        # Calculate makes and misses
         three_pm = three_pa * three_pt_pct
         two_pm = two_pa * two_pt_pct
+        three_misses = three_pa - three_pm
+        two_misses = two_pa - two_pm
         
         points_from_2 = two_pm * 2
         points_from_3 = three_pm * 3
-        
-        ft_rate = float(team_shooting['FT%']) / 100
-        ft_attempts = fga * float(team_points['Off-FT']) / 100 * 0.5
-        ft_points = ft_attempts * ft_rate
-        
-        total_points = points_from_2 + points_from_3 + ft_points
-        
-        # Assists calculation - use player's assist rate directly
-        team_assist_rate = float(team_shooting['A%']) / 100
-        player_assist_rate = float(player.get('ARate', team_assist_rate * 100)) / 100
-        initial_assists = proj_poss * player_assist_rate  # Use player rate directly
-        
-        # Rebounds calculation
-        player_oreb_rate = float(player.get('ORPct', 5)) / 100
-        player_dreb_rate = float(player.get('DRPct', 10)) / 100
-        opp_oreb_rate = float(opp_factors['Off-OR%']) / 100
-        opp_dreb_rate = float(opp_factors['Def-OR%']) / 100
-        
-        # Offensive rebounds - player rate vs opponent defensive rebounding
-        oreb = proj_poss * player_oreb_rate * (1 - opp_dreb_rate)
-        # Defensive rebounds - player rate vs opponent offensive rebounding
-        dreb = proj_poss * player_dreb_rate * (1 - opp_oreb_rate)
-        total_rebounds = oreb + dreb
-        
-        # Calculate defensive possessions for the player
-        def_poss = proj_minutes * team_poss_per_min * pace_factor  # Same base calculation as offensive possessions
 
-        # Blocks calculation
-        player_block_rate = float(player.get('Blk%', 1.0)) / 100  # Default to 1% if not available
-        projected_blocks = def_poss * player_block_rate
+        player_ft_rate = float(player.get('FTRate', team_points['Off-FT']))  # Player's FTRate, fall back to team rate
+        opp_ft_allowed_rate = float(opp_factors['Def-FTRate'])  # Opponent's defensive free throw rate
 
-        # Steals calculation
-        player_steal_rate = float(player.get('Stl%', 1.0)) / 100  # Default to 1% if not available
-        projected_steals = def_poss * player_steal_rate
+        # Weight 70% player tendency, 30% defensive tendency
+        weighted_ft_rate = (player_ft_rate * 0.75) + (opp_ft_allowed_rate * 0.25)
 
-        # Turnovers calculation - weighted between player rate and opponent defense
-        player_to_rate = float(player.get('TORate', 15.0)) / 100  # Default to 15% if not available
-        opp_def_to_rate = float(opp_factors.get('Def-TO%', 18.0)) / 100  # Default to 18% if not available
+        # Calculate FT attempts using weighted rate
+        ft_attempts = fga * (weighted_ft_rate / 100)  # Divide by 100 since FT Rate is per 100 FGA
+
+        # Free throw shooting percentage - use player's FT% if available, fall back to team rate
+        ft_percentage = float(player.get('FT%', team_shooting['FT%'])) / 100  # FT shooting percentage
+        ft_makes = ft_attempts * ft_percentage
+        ft_misses = ft_attempts - ft_makes
+
+        # Free throw sequence distribution (typical college basketball)
+        one_and_one_pct = 0.35  # 35% of FT sequences are one-and-one
+        double_bonus_pct = 0.45  # 45% are double bonus
+        and_one_pct = 0.15  # 15% are and-one situations
+        three_shot_pct = 0.05  # 5% are three-shot fouls
+
+        # Calculate reboundable misses for each type of sequence
+        one_and_one_sequences = (ft_attempts * one_and_one_pct) / 2  # divide by 2 since these come in pairs
+        one_and_one_misses = one_and_one_sequences * (1 - ft_percentage)  # all first shot misses are reboundable
+
+        double_bonus_sequences = (ft_attempts * double_bonus_pct) / 2  # divide by 2 since these come in pairs
+        double_bonus_reboundable_misses = double_bonus_sequences * (1 - ft_percentage)  # only second shot misses
+
+        and_one_attempts = ft_attempts * and_one_pct
+        and_one_reboundable_misses = and_one_attempts * (1 - ft_percentage)  # all misses are reboundable
+
+        three_shot_sequences = (ft_attempts * three_shot_pct) / 3  # divide by 3 since these come in triples
+        three_shot_reboundable_misses = three_shot_sequences * (1 - ft_percentage)  # only last shot misses
+
+        # Total reboundable misses
+        live_ball_ft_misses = (one_and_one_misses + 
+                              double_bonus_reboundable_misses + 
+                              and_one_reboundable_misses + 
+                              three_shot_reboundable_misses)
         
-        # Weight 75% player rate, 25% opponent rate
-        weighted_to_rate = (player_to_rate * 0.75) + (opp_def_to_rate * 0.25)
-        projected_turnovers = proj_poss * weighted_to_rate
+        turnovers = player_poss * weighted_to_rate
+        total_points = points_from_2 + points_from_3 + ft_makes
 
-        # Store initial projections
-        initial_projections[player_name] = {
+        team_projections[team_name]['initial_points'] += total_points
+        team_projections[team_name]['three_pt_makes'] += three_pm
+        team_projections[team_name]['three_pt_misses'] += three_misses
+        team_projections[team_name]['two_pt_makes'] += two_pm
+        team_projections[team_name]['two_pt_misses'] += two_misses
+        team_projections[team_name]['total_fga'] += fga
+        team_projections[team_name]['total_misses'] += (three_misses + two_misses + live_ball_ft_misses)
+        team_projections[team_name]['total_ft_attempts'] += ft_attempts
+        team_projections[team_name]['total_ft_misses'] += ft_misses
+        team_projections[team_name]['live_ball_ft_misses'] += live_ball_ft_misses
+        team_projections[team_name]['ft_makes'] += ft_makes
+        team_projections[team_name]['turnovers'] += turnovers
+
+        initial_projections[team_name][player_name] = {
+            # Core stats
             'minutes': proj_minutes,
             'points': total_points,
-            'assists': initial_assists,
-            'rebounds': total_rebounds,
+            
+            # Detailed shooting stats
             'three_pm': three_pm,
+            'three_pa': three_pa,
+            'three_misses': three_misses,
+            'two_pm': two_pm,
+            'two_pa': two_pa,
+            'two_misses': two_misses,
             'fga': fga,
             'fgm': two_pm + three_pm,
-            'three_pa': three_pa,
+            
+            # Free throw details
             'ft_attempts': ft_attempts,
-            'ft_made': ft_attempts * ft_rate,
-            'team': team_name,
-            'blocks': projected_blocks,
-            'steals': projected_steals,
-            'turnovers': projected_turnovers
+            'ft_made': ft_makes,
+            'ft_misses': ft_misses,
+            'live_ball_ft_misses': live_ball_ft_misses,
+            
+            'turnovers': turnovers,
+        }
+
+    print(team_projections)
+    # Calculate adjustment factors for each team
+    team_adjustment_factors = {}
+    for team_name, stats in team_projections.items():
+        # adjustment_factor = (
+        #     stats['three_pt_makes'] + 
+        #     stats['three_pt_misses'] +
+        #     stats['two_pt_makes'] + 
+        #     stats['two_pt_misses'] +
+        #     stats['turnovers'] + 
+        #     (stats['ft_makes'] / 1.8)
+        # ) / stats['pace']
+        adjustment_factor = (
+            (stats['three_pt_makes'] + stats['three_pt_misses'] +  # This is total FGA
+            stats['two_pt_makes'] + stats['two_pt_misses']) -
+            (stats['total_misses'] * 0.3) +  # Approximate offensive rebounds (30% of misses)
+            stats['turnovers'] +
+            (stats['total_ft_attempts'] * 0.475)  # Standard possession adjustment for FTs
+        ) / stats['pace']
+        team_adjustment_factors[team_name] = adjustment_factor
+
+    # Adjust individual player projections based on team adjustment factors
+    adjusted_projections = {}
+    for team_name, players in initial_projections.items():
+        adjusted_projections[team_name] = {}
+        adjustment_factor = team_adjustment_factors[team_name]
+        
+        for player_name, stats in players.items():
+            adjusted_projections[team_name][player_name] = {}
+            
+            # Copy minutes directly without adjustment
+            adjusted_projections[team_name][player_name]['minutes'] = stats['minutes']
+            
+            # Adjust all other stats by the team adjustment factor
+            for stat, value in stats.items():
+                if stat != 'minutes':
+                    adjusted_projections[team_name][player_name][stat] = value / adjustment_factor
+
+    # Adjust team projections by the adjustment factors
+    adjusted_team_projections = {}
+    for team_name, stats in team_projections.items():
+        adjusted_team_projections[team_name] = {
+            'KP_TOTAL': stats['KP_TOTAL'],  # Retain KP total
+            'pace': stats['pace'],  # Retain pace
         }
         
-        # Update team totals
-        team_projections[team_name]['initial_points'] += total_points
-        team_projections[team_name]['initial_assists'] += initial_assists
-        team_projections[team_name]['players'].append(player_name)
+        adjustment_factor = team_adjustment_factors[team_name]
+        
+        # Adjust all other stats by the team adjustment factor
+        for stat, value in stats.items():
+            if stat not in ['KP_TOTAL', 'pace']:
+                adjusted_team_projections[team_name][stat] = value / adjustment_factor
 
-    # Second pass - scale points and assists separately
-    final_projections = {}
-    
-    for team_name, team_data in team_projections.items():
-        if team_data['KP_TOTAL'] is None or team_data['initial_points'] == 0:
+    print(adjusted_team_projections)
+
+    # Adjust teams to match KenPom totals while maintaining possession consistency
+    for team_name, stats in adjusted_team_projections.items():
+        if 'KP_TOTAL' not in stats or pd.isna(stats['KP_TOTAL']):
             continue
         
-        # Points scaling
-        points_scaling = team_data['KP_TOTAL'] / team_data['initial_points']
+        # Calculate points per possession
+        initial_ppp = stats['initial_points'] / stats['pace']
+        target_ppp = stats['KP_TOTAL'] / stats['pace']
         
-        # Assists scaling - scale to match expected team assists
-        assists_scaling = team_data['expected_team_assists'] / team_data['initial_assists'] if team_data['initial_assists'] > 0 else 1.0
+        # Scale efficiency (not volume)
+        efficiency_scalar = target_ppp / initial_ppp
         
-        for player_name in team_data['players']:
-            initial = initial_projections[player_name]
+        # Stats that represent efficiency (makes relative to attempts)
+        efficiency_stats = [
+            ('three_pm', 'three_pa'),
+            ('two_pm', 'two_pa'),
+            ('ft_made', 'ft_attempts'),
+            ('fgm', 'fga')
+        ]
+        
+        # Adjust player stats
+        for player_name in adjusted_projections[team_name]:
+            player_stats = adjusted_projections[team_name][player_name]
             
-            final_projections[player_name] = {
-                # Main projections
-                'projected_points': round(initial['points'] * points_scaling, 2),
-                'projected_assists': round(initial['assists'] * assists_scaling, 2),
-                'projected_rebounds': round(initial['rebounds'], 2),
-                'projected_3pm': round(initial['three_pm'], 2),
-                'projected_fga': round(initial['fga'], 2),
-                'projected_fgm': round(initial['fgm'], 2),
-                'projected_3pa': round(initial['three_pa'], 2),
-                'projected_fta': round(initial['ft_attempts'], 2),
-                'projected_ftm': round(initial['ft_made'], 2),
-                'projected_blocks': round(initial['blocks'], 2),
-                'projected_steals': round(initial['steals'], 2),
-                'projected_turnovers': round(initial['turnovers'], 2),
-                'minutes': round(initial['minutes'], 2),
-                
-                # Scaling factors
-                'points_scaling_factor': round(points_scaling, 3),
-                'assists_scaling_factor': round(assists_scaling, 3),
-                'raw_points': round(initial['points'], 2),
-                'team_total': team_data['KP_TOTAL'],
-                
-                # Player rates and inputs
-                'usage_rate': round(usage_rate * 100, 2),  # Convert back to percentage
-                'player_assist_rate': round(player_assist_rate * 100, 2),
-                'player_block_rate': round(player_block_rate * 100, 2),
-                'player_steal_rate': round(player_steal_rate * 100, 2),
-                'player_turnover_rate': round(player_to_rate * 100, 2),
-                'weighted_turnover_rate': round(weighted_to_rate * 100, 2),
-                'player_oreb_rate': round(player_oreb_rate * 100, 2),
-                'player_dreb_rate': round(player_dreb_rate * 100, 2),
-                'weighted_oreb_rate': round(player_oreb_rate * (1 - opp_dreb_rate) * 100, 2),
-                'weighted_dreb_rate': round(player_dreb_rate * (1 - opp_oreb_rate) * 100, 2),
-                
-                # Shooting rates
-                'three_pt_rate': round(three_pt_rate * 100, 2),
-                'three_pt_percentage': round(three_pt_pct * 100, 2),
-                'two_pt_percentage': round(two_pt_pct * 100, 2),
-                'ft_percentage': round(ft_rate * 100, 2),
-                
-                # Possession and pace metrics
-                'pace_factor': round(pace_factor, 3),
-                'projected_possessions': round(proj_poss, 2),
-                'projected_defensive_possessions': round(def_poss, 2),
-                'team_poss_per_minute': round(team_poss_per_min, 3),
-                
-                # Team and opponent metrics used
-                'team_assist_rate': round(float(team_shooting['A%']), 2),
-                'opponent_defensive_turnover_rate': round(opp_def_to_rate * 100, 2),
-                'opponent_offensive_rebound_rate': round(opp_oreb_rate * 100, 2),
-                'opponent_defensive_rebound_rate': round(opp_dreb_rate * 100, 2),
-                
-                # Raw shot attempts before scaling
-                'raw_fga': round(fga, 2),
-                'raw_three_pa': round(three_pa, 2),
-                'raw_two_pa': round(two_pa, 2),
-                'raw_ft_attempts': round(ft_attempts, 2),
-                
-                # Team context
-                'team': team_name,
-                'opponent': opp_name
-            }
-    
-    return final_projections
+            # Scale makes while preserving attempts
+            for make_stat, attempt_stat in efficiency_stats:
+                if make_stat in player_stats and attempt_stat in player_stats:
+                    player_stats[make_stat] *= efficiency_scalar
+                    # Recalculate misses to maintain attempts
+                    miss_stat = make_stat.replace('_pm', '_misses').replace('fgm', 'fga')
+                    if miss_stat in player_stats:
+                        player_stats[miss_stat] = player_stats[attempt_stat] - player_stats[make_stat]
+            
+            # Update points based on new makes
+            if 'points' in player_stats:
+                player_stats['points'] = (
+                    player_stats.get('three_pm', 0) * 3 +
+                    player_stats.get('two_pm', 0) * 2 +
+                    player_stats.get('ft_made', 0)
+                )
+        
+        # Adjust team totals similarly
+        team_efficiency_pairs = [
+            ('three_pt_makes', 'three_pt_misses'),
+            ('two_pt_makes', 'two_pt_misses'),
+            ('ft_makes', 'total_ft_attempts')
+        ]
+        
+        for makes_stat, attempts_stat in team_efficiency_pairs:
+            stats[makes_stat] *= efficiency_scalar
+            # Recalculate misses to maintain total attempts
+            total_attempts = stats[makes_stat] + stats[attempts_stat]
+            stats[attempts_stat] = total_attempts - stats[makes_stat]
+        
+        # Update team points
+        stats['initial_points'] = (
+            stats['three_pt_makes'] * 3 +
+            stats['two_pt_makes'] * 2 +
+            stats['ft_makes']
+        )
 
-def format_output_as_json(projections):
-    """Convert projections to the desired JSON format"""
-    return {
-        player: {
-            'projected_points': stats['projected_points'],
-            'projected_assists': stats['projected_assists'],
-            'projected_rebounds': stats['projected_rebounds'],
-            'projected_3pm': stats['projected_3pm'],
-            'projected_fga': stats['projected_fga'],
-            'projected_fgm': stats['projected_fgm'],
-            'projected_3pa': stats['projected_3pa'],
-            'projected_fta': stats['projected_fta'],
-            'projected_ftm': stats['projected_ftm'],
-            'minutes': stats['minutes'],
-            'raw_points': stats['raw_points'],
-            'team_total': stats['team_total'],
-            'points_scaling_factor': stats['points_scaling_factor'],
-            'assists_scaling_factor': stats['assists_scaling_factor'],
-            'projected_blocks': stats['projected_blocks'],
-            'projected_steals': stats['projected_steals'],
-            'projected_turnovers': stats['projected_turnovers']
-        }
-        for player, stats in projections.items()
-    }
+    print(adjusted_team_projections)
+
+    # Now continue with assists/rebounds/steals/blocks calculations using adjusted shooting numbers
+    for player_name, player in player_df.iterrows():
+        team_name = normalize_team_name(player['Team'])
+        opp_name = normalize_team_name(player['NextOpponent'])
+
+        opp_def_stats = team_stats_def.loc[opp_name]
+        opp_misc_stats = team_stats.loc[team_name]
+        
+        adjusted_team_stats = adjusted_team_projections[team_name]
+        opp_stats = adjusted_team_projections[opp_name]
+        adjusted_player_stats = adjusted_projections[team_name][player_name]
+
+        player_assist_rate = float(player.get('ARate')) / 100
+        player_assists = player_assist_rate * (adjusted_player_stats['minutes'] / 40) * (adjusted_team_stats['two_pt_makes'] + adjusted_team_stats['three_pt_makes'])
+        
+        # Rebounds calculation
+        player_oreb_rate = float(player.get('OR%', 5)) / 100
+        player_dreb_rate = float(player.get('DR%', 10)) / 100
+        opp_oreb_rate = float(four_factors.loc[opp_name]['Off-OR%']) / 100
+        opp_oreb_rate_allowed = float(four_factors.loc[opp_name]['Def-OR%']) / 100
+        
+        weighted_oreb_rate = (player_oreb_rate * 0.75) + (opp_oreb_rate_allowed * 0.25)
+        weighted_dreb_rate = (player_dreb_rate * 0.75) + (opp_oreb_rate * 0.25)
+        
+        team_misses = adjusted_team_stats['three_pt_misses'] + adjusted_team_stats['two_pt_misses'] + adjusted_team_stats['live_ball_ft_misses']
+        opp_misses = opp_stats['three_pt_misses'] + opp_stats['two_pt_misses'] + opp_stats['live_ball_ft_misses']
+        
+        minutes_ratio = adjusted_player_stats['minutes'] / 40
+        oreb = weighted_oreb_rate * opp_misses * minutes_ratio
+        dreb = weighted_dreb_rate * team_misses * minutes_ratio
+
+        player_block_rate = float(player.get('Blk%', 1.0)) / 100  # Default to 1% if not available
+        opp_block_rate = float(opp_misc_stats['Blk%']) / 100
+        weighted_block_rate = (player_block_rate * 0.85) + (opp_block_rate * 0.15)
+        blocks = weighted_block_rate * (adjusted_player_stats['minutes'] / 40) * opp_stats['total_fga']
+
+        player_steal_rate = float(player.get('Stl%', 1.0)) / 100  # Default to 1% if not available
+        opp_steal_rate = float(opp_misc_stats['Stl%']) / 100
+        weighted_steal_rate = (player_steal_rate * 0.80) + (opp_steal_rate * 0.20)
+        steals = weighted_steal_rate * (adjusted_player_stats['minutes'] / 40) * adjusted_team_stats['pace']
+
+        adjusted_projections[team_name][player_name].update({
+            'blocks': blocks,
+            'steals': steals,
+            'rebounds': oreb + dreb,
+            'assists': player_assists,
+        })
+
+    print(adjusted_projections)
+
+    """
+    TODO: Scaling logic needs to be rewritten. Current considerations:
+    
+    1. Points Scaling
+    - Need to scale individual player points to match KenPom team total
+    - Should preserve relative scoring distributions between players
+    - Consider using weighted scaling based on usage rates
+    
+    2. Assists Scaling  
+    - Total team assists should align with made field goals
+    - Need to account for % of made shots that are assisted
+    - Consider opponent defensive assist rates
+    
+    3. Other Stats
+    - Rebounds should sum close to total available rebounds
+    - Steals/blocks may need team-level constraints
+    - Minutes should sum to 200 (40 min * 5 players)
+    
+    4. Implementation
+    - May want separate scaling passes for different stat categories
+    - Could use iterative scaling to converge on targets
+    - Need to handle edge cases (missing data, extreme values)
+    """
+
+
+def normalize_team_name(team_name):
+    """Normalize team names as they sometimes change unexpectedly"""
+    # Replace + signs with spaces
+    normalized_name = team_name.replace('+', ' ')
+    return normalized_name
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python3 main.py 02-27-2024")
     else:
         date_string = sys.argv[1]
-        [four_factors, team_stats, points_dist, player_df] = main_fn(date_string)
-        projections = calculate_player_props(four_factors, team_stats, points_dist, player_df)
+        [four_factors, team_stats, team_stats_def, points_dist, player_df] = main_fn(date_string)
+        projections = calculate_player_props(four_factors, team_stats, team_stats_def, points_dist, player_df)
 
         print(len(projections))

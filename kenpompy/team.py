@@ -203,16 +203,19 @@ def generate_team_stats(team_name, four_factors, team_stats, team_stats_def, poi
 	}
 
 
-def get_next_opponent(browser, team_name, date_time_formatted):
-	print('team_name ' + team_name)
+def get_next_opponent(browser, team_with_spaces, date_time_formatted):
+	"""Get the next opponent for a team starting from the provided date"""
+	# First convert from original format (mm-dd-yyyy) to datetime
+	date_object = datetime.datetime.strptime(date_time_formatted, '%m-%d-%Y')
+	
+	# Generate dates to check starting from the provided date, including year
+	DATES_TO_CHECK = [
+		(date_object + datetime.timedelta(days=i)).strftime('%a %b %-d') # %Y
+		for i in range(4)
+	]
+	
 	try:
-		today = datetime.datetime.today()
-		DATES_TO_CHECK = [
-			(today + datetime.timedelta(days=i)).strftime('%a %b %-d')
-			for i in range(4)
-		]
-
-		schedule = get_schedule(browser, team_name)
+		schedule = get_schedule(browser, team_with_spaces)
 		schedule = schedule.set_index('Date')
 		
 		for date in DATES_TO_CHECK:
@@ -226,8 +229,8 @@ def get_next_opponent(browser, team_name, date_time_formatted):
 
 		return (None, None)
 	except:
-		print('retrying get opponent for: ' + team_name)
-		return get_next_opponent(browser, team_name, date_time_formatted)
+		print('retrying get opponent for: ' + team_with_spaces)
+		return get_next_opponent(browser, team_with_spaces, date_time_formatted)
 
 def get_player_expanded(browser, date_time_formatted, team_with_spaces=None, four_factors=None, team_stats=None, team_stats_def=None, points_dist=None):
 	"""

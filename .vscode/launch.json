@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             // debug in cursor by going to debug panel -> set to current file -> hit play button
             // don't forget to update date here
-            "args": ["03-10-2025"]
+            "args": ["03-15-2025"]
         }
     ]
 }

@@ -1,0 +1,15 @@
+Offensive Spectrum – Ordered by pct of offensive “control”
+
+FT%  98%  (HCA=+0.5%, r(off)=.19, r(def)=.04)
+APL  86%  (HCA=-0.1s, r(off)=.55, r(def)=.23)
+3P%  83%  (HCA=+0.7%, r(off)=.12, r(def)=.06)
+OR%  73%  (HCA=+1.1%, r(off)=.23, r(def)=.08)
+3PA% 71%  (HCA=0.0%,  r(off)=.52, r(def)=.33)
+A%   71%  (HCA=+2.6%, r(off)=.32, r(def)=.21)
+PPP  64%  (HCA=+3.7,  r(off)=.51, r(def)=.36)
+NST% 59%  (HCA=-0.4%, r(off)=.24, r(def)=.20)
+2P%  50%  (HCA=+1.4%, r(off)=.26, r(def)=.25)
+TO%  49%  (HCA=-0.7%, r(off)=.31, r(def)=.30)
+FTR  36%  (HCA=+2.8,  r(off)=.20, r(def)=.27)
+Stl% 30%  (HCA=+0.4%, r(off)=.21, r(def)=.32)
+Blk% 15%  (HCA=+1.2%, r(off)=.16, r(def)=.40)
