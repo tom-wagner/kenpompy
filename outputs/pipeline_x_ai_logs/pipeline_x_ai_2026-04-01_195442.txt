@@ -1,0 +1,11 @@
+2026-04-01 19:54:42,101 INFO Logging to /Users/tomwagner/kenpompy/outputs/pipeline_x_ai_logs/pipeline_x_ai_2026-04-01_195442.txt
+2026-04-01 19:54:42,102 INFO Stage grade start: projections=/Users/tomwagner/kenpompy/outputs/model_projections/projections/pipeline_existing_kp_minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook_saved_2026-04-01_190556.xlsx player_stats=/Users/tomwagner/kenpompy/outputs/pipeline/minutes/minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook.xlsx unabated=/Users/tomwagner/kenpompy/outputs/unabated/f4.json sim_output=unabated_sim_output.json existing_analysis=None run_xai=True ev_hurdle=1.05 output=graded_bets_04-04-2026-V3.csv
+2026-04-01 19:54:42,102 INFO Auto-selected existing analysis CSV for manual notes carry-forward: /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv
+2026-04-01 19:54:43,206 INFO Loaded xAI bet cache entries=94 files=2 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-01 19:54:43,208 INFO xAI bet grading preview: total_rows=125 eligible_bets=63 cache_hits=63 api_calls_needed=0 unique_eligible_cache_keys=63
+2026-04-01 19:54:43,209 INFO Loaded xAI bet cache entries=94 files=2 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-01 19:54:43,211 INFO Starting bet grading workflow: total_rows=125 eligible_bets=63 skipped_bets=62 cache_hits=63 api_calls_needed=0 max_parallel=15
+2026-04-01 19:54:43,211 INFO Bet grading workflow complete: eligible_bets=63 graded=63 ungraded=0
+2026-04-01 19:54:43,212 INFO Wrote xAI bet cache snapshot entries=63 path=/Users/tomwagner/kenpompy/outputs/cache/xai_bet_cache_2026-04-01_195443.json
+2026-04-01 19:54:43,233 INFO Merged existing analysis from /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv: matched_rows=40 line_changed_rows=28
+2026-04-01 19:54:43,241 INFO Stage grade complete: output=/Users/tomwagner/kenpompy/graded_bets_04-04-2026-V3.csv rows=125 xai_graded=125

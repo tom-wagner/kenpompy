@@ -1,0 +1,462 @@
+Player,team,opponent,stat,market_line,projection,diff,abs_diff,squared_error,lean,market_over_odds,market_under_odds,book_count,market_books
+David Castillo,Kansas St.,,points_rebounds_assists,12.5,17.9235,5.4235,5.4235,29.41402,over,-121,-121,3,prizepicks 12.5 O -118; U -118 | sleeper 12.5 O -128; U -128 | splash_sports 12.5 O -118; U -118
+David Castillo,Kansas St.,,points_rebounds,10.5,15.6999,5.1999,5.1999,27.039168,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+AJ Dybantsa,BYU,,points_rebounds,34.0,38.676,4.676,4.676,21.865091,over,-111,-119,2,fanduel 34.5 O -104; U -120 | prizepicks 33.5 O -118; U -118
+David Castillo,Kansas St.,,points_assists,10.5,14.7458,4.2458,4.2458,18.026789,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+AJ Dybantsa,BYU,,points_rebounds_assists,39.5,43.7258,4.2258,4.2258,17.857173,over,-123,-120,3,prizepicks 39.5 O -118; U -118 | sleeper 39.5 O -133; U -123 | splash_sports 39.5 O -118; U -118
+David Castillo,Kansas St.,,points,8.5,12.5222,4.0222,4.0222,16.178473,over,-120,-122,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -125; U -132 | splash_sports 8.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,points,19.5,15.5834,-3.9166,3.9166,15.339456,under,-118,-125,3,prizepicks 19.5 O -118; U -118 | sleeper 19.5 O -118; U -141 | splash_sports 19.5 O -118; U -118
+Tycen McDaniels,Alcorn St.,,points_rebounds_assists,25.5,29.2537,3.7537,3.7537,14.090441,over,-118,-118,1,prizepicks 25.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,points_assists,20.5,16.8423,-3.6577,3.6577,13.378852,under,-118,-118,1,prizepicks 20.5 O -118; U -118
+Myles Colvin,Wake Forest,,points_rebounds_assists,14.5,18.0585,3.5585,3.5585,12.662606,over,-123,-120,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -133; U -123 | splash_sports 14.5 O -118; U -118
+AJ Dybantsa,BYU,,points_assists,31.5,34.9494,3.4494,3.4494,11.898166,over,-118,-118,1,prizepicks 31.5 O -118; U -118
+AJ Dybantsa,BYU,,points,26.5,29.8996,3.3996,3.3996,11.557343,over,-123,-116,4,fanduel 26.5 O -120; U -108 | prizepicks 26.5 O -118; U -118 | sleeper 26.5 O -139; U -119 | splash_sports 26.5 O -118; U -118
+Kavion McClain,Monmouth,,points_assists,22.5,19.2065,-3.2935,3.2935,10.846979,under,-118,-118,1,prizepicks 22.5 O -118; U -118
+Jason Rivera-Torres,Monmouth,,points_assists,19.5,16.2086,-3.2914,3.2914,10.833465,under,-118,-118,1,prizepicks 19.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,points_rebounds_assists,24.5,21.2268,-3.2732,3.2732,10.713703,under,-121,-121,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -128; U -128 | splash_sports 24.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,points_rebounds,23.5,20.2602,-3.2398,3.2398,10.496383,under,-118,-118,1,prizepicks 23.5 O -118; U -118
+Taj Manning,Kansas St.,,points_rebounds,13.5,16.682,3.182,3.182,10.125133,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Preston Edmead,Hofstra,,points_assists,17.5,20.6569,3.1569,3.1569,9.965988,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Myles Colvin,Wake Forest,,points_rebounds,13.5,16.6215,3.1215,3.1215,9.744014,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Shane Lancaster,Alcorn St.,,points_rebounds_assists,16.5,19.6202,3.1202,3.1202,9.735911,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,points_rebounds_assists,21.5,24.6189,3.1189,3.1189,9.727676,over,-121,-121,3,prizepicks 21.5 O -118; U -118 | sleeper 21.5 O -128; U -128 | splash_sports 21.5 O -118; U -118
+Isaiah Coleman,Oklahoma St.,,rebounds_assists,8.0,4.8834,-3.1166,3.1166,9.713198,under,-118,-118,1,prizepicks 8 O -118; U -118
+Moustapha Thiam,Cincinnati,,points_assists,16.5,13.4262,-3.0738,3.0738,9.448053,under,-118,-118,1,prizepicks 16.5 O -118; U -118
+Nate Kingz,Syracuse,,points,13.5,10.497,-3.003,3.003,9.017709,under,-119,-123,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -122; U -133 | splash_sports 13.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,points_assists,17.5,20.4878,2.9878,2.9878,8.926886,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,points_rebounds_assists,24.5,21.519,-2.981,2.981,8.886133,under,-123,-120,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -133; U -123 | splash_sports 24.5 O -118; U -118
+Kavion McClain,Monmouth,,points_rebounds,21.5,18.5339,-2.9661,2.9661,8.797581,under,-118,-118,1,prizepicks 21.5 O -118; U -118
+Baba Miller,Cincinnati,,points_rebounds,23.5,26.4206,2.9206,2.9206,8.529722,over,-118,-118,1,prizepicks 23.5 O -118; U -118
+Kavion McClain,Monmouth,,points_rebounds_assists,25.6667,22.7528,-2.9139,2.9139,8.490914,under,-124,-118,3,prizepicks 26 O -118; U -118 | sleeper 25.5 O -137; U -119 | splash_sports 25.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,points_rebounds,23.5,20.6079,-2.8921,2.8921,8.36418,under,-118,-118,1,prizepicks 23.5 O -118; U -118
+Preston Edmead,Hofstra,,points_rebounds_assists,21.5,24.3764,2.8764,2.8764,8.273636,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Damarco Minor,Pittsburgh,,points_assists,11.5,14.3356,2.8356,2.8356,8.040549,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Damarco Minor,Pittsburgh,,points_rebounds_assists,16.5,19.3227,2.8227,2.8227,7.967476,over,-121,-121,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -128; U -128 | splash_sports 16.5 O -118; U -118
+Moe Odum,Arizona St.,,points_assists,21.5,24.3175,2.8175,2.8175,7.938182,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Shane Lancaster,Alcorn St.,,points,10.5,13.3005,2.8005,2.8005,7.842883,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Bangot Dak,Colorado,,rebounds_assists,8.0,10.7944,2.7944,2.7944,7.808939,over,-118,-118,1,prizepicks 8 O -118; U -118
+Kanye Clary,Oklahoma St.,,points_rebounds,16.5,19.2718,2.7718,2.7718,7.682746,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Preston Edmead,Hofstra,,points,13.5,16.2472,2.7472,2.7472,7.54684,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Nate Kingz,Syracuse,,points_assists,14.5,11.7617,-2.7383,2.7383,7.49838,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,points,15.5,12.8073,-2.6927,2.6927,7.250517,under,-125,-118,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -139; U -119 | splash_sports 15.5 O -118; U -118
+Baba Miller,Cincinnati,,points_rebounds_assists,27.5,30.185,2.685,2.685,7.209192,over,-121,-121,3,prizepicks 27.5 O -118; U -118 | sleeper 27.5 O -128; U -128 | splash_sports 27.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,points,12.5,15.1406,2.6406,2.6406,6.973,over,-121,-121,3,prizepicks 12.5 O -118; U -118 | sleeper 12.5 O -128; U -128 | splash_sports 12.5 O -118; U -118
+Massamba Diop,Arizona St.,,points,16.5,13.9075,-2.5925,2.5925,6.721171,under,-121,-111,6,fanatics 16.5 O -115; U -115 | fanduel 16.5 O -122; U -106 | prizepicks 16.5 O -118; U -118 | prophetx 16.5 O -124; U 118 | sleeper 16.5 O -130; U -127 | splash_sports 16.5 O -118; U -118
+Taj Manning,Kansas St.,,points_rebounds_assists,15.5,18.0516,2.5516,2.5516,6.510626,over,-121,-121,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -128; U -128 | splash_sports 15.5 O -118; U -118
+Taj Manning,Kansas St.,,rebounds,6.5,9.0451,2.5451,2.5451,6.477402,over,-121,-121,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -128; U -128 | splash_sports 6.5 O -118; U -118
+Kavion McClain,Monmouth,,points,17.5,14.9877,-2.5123,2.5123,6.3118,under,-124,-119,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -137; U -120 | splash_sports 17.5 O -118; U -118
+Jason Rivera-Torres,Monmouth,,points,16.5,14.0041,-2.4959,2.4959,6.22967,under,-123,-120,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -133; U -123 | splash_sports 16.5 O -118; U -118
+Moe Odum,Arizona St.,,points_rebounds_assists,25.5,27.9943,2.4943,2.4943,6.221752,over,-120,-122,3,prizepicks 25.5 O -118; U -118 | sleeper 25.5 O -125; U -132 | splash_sports 25.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,rebounds,7.5,9.9824,2.4824,2.4824,6.16238,over,-121,-121,3,prizepicks 7.5 O -118; U -118 | sleeper 7.5 O -128; U -128 | splash_sports 7.5 O -118; U -118
+Preston Edmead,Hofstra,,points_rebounds,17.5,19.9666,2.4666,2.4666,6.084356,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Massamba Diop,Arizona St.,,points_assists,17.5,15.0406,-2.4594,2.4594,6.048755,under,-118,-118,1,prizepicks 17.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points_rebounds_assists,17.5,19.9408,2.4408,2.4408,5.957709,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points_rebounds,15.5,17.9366,2.4366,2.4366,5.936806,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,points_rebounds_assists,16.5,18.8587,2.3587,2.3587,5.563468,over,-115,-127,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -110; U -149 | splash_sports 16.5 O -118; U -118
+Damarco Minor,Pittsburgh,,points,8.5,10.8254,2.3254,2.3254,5.40756,over,-121,-121,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -128; U -128 | splash_sports 8.5 O -118; U -118
+Keba Keita,BYU,,points_rebounds,16.5,18.8213,2.3213,2.3213,5.388625,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Damarco Minor,Pittsburgh,,points_rebounds,13.5,15.8125,2.3125,2.3125,5.347664,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Moe Odum,Arizona St.,,points_rebounds,20.0,22.2801,2.2801,2.2801,5.198824,over,-118,-118,1,prizepicks 20 O -118; U -118
+Jason Rivera-Torres,Monmouth,,points_rebounds_assists,27.5,25.2403,-2.2597,2.2597,5.106267,under,-121,-121,3,prizepicks 27.5 O -118; U -118 | sleeper 27.5 O -128; U -128 | splash_sports 27.5 O -118; U -118
+Ernest Shelton,Merrimack,,points,16.5,14.2683,-2.2317,2.2317,4.980564,under,-110,-123,2,fanduel 16.5 O -102; U -128 | prizepicks 16.5 O -118; U -118
+Myles Colvin,Wake Forest,,points_assists,10.5,12.7144,2.2144,2.2144,4.903709,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Massamba Diop,Arizona St.,,points_rebounds,23.5,21.2975,-2.2025,2.2025,4.851165,under,-111,-120,2,fanduel 23.5 O -104; U -122 | prizepicks 23.5 O -118; U -118
+Nate Kingz,Syracuse,,points_rebounds,16.5,14.3041,-2.1959,2.1959,4.821879,under,-118,-118,1,prizepicks 16.5 O -118; U -118
+Kayden Mingo,Penn St.,,points_rebounds_assists,21.5,23.6927,2.1927,2.1927,4.807767,over,-121,-121,3,prizepicks 21.5 O -118; U -118 | sleeper 21.5 O -128; U -128 | splash_sports 21.5 O -118; U -118
+Elijah Saunders,Maryland,,points_assists,10.5,12.6903,2.1903,2.1903,4.797502,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Naithan George,Syracuse,,points_rebounds_assists,22.5,24.6814,2.1814,2.1814,4.758403,over,-121,-121,3,prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -128; U -128 | splash_sports 22.5 O -118; U -118
+Juke Harris,Wake Forest,,rebounds_assists,8.5,10.6458,2.1458,2.1458,4.604593,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,rebounds_assists,8.5,10.6446,2.1446,2.1446,4.599472,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,points_rebounds_assists,33.3333,31.1916,-2.1417,2.1417,4.586969,under,-120,-122,3,prizepicks 33 O -118; U -118 | sleeper 33.5 O -123; U -132 | splash_sports 33.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,points,23.4,21.2929,-2.1071,2.1071,4.439981,under,-121,-114,5,fanduel 23.5 O -114; U -114 | prizepicks 23 O -118; U -118 | prophetx 23.5 O -121; U -102 | sleeper 23.5 O -137; U -119 | splash_sports 23.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,points_rebounds,20.5,22.6008,2.1008,2.1008,4.413381,over,-118,-118,1,prizepicks 20.5 O -118; U -118
+Nate Kingz,Syracuse,,points_rebounds_assists,17.6667,15.5688,-2.0979,2.0979,4.401372,under,-125,-117,3,prizepicks 18 O -118; U -118 | sleeper 17.5 O -141; U -116 | splash_sports 17.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,points_rebounds_assists,21.1667,23.263,2.0963,2.0963,4.394594,over,-118,-125,3,prizepicks 20.5 O -118; U -118 | sleeper 21.5 O -118; U -141 | splash_sports 21.5 O -118; U -118
+Naithan George,Syracuse,,points_rebounds,16.5,18.5868,2.0868,2.0868,4.354535,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Massamba Diop,Arizona St.,,points_rebounds_assists,24.5,22.4306,-2.0694,2.0694,4.282563,under,-121,-122,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -127; U -130 | splash_sports 24.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,points_assists,27.0,24.9426,-2.0574,2.0574,4.232762,under,-118,-118,1,prizepicks 27 O -118; U -118
+Solomon Callaghan,Wright St.,,points,10.0,7.9805,-2.0195,2.0195,4.07846,under,-118,-118,1,prizepicks 10 O -118; U -118
+Elijah Saunders,Maryland,,points_rebounds_assists,16.5,18.5136,2.0136,2.0136,4.054523,over,-121,-121,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -128; U -128 | splash_sports 16.5 O -118; U -118
+Baba Miller,Cincinnati,,points,13.5,15.4471,1.9471,1.9471,3.791175,over,-121,-121,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -128; U -128 | splash_sports 13.5 O -118; U -118
+Juke Harris,Wake Forest,,rebounds,6.75,8.6945,1.9445,1.9445,3.781043,over,-140,-109,2,prizepicks 7 O -118; U -118 | sleeper 6.5 O -167; U 100
+Gavin Doty,Siena,,points,18.5,16.5758,-1.9242,1.9242,3.702595,under,-115,-118,2,fanduel 18.5 O -113; U -118 | prizepicks 18.5 O -118; U -118
+Taj Manning,Kansas St.,,rebounds_assists,8.5,10.4147,1.9147,1.9147,3.665944,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Stefanos Spartalis,Monmouth,,points_rebounds,16.5,18.4141,1.9141,1.9141,3.663806,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Ebuka Okorie,Stanford,,points_rebounds,26.5,28.4098,1.9098,1.9098,3.647293,over,-118,-118,1,prizepicks 26.5 O -118; U -118
+David Castillo,Kansas St.,,rebounds_assists,3.5,5.4012,1.9012,1.9012,3.614646,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+Isaac Williams,Baylor,,points_rebounds_assists,18.5,20.3743,1.8743,1.8743,3.512942,over,-117,-126,3,prizepicks 18.5 O -118; U -118 | sleeper 18.5 O -114; U -145 | splash_sports 18.5 O -118; U -118
+Elijah Saunders,Maryland,,points,9.5,11.3506,1.8506,1.8506,3.424581,over,-121,-121,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -128; U -128 | splash_sports 9.5 O -118; U -118
+Bangot Dak,Colorado,,rebounds,7.3333,9.1799,1.8466,1.8466,3.410064,over,-121,-122,3,prizepicks 7 O -118; U -118 | sleeper 7.5 O -127; U -130 | splash_sports 7.5 O -118; U -118
+Day Day Thomas,Cincinnati,,points_rebounds_assists,18.5,20.328,1.828,1.828,3.34149,over,-122,-120,3,prizepicks 18.5 O -118; U -118 | sleeper 18.5 O -130; U -125 | splash_sports 18.5 O -118; U -118
+Nate Bittle,Oregon,,points_rebounds_assists,29.5,31.3266,1.8266,1.8266,3.33643,over,-121,-121,3,prizepicks 29.5 O -118; U -118 | sleeper 29.5 O -128; U -128 | splash_sports 29.5 O -118; U -118
+Nate Johnson,Kansas St.,,points_rebounds,20.5,22.3246,1.8246,1.8246,3.329177,over,-118,-118,1,prizepicks 20.5 O -118; U -118
+Ebuka Okorie,Stanford,,points_rebounds_assists,30.5,32.3208,1.8208,1.8208,3.31545,over,-121,-121,3,prizepicks 30.5 O -118; U -118 | sleeper 30.5 O -128; U -128 | splash_sports 30.5 O -118; U -118
+Ben Hammond,Virginia Tech,,points_assists,16.5,18.3149,1.8149,1.8149,3.293797,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Keba Keita,BYU,,points_rebounds_assists,17.5,19.2996,1.7996,1.7996,3.238564,over,-121,-121,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -128; U -128 | splash_sports 17.5 O -118; U -118
+Juke Harris,Wake Forest,,points_assists,24.5,22.7152,-1.7848,1.7848,3.185682,under,-118,-118,1,prizepicks 24.5 O -118; U -118
+Tycen McDaniels,Alcorn St.,,points,15.5,17.2842,1.7842,1.7842,3.183366,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Myles Colvin,Wake Forest,,points,9.5,11.2775,1.7775,1.7775,3.159566,over,-121,-121,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -128; U -128 | splash_sports 9.5 O -118; U -118
+Barry Dunning,Pittsburgh,,points_rebounds_assists,21.5,23.2751,1.7751,1.7751,3.151007,over,-121,-121,3,prizepicks 21.5 O -118; U -118 | sleeper 21.5 O -128; U -128 | splash_sports 21.5 O -118; U -118
+Kayden Mingo,Penn St.,,points_rebounds,17.5,19.2389,1.7389,1.7389,3.023639,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Juke Harris,Wake Forest,,points,22.5,20.7638,-1.7362,1.7362,3.014352,under,-121,-121,3,prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -128; U -128 | splash_sports 22.5 O -118; U -118
+Isaac Williams,Baylor,,points_rebounds,14.5,16.2343,1.7343,1.7343,3.007805,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Robert Wright,BYU,,points_assists,26.5,28.2255,1.7255,1.7255,2.977354,over,-118,-118,1,prizepicks 26.5 O -118; U -118
+Moe Odum,Arizona St.,,points,16.9,18.6032,1.7032,1.7032,2.900982,over,-118,-119,5,fanatics 17.5 O -115; U -115 | fanduel 17.5 O -113; U -115 | prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -128; U -128 | splash_sports 16.5 O -118; U -118
+David Castillo,Kansas St.,,rebounds,1.5,3.1777,1.6777,1.6777,2.814586,over,-121,-121,3,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128 | splash_sports 1.5 O -118; U -118
+Elijah Saunders,Maryland,,points_rebounds,15.5,17.1738,1.6738,1.6738,2.801696,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Tounde Yessoufou,Baylor,,rebounds_assists,7.5,9.1655,1.6655,1.6655,2.773857,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Corey Washington,SMU,,points_rebounds,15.5,17.1577,1.6577,1.6577,2.747834,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Ben Hammond,Virginia Tech,,points_rebounds_assists,19.5,21.1484,1.6484,1.6484,2.717066,over,-121,-121,3,prizepicks 19.5 O -118; U -118 | sleeper 19.5 O -128; U -128 | splash_sports 19.5 O -118; U -118
+Cameron Carr,Baylor,,points,19.5,17.8596,-1.6404,1.6404,2.691065,under,-111,-117,2,fanatics 19.5 O -115; U -115 | fanduel 19.5 O -108; U -120
+Barry Dunning,Pittsburgh,,rebounds_assists,7.5,9.1152,1.6152,1.6152,2.608827,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Don McHenry,Utah,,points_assists,17.5,15.8936,-1.6064,1.6064,2.580487,under,-118,-118,1,prizepicks 17.5 O -118; U -118
+Robert Wright,BYU,,rebounds_assists,8.5,10.0987,1.5987,1.5987,2.555816,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Day Day Thomas,Cincinnati,,points,11.5,13.0949,1.5949,1.5949,2.543827,over,-122,-120,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -132; U -125 | splash_sports 11.5 O -118; U -118
+Isaac Williams,Baylor,,points_assists,15.5,17.0895,1.5895,1.5895,2.526493,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Anthony Johnson,Arizona St.,,rebounds_assists,4.5,6.0866,1.5866,1.5866,2.51724,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Kennard Davis,BYU,,points_rebounds_assists,15.5,13.9208,-1.5792,1.5792,2.493763,under,-120,-123,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -123; U -133 | splash_sports 15.5 O -118; U -118
+Nate Bittle,Oregon,,points_rebounds,26.5,28.0751,1.5751,1.5751,2.480914,over,-118,-118,1,prizepicks 26.5 O -118; U -118
+Massamba Diop,Arizona St.,,rebounds,5.8333,7.39,1.5567,1.5567,2.423272,over,-132,-107,3,fanatics 5.5 O -150; U 115 | fanduel 5.5 O -158; U 118 | sleeper 6.5 O 102; U -169
+Corey Washington,SMU,,points_rebounds_assists,16.5,18.0403,1.5403,1.5403,2.372371,over,-121,-121,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -128; U -128 | splash_sports 16.5 O -118; U -118
+Robert Wright,BYU,,points_rebounds_assists,31.1667,32.7048,1.5381,1.5381,2.36589,over,-117,-125,3,prizepicks 30.5 O -118; U -118 | sleeper 31.5 O -116; U -141 | splash_sports 31.5 O -118; U -118
+Amani Hansberry,Virginia Tech,,points_rebounds_assists,19.5,21.0174,1.5174,1.5174,2.302403,over,-123,-120,3,prizepicks 19.5 O -118; U -118 | sleeper 19.5 O -133; U -123 | splash_sports 19.5 O -118; U -118
+Terrence Brown,Utah,,points_rebounds,20.5,18.9952,-1.5048,1.5048,2.264521,under,-118,-118,1,prizepicks 20.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,points_rebounds,15.5,16.9891,1.4891,1.4891,2.217498,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Baba Miller,Cincinnati,,rebounds,9.5,10.9735,1.4735,1.4735,2.171128,over,-117,-126,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -116; U -143 | splash_sports 9.5 O -118; U -118
+Nate Johnson,Kansas St.,,rebounds_assists,10.5,11.9734,1.4734,1.4734,2.171033,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Kayden Mingo,Penn St.,,points_assists,17.5,18.9692,1.4692,1.4692,2.158653,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,points_rebounds,29.0,27.5418,-1.4582,1.4582,2.126288,under,-118,-118,1,prizepicks 29 O -118; U -118
+Isaac Williams,Baylor,,points,11.5,12.9495,1.4495,1.4495,2.101086,over,-121,-121,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -128; U -128 | splash_sports 11.5 O -118; U -118
+Solomon Washington,Maryland,,points_rebounds_assists,20.8333,19.3853,-1.448,1.448,2.096687,under,-125,-117,3,prizepicks 21.5 O -118; U -118 | sleeper 20.5 O -141; U -116 | splash_sports 20.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,points,11.5,12.941,1.441,1.441,2.076546,over,-121,-121,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -128; U -128 | splash_sports 11.5 O -118; U -118
+Amani Hansberry,Virginia Tech,,points_rebounds,17.5,18.9303,1.4303,1.4303,2.045705,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Naithan George,Syracuse,,points_assists,19.5,20.9285,1.4285,1.4285,2.040479,over,-118,-118,1,prizepicks 19.5 O -118; U -118
+Cruz Davis,Hofstra,,points_rebounds_assists,25.5,26.9163,1.4163,1.4163,2.00604,over,-118,-118,1,prizepicks 25.5 O -118; U -118
+Takai Simpkins,Oregon,,points_rebounds_assists,20.5,19.0837,-1.4163,1.4163,2.005777,under,-121,-121,3,prizepicks 20.5 O -118; U -118 | sleeper 20.5 O -128; U -128 | splash_sports 20.5 O -118; U -118
+Keba Keita,BYU,,rebounds,8.5,9.9027,1.4027,1.4027,1.96748,over,-121,-121,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -128; U -128 | splash_sports 8.5 O -118; U -118
+AJ Dybantsa,BYU,,rebounds,7.375,8.7764,1.4014,1.4014,1.96393,over,-107,-134,4,fanduel 7.5 O 110; U -146 | prizepicks 7 O -118; U -118 | sleeper 7.5 O -104; U -159 | splash_sports 7.5 O -118; U -118
+Corey Washington,SMU,,rebounds_assists,5.5,6.8967,1.3967,1.3967,1.95091,over,-118,-118,1,prizepicks 5.5 O -118; U -118
+Robert Wright,BYU,,assists,4.25,5.6193,1.3693,1.3693,1.875115,over,-105,-146,2,prizepicks 4 O -118; U -118 | sleeper 4.5 O 108; U -182
+Francis Folefac,Siena,,points,11.5,12.8593,1.3593,1.3593,1.847652,over,-113,-119,2,fanduel 11.5 O -108; U -120 | prizepicks 11.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points_assists,14.5,15.8585,1.3585,1.3585,1.845648,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Kennard Davis,BYU,,points,10.5,9.1432,-1.3568,1.3568,1.84091,under,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points,12.5,13.8543,1.3543,1.3543,1.834022,over,-121,-117,4,fanduel 12.5 O -114; U -114 | prizepicks 12.5 O -118; U -118 | sleeper 12.5 O -135; U -120 | splash_sports 12.5 O -118; U -118
+Naithan George,Syracuse,,points,13.5,14.8338,1.3338,1.3338,1.779101,over,-121,-121,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -128; U -128 | splash_sports 13.5 O -118; U -118
+Andre Mills,Maryland,,points_rebounds_assists,23.6667,24.987,1.3203,1.3203,1.743081,over,-123,-119,3,prizepicks 24 O -118; U -118 | sleeper 23.5 O -135; U -122 | splash_sports 23.5 O -118; U -118
+Kwame Evans,Oregon,,rebounds_assists,10.0,11.3107,1.3107,1.3107,1.717948,over,-118,-118,1,prizepicks 10 O -118; U -118
+Amani Hansberry,Virginia Tech,,rebounds_assists,7.5,8.8103,1.3103,1.3103,1.71695,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Jaron Pierre,SMU,,rebounds,4.75,6.0565,1.3065,1.3065,1.706957,over,-140,-108,2,prizepicks 5 O -118; U -118 | sleeper 4.5 O -167; U 101
+Keanu Dawes,Utah,,rebounds,8.5,9.8032,1.3032,1.3032,1.698425,over,-121,-121,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -128; U -128 | splash_sports 8.5 O -118; U -118
+Terrence Brown,Utah,,points_rebounds_assists,23.5,22.2193,-1.2807,1.2807,1.640238,under,-121,-121,3,prizepicks 23.5 O -118; U -118 | sleeper 23.5 O -128; U -128 | splash_sports 23.5 O -118; U -118
+Isaiah Johnson,Colorado,,points_assists,25.5,24.2226,-1.2774,1.2774,1.63185,under,-118,-118,1,prizepicks 25.5 O -118; U -118
+Jake West,Northwestern,,points_assists,12.5,13.7661,1.2661,1.2661,1.603128,over,-118,-118,1,prizepicks 12.5 O -118; U -118
+Keba Keita,BYU,,points,7.6667,8.9187,1.252,1.252,1.567434,over,-127,-115,3,prizepicks 8 O -118; U -118 | sleeper 7.5 O -149; U -110 | splash_sports 7.5 O -118; U -118
+Don McHenry,Utah,,points,15.5,14.2482,-1.2518,1.2518,1.566944,under,-117,-126,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -115; U -143 | splash_sports 15.5 O -118; U -118
+Day Day Thomas,Cincinnati,,points_assists,15.5,16.7455,1.2455,1.2455,1.551153,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Baba Miller,Cincinnati,,rebounds_assists,13.5,14.7379,1.2379,1.2379,1.532397,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Ebuka Okorie,Stanford,,rebounds_assists,7.5,8.736,1.236,1.236,1.52772,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Kayden Mingo,Penn St.,,rebounds,3.5,4.7234,1.2234,1.2234,1.496772,over,-121,-121,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -128; U -128 | splash_sports 3.5 O -118; U -118
+Amani Hansberry,Virginia Tech,,rebounds,5.5,6.7232,1.2232,1.2232,1.496314,over,-119,-124,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -120; U -137 | splash_sports 5.5 O -118; U -118
+Bangot Dak,Colorado,,points_rebounds_assists,22.5,23.7,1.2,1.2,1.439903,over,-121,-121,3,prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -128; U -128 | splash_sports 22.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,rebounds,6.5,7.6912,1.1912,1.1912,1.418856,over,-134,-105,4,fanatics 6.5 O -130; U 100 | fanduel 6.5 O -138; U 104 | sleeper 6.5 O -154; U -106 | splash_sports 6.5 O -118; U -118
+Keanu Dawes,Utah,,rebounds_assists,10.5,11.6856,1.1856,1.1856,1.405545,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Day Day Thomas,Cincinnati,,points_rebounds,15.5,16.6775,1.1775,1.1775,1.38641,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Takai Simpkins,Oregon,,points_assists,16.5,15.3358,-1.1642,1.1642,1.355392,under,-118,-118,1,prizepicks 16.5 O -118; U -118
+Nate Johnson,Kansas St.,,points_assists,21.5,20.3368,-1.1632,1.1632,1.352978,under,-118,-118,1,prizepicks 21.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,points,14.4,13.2419,-1.1581,1.1581,1.341176,under,-112,-125,5,fanatics 14.5 O -105; U -125 | fanduel 14.5 O -104; U -125 | prizepicks 14 O -118; U -118 | sleeper 14.5 O -118; U -139 | splash_sports 14.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,points_assists,16.5,17.6479,1.1479,1.1479,1.317758,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Tre Singleton,Northwestern,,rebounds_assists,7.0,8.1017,1.1017,1.1017,1.213693,over,-118,-118,1,prizepicks 7 O -118; U -118
+Andre Mills,Maryland,,points_rebounds,21.5,22.5912,1.0912,1.0912,1.190624,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Ebuka Okorie,Stanford,,points,22.5,23.5848,1.0848,1.0848,1.176851,over,-118,-119,5,fanatics 22.5 O -115; U -115 | fanduel 22.5 O -113; U -115 | prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -127; U -130 | splash_sports 22.5 O -118; U -118
+Tounde Yessoufou,Baylor,,rebounds,6.5,7.5824,1.0824,1.0824,1.17168,over,-117,-126,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -115; U -143 | splash_sports 6.5 O -118; U -118
+Kennard Davis,BYU,,points_rebounds,13.5,12.4248,-1.0752,1.0752,1.156045,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,rebounds,5.5,6.5628,1.0628,1.0628,1.129614,over,-121,-121,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -128; U -128 | splash_sports 5.5 O -118; U -118
+Keanu Dawes,Utah,,points_rebounds,19.5,20.5609,1.0609,1.0609,1.125414,over,-118,-118,1,prizepicks 19.5 O -118; U -118
+Solomon Washington,Maryland,,points_rebounds,19.5,18.4406,-1.0594,1.0594,1.122264,under,-118,-118,1,prizepicks 19.5 O -118; U -118
+Jake West,Northwestern,,points,8.3333,9.389,1.0557,1.0557,1.114535,over,-116,-126,3,prizepicks 8 O -118; U -118 | sleeper 8.5 O -112; U -145 | splash_sports 8.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points_rebounds_assists,25.6667,26.7102,1.0435,1.0435,1.088795,over,-123,-119,3,prizepicks 26 O -118; U -118 | sleeper 25.5 O -135; U -120 | splash_sports 25.5 O -118; U -118
+Seydou Traore,Utah,,points_assists,11.0,9.9598,-1.0402,1.0402,1.082014,under,-118,-118,1,prizepicks 11 O -118; U -118
+Ben Hammond,Virginia Tech,,points,13.5,14.5288,1.0288,1.0288,1.058458,over,-121,-121,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -128; U -128 | splash_sports 13.5 O -118; U -118
+Kwame Evans,Oregon,,points_rebounds_assists,24.5,25.5192,1.0192,1.0192,1.038856,over,-123,-120,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -133; U -123 | splash_sports 24.5 O -118; U -118
+Kayden Mingo,Penn St.,,points,13.5,14.5154,1.0154,1.0154,1.031108,over,-121,-121,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -128; U -128 | splash_sports 13.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,rebounds_assists,8.5,9.5089,1.0089,1.0089,1.0179,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Damarco Minor,Pittsburgh,,rebounds_assists,7.5,8.4973,0.9973,0.9973,0.994519,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Ebuka Okorie,Stanford,,points_assists,26.5,27.4959,0.9959,0.9959,0.99177,over,-118,-118,1,prizepicks 26.5 O -118; U -118
+Terrence Brown,Utah,,points_assists,20.5,19.5126,-0.9874,0.9874,0.975029,under,-118,-118,1,prizepicks 20.5 O -118; U -118
+Nate Bittle,Oregon,,rebounds_assists,11.5,12.4836,0.9836,0.9836,0.967458,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Robert Wright,BYU,,points,21.625,22.6062,0.9812,0.9812,0.962661,over,-119,-120,4,fanduel 21.5 O -114; U -114 | prizepicks 22 O -118; U -118 | sleeper 21.5 O -127; U -130 | splash_sports 21.5 O -118; U -118
+Bangot Dak,Colorado,,points_assists,15.5,14.52,-0.98,0.98,0.960353,under,-118,-118,1,prizepicks 15.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,rebounds_assists,8.5,9.4783,0.9783,0.9783,0.957029,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Cruz Davis,Hofstra,,points_assists,22.5,23.4782,0.9782,0.9782,0.956813,over,-118,-118,1,prizepicks 22.5 O -118; U -118
+Michael Imariagbe,Wright St.,,rebounds,9.5,8.5268,-0.9732,0.9732,0.947205,under,-118,-118,1,prizepicks 9.5 O -118; U -118
+Takai Simpkins,Oregon,,points_rebounds,17.5,16.5366,-0.9634,0.9634,0.928114,under,-118,-118,1,prizepicks 17.5 O -118; U -118
+Justice Shoats,Siena,,points,14.5,13.5539,-0.9461,0.9461,0.895133,under,-121,-111,2,fanduel 14.5 O -125; U -104 | prizepicks 14.5 O -118; U -118
+Don McHenry,Utah,,rebounds,2.5,3.4455,0.9455,0.9455,0.893885,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Keanu Dawes,Utah,,points_rebounds_assists,21.5,22.4432,0.9432,0.9432,0.88958,over,-121,-121,3,prizepicks 21.5 O -118; U -118 | sleeper 21.5 O -128; U -128 | splash_sports 21.5 O -118; U -118
+Nick Martinelli,Northwestern,,rebounds_assists,9.5,10.4376,0.9376,0.9376,0.879071,over,-118,-118,1,prizepicks 9.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,rebounds_assists,7.5,8.4324,0.9324,0.9324,0.869382,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Preston Edmead,Hofstra,,turnovers,1.5,2.4314,0.9314,0.9314,0.867441,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,points,9.5,10.4263,0.9263,0.9263,0.85802,over,-121,-121,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -128; U -128 | splash_sports 9.5 O -118; U -118
+Isaac Williams,Baylor,,rebounds_assists,6.5,7.4248,0.9248,0.9248,0.855203,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Keba Keita,BYU,,points_assists,8.5,9.3969,0.8969,0.8969,0.804487,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Taj Manning,Kansas St.,,stocks,1.5,2.3911,0.8911,0.8911,0.794105,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Freddie Dilione,Penn St.,,points,14.5,13.6203,-0.8797,0.8797,0.773898,under,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+Jizzle James,Cincinnati,,points_assists,13.5,12.6245,-0.8755,0.8755,0.766543,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Darius Adams,Maryland,,points_assists,11.5,10.6314,-0.8686,0.8686,0.754398,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Tre Singleton,Northwestern,,rebounds,5.5,6.3677,0.8677,0.8677,0.752864,over,-119,-123,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -120; U -135 | splash_sports 5.5 O -118; U -118
+Ben Hammond,Virginia Tech,,points_rebounds,16.5,17.3623,0.8623,0.8623,0.743534,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Kennard Davis,BYU,,points_assists,11.5,10.6392,-0.8608,0.8608,0.740928,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Keanu Dawes,Utah,,points_assists,13.5,12.6399,-0.8601,0.8601,0.739704,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Tre Singleton,Northwestern,,points_rebounds_assists,16.5,17.3551,0.8551,0.8551,0.731247,over,-114,-132,2,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -110; U -149
+Barrington Hargress,Colorado,,points,17.3333,16.4805,-0.8528,0.8528,0.727249,under,-120,-123,3,prizepicks 17 O -118; U -118 | sleeper 17.5 O -123; U -133 | splash_sports 17.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,assists,4.5,5.3471,0.8471,0.8471,0.717656,over,-123,-119,3,prizepicks 4.5 O -118; U -118 | sleeper 4.5 O -135; U -122 | splash_sports 4.5 O -118; U -118
+Nate Johnson,Kansas St.,,points,14.5,15.344,0.844,0.844,0.712323,over,-124,-116,3,fanduel 14.5 O -118; U -110 | prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -137; U -120
+Neoklis Avdalas,Virginia Tech,,points_rebounds,15.5,16.3262,0.8262,0.8262,0.682633,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Nate Johnson,Kansas St.,,points_rebounds_assists,26.5,27.3174,0.8174,0.8174,0.6682,over,-123,-123,2,prizepicks 26.5 O -118; U -118 | sleeper 26.5 O -128; U -128
+Darius Adams,Maryland,,points_rebounds_assists,14.5,13.6879,-0.8121,0.8121,0.659487,under,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+Michael Imariagbe,Wright St.,,rebounds_assists,11.5,10.6927,-0.8073,0.8073,0.65168,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Cruz Davis,Hofstra,,assists,3.5,4.3072,0.8072,0.8072,0.651544,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+Benny Gealer,Stanford,,rebounds,2.5,3.2975,0.7975,0.7975,0.635966,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Barry Dunning,Pittsburgh,,points_rebounds,21.5,22.2973,0.7973,0.7973,0.63576,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,points_assists,11.5,12.2959,0.7959,0.7959,0.633405,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,turnovers,2.5,3.2958,0.7958,0.7958,0.633344,over,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+Amani Hansberry,Virginia Tech,,points_assists,13.5,14.2941,0.7941,0.7941,0.63064,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Stefanos Spartalis,Monmouth,,points,10.5,11.2923,0.7923,0.7923,0.627757,over,-122,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -130; U -127 | splash_sports 10.5 O -118; U -118
+Kwame Evans,Oregon,,points_rebounds,22.5,23.2893,0.7893,0.7893,0.623031,over,-118,-118,1,prizepicks 22.5 O -118; U -118
+TJ Burch,Wright St.,,points_rebounds,18.5,17.7227,-0.7773,0.7773,0.604166,under,-118,-118,1,prizepicks 18.5 O -118; U -118
+Nick Martinelli,Northwestern,,rebounds,7.5,8.2684,0.7684,0.7684,0.590404,over,-120,-123,3,prizepicks 7.5 O -118; U -118 | sleeper 7.5 O -123; U -133 | splash_sports 7.5 O -118; U -118
+Donnie Freeman,Syracuse,,points,17.5,16.7349,-0.7651,0.7651,0.585403,under,-121,-121,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -128; U -128 | splash_sports 17.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,turnovers,1.5,2.2519,0.7519,0.7519,0.565365,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,rebounds,5.5,6.2489,0.7489,0.7489,0.560921,over,-121,-121,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -128; U -128 | splash_sports 5.5 O -118; U -118
+Jalen Celestine,Cincinnati,,points_rebounds,15.0,14.2539,-0.7461,0.7461,0.556709,under,-118,-118,1,prizepicks 15 O -118; U -118
+Keanu Dawes,Utah,,points,11.5,10.7576,-0.7424,0.7424,0.551129,under,-125,-118,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -139; U -119 | splash_sports 11.5 O -118; U -118
+Jaron Pierre,SMU,,points,17.3333,16.5944,-0.7389,0.7389,0.546034,under,-118,-125,3,prizepicks 17 O -118; U -118 | sleeper 17.5 O -119; U -139 | splash_sports 17.5 O -118; U -118
+Jason Rivera-Torres,Monmouth,,rebounds_assists,10.5,11.2362,0.7362,0.7362,0.542028,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Kavion McClain,Monmouth,,rebounds_assists,8.5,7.7651,-0.7349,0.7349,0.54006,under,-118,-118,1,prizepicks 8.5 O -118; U -118
+Day Day Thomas,Cincinnati,,rebounds_assists,6.5,7.233,0.733,0.733,0.537342,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Nate Bittle,Oregon,,rebounds,8.5,9.2321,0.7321,0.7321,0.535965,over,-115,-127,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -110; U -149 | splash_sports 8.5 O -118; U -118
+Robert Wright,BYU,,rebounds,3.75,4.4793,0.7293,0.7293,0.531942,over,-142,-107,2,prizepicks 4 O -118; U -118 | sleeper 3.5 O -172; U 103
+Christian Coleman,Oklahoma St.,,points_rebounds,17.5,16.7858,-0.7142,0.7142,0.510076,under,-118,-118,1,prizepicks 17.5 O -118; U -118
+Myles Colvin,Wake Forest,,steals,0.5,1.2125,0.7125,0.7125,0.507601,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Baba Miller,Cincinnati,,points_assists,18.5,19.2115,0.7115,0.7115,0.506259,over,-118,-118,1,prizepicks 18.5 O -118; U -118
+Takai Simpkins,Oregon,,points,13.5,12.7887,-0.7113,0.7113,0.506012,under,-121,-121,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -128; U -128 | splash_sports 13.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,points_rebounds_assists,20.3333,21.0331,0.6998,0.6998,0.489762,over,-117,-126,3,prizepicks 20 O -118; U -118 | sleeper 20.5 O -115; U -143 | splash_sports 20.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,points_rebounds_assists,18.5,17.8003,-0.6997,0.6997,0.489648,under,-121,-122,3,prizepicks 18.5 O -118; U -118 | sleeper 18.5 O -127; U -130 | splash_sports 18.5 O -118; U -118
+Solomon Washington,Maryland,,points_assists,11.5,10.8268,-0.6732,0.6732,0.453141,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Cruz Davis,Hofstra,,points,18.5,19.171,0.671,0.671,0.450221,over,-118,-118,1,prizepicks 18.5 O -118; U -118
+Juke Harris,Wake Forest,,turnovers,1.5,2.1689,0.6689,0.6689,0.447459,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Elijah Saunders,Maryland,,rebounds_assists,6.5,7.163,0.663,0.663,0.439599,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Barry Dunning,Pittsburgh,,points,13.5,14.1599,0.6599,0.6599,0.435496,over,-125,-113,5,fanatics 13.5 O -125; U -105 | fanduel 13.5 O -125; U -104 | prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -139; U -119 | splash_sports 13.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points,18.2,17.5447,-0.6553,0.6553,0.429466,under,-115,-122,5,fanatics 17.5 O -125; U -105 | fanduel 18.5 O 100; U -130 | prizepicks 18 O -118; U -118 | sleeper 18.5 O -115; U -143 | splash_sports 18.5 O -118; U -118
+Jalen Celestine,Cincinnati,,points_assists,12.5,11.8492,-0.6508,0.6508,0.423567,under,-118,-118,1,prizepicks 12.5 O -118; U -118
+Tounde Yessoufou,Baylor,,steals,1.5,2.1484,0.6484,0.6484,0.420364,over,-120,-113,3,fanatics 1.5 O -125; U -105 | prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Solomon Callaghan,Wright St.,,rebounds_assists,3.5,2.855,-0.645,0.645,0.416089,under,-118,-118,1,prizepicks 3.5 O -118; U -118
+Corey Washington,SMU,,points,10.5,11.1435,0.6435,0.6435,0.414093,over,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Barry Dunning,Pittsburgh,,points_assists,14.5,15.1377,0.6377,0.6377,0.40664,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Solomon Callaghan,Wright St.,,rebounds,2.5,1.8645,-0.6355,0.6355,0.403805,under,-118,-118,1,prizepicks 2.5 O -118; U -118
+Kanye Clary,Oklahoma St.,,rebounds,3.5,4.1311,0.6311,0.6311,0.398329,over,-121,-121,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -128; U -128 | splash_sports 3.5 O -118; U -118
+Preston Edmead,Hofstra,,rebounds_assists,7.5,8.1292,0.6292,0.6292,0.395945,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Barrington Hargress,Colorado,,points_rebounds,20.0,19.3723,-0.6277,0.6277,0.39402,under,-118,-118,1,prizepicks 20 O -118; U -118
+Jizzle James,Cincinnati,,points_rebounds,13.5,12.8724,-0.6276,0.6276,0.3939,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points_rebounds,24.5,25.1271,0.6271,0.6271,0.393261,over,-118,-118,1,prizepicks 24.5 O -118; U -118
+Barrington Hargress,Colorado,,points_assists,22.0,21.3753,-0.6247,0.6247,0.390268,under,-118,-118,1,prizepicks 22 O -118; U -118
+Jake West,Northwestern,,points_rebounds_assists,14.5,15.1245,0.6245,0.6245,0.390019,over,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+Jaron Pierre,SMU,,points_rebounds_assists,24.5,25.122,0.622,0.622,0.386866,over,-121,-121,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -128; U -128 | splash_sports 24.5 O -118; U -118
+Solomon Washington,Maryland,,points,10.5,9.8822,-0.6178,0.6178,0.381717,under,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Jayden Reid,Northwestern,,points_rebounds,11.5,10.8955,-0.6045,0.6045,0.365467,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Donnie Freeman,Syracuse,,points_rebounds_assists,27.5,26.8967,-0.6033,0.6033,0.363974,under,-121,-121,3,prizepicks 27.5 O -118; U -118 | sleeper 27.5 O -128; U -128 | splash_sports 27.5 O -118; U -118
+Naithan George,Syracuse,,assists,5.5,6.0946,0.5946,0.5946,0.353578,over,-117,-126,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -114; U -145 | splash_sports 5.5 O -118; U -118
+Bangot Dak,Colorado,,points,13.5,12.9055,-0.5945,0.5945,0.353416,under,-123,-120,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -133; U -123 | splash_sports 13.5 O -118; U -118
+Nate Bittle,Oregon,,points_assists,21.5,22.0945,0.5945,0.5945,0.353422,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Jailen Bedford,Virginia Tech,,rebounds_assists,4.5,5.092,0.592,0.592,0.350506,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Robert Wright,BYU,,points_rebounds,26.5,27.0855,0.5855,0.5855,0.342806,over,-118,-118,1,prizepicks 26.5 O -118; U -118
+Bangot Dak,Colorado,,points_rebounds,21.5,22.0854,0.5854,0.5854,0.342749,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points_assists,8.0,8.5812,0.5812,0.5812,0.337816,over,-118,-118,1,prizepicks 8 O -118; U -118
+Jayden Reid,Northwestern,,points_rebounds_assists,15.5,14.9189,-0.5811,0.5811,0.337652,under,-121,-121,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -128; U -128 | splash_sports 15.5 O -118; U -118
+Nate Kingz,Syracuse,,rebounds_assists,4.5,5.0717,0.5717,0.5717,0.326847,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Terrence Brown,Utah,,rebounds_assists,6.5,5.9308,-0.5692,0.5692,0.323951,under,-118,-118,1,prizepicks 6.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points_rebounds_assists,15.5,14.9341,-0.5659,0.5659,0.320279,under,-117,-125,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -116; U -141 | splash_sports 15.5 O -118; U -118
+Jailen Bedford,Virginia Tech,,points,11.5,10.9359,-0.5641,0.5641,0.318226,under,-118,-125,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -118; U -139 | splash_sports 11.5 O -118; U -118
+Seydou Traore,Utah,,points_rebounds_assists,14.5,13.94,-0.56,0.56,0.313617,under,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+Donnie Freeman,Syracuse,,blocks,0.5,1.0564,0.5564,0.5564,0.309578,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+TJ Burch,Wright St.,,assists,3.5,4.0514,0.5514,0.5514,0.304062,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+AJ Dybantsa,BYU,,assists,4.5,5.0498,0.5498,0.5498,0.302239,over,-121,-121,3,prizepicks 4.5 O -118; U -118 | sleeper 4.5 O -128; U -128 | splash_sports 4.5 O -118; U -118
+Jizzle James,Cincinnati,,points_rebounds_assists,15.5,14.9571,-0.5429,0.5429,0.294778,under,-121,-121,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -128; U -128 | splash_sports 15.5 O -118; U -118
+Jailen Bedford,Virginia Tech,,points_rebounds_assists,15.5,16.0279,0.5279,0.5279,0.2787,over,-121,-121,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -128; U -128 | splash_sports 15.5 O -118; U -118
+Isaac Williams,Baylor,,turnovers,1.5,2.0262,0.5262,0.5262,0.276849,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Corey Washington,SMU,,points_assists,11.5,12.0261,0.5261,0.5261,0.276772,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,steals,0.5,1.0228,0.5228,0.5228,0.273323,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Isaiah Johnson,Colorado,,rebounds_assists,7.5,8.0181,0.5181,0.5181,0.268423,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Tre Singleton,Northwestern,,points_assists,11.5,10.9875,-0.5125,0.5125,0.262705,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Nate Johnson,Kansas St.,,assists,5.5,4.9928,-0.5072,0.5072,0.25722,under,-121,-124,2,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -125; U -130
+Taj Manning,Kansas St.,,points_assists,8.5,9.0065,0.5065,0.5065,0.256561,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Anthony Johnson,Arizona St.,,assists,1.5,2.0043,0.5043,0.5043,0.254304,over,-123,-123,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+Solomon Washington,Maryland,,rebounds_assists,10.0,9.5031,-0.4969,0.4969,0.246871,under,-118,-118,1,prizepicks 10 O -118; U -118
+Massamba Diop,Arizona St.,,stocks,2.5,2.9941,0.4941,0.4941,0.24412,over,-118,-118,1,prizepicks 2.5 O -118; U -118
+Isaiah Johnson,Colorado,,points_rebounds,24.5,24.9917,0.4917,0.4917,0.241738,over,-118,-118,1,prizepicks 24.5 O -118; U -118
+Damarco Minor,Pittsburgh,,rebounds,4.5,4.9871,0.4871,0.4871,0.237252,over,-121,-121,3,prizepicks 4.5 O -118; U -118 | sleeper 4.5 O -128; U -128 | splash_sports 4.5 O -118; U -118
+TJ Burch,Wright St.,,points,15.0,14.5139,-0.4861,0.4861,0.236261,under,-118,-118,1,prizepicks 15 O -118; U -118
+Baba Miller,Cincinnati,,assists,4.25,3.7644,-0.4856,0.4856,0.235783,under,-106,-143,2,prizepicks 4 O -118; U -118 | sleeper 4.5 O 105; U -175
+Seydou Traore,Utah,,rebounds,3.5,3.9802,0.4802,0.4802,0.230577,over,-121,-121,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -128; U -128 | splash_sports 3.5 O -118; U -118
+Benny Gealer,Stanford,,points_rebounds,14.5,14.977,0.477,0.477,0.227486,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Jalen Celestine,Cincinnati,,points_rebounds_assists,16.5,16.0238,-0.4762,0.4762,0.226802,under,-117,-125,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -116; U -141 | splash_sports 16.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,blocks,0.5,0.97,0.47,0.47,0.22094,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Juke Harris,Wake Forest,,assists,1.5,1.9513,0.4513,0.4513,0.203709,over,-128,-118,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -139; U -118
+Benny Gealer,Stanford,,points_rebounds_assists,16.5,16.9505,0.4505,0.4505,0.202928,over,-119,-123,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -122; U -133 | splash_sports 16.5 O -118; U -118
+Donnie Freeman,Syracuse,,steals,0.5,0.9485,0.4485,0.4485,0.201125,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,points_assists,15.5,15.0597,-0.4403,0.4403,0.193898,under,-118,-118,1,prizepicks 15.5 O -118; U -118
+Freddie Dilione,Penn St.,,points_assists,16.5,16.0628,-0.4372,0.4372,0.191171,under,-118,-118,1,prizepicks 16.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,rebounds_assists,5.5,5.9356,0.4356,0.4356,0.189747,over,-118,-118,1,prizepicks 5.5 O -118; U -118
+Jaron Pierre,SMU,,points_assists,19.5,19.0655,-0.4345,0.4345,0.188808,under,-118,-118,1,prizepicks 19.5 O -118; U -118
+Baba Miller,Cincinnati,,stocks,1.5,1.932,0.432,0.432,0.186597,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Kwame Evans,Oregon,,blocks,1.5,1.0705,-0.4295,0.4295,0.184455,under,150,-200,1,fanatics 1.5 O 150; U -200
+Benny Gealer,Stanford,,threes,2.5,2.9289,0.4289,0.4289,0.183958,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,rebounds,4.25,4.6767,0.4267,0.4267,0.182115,over,-105,-145,2,prizepicks 4 O -118; U -118 | sleeper 4.5 O 106; U -179
+Kanye Clary,Oklahoma St.,,threes,1.5,1.9224,0.4224,0.4224,0.178421,over,-123,-119,3,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -133; U -122 | splash_sports 1.5 O -118; U -118
+Jalen Celestine,Cincinnati,,points,10.5,10.0793,-0.4207,0.4207,0.176998,under,-122,-120,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -132; U -125 | splash_sports 10.5 O -118; U -118
+Nate Kingz,Syracuse,,steals,0.5,0.9197,0.4197,0.4197,0.176172,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Jaron Pierre,SMU,,turnovers,2.5,2.0807,-0.4193,0.4193,0.17583,under,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+Barry Dunning,Pittsburgh,,blocks,0.5,0.9163,0.4163,0.4163,0.173316,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Ebuka Okorie,Stanford,,assists,3.5,3.911,0.411,0.411,0.168961,over,-124,-119,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -137; U -120 | splash_sports 3.5 O -118; U -118
+Baba Miller,Cincinnati,,steals,0.5,0.9016,0.4016,0.4016,0.161268,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,rebounds_assists,9.5,9.8987,0.3987,0.3987,0.158966,over,-118,-118,1,prizepicks 9.5 O -118; U -118
+J.J. Starling,Syracuse,,points,10.5,10.1024,-0.3976,0.3976,0.158054,under,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Nick Martinelli,Northwestern,,points,24.5,24.1043,-0.3957,0.3957,0.156562,under,-125,-117,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -141; U -116 | splash_sports 24.5 O -118; U -118
+Barrington Hargress,Colorado,,assists,4.5,4.8948,0.3948,0.3948,0.155847,over,-121,-121,3,prizepicks 4.5 O -118; U -118 | sleeper 4.5 O -128; U -128 | splash_sports 4.5 O -118; U -118
+Barrington Hargress,Colorado,,rebounds,2.5,2.8918,0.3918,0.3918,0.153491,over,-140,-108,2,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -167; U 101
+Isaac Williams,Baylor,,assists,3.75,4.14,0.39,0.39,0.152086,over,-145,-105,2,prizepicks 4 O -118; U -118 | sleeper 3.5 O -179; U 106
+Corey Washington,SMU,,assists,0.5,0.8826,0.3826,0.3826,0.146376,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Obi Agbim,Baylor,,points,11.5,11.1178,-0.3822,0.3822,0.146064,under,-121,-121,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -128; U -128 | splash_sports 11.5 O -118; U -118
+Seydou Traore,Utah,,points_rebounds,12.5,12.1182,-0.3818,0.3818,0.145766,under,-118,-118,1,prizepicks 12.5 O -118; U -118
+Nick Martinelli,Northwestern,,turnovers,1.5,1.8784,0.3784,0.3784,0.143165,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Isaiah Johnson,Colorado,,assists,4.0,3.6245,-0.3755,0.3755,0.141005,under,-118,-118,1,prizepicks 4 O -118; U -118
+Santiago Trouet,Arizona St.,,points_rebounds,14.5,14.1276,-0.3724,0.3724,0.13871,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points_assists,19.5,19.1277,-0.3723,0.3723,0.138598,under,-118,-118,1,prizepicks 19.5 O -118; U -118
+Tre'Von Spillers,Wake Forest,,assists,1.5,1.8696,0.3696,0.3696,0.136585,over,-123,-123,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+Andre Mills,Maryland,,steals,0.5,0.869,0.369,0.369,0.136187,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Seydou Traore,Utah,,points,8.5,8.138,-0.362,0.362,0.131028,under,-121,-121,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -128; U -128 | splash_sports 8.5 O -118; U -118
+Anthony Roy,Oklahoma St.,,threes,2.5,2.856,0.356,0.356,0.126739,over,-122,-120,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -132; U -125 | splash_sports 2.5 O -118; U -118
+Naithan George,Syracuse,,rebounds_assists,9.5,9.8475,0.3475,0.3475,0.120789,over,-118,-118,1,prizepicks 9.5 O -118; U -118
+Nate Bittle,Oregon,,points,18.5,18.843,0.343,0.343,0.117646,over,-119,-123,3,prizepicks 18.5 O -118; U -118 | sleeper 18.5 O -122; U -135 | splash_sports 18.5 O -118; U -118
+Darius Adams,Maryland,,points,9.5,9.1572,-0.3428,0.3428,0.117483,under,-120,-122,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -123; U -132 | splash_sports 9.5 O -118; U -118
+Santiago Trouet,Arizona St.,,rebounds_assists,7.5,7.1594,-0.3406,0.3406,0.116039,under,-118,-118,1,prizepicks 7.5 O -118; U -118
+Freddie Dilione,Penn St.,,points_rebounds,18.5,18.1635,-0.3365,0.3365,0.113234,under,-118,-118,1,prizepicks 18.5 O -118; U -118
+Ben Hammond,Virginia Tech,,rebounds,2.5,2.8335,0.3335,0.3335,0.111202,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,stocks,1.5,1.8296,0.3296,0.3296,0.108655,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Nate Bittle,Oregon,,stocks,2.5,2.8278,0.3278,0.3278,0.107447,over,-118,-118,1,prizepicks 2.5 O -118; U -118
+Elijah Saunders,Maryland,,rebounds,5.5,5.8233,0.3233,0.3233,0.1045,over,-116,-126,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -112; U -145 | splash_sports 5.5 O -118; U -118
+Nate Bittle,Oregon,,steals,1.5,1.1791,-0.3209,0.3209,0.10299,under,150,-200,1,fanatics 1.5 O 150; U -200
+Obi Agbim,Baylor,,points_assists,14.5,14.1812,-0.3188,0.3188,0.101616,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,assists,1.5,1.8178,0.3178,0.3178,0.100967,over,-125,-120,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -133; U -123
+J.J. Starling,Syracuse,,points_rebounds,12.5,12.8086,0.3086,0.3086,0.095237,over,-118,-118,1,prizepicks 12.5 O -118; U -118
+Kavion McClain,Monmouth,,steals,1.5,1.8043,0.3043,0.3043,0.092571,over,-130,-100,1,fanatics 1.5 O -130; U 100
+Barry Dunning,Pittsburgh,,steals,0.5,0.8037,0.3037,0.3037,0.092253,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Taj Manning,Kansas St.,,points,7.3333,7.6369,0.3036,0.3036,0.09219,over,-117,-125,3,prizepicks 7 O -118; U -118 | sleeper 7.5 O -116; U -141 | splash_sports 7.5 O -118; U -118
+Jason Rivera-Torres,Monmouth,,assists,2.5,2.2045,-0.2955,0.2955,0.087316,under,-123,-123,2,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128
+Amani Hansberry,Virginia Tech,,points,12.5,12.207,-0.293,0.293,0.085824,under,-121,-121,3,prizepicks 12.5 O -118; U -118 | sleeper 12.5 O -128; U -128 | splash_sports 12.5 O -118; U -118
+Kwame Evans,Oregon,,points,14.5,14.2085,-0.2915,0.2915,0.08495,under,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+David Castillo,Kansas St.,,turnovers,1.5,1.7882,0.2882,0.2882,0.083062,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Bangot Dak,Colorado,,blocks,1.5,1.7869,0.2869,0.2869,0.082306,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Barrington Hargress,Colorado,,rebounds_assists,7.5,7.7866,0.2866,0.2866,0.082113,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Darius Adams,Maryland,,points_rebounds,12.5,12.2137,-0.2863,0.2863,0.081959,under,-118,-118,1,prizepicks 12.5 O -118; U -118
+J.J. Starling,Syracuse,,points_rebounds_assists,15.5,15.2143,-0.2857,0.2857,0.081617,under,-121,-121,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -128; U -128 | splash_sports 15.5 O -118; U -118
+Naithan George,Syracuse,,threes,1.5,1.7857,0.2857,0.2857,0.081603,over,-121,-121,3,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128 | splash_sports 1.5 O -118; U -118
+Kevair Kennedy,Merrimack,,points,19.5,19.215,-0.285,0.285,0.081197,under,-100,-130,1,fanduel 19.5 O 100; U -130
+Michael Imariagbe,Wright St.,,points,13.5,13.2167,-0.2833,0.2833,0.080285,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Kavion McClain,Monmouth,,assists,4.5,4.2189,-0.2811,0.2811,0.079043,under,-127,-115,3,prizepicks 4.5 O -118; U -118 | sleeper 4.5 O -149; U -110 | splash_sports 4.5 O -118; U -118
+Kennard Davis,BYU,,rebounds_assists,4.5,4.7776,0.2776,0.2776,0.077082,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points,7.5,7.7747,0.2747,0.2747,0.075467,over,-122,-120,3,prizepicks 7.5 O -118; U -118 | sleeper 7.5 O -132; U -125 | splash_sports 7.5 O -118; U -118
+Jake West,Northwestern,,rebounds_assists,6.0,5.7355,-0.2645,0.2645,0.06996,under,-118,-118,1,prizepicks 6 O -118; U -118
+Jason Rivera-Torres,Monmouth,,steals,1.5,1.7601,0.2601,0.2601,0.067633,over,105,-140,1,fanatics 1.5 O 105; U -140
+Elijah Saunders,Maryland,,steals,0.5,0.7529,0.2529,0.2529,0.063935,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Naithan George,Syracuse,,rebounds,3.5,3.7529,0.2529,0.2529,0.06397,over,-121,-121,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -128; U -128 | splash_sports 3.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,points_rebounds_assists,22.5,22.7508,0.2508,0.2508,0.06291,over,-122,-121,3,prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -130; U -127 | splash_sports 22.5 O -118; U -118
+Jake West,Northwestern,,points_rebounds,10.5,10.7474,0.2474,0.2474,0.061198,over,-118,-118,1,prizepicks 10.5 O -118; U -118
+Tre Singleton,Northwestern,,points,9.5,9.2535,-0.2465,0.2465,0.060786,under,-121,-121,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -128; U -128 | splash_sports 9.5 O -118; U -118
+AJ Dybantsa,BYU,,threes,1.5,1.7454,0.2454,0.2454,0.060216,over,-123,-123,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+Christian Coleman,Oklahoma St.,,points,10.5,10.258,-0.242,0.242,0.05858,under,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Massamba Diop,Arizona St.,,steals,0.5,0.7369,0.2369,0.2369,0.056137,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Bangot Dak,Colorado,,steals,0.5,0.7364,0.2364,0.2364,0.055908,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Nate Kingz,Syracuse,,assists,1.5,1.2646,-0.2354,0.2354,0.055398,under,-117,-130,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -116; U -143
+Tre Singleton,Northwestern,,assists,1.5,1.734,0.234,0.234,0.054756,over,-123,-123,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+German Plotnikov,Hofstra,,points,8.5,8.2692,-0.2308,0.2308,0.053261,under,-118,-118,1,prizepicks 8.5 O -118; U -118
+Nate Bittle,Oregon,,threes,1.5,1.7282,0.2282,0.2282,0.052067,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,points_assists,11.5,11.2724,-0.2276,0.2276,0.051795,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Jason Rivera-Torres,Monmouth,,turnovers,1.5,1.7266,0.2266,0.2266,0.051339,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Nick Martinelli,Northwestern,,points_assists,26.5,26.2735,-0.2265,0.2265,0.051288,under,-118,-118,1,prizepicks 26.5 O -118; U -118
+Donnie Freeman,Syracuse,,points_assists,18.5,18.2766,-0.2234,0.2234,0.049899,under,-118,-118,1,prizepicks 18.5 O -118; U -118
+Preston Edmead,Hofstra,,rebounds,3.5,3.7195,0.2195,0.2195,0.048179,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,points_assists,13.5,13.2806,-0.2194,0.2194,0.04813,under,-118,-118,1,prizepicks 13.5 O -118; U -118
+Terrence Brown,Utah,,points,16.5,16.2884,-0.2116,0.2116,0.044754,under,-122,-120,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -132; U -125 | splash_sports 16.5 O -118; U -118
+Obi Agbim,Baylor,,turnovers,1.5,1.2895,-0.2105,0.2105,0.044328,under,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+J.J. Starling,Syracuse,,rebounds,2.5,2.7062,0.2062,0.2062,0.042504,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Jayden Reid,Northwestern,,rebounds,1.5,1.2944,-0.2056,0.2056,0.042275,under,-116,-126,3,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -112; U -145 | splash_sports 1.5 O -118; U -118
+Don McHenry,Utah,,points_rebounds,17.5,17.6937,0.1937,0.1937,0.037511,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Khamari McGriff,Kansas St.,,points,10.5,10.3158,-0.1842,0.1842,0.033931,under,-121,-121,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -128; U -128 | splash_sports 10.5 O -118; U -118
+Jayden Reid,Northwestern,,rebounds_assists,5.5,5.3179,-0.1821,0.1821,0.033178,under,-118,-118,1,prizepicks 5.5 O -118; U -118
+Benny Gealer,Stanford,,points,11.5,11.6795,0.1795,0.1795,0.032213,over,-121,-121,3,prizepicks 11.5 O -118; U -118 | sleeper 11.5 O -128; U -128 | splash_sports 11.5 O -118; U -118
+Solomon Washington,Maryland,,steals,1.5,1.3291,-0.1709,0.1709,0.029202,under,185,-250,1,fanatics 1.5 O 185; U -250
+Jailen Bedford,Virginia Tech,,steals,0.5,0.668,0.168,0.168,0.028237,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Jizzle James,Cincinnati,,rebounds,2.5,2.3326,-0.1674,0.1674,0.028026,under,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,assists,0.5,0.6622,0.1622,0.1622,0.026317,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Donnie Freeman,Syracuse,,rebounds_assists,10.0,10.1618,0.1618,0.1618,0.026184,over,-118,-118,1,prizepicks 10 O -118; U -118
+Don McHenry,Utah,,points_rebounds_assists,19.5,19.3391,-0.1609,0.1609,0.0259,under,-121,-121,3,prizepicks 19.5 O -118; U -118 | sleeper 19.5 O -128; U -128 | splash_sports 19.5 O -118; U -118
+Benny Gealer,Stanford,,points_assists,13.5,13.653,0.153,0.153,0.023409,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Jaron Pierre,SMU,,points_rebounds,22.5,22.6509,0.1509,0.1509,0.02276,over,-118,-118,1,prizepicks 22.5 O -118; U -118
+P.J. Haggerty,Kansas St.,,assists,3.5,3.6498,0.1498,0.1498,0.022428,over,-120,-122,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -125; U -132 | splash_sports 3.5 O -118; U -118
+Nate Bittle,Oregon,,blocks,1.5,1.6487,0.1487,0.1487,0.022115,over,135,-175,1,fanatics 1.5 O 135; U -175
+Santiago Trouet,Arizona St.,,rebounds,6.5,6.3528,-0.1472,0.1472,0.021653,under,-120,-123,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -123; U -133 | splash_sports 6.5 O -118; U -118
+Donnie Freeman,Syracuse,,points_rebounds,25.5,25.355,-0.145,0.145,0.021036,under,-118,-118,1,prizepicks 25.5 O -118; U -118
+Cruz Davis,Hofstra,,steals,1.5,1.3591,-0.1409,0.1409,0.01986,under,160,-210,1,fanatics 1.5 O 160; U -210
+Obi Agbim,Baylor,,points_rebounds,14.5,14.3611,-0.1389,0.1389,0.019299,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Kellen Pickett,Wright St.,,blocks,1.5,1.6367,0.1367,0.1367,0.018678,over,185,-250,1,fanatics 1.5 O 185; U -250
+Benny Gealer,Stanford,,steals,1.5,1.6341,0.1341,0.1341,0.017992,over,-117,-117,3,fanatics 1.5 O -115; U -115 | prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Santiago Trouet,Arizona St.,,steals,0.5,0.6309,0.1309,0.1309,0.017128,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Taj Manning,Kansas St.,,assists,1.5,1.3696,-0.1304,0.1304,0.017006,under,-120,-125,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -123; U -133
+Nick Martinelli,Northwestern,,points_rebounds,32.5,32.3727,-0.1273,0.1273,0.016205,under,-118,-118,1,prizepicks 32.5 O -118; U -118
+Jake West,Northwestern,,assists,4.25,4.3771,0.1271,0.1271,0.016162,over,-107,-142,2,prizepicks 4 O -118; U -118 | sleeper 4.5 O 104; U -172
+Jayden Reid,Northwestern,,points_assists,13.5,13.6245,0.1245,0.1245,0.015508,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Jailen Bedford,Virginia Tech,,points_assists,12.5,12.3766,-0.1234,0.1234,0.015231,under,-118,-118,1,prizepicks 12.5 O -118; U -118
+Tre Singleton,Northwestern,,points_rebounds,15.5,15.6211,0.1211,0.1211,0.014672,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Donnie Freeman,Syracuse,,rebounds,8.5,8.6201,0.1201,0.1201,0.014419,over,-121,-121,3,prizepicks 8.5 O -118; U -118 | sleeper 8.5 O -128; U -128 | splash_sports 8.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,assists,0.5,0.6189,0.1189,0.1189,0.01414,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Tobi Lawal,Virginia Tech,,points,12.5,12.6184,0.1184,0.1184,0.014016,over,-121,-121,3,prizepicks 12.5 O -118; U -118 | sleeper 12.5 O -128; U -128 | splash_sports 12.5 O -118; U -118
+Isaiah Johnson,Colorado,,points_rebounds_assists,28.5,28.6162,0.1162,0.1162,0.013494,over,-118,-118,1,prizepicks 28.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,rebounds,3.5,3.3852,-0.1148,0.1148,0.013181,under,-120,-122,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -125; U -132 | splash_sports 3.5 O -118; U -118
+Noah Meeusen,Arizona St.,,assists,2.5,2.6101,0.1101,0.1101,0.012117,over,-129,-118,2,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -141; U -118
+Noah Meeusen,Arizona St.,,rebounds_assists,6.5,6.6085,0.1085,0.1085,0.011771,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Freddie Dilione,Penn St.,,points_rebounds_assists,20.5,20.606,0.106,0.106,0.011232,over,-121,-121,3,prizepicks 20.5 O -118; U -118 | sleeper 20.5 O -128; U -128 | splash_sports 20.5 O -118; U -118
+Solomon Callaghan,Wright St.,,steals,0.5,0.3948,-0.1052,0.1052,0.011076,under,-118,-118,1,prizepicks 0.5 O -118; U -118
+Silas Sunday,Hofstra,,blocks,1.5,1.6034,0.1034,0.1034,0.010697,over,110,-145,1,fanatics 1.5 O 110; U -145
+Andre Mills,Maryland,,points_assists,19.0,19.1025,0.1025,0.1025,0.010513,over,-118,-118,1,prizepicks 19 O -118; U -118
+Jayden Reid,Northwestern,,points,9.5,9.6011,0.1011,0.1011,0.010215,over,-121,-122,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -127; U -130 | splash_sports 9.5 O -118; U -118
+Isaiah Johnson,Colorado,,points,20.5,20.5981,0.0981,0.0981,0.009617,over,-118,-118,1,prizepicks 20.5 O -118; U -118
+Neoklis Avdalas,Virginia Tech,,rebounds_assists,8.0,8.0921,0.0921,0.0921,0.008484,over,-118,-118,1,prizepicks 8 O -118; U -118
+Tye Dorset,Merrimack,,points,11.5,11.5912,0.0912,0.0912,0.008318,over,-116,-116,2,fanduel 11.5 O -114; U -114 | prizepicks 11.5 O -118; U -118
+Juke Harris,Wake Forest,,points_rebounds_assists,31.5,31.4096,-0.0904,0.0904,0.008164,under,-121,-121,3,prizepicks 31.5 O -118; U -118 | sleeper 31.5 O -128; U -128 | splash_sports 31.5 O -118; U -118
+Jailen Bedford,Virginia Tech,,points_rebounds,14.5,14.5872,0.0872,0.0872,0.007607,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Jizzle James,Cincinnati,,rebounds_assists,4.5,4.4173,-0.0827,0.0827,0.006844,under,-118,-118,1,prizepicks 4.5 O -118; U -118
+Barry Dunning,Pittsburgh,,turnovers,1.5,1.5825,0.0825,0.0825,0.006802,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Moustapha Thiam,Cincinnati,,rebounds_assists,8.5,8.4195,-0.0805,0.0805,0.00648,under,-118,-118,1,prizepicks 8.5 O -118; U -118
+Obi Agbim,Baylor,,points_rebounds_assists,17.5,17.4245,-0.0755,0.0755,0.005702,under,-121,-121,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -128; U -128 | splash_sports 17.5 O -118; U -118
+Cameron Corhen,Pittsburgh,,points_rebounds,21.0,20.9331,-0.0669,0.0669,0.00448,under,-114,-116,2,fanduel 21.5 O -111; U -115 | prizepicks 20.5 O -118; U -118
+TJ Burch,Wright St.,,points_assists,18.5,18.5654,0.0654,0.0654,0.004271,over,-118,-118,1,prizepicks 18.5 O -118; U -118
+Ebuka Okorie,Stanford,,turnovers,2.5,2.4362,-0.0638,0.0638,0.004064,under,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+Kwame Evans,Oregon,,points_assists,16.5,16.4385,-0.0615,0.0615,0.003787,under,-118,-118,1,prizepicks 16.5 O -118; U -118
+Darius Adams,Maryland,,steals,0.5,0.5577,0.0577,0.0577,0.003326,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Kavion McClain,Monmouth,,rebounds,3.5,3.5463,0.0463,0.0463,0.00214,over,-121,-121,3,prizepicks 3.5 O -118; U -118 | sleeper 3.5 O -128; U -128 | splash_sports 3.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,rebounds_assists,7.5,7.5423,0.0423,0.0423,0.001788,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Nick Martinelli,Northwestern,,points_rebounds_assists,34.5,34.5419,0.0419,0.0419,0.001756,over,-121,-121,3,prizepicks 34.5 O -118; U -118 | sleeper 34.5 O -128; U -128 | splash_sports 34.5 O -118; U -118
+Donnie Freeman,Syracuse,,assists,1.5,1.5417,0.0417,0.0417,0.001742,over,-123,-123,2,prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+Juke Harris,Wake Forest,,points_rebounds,29.5,29.4583,-0.0417,0.0417,0.001739,under,-118,-118,1,prizepicks 29.5 O -118; U -118
+Andre Mills,Maryland,,points,16.6667,16.7067,0.04,0.04,0.001603,over,-123,-120,3,prizepicks 17 O -118; U -118 | sleeper 16.5 O -133; U -123 | splash_sports 16.5 O -118; U -118
+Jizzle James,Cincinnati,,points,10.5,10.5398,0.0398,0.0398,0.001584,over,-125,-118,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -141; U -118 | splash_sports 10.5 O -118; U -118
+Christian Coleman,Oklahoma St.,,rebounds,6.5,6.5278,0.0278,0.0278,0.000775,over,-128,-115,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -152; U -109 | splash_sports 6.5 O -118; U -118
+Darius Adams,Maryland,,assists,1.5,1.4742,-0.0258,0.0258,0.000666,under,-118,-118,1,prizepicks 1.5 O -118; U -118
+Nate Bittle,Oregon,,turnovers,2.5,2.5185,0.0185,0.0185,0.000342,over,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+Barrington Hargress,Colorado,,points_rebounds_assists,24.25,24.2671,0.0171,0.0171,0.000291,over,-123,-123,2,prizepicks 25 O -118; U -118 | sleeper 23.5 O -128; U -128
+Donnie Freeman,Syracuse,,turnovers,2.5,2.5171,0.0171,0.0171,0.000293,over,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+David Castillo,Kansas St.,,steals,0.5,0.5105,0.0105,0.0105,0.000111,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+J.J. Starling,Syracuse,,points_assists,12.5,12.5081,0.0081,0.0081,6.6e-05,over,-118,-118,1,prizepicks 12.5 O -118; U -118
+German Plotnikov,Hofstra,,rebounds,3.5,3.5071,0.0071,0.0071,5e-05,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+Ebuka Okorie,Stanford,,steals,1.5,1.4943,-0.0057,0.0057,3.2e-05,under,110,-145,1,fanatics 1.5 O 110; U -145

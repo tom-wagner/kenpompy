@@ -1,0 +1,10 @@
+2026-04-01 19:15:36,266 INFO Logging to /Users/tomwagner/kenpompy/outputs/pipeline_x_ai_logs/pipeline_x_ai_2026-04-01_191536.txt
+2026-04-01 19:15:36,267 INFO Stage grade start: projections=/Users/tomwagner/kenpompy/outputs/model_projections/projections/pipeline_existing_kp_minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook_saved_2026-04-01_190556.xlsx player_stats=/Users/tomwagner/kenpompy/outputs/pipeline/minutes/minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook.xlsx unabated=/Users/tomwagner/kenpompy/outputs/unabated/f4.json sim_output=unabated_sim_output.json existing_analysis=None run_xai=True ev_hurdle=1.05 output=graded_bets_04-04-2026.json
+2026-04-01 19:15:36,267 INFO Auto-selected existing analysis CSV for manual notes carry-forward: /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv
+2026-04-01 19:15:37,845 INFO Loaded xAI bet cache entries=1106 files=9 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-01 19:15:37,849 INFO xAI bet grading preview: total_rows=119 eligible_bets=58 cache_hits=21 api_calls_needed=37 unique_eligible_cache_keys=58
+2026-04-01 19:15:41,899 INFO Loaded xAI bet cache entries=1106 files=9 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-01 19:15:41,906 INFO Starting bet grading workflow: total_rows=119 eligible_bets=58 skipped_bets=61 cache_hits=21 api_calls_needed=37 max_parallel=15
+2026-04-01 19:15:41,906 INFO Skipping outbound xAI bet grading calls after cache pass: eligible_bets=58 cache_hits=21 pending_api_calls=37
+2026-04-01 19:15:41,940 INFO Merged existing analysis from /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv: matched_rows=39 line_changed_rows=25
+2026-04-01 19:15:41,946 INFO Stage grade complete: output=/Users/tomwagner/kenpompy/graded_bets_04-04-2026.json rows=119 xai_graded=119

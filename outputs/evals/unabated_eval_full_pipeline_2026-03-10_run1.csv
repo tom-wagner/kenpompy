@@ -1,0 +1,155 @@
+Player,team,opponent,stat,market_line,projection,diff,abs_diff,squared_error,lean,market_over_odds,market_under_odds,book_count,market_books
+Allen Graves,Santa Clara,,points_rebounds,19.5,14.0997,-5.4003,5.4003,29.163563,under,-115,-115,2,fanduel 19.5 O -113; U -113 | prizepicks 19.5 O -118; U -118
+Allen Graves,Santa Clara,,points_rebounds_assists,20.5,15.3035,-5.1965,5.1965,27.004075,under,-118,-124,3,prizepicks 20.5 O -118; U -118 | sleeper 20.5 O -119; U -137 | splash_sports 20.5 O -118; U -118
+Allen Graves,Santa Clara,,points_assists,14.5,9.5003,-4.9997,4.9997,24.997023,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points_rebounds_assists,15.5,20.1279,4.6279,4.6279,21.417296,over,-120,-123,3,prizepicks 15.5 O -118; U -118 | sleeper 15.5 O -123; U -133 | splash_sports 15.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points_rebounds,14.5,19.0302,4.5302,4.5302,20.522854,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Allen Graves,Santa Clara,,points,12.5,8.2965,-4.2035,4.2035,17.669308,under,-121,-118,7,caesars 12.5 O -125; U -107 | fanatics 12.5 O -115; U -115 | fanduel 12.5 O -118; U -110 | prizepicks 12.5 O -118; U -118 | prophetx 12.5 O -124; U -133 | sleeper 12.5 O -130; U -127 | splash_sports 12.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points_assists,8.0,11.8719,3.8719,3.8719,14.99134,over,-118,-118,1,prizepicks 8 O -118; U -118
+Anthony Johnson,Arizona St.,,points_rebounds_assists,17.5,20.7964,3.2964,3.2964,10.865977,over,-118,-118,1,prizepicks 17.5 O -118; U -118
+Santiago Trouet,Arizona St.,,points,7.5,10.7742,3.2742,3.2742,10.720375,over,-121,-122,3,prizepicks 7.5 O -118; U -118 | sleeper 7.5 O -127; U -130 | splash_sports 7.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points_rebounds,15.5,18.683,3.183,3.183,10.131621,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Moe Odum,Arizona St.,,points_assists,21.5,24.4623,2.9623,2.9623,8.775201,over,-118,-118,1,prizepicks 21.5 O -118; U -118
+Moe Odum,Arizona St.,,points_rebounds_assists,25.5,27.9238,2.4238,2.4238,5.874896,over,-121,-121,3,prizepicks 25.5 O -118; U -118 | sleeper 25.5 O -128; U -128 | splash_sports 25.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points_assists,14.5,16.7428,2.2428,2.2428,5.030064,over,-118,-118,1,prizepicks 14.5 O -118; U -118
+Bukky Oboye,Santa Clara,,points_rebounds,9.5,11.711,2.211,2.211,4.888371,over,-118,-118,1,prizepicks 9.5 O -118; U -118
+Moe Odum,Arizona St.,,points_rebounds,20.0,22.1288,2.1288,2.1288,4.531711,over,-118,-118,1,prizepicks 20 O -118; U -118
+Graham Ike,Gonzaga,,points_assists,26.0,23.9319,-2.0681,2.0681,4.276927,under,-118,-118,1,prizepicks 26 O -118; U -118
+Graham Ike,Gonzaga,,points,23.1875,21.2032,-1.9843,1.9843,3.937517,under,-113,-124,8,betmgm 23.5 O -115; U -110 | caesars 23.5 O 100; U -130 | fanatics 23.5 O -105; U -125 | fanduel 23.5 O 100; U -128 | prizepicks 23 O -118; U -118 | prophetx 23.5 O -106; U -153 | sleeper 22.5 O -145; U -114 | splash_sports 22.5 O -118; U -118
+Graham Ike,Gonzaga,,rebounds_assists,11.5,13.3823,1.8823,1.8823,3.543219,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Santiago Trouet,Arizona St.,,rebounds_assists,7.5,9.3537,1.8537,1.8537,3.436145,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Isaac Williams,Baylor,,points_rebounds,13.5,15.3291,1.8291,1.8291,3.345489,over,-118,-118,1,prizepicks 13.5 O -118; U -118
+Graham Ike,Gonzaga,,rebounds,8.8333,10.6536,1.8203,1.8203,3.31349,over,-132,-109,6,caesars 8.5 O -143; U 107 | fanatics 8.5 O -140; U 105 | fanduel 8.5 O -145; U 110 | prophetx 8.5 O -153; U -108 | sleeper 9.5 O -102; U -161 | splash_sports 9.5 O -118; U -118
+Bukky Oboye,Santa Clara,,points_rebounds_assists,10.5,12.2893,1.7893,1.7893,3.201553,over,-120,-123,3,prizepicks 10.5 O -118; U -118 | sleeper 10.5 O -123; U -133 | splash_sports 10.5 O -118; U -118
+Santiago Trouet,Arizona St.,,rebounds,6.5,8.256,1.756,1.756,3.083597,over,-120,-123,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -123; U -133 | splash_sports 6.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points,18.4286,16.6952,-1.7334,1.7334,3.004544,under,-113,-125,7,caesars 18.5 O -109; U -122 | fanatics 18.5 O -105; U -125 | fanduel 18.5 O -106; U -120 | prizepicks 18 O -118; U -118 | prophetx 18.5 O -117; U -139 | sleeper 18.5 O -122; U -133 | splash_sports 18.5 O -118; U -118
+Cameron Carr,Baylor,,points,18.0,16.3327,-1.6673,1.6673,2.780004,under,-111,-117,2,fanatics 17.5 O -125; U -105 | fanduel 18.5 O 102; U -130
+Moe Odum,Arizona St.,,points,17.0,18.6673,1.6673,1.6673,2.779755,over,-116,-119,6,caesars 16.5 O -118; U -113 | fanatics 17.5 O -115; U -115 | fanduel 18.5 O 102; U -130 | prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -133; U -122 | splash_sports 16.5 O -118; U -118
+Anthony Johnson,Arizona St.,,rebounds_assists,4.5,6.1669,1.6669,1.6669,2.778606,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Anthony Johnson,Arizona St.,,points,13.0,14.6294,1.6294,1.6294,2.655084,over,-112,-127,6,caesars 13.5 O 108; U -138 | fanduel 13.5 O 102; U -130 | prizepicks 12.5 O -118; U -118 | prophetx 13.5 O -117; U -139 | sleeper 12.5 O -133; U -122 | splash_sports 12.5 O -118; U -118
+Christian Hammond,Santa Clara,,points_rebounds,16.5,18.0656,1.5656,1.5656,2.451109,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Massamba Diop,Arizona St.,,points_assists,17.5,16.0491,-1.4509,1.4509,2.105158,under,-118,-118,1,prizepicks 17.5 O -118; U -118
+Tounde Yessoufou,Baylor,,rebounds_assists,7.5,8.913,1.413,1.413,1.996554,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Bukky Oboye,Santa Clara,,rebounds,3.75,5.0511,1.3011,1.3011,1.692901,over,-143,-106,2,prizepicks 4 O -118; U -118 | sleeper 3.5 O -175; U 105
+Tounde Yessoufou,Baylor,,points_assists,19.5,18.22,-1.28,1.28,1.638404,under,-118,-118,1,prizepicks 19.5 O -118; U -118
+Cameron Carr,Baylor,,assists,3.5,2.2381,-1.2619,1.2619,1.592315,under,120,-160,1,betmgm 3.5 O 120; U -160
+Sash Gavalyugov,Santa Clara,,points_rebounds_assists,15.0,16.2078,1.2078,1.2078,1.458676,over,-118,-118,1,prizepicks 15 O -118; U -118
+Adam Miller,Gonzaga,,points_assists,11.5,10.328,-1.172,1.172,1.373526,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Bukky Oboye,Santa Clara,,points,5.5,6.6599,1.1599,1.1599,1.345253,over,-123,-120,3,prizepicks 5.5 O -118; U -118 | sleeper 5.5 O -133; U -123 | splash_sports 5.5 O -118; U -118
+Jake Ensminger,Santa Clara,,points_rebounds_assists,13.5,14.6311,1.1311,1.1311,1.279361,over,-123,-120,3,prizepicks 13.5 O -118; U -118 | sleeper 13.5 O -133; U -123 | splash_sports 13.5 O -118; U -118
+Bukky Oboye,Santa Clara,,rebounds_assists,4.5,5.6294,1.1294,1.1294,1.27563,over,-118,-118,1,prizepicks 4.5 O -118; U -118
+Jake Ensminger,Santa Clara,,points_assists,7.5,8.6191,1.1191,1.1191,1.252429,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Sash Gavalyugov,Santa Clara,,points,9.5,10.5814,1.0814,1.0814,1.169394,over,-118,-114,2,fanduel 9.5 O -118; U -110 | prizepicks 9.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,points_rebounds_assists,17.5,16.4319,-1.0681,1.0681,1.140856,under,-121,-121,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -128; U -128 | splash_sports 17.5 O -118; U -118
+Massamba Diop,Arizona St.,,points,15.7857,14.8299,-0.9558,0.9558,0.913486,under,-111,-121,7,caesars 15.5 O -112; U -121 | fanatics 15.5 O -115; U -115 | fanduel 15.5 O -122; U -104 | prizepicks 16.5 O -118; U -118 | prophetx 16.5 O 139; U -147 | sleeper 15.5 O -130; U -127 | splash_sports 15.5 O -118; U -118
+Noah Meeusen,Arizona St.,,threes,0.5,1.4368,0.9368,0.9368,0.877671,over,-140,110,1,betmgm 0.5 O -140; U 110
+Elijah Mahi,Santa Clara,,points_assists,15.5,16.4326,0.9326,0.9326,0.869826,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Jake Ensminger,Santa Clara,,points_rebounds,11.5,12.4255,0.9255,0.9255,0.856603,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Jake Ensminger,Santa Clara,,points,5.5,6.4136,0.9136,0.9136,0.834592,over,-118,-118,1,prizepicks 5.5 O -118; U -118
+Elijah Mahi,Santa Clara,,points,13.0714,13.9625,0.8911,0.8911,0.794136,over,-122,-116,7,caesars 12.5 O -137; U 103 | fanatics 13.5 O 100; U -130 | fanduel 12.5 O -130; U 100 | prizepicks 13.5 O -118; U -118 | prophetx 12.5 O -137; U -119 | sleeper 13.5 O -119; U -137 | splash_sports 13.5 O -118; U -118
+Tounde Yessoufou,Baylor,,rebounds,6.5,7.3882,0.8882,0.8882,0.78896,over,-117,-137,6,caesars 6.5 O -108; U -124 | fanatics 6.5 O -110; U -120 | prizepicks 6.5 O -118; U -118 | prophetx 6.5 O -132; U -230 | sleeper 6.5 O -116; U -141 | splash_sports 6.5 O -118; U -118
+Mario Saint-Supéry,Gonzaga,,threes,0.5,1.3871,0.8871,0.8871,0.786896,over,-175,135,1,betmgm 0.5 O -175; U 135
+Massamba Diop,Arizona St.,,rebounds,6.5,7.3557,0.8557,0.8557,0.732266,over,104,-145,4,caesars 6.5 O 103; U -137 | fanatics 6.5 O 105; U -140 | fanduel 6.5 O 112; U -146 | sleeper 6.5 O -104; U -159
+Christian Hammond,Santa Clara,,points_rebounds_assists,19.5,20.3342,0.8342,0.8342,0.695906,over,-120,-123,3,prizepicks 19.5 O -118; U -118 | sleeper 19.5 O -123; U -133 | splash_sports 19.5 O -118; U -118
+Massamba Diop,Arizona St.,,points_rebounds,23.0,22.1857,-0.8143,0.8143,0.663149,under,-111,-120,2,fanduel 22.5 O -104; U -122 | prizepicks 23.5 O -118; U -118
+Allen Graves,Santa Clara,,threes,1.5,0.7222,-0.7778,0.7778,0.604917,under,144,-214,4,betmgm 1.5 O 160; U -210 | caesars 1.5 O 149; U -200 | fanatics 1.5 O 135; U -210 | sleeper 1.5 O 133; U -238
+Massamba Diop,Arizona St.,,points_rebounds_assists,24.1667,23.4048,-0.7619,0.7619,0.580477,under,-118,-125,3,prizepicks 24.5 O -118; U -118 | sleeper 24.5 O -118; U -139 | splash_sports 23.5 O -118; U -118
+Brenton Knapper,Santa Clara,,points_assists,7.5,8.2593,0.7593,0.7593,0.576563,over,-118,-118,1,prizepicks 7.5 O -118; U -118
+Graham Ike,Gonzaga,,points_rebounds_assists,35.3333,34.5855,-0.7478,0.7478,0.559166,under,-119,-124,3,prizepicks 35 O -118; U -118 | sleeper 35.5 O -120; U -137 | splash_sports 35.5 O -118; U -118
+Mario Saint-Supéry,Gonzaga,,points,7.6667,8.3887,0.722,0.722,0.52125,over,-126,-116,3,prizepicks 8 O -118; U -118 | sleeper 7.5 O -145; U -112 | splash_sports 7.5 O -118; U -118
+Massamba Diop,Arizona St.,,assists,0.5,1.2191,0.7191,0.7191,0.517175,over,-210,160,1,betmgm 0.5 O -210; U 160
+Jake Ensminger,Santa Clara,,assists,1.5,2.2056,0.7056,0.7056,0.497815,over,-165,130,1,betmgm 1.5 O -165; U 130
+Allen Graves,Santa Clara,,rebounds,6.5,5.8032,-0.6968,0.6968,0.485589,under,-112,-127,7,caesars 6.5 O -102; U -130 | fanatics 6.5 O 105; U -140 | fanduel 6.5 O -115; U -115 | prizepicks 6.5 O -118; U -118 | prophetx 6.5 O -121; U -137 | sleeper 6.5 O -120; U -135 | splash_sports 6.5 O -118; U -118
+Brenton Knapper,Santa Clara,,points,5.8333,6.5048,0.6715,0.6715,0.450911,over,-127,-116,3,prizepicks 6.5 O -118; U -118 | sleeper 5.5 O -147; U -112 | splash_sports 5.5 O -118; U -118
+Isaac Williams,Baylor,,points_rebounds_assists,18.5,19.1507,0.6507,0.6507,0.423404,over,-118,-125,3,prizepicks 18.5 O -118; U -118 | sleeper 18.5 O -118; U -139 | splash_sports 18.5 O -118; U -118
+Moe Odum,Arizona St.,,threes,2.5,3.1479,0.6479,0.6479,0.419823,over,-160,113,4,betmgm 2.5 O -150; U 115 | caesars 2.5 O -170; U 121 | fanatics 2.5 O -150; U 115 | sleeper 2.5 O -172; U 103
+Graham Ike,Gonzaga,,points_rebounds,32.5,31.8568,-0.6432,0.6432,0.41373,under,-114,-116,2,fanduel 32.5 O -111; U -115 | prizepicks 32.5 O -118; U -118
+Graham Ike,Gonzaga,,steals,1.5,0.8599,-0.6401,0.6401,0.40968,under,140,-180,1,fanatics 1.5 O 140; U -180
+Emmanuel Innocenti,Gonzaga,,threes,0.5,1.1289,0.6289,0.6289,0.395536,over,-160,125,1,betmgm 0.5 O -160; U 125
+Brenton Knapper,Santa Clara,,points_rebounds_assists,9.5,10.1286,0.6286,0.6286,0.3952,over,-117,-125,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -116; U -141 | splash_sports 9.5 O -118; U -118
+Anthony Johnson,Arizona St.,,assists,1.5,2.1133,0.6133,0.6133,0.376183,over,-119,-119,3,betmgm 1.5 O -105; U -120 | prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -137; U -120
+Isaac Williams,Baylor,,rebounds_assists,6.5,7.1116,0.6116,0.6116,0.374103,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Jake Ensminger,Santa Clara,,threes,0.5,1.1006,0.6006,0.6006,0.360699,over,-225,170,1,betmgm 0.5 O -225; U 170
+Santiago Trouet,Arizona St.,,assists,0.5,1.0977,0.5977,0.5977,0.357206,over,-140,110,1,betmgm 0.5 O -140; U 110
+Tyon Grant-Foster,Gonzaga,,rebounds,4.6667,5.2595,0.5928,0.5928,0.351425,over,-130,-113,3,prizepicks 5 O -118; U -118 | sleeper 4.5 O -159; U -103 | splash_sports 4.5 O -118; U -118
+Obi Agbim,Baylor,,assists,2.5,3.0927,0.5927,0.5927,0.35133,over,-150,115,1,betmgm 2.5 O -150; U 115
+Adam Miller,Gonzaga,,points,9.5,8.9176,-0.5824,0.5824,0.339177,under,-121,-121,3,prizepicks 9.5 O -118; U -118 | sleeper 9.5 O -128; U -128 | splash_sports 9.5 O -118; U -118
+Tounde Yessoufou,Baylor,,steals,1.5,2.0427,0.5427,0.5427,0.294508,over,-119,-115,3,fanatics 1.5 O -120; U -110 | prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Isaac Williams,Baylor,,points,11.5,12.0391,0.5391,0.5391,0.29058,over,-123,-120,5,caesars 11.5 O -118; U -113 | prizepicks 11.5 O -118; U -118 | prophetx 11.5 O -127; U -128 | sleeper 11.5 O -135; U -122 | splash_sports 11.5 O -118; U -118
+Allen Graves,Santa Clara,,blocks,0.5,1.0211,0.5211,0.5211,0.271563,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Isaac Williams,Baylor,,turnovers,1.5,2.0204,0.5204,0.5204,0.270809,over,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Davis Fogle,Gonzaga,,points_rebounds_assists,16.5,15.9831,-0.5169,0.5169,0.267168,under,-121,-121,3,prizepicks 16.5 O -118; U -118 | sleeper 16.5 O -128; U -128 | splash_sports 16.5 O -118; U -118
+Allen Graves,Santa Clara,,rebounds_assists,7.5,7.0069,-0.4931,0.4931,0.243105,under,-118,-118,1,prizepicks 7.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,points,8.8333,9.3101,0.4768,0.4768,0.227351,over,-123,-119,3,prizepicks 9.5 O -118; U -118 | sleeper 8.5 O -135; U -122 | splash_sports 8.5 O -118; U -118
+Obi Agbim,Baylor,,points,11.5,11.0328,-0.4672,0.4672,0.21829,under,-134,-119,6,caesars 11.5 O -118; U -113 | fanatics 11.5 O -115; U -115 | prizepicks 11.5 O -118; U -118 | prophetx 11.5 O -245; U -126 | sleeper 11.5 O -132; U -125 | splash_sports 11.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,rebounds_assists,8.5,8.0341,-0.4659,0.4659,0.217105,under,-118,-118,1,prizepicks 8.5 O -118; U -118
+Tounde Yessoufou,Baylor,,points_rebounds,24.5,24.0835,-0.4165,0.4165,0.173496,under,-118,-118,1,prizepicks 24.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,points,10.5,10.0841,-0.4159,0.4159,0.172941,under,-132,-119,7,caesars 10.5 O -125; U -107 | fanatics 10.5 O -125; U -105 | fanduel 10.5 O -120; U -108 | prizepicks 10.5 O -118; U -118 | prophetx 10.5 O -194; U -173 | sleeper 10.5 O -139; U -119 | splash_sports 10.5 O -118; U -118
+Graham Ike,Gonzaga,,threes,0.5,0.9139,0.4139,0.4139,0.171347,over,-166,125,2,betmgm 0.5 O -160; U 125 | caesars 0.5 O -173; U None
+Tyon Grant-Foster,Gonzaga,,assists,1.5,1.0882,-0.4118,0.4118,0.169544,under,150,-200,1,betmgm 1.5 O 150; U -200
+Davis Fogle,Gonzaga,,points,9.8333,10.2242,0.3909,0.3909,0.15284,over,-123,-120,3,prizepicks 10.5 O -118; U -118 | sleeper 9.5 O -133; U -123 | splash_sports 9.5 O -118; U -118
+Elijah Mahi,Santa Clara,,turnovers,2.5,2.1093,-0.3907,0.3907,0.15263,under,-118,-118,2,prizepicks 2.5 O -118; U -118 | splash_sports 2.5 O -118; U -118
+Cameron Carr,Baylor,,threes,2.5,2.1181,-0.3819,0.3819,0.145842,under,140,-190,1,betmgm 2.5 O 140; U -190
+Isaac Williams,Baylor,,threes,0.5,0.881,0.381,0.381,0.145184,over,-135,105,1,betmgm 0.5 O -135; U 105
+Obi Agbim,Baylor,,points_assists,14.5,14.1255,-0.3745,0.3745,0.140238,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Davis Fogle,Gonzaga,,points_assists,11.5,11.8626,0.3626,0.3626,0.131483,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Isaac Williams,Baylor,,points_assists,15.5,15.8607,0.3607,0.3607,0.130092,over,-118,-118,1,prizepicks 15.5 O -118; U -118
+Noah Meeusen,Arizona St.,,rebounds_assists,6.5,6.8597,0.3597,0.3597,0.129353,over,-118,-118,1,prizepicks 6.5 O -118; U -118
+Bukky Oboye,Santa Clara,,turnovers,0.5,0.8573,0.3573,0.3573,0.127649,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,stocks,1.5,1.8571,0.3571,0.3571,0.127512,over,-118,-118,1,prizepicks 1.5 O -118; U -118
+Noah Meeusen,Arizona St.,,assists,2.5,2.8569,0.3569,0.3569,0.127392,over,-126,-114,3,betmgm 2.5 O -125; U -105 | prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -137; U -120
+Massamba Diop,Arizona St.,,stocks,2.5,2.8495,0.3495,0.3495,0.122126,over,-118,-118,1,prizepicks 2.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,assists,2.5,2.1586,-0.3414,0.3414,0.116524,under,140,-190,1,betmgm 2.5 O 140; U -190
+Tyon Grant-Foster,Gonzaga,,points_assists,11.5,11.1724,-0.3276,0.3276,0.107334,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Santiago Trouet,Arizona St.,,steals,0.5,0.8249,0.3249,0.3249,0.105586,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,points_rebounds,15.5,15.1855,-0.3145,0.3145,0.098894,under,-118,-118,1,prizepicks 15.5 O -118; U -118
+Elijah Mahi,Santa Clara,,points_rebounds,20.5,20.196,-0.304,0.304,0.092398,under,-118,-118,1,prizepicks 20.5 O -118; U -118
+Mario Saint-Supéry,Gonzaga,,assists,3.5,3.1993,-0.3007,0.3007,0.090447,under,115,-150,1,betmgm 3.5 O 115; U -150
+Allen Graves,Santa Clara,,assists,1.5,1.2038,-0.2962,0.2962,0.087743,under,115,-150,1,betmgm 1.5 O 115; U -150
+Moe Odum,Arizona St.,,assists,5.5,5.795,0.295,0.295,0.087047,over,110,-145,1,betmgm 5.5 O 110; U -145
+Brenton Knapper,Santa Clara,,threes,0.5,0.7915,0.2915,0.2915,0.084944,over,-175,135,1,betmgm 0.5 O -175; U 135
+Elijah Mahi,Santa Clara,,rebounds,6.5,6.2335,-0.2665,0.2665,0.071029,under,-113,-129,3,prizepicks 6.5 O -118; U -118 | sleeper 6.5 O -105; U -156 | splash_sports 6.5 O -118; U -118
+Brenton Knapper,Santa Clara,,assists,1.5,1.7545,0.2545,0.2545,0.06478,over,-120,-120,3,betmgm 1.5 O -115; U -115 | prizepicks 1.5 O -118; U -118 | sleeper 1.5 O -128; U -128
+Mario Saint-Supéry,Gonzaga,,rebounds,2.5,2.7429,0.2429,0.2429,0.059019,over,-121,-121,3,prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -128; U -128 | splash_sports 2.5 O -118; U -118
+Davis Fogle,Gonzaga,,rebounds_assists,6.0,5.7589,-0.2411,0.2411,0.058144,under,-118,-118,1,prizepicks 6 O -118; U -118
+Christian Hammond,Santa Clara,,assists,2.5,2.2686,-0.2314,0.2314,0.053542,under,145,-190,1,betmgm 2.5 O 145; U -190
+Graham Ike,Gonzaga,,assists,2.5,2.7287,0.2287,0.2287,0.052324,over,-117,-123,3,betmgm 2.5 O -110; U -118 | prizepicks 2.5 O -118; U -118 | sleeper 2.5 O -123; U -133
+Massamba Diop,Arizona St.,,threes,0.5,0.2747,-0.2253,0.2253,0.050738,under,200,-275,1,betmgm 0.5 O 200; U -275
+Jake Ensminger,Santa Clara,,rebounds_assists,8.0,8.2175,0.2175,0.2175,0.047319,over,-118,-118,1,prizepicks 8 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,rebounds,5.6667,5.8754,0.2087,0.2087,0.043561,over,-128,-115,3,prizepicks 6 O -118; U -118 | sleeper 5.5 O -152; U -108 | splash_sports 5.5 O -118; U -118
+Massamba Diop,Arizona St.,,steals,0.5,0.7039,0.2039,0.2039,0.041595,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Elijah Mahi,Santa Clara,,rebounds_assists,8.5,8.7036,0.2036,0.2036,0.041448,over,-118,-118,1,prizepicks 8.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,steals,0.5,0.7023,0.2023,0.2023,0.040918,over,-118,-118,1,prizepicks 0.5 O -118; U -118
+Obi Agbim,Baylor,,turnovers,1.5,1.2992,-0.2008,0.2008,0.040325,under,-118,-118,2,prizepicks 1.5 O -118; U -118 | splash_sports 1.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,steals,1.5,1.2995,-0.2005,0.2005,0.040216,under,140,-180,1,fanatics 1.5 O 140; U -180
+Christian Hammond,Santa Clara,,points_assists,16.5,16.6983,0.1983,0.1983,0.039325,over,-118,-118,1,prizepicks 16.5 O -118; U -118
+Tounde Yessoufou,Baylor,,threes,1.5,1.6699,0.1699,0.1699,0.028881,over,-150,104,5,betmgm 1.5 O -140; U 105 | caesars 1.5 O -136; U 101 | fanatics 1.5 O -145; U 110 | prophetx 1.5 O -163; U -100 | sleeper 1.5 O -169; U 103
+Allen Graves,Santa Clara,,steals,1.5,1.3309,-0.1691,0.1691,0.028583,under,145,-190,1,fanatics 1.5 O 145; U -190
+Mario Saint-Supéry,Gonzaga,,points_rebounds_assists,14.5,14.3309,-0.1691,0.1691,0.028605,under,-121,-121,3,prizepicks 14.5 O -118; U -118 | sleeper 14.5 O -128; U -128 | splash_sports 14.5 O -118; U -118
+Elijah Mahi,Santa Clara,,points_rebounds_assists,22.5,22.6661,0.1661,0.1661,0.0276,over,-121,-121,3,prizepicks 22.5 O -118; U -118 | sleeper 22.5 O -128; U -128 | splash_sports 22.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,points_rebounds,15.5,15.3436,-0.1564,0.1564,0.024446,under,-118,-118,1,prizepicks 15.5 O -118; U -118
+Emmanuel Innocenti,Gonzaga,,points_rebounds_assists,17.5,17.3442,-0.1558,0.1558,0.024283,under,-120,-123,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -123; U -133 | splash_sports 17.5 O -118; U -118
+Davis Fogle,Gonzaga,,points_rebounds,14.5,14.3448,-0.1552,0.1552,0.0241,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Tyon Grant-Foster,Gonzaga,,rebounds_assists,6.5,6.3478,-0.1522,0.1522,0.023179,under,-118,-118,1,prizepicks 6.5 O -118; U -118
+Obi Agbim,Baylor,,points_rebounds,14.5,14.3551,-0.1449,0.1449,0.020988,under,-118,-118,1,prizepicks 14.5 O -118; U -118
+Davis Fogle,Gonzaga,,rebounds,4.25,4.1205,-0.1295,0.1295,0.016767,under,-106,-143,2,prizepicks 4 O -118; U -118 | sleeper 4.5 O 105; U -175
+Brenton Knapper,Santa Clara,,points_rebounds,8.5,8.3741,-0.1259,0.1259,0.015843,under,-118,-118,1,prizepicks 8.5 O -118; U -118
+Brenton Knapper,Santa Clara,,rebounds_assists,3.5,3.6239,0.1239,0.1239,0.015339,over,-118,-118,1,prizepicks 3.5 O -118; U -118
+Isaac Williams,Baylor,,assists,3.7,3.8216,0.1216,0.1216,0.014793,over,-129,-110,5,betmgm 4.5 O 120; U -160 | prizepicks 3.5 O -118; U -118 | prophetx 3.5 O -159; U 122 | sleeper 3.5 O -196; U 115 | splash_sports 3.5 O -118; U -118
+Elijah Mahi,Santa Clara,,steals,1.5,1.3951,-0.1049,0.1049,0.010997,under,160,-210,1,fanatics 1.5 O 160; U -210
+Christian Hammond,Santa Clara,,threes,1.5,1.4043,-0.0957,0.0957,0.009157,under,110,-152,4,betmgm 1.5 O 110; U -140 | caesars 1.5 O 115; U -152 | fanatics 1.5 O 115; U -150 | sleeper 1.5 O 102; U -169
+Adam Miller,Gonzaga,,assists,1.5,1.4104,-0.0896,0.0896,0.008026,under,120,-160,1,betmgm 1.5 O 120; U -160
+Mario Saint-Supéry,Gonzaga,,points_assists,11.5,11.5879,0.0879,0.0879,0.007732,over,-118,-118,1,prizepicks 11.5 O -118; U -118
+Bukky Oboye,Santa Clara,,assists,0.5,0.5783,0.0783,0.0783,0.006134,over,130,-175,1,betmgm 0.5 O 130; U -175
+Tyon Grant-Foster,Gonzaga,,threes,0.5,0.4389,-0.0611,0.0611,0.003728,under,158,-220,2,betmgm 0.5 O 160; U -220 | caesars 0.5 O 156; U None
+Tounde Yessoufou,Baylor,,points_rebounds_assists,25.6667,25.6082,-0.0585,0.0585,0.003418,under,-126,-117,3,prizepicks 26 O -118; U -118 | sleeper 25.5 O -143; U -115 | splash_sports 25.5 O -118; U -118
+Obi Agbim,Baylor,,points_rebounds_assists,17.5,17.4479,-0.0521,0.0521,0.002719,under,-120,-122,3,prizepicks 17.5 O -118; U -118 | sleeper 17.5 O -125; U -132 | splash_sports 17.5 O -118; U -118
+Elijah Mahi,Santa Clara,,threes,1.5,1.4611,-0.0389,0.0389,0.001516,under,-102,-137,6,betmgm 1.5 O -105; U -125 | caesars 1.5 O 115; U -154 | fanatics 1.5 O 115; U -150 | prizepicks 1.5 O -118; U -118 | sleeper 1.5 O 101; U -167 | splash_sports 1.5 O -118; U -118
+Moe Odum,Arizona St.,,rebounds,3.5,3.4615,-0.0385,0.0385,0.001481,under,-100,-132,2,caesars 3.5 O 100; U -134 | fanatics 3.5 O 100; U -130
+Emmanuel Innocenti,Gonzaga,,points_assists,11.5,11.4688,-0.0312,0.0312,0.000976,under,-118,-118,1,prizepicks 11.5 O -118; U -118
+Adam Miller,Gonzaga,,threes,1.5,1.5304,0.0304,0.0304,0.000925,over,130,-175,1,betmgm 1.5 O 130; U -175
+Elijah Mahi,Santa Clara,,assists,2.5,2.4701,-0.0299,0.0299,0.000894,under,130,-175,1,betmgm 2.5 O 130; U -175
+Tounde Yessoufou,Baylor,,assists,1.5,1.5248,0.0248,0.0248,0.000613,over,120,-155,1,betmgm 1.5 O 120; U -155
+Caden Powell,Baylor,,assists,1.5,1.479,-0.021,0.021,0.000443,under,-118,-110,1,betmgm 1.5 O -118; U -110
+Obi Agbim,Baylor,,threes,2.5,2.5067,0.0067,0.0067,4.4e-05,over,135,-175,1,betmgm 2.5 O 135; U -175
+Christian Hammond,Santa Clara,,points,14.4286,14.4297,0.0011,0.0011,1e-06,over,-122,-129,7,caesars 14.5 O -113; U -118 | fanatics 14.5 O -115; U -115 | fanduel 14.5 O -110; U -118 | prizepicks 14 O -118; U -118 | prophetx 14.5 O -178; U -188 | sleeper 14.5 O -116; U -141 | splash_sports 14.5 O -118; U -118

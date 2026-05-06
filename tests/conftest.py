@@ -4,6 +4,7 @@ from kenpompy.utils import login
 import time
 from random import randint
 
+
 @pytest.fixture(scope="session")
 def browser():
 	try:

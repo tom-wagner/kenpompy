@@ -1,0 +1,388 @@
+2026-04-03 22:18:46,403 INFO Logging to /Users/tomwagner/kenpompy/outputs/pipeline_x_ai_logs/pipeline_x_ai_2026-04-03_221846.txt
+2026-04-03 22:18:46,403 INFO Stage grade start: projections=/Users/tomwagner/kenpompy/outputs/model_projections/projections/pipeline_existing_kp_minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook_saved_2026-04-01_190556.xlsx player_stats=/Users/tomwagner/kenpompy/outputs/pipeline/minutes/minutes_existing_kp_Sat_Apr_04_2026_184833_saved_2026-04-01_185348_workbook.xlsx unabated=/Users/tomwagner/kenpompy/outputs/unabated/f4.json sim_output=unabated_sim_output.json existing_analysis=None run_xai=True ev_hurdle=1.05 output=graded_bets_04-04-2026-V6.csv
+2026-04-03 22:18:46,404 INFO Auto-selected existing analysis CSV for manual notes carry-forward: /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv
+2026-04-03 22:18:48,092 INFO Loaded xAI bet cache entries=94 files=5 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-03 22:18:48,095 INFO xAI bet grading preview: total_rows=137 eligible_bets=75 cache_hits=53 api_calls_needed=22 unique_eligible_cache_keys=75
+2026-04-03 22:18:50,178 INFO Loaded xAI bet cache entries=94 files=5 from /Users/tomwagner/kenpompy/outputs/cache
+2026-04-03 22:18:50,187 INFO Starting bet grading workflow: total_rows=137 eligible_bets=75 skipped_bets=62 cache_hits=53 api_calls_needed=22 max_parallel=15
+2026-04-03 22:18:50,189 INFO Submitting bet grading batch: pending_bets=22 processed=75 remaining=0
+2026-04-03 22:18:50,194 INFO Bet grading queue started: completed=0/22 active=15 queue_depth=7 succeeded=0 failed=0 max_parallel=15
+2026-04-03 22:18:50,202 INFO Starting xAI bet scoring call for Ivan Kharchenkov | Arizona | threes | line=2.5 | over | EV=1.4753
+2026-04-03 22:18:50,202 INFO Starting xAI bet scoring call for Aday Mara | Michigan | points_rebounds | line=18.5 | under | EV=1.3919
+2026-04-03 22:18:50,202 INFO Starting xAI bet scoring call for Jaden Bradley | Arizona | threes | line=2.5 | over | EV=1.2262
+2026-04-03 22:18:50,204 INFO Starting xAI bet scoring call for Braylon Mullins | Connecticut | points | line=11.5 | under | EV=1.3143
+2026-04-03 22:18:50,203 INFO Starting xAI bet scoring call for Brayden Burries | Arizona | points_rebounds | line=22.5 | under | EV=1.3843
+2026-04-03 22:18:50,204 INFO Starting xAI bet scoring call for Elliot Cadeau | Michigan | steals | line=0.5 | over | EV=1.2371
+2026-04-03 22:18:50,204 INFO Starting xAI bet scoring call for Tarris Reed | Connecticut | steals | line=0.5 | over | EV=1.2176
+2026-04-03 22:18:50,205 INFO Starting xAI bet scoring call for Tarris Reed | Connecticut | turnovers | line=1.5 | over | EV=1.2166
+2026-04-03 22:18:50,206 INFO Starting xAI bet scoring call for Tarris Reed | Connecticut | points_rebounds | line=23.5 | over | EV=1.1806
+2026-04-03 22:18:50,206 INFO Starting xAI bet scoring call for Andrej Stojakovic | Illinois | threes | line=0.5 | under | EV=1.1566
+2026-04-03 22:18:50,205 INFO Starting xAI bet scoring call for Morez Johnson | Michigan | blocks | line=0.5 | over | EV=1.2340
+2026-04-03 22:18:50,206 INFO Starting xAI bet scoring call for Aday Mara | Michigan | rebounds | line=6.5 | under | EV=1.1840
+2026-04-03 22:18:50,207 INFO Starting xAI bet scoring call for Kylan Boswell | Illinois | points_rebounds_assists | line=14.5 | over | EV=1.1786
+2026-04-03 22:18:50,207 INFO Starting xAI bet scoring call for Braylon Mullins | Connecticut | steals | line=0.5 | over | EV=1.1596
+2026-04-03 22:18:50,207 INFO Starting xAI bet scoring call for Jayden Ross | Connecticut | steals | line=0.5 | over | EV=1.1357
+2026-04-03 22:19:16,057 INFO Completed xAI bet scoring call for Braylon Mullins | Connecticut | points | line=11.5 | under | EV=1.3143; response_chars=348 citations=62
+2026-04-03 22:19:16,058 INFO xAI scoring request for Braylon Mullins | Connecticut | points | under | EV=1.3143:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Braylon Mullins","team":"Connecticut","opponent":"Illinois","bet":{"stat":"points","side":"under","line":11.5,"projection":9.7105,"winLikelihood":0.67,"componentProjections":{}},"minutes":{"projection":29.0,"confidence":0.85,"last5":[27,37,32,29,26],"injurySummary":"N/A","confidenceJustification":"Slightly high std dev but consistent recent usage in lineups"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:16,058 INFO xAI scoring raw response for Braylon Mullins | Connecticut | points | under | EV=1.3143:
+{"betScore":82,"evaluationNotes":"Minutes proj 29 reliable (last5:26-37 avg30, consistent usage). No injuries/rotations. Recent pts avg10.4 last5 (10@Duke,8@MSU,17@UCLA,12@FUR,5@SJU), volatile (5-17 range) w/ poor eff (high vol low % esp 3PT 5/24 tourney). Hero status but targeted by IL D; team PTS70<78 favors under. Edge holds vs fragile prod."}
+2026-04-03 22:19:16,058 INFO xAI scoring parsed result for Braylon Mullins | Connecticut | points | under | EV=1.3143: score=82 context=Minutes proj 29 reliable (last5:26-37 avg30, consistent usage). No injuries/rotations. Recent pts avg10.4 last5 (10@Duke,8@MSU,17@UCLA,12@FUR,5@SJU), volatile (5-17 range) w/ poor eff (high vol low % esp 3PT 5/24 tourney). Hero status but targeted by IL D; team PTS70<78 favors under. Edge holds vs fragile prod.
+2026-04-03 22:19:16,060 INFO Bet grading queue progress: completed=1/22 active=15 queue_depth=6 succeeded=1 failed=0 max_parallel=15
+2026-04-03 22:19:16,062 INFO Starting xAI bet scoring call for Roddy Gayle | Michigan | points_rebounds_assists | line=10.5 | over | EV=1.1166
+2026-04-03 22:19:19,618 INFO Completed xAI bet scoring call for Tarris Reed | Connecticut | turnovers | line=1.5 | over | EV=1.2166; response_chars=357 citations=88
+2026-04-03 22:19:19,618 INFO xAI scoring request for Tarris Reed | Connecticut | turnovers | over | EV=1.2166:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Tarris Reed","team":"Connecticut","opponent":"Illinois","bet":{"stat":"turnovers","side":"over","line":1.5,"projection":2.3347,"winLikelihood":0.66,"componentProjections":{}},"minutes":{"projection":33.0,"confidence":0.9,"last5":[29,35,29,33,33],"injurySummary":"N/A","confidenceJustification":"Consistent high recent minutes"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:19,618 INFO xAI scoring raw response for Tarris Reed | Connecticut | turnovers | over | EV=1.2166:
+{"betScore":78,"evaluationNotes":"Minutes stable at 29-35 last 5 (proj 33.0 high conf). Recent TO: 2(Duke32m),0(MSU33m),3(UCLA29m),2(Fur35m),2(SJU29m); avg 1.8, season 1.9. Proj 2.33 aligns w/usage/AST2.4, post role. Ill forces few TO(7.8/g league low), prior mtch 1TO/15min(injured). Variance (0 recent) & opp def fragile edge. Healthy, no rotation news."}
+2026-04-03 22:19:19,619 INFO xAI scoring parsed result for Tarris Reed | Connecticut | turnovers | over | EV=1.2166: score=78 context=Minutes stable at 29-35 last 5 (proj 33.0 high conf). Recent TO: 2(Duke32m),0(MSU33m),3(UCLA29m),2(Fur35m),2(SJU29m); avg 1.8, season 1.9. Proj 2.33 aligns w/usage/AST2.4, post role. Ill forces few TO(7.8/g league low), prior mtch 1TO/15min(injured). Variance (0 recent) & opp def fragile edge. Healthy, no rotation news.
+2026-04-03 22:19:19,619 INFO Bet grading queue progress: completed=2/22 active=15 queue_depth=5 succeeded=2 failed=0 max_parallel=15
+2026-04-03 22:19:19,620 INFO Starting xAI bet scoring call for Jaden Bradley | Arizona | turnovers | line=1.5 | over | EV=1.1071
+2026-04-03 22:19:21,857 INFO Completed xAI bet scoring call for Kylan Boswell | Illinois | points_rebounds_assists | line=14.5 | over | EV=1.1786; response_chars=365 citations=54
+2026-04-03 22:19:21,858 INFO xAI scoring request for Kylan Boswell | Illinois | points_rebounds_assists | over | EV=1.1786:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Kylan Boswell","team":"Illinois","opponent":"Connecticut","bet":{"stat":"points_rebounds_assists","side":"over","line":14.5,"projection":16.9299,"winLikelihood":0.64,"componentProjections":{"points":10.7851,"rebounds":3.6489,"assists":2.4959}},"minutes":{"projection":29.0,"confidence":0.9,"last5":[17,27,34,30,27],"injurySummary":"N/A","confidenceJustification":"Recovered from February broken hand; full minutes recently"},"teamProjectedStats":{"BLK":4.4214,"REB":36.4126,"AST":12.7101,"STL":5.0628,"TO":9.048,"3PM":8.7752,"PTS":74.0},"teamSeasonAverages":{"BLK":4.77,"REB":41.07,"AST":14.67,"STL":3.8,"TO":9.03,"3PM":11.17,"PTS":84.47}}
+2026-04-03 22:19:21,858 INFO xAI scoring raw response for Kylan Boswell | Illinois | points_rebounds_assists | over | EV=1.1786:
+{"betScore":42,"evaluationNotes":"Last 5 PRA: 6(Iowa),12(HOU),19(VCU),17(Penn),14(Wis)=13.6 avg <14.5. Low vs elites (2pts Iowa,6 HOU). Frequent foul trouble (3-5PF), post-injury inefficiency (0-5FG HOU). UConn D keys him after Nov 37PRA outlier w/diff lineup. Min stable ~27 but risk. Low team pace 74pts erodes projs (pts10.8>8.4 rec, ast2.5>1.6). Fragile edge."}
+2026-04-03 22:19:21,858 INFO xAI scoring parsed result for Kylan Boswell | Illinois | points_rebounds_assists | over | EV=1.1786: score=42 context=Last 5 PRA: 6(Iowa),12(HOU),19(VCU),17(Penn),14(Wis)=13.6 avg <14.5. Low vs elites (2pts Iowa,6 HOU). Frequent foul trouble (3-5PF), post-injury inefficiency (0-5FG HOU). UConn D keys him after Nov 37PRA outlier w/diff lineup. Min stable ~27 but risk. Low team pace 74pts erodes projs (pts10.8>8.4 rec, ast2.5>1.6). Fragile edge.
+2026-04-03 22:19:21,858 INFO Bet grading queue progress: completed=3/22 active=15 queue_depth=4 succeeded=3 failed=0 max_parallel=15
+2026-04-03 22:19:21,860 INFO Starting xAI bet scoring call for Tomislav Ivisic | Illinois | rebounds | line=4.5 | over | EV=1.0966
+2026-04-03 22:19:22,933 INFO Completed xAI bet scoring call for Tarris Reed | Connecticut | steals | line=0.5 | over | EV=1.2176; response_chars=387 citations=116
+2026-04-03 22:19:22,933 INFO xAI scoring request for Tarris Reed | Connecticut | steals | over | EV=1.2176:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Tarris Reed","team":"Connecticut","opponent":"Illinois","bet":{"stat":"steals","side":"over","line":0.5,"projection":1.0731,"winLikelihood":0.66,"componentProjections":{}},"minutes":{"projection":33.0,"confidence":0.9,"last5":[29,35,29,33,33],"injurySummary":"N/A","confidenceJustification":"Consistent high recent minutes"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:22,934 INFO xAI scoring raw response for Tarris Reed | Connecticut | steals | over | EV=1.2176:
+{"betScore":90,"evaluationNotes":"Minutes projection solid at 33min (conf 0.9, last5:29-35 consistent, no injury/rotation news). Recent: 2STL@Duke(33min),1STL@MSU, tourney avg1.0STL/32.5min. Season~0.9STL. Dominant center role (led team STL vs Duke). Illinois low TO( top8 fewest) but UConn proj6.5STL forces well (Nov:10TO each). Proj1.07 reasonable, o0.5 stable despite STL variance."}
+2026-04-03 22:19:22,934 INFO xAI scoring parsed result for Tarris Reed | Connecticut | steals | over | EV=1.2176: score=90 context=Minutes projection solid at 33min (conf 0.9, last5:29-35 consistent, no injury/rotation news). Recent: 2STL@Duke(33min),1STL@MSU, tourney avg1.0STL/32.5min. Season~0.9STL. Dominant center role (led team STL vs Duke). Illinois low TO( top8 fewest) but UConn proj6.5STL forces well (Nov:10TO each). Proj1.07 reasonable, o0.5 stable despite STL variance.
+2026-04-03 22:19:22,935 INFO Bet grading queue progress: completed=4/22 active=15 queue_depth=3 succeeded=4 failed=0 max_parallel=15
+2026-04-03 22:19:22,936 INFO Starting xAI bet scoring call for Tarris Reed | Connecticut | points | line=14.5 | over | EV=1.0804
+2026-04-03 22:19:24,435 INFO Completed xAI bet scoring call for Andrej Stojakovic | Illinois | threes | line=0.5 | under | EV=1.1566; response_chars=377 citations=56
+2026-04-03 22:19:24,435 INFO xAI scoring request for Andrej Stojakovic | Illinois | threes | under | EV=1.1566:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Andrej Stojakovic","team":"Illinois","opponent":"Connecticut","bet":{"stat":"threes","side":"under","line":0.5,"projection":0.4683,"winLikelihood":0.63,"componentProjections":{}},"minutes":{"projection":27.0,"confidence":0.9,"last5":[31,20,26,29,26],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.4214,"REB":36.4126,"AST":12.7101,"STL":5.0628,"TO":9.048,"3PM":8.7752,"PTS":74.0},"teamSeasonAverages":{"BLK":4.77,"REB":41.07,"AST":14.67,"STL":3.8,"TO":9.03,"3PM":11.17,"PTS":84.47}}
+2026-04-03 22:19:24,435 INFO xAI scoring raw response for Andrej Stojakovic | Illinois | threes | under | EV=1.1566:
+{"betScore":85,"evaluationNotes":"Minutes proj spot-on at 27 vs 26.4 last5 avg, stable bench role. Recent 3PM: 0(Iowa27m),1(HOU28m),0(VCU26m),1(PENN20m),1(WIS32m); avg 0.6 but 3/9=33%, low 1.8apg, season 24.4%3P. Scores via drives/FTs (17pts all2s/FTs Iowa). Poor deep shooting per reports. Vs UConn Nov:3pts~0 3s. Team 3PM proj 8.8<11.2avg. Under solid despite occasional 1."}
+2026-04-03 22:19:24,436 INFO xAI scoring parsed result for Andrej Stojakovic | Illinois | threes | under | EV=1.1566: score=85 context=Minutes proj spot-on at 27 vs 26.4 last5 avg, stable bench role. Recent 3PM: 0(Iowa27m),1(HOU28m),0(VCU26m),1(PENN20m),1(WIS32m); avg 0.6 but 3/9=33%, low 1.8apg, season 24.4%3P. Scores via drives/FTs (17pts all2s/FTs Iowa). Poor deep shooting per reports. Vs UConn Nov:3pts~0 3s. Team 3PM proj 8.8<11.2avg. Under solid despite occasional 1.
+2026-04-03 22:19:24,436 INFO Bet grading queue progress: completed=5/22 active=15 queue_depth=2 succeeded=5 failed=0 max_parallel=15
+2026-04-03 22:19:24,437 INFO Starting xAI bet scoring call for Morez Johnson | Michigan | points_rebounds_assists | line=20.5 | under | EV=1.0717
+2026-04-03 22:19:25,068 INFO Completed xAI bet scoring call for Brayden Burries | Arizona | points_rebounds | line=22.5 | under | EV=1.3843; response_chars=397 citations=73
+2026-04-03 22:19:25,068 INFO xAI scoring request for Brayden Burries | Arizona | points_rebounds | under | EV=1.3843:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Brayden Burries","team":"Arizona","opponent":"Michigan","bet":{"stat":"points_rebounds","side":"under","line":22.5,"projection":18.2872,"winLikelihood":0.76,"componentProjections":{"points":13.67,"rebounds":4.6172}},"minutes":{"projection":32.0,"confidence":0.95,"last5":[33,28,26,34,33],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.2064,"REB":37.5967,"AST":14.4726,"STL":6.8573,"TO":10.5525,"3PM":6.2985,"PTS":78.0},"teamSeasonAverages":{"BLK":4.27,"REB":43.23,"AST":17.23,"STL":8.07,"TO":11.03,"3PM":5.87,"PTS":86.6}}
+2026-04-03 22:19:25,068 INFO xAI scoring raw response for Brayden Burries | Arizona | points_rebounds | under | EV=1.3843:
+{"betScore":72,"evaluationNotes":"Minutes stable at 30+ (last5 avg 30.8, proj 32 high conf), no real injury (Achilles rumor fake troll). Recent 5 PRA: 20(Purdue),28(Ark),25(USU),23(LIU),23(Hou) avg 23.8>22.5. Proj pts 13.7<< recent tourney 17.8avg, reb 4.6<6.25. Lower team PTS/REB proj supports under, but recent form/hot streak fragile in Final4 vs MI def. Role certain, but proj conservative."}
+2026-04-03 22:19:25,068 INFO xAI scoring parsed result for Brayden Burries | Arizona | points_rebounds | under | EV=1.3843: score=72 context=Minutes stable at 30+ (last5 avg 30.8, proj 32 high conf), no real injury (Achilles rumor fake troll). Recent 5 PRA: 20(Purdue),28(Ark),25(USU),23(LIU),23(Hou) avg 23.8>22.5. Proj pts 13.7<< recent tourney 17.8avg, reb 4.6<6.25. Lower team PTS/REB proj supports under, but recent form/hot streak fragile in Final4 vs MI def. Role certain, but proj conservative.
+2026-04-03 22:19:25,068 INFO Bet grading queue progress: completed=6/22 active=15 queue_depth=1 succeeded=6 failed=0 max_parallel=15
+2026-04-03 22:19:25,069 INFO Starting xAI bet scoring call for Keaton Wagler | Illinois | rebounds | line=4.5 | over | EV=1.0645
+2026-04-03 22:19:26,445 INFO Completed xAI bet scoring call for Jaden Bradley | Arizona | threes | line=2.5 | over | EV=1.2262; response_chars=385 citations=68
+2026-04-03 22:19:26,446 INFO xAI scoring request for Jaden Bradley | Arizona | threes | over | EV=1.2262:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Jaden Bradley","team":"Arizona","opponent":"Michigan","bet":{"stat":"threes","side":"over","line":2.5,"projection":1.1339,"winLikelihood":0.13,"componentProjections":{}},"minutes":{"projection":37.0,"confidence":0.9,"last5":[34,23,39,33,38],"injurySummary":"N/A","confidenceJustification":"High recent minutes as core starter in most lineups, past wrist scare resolved"},"teamProjectedStats":{"BLK":4.2064,"REB":37.5967,"AST":14.4726,"STL":6.8573,"TO":10.5525,"3PM":6.2985,"PTS":78.0},"teamSeasonAverages":{"BLK":4.27,"REB":43.23,"AST":17.23,"STL":8.07,"TO":11.03,"3PM":5.87,"PTS":86.6}}
+2026-04-03 22:19:26,446 INFO xAI scoring raw response for Jaden Bradley | Arizona | threes | over | EV=1.2262:
+{"betScore":12,"evaluationNotes":"Minutes proj 37 high vs last5 avg33.8 (39,33,39,23,35), but stable starter role post-wrist resolve. 3PM disastrous: last5 0/2 PUR,1/1 ARK,1/4 USU,1/2 LIU,2/2 HOU=avg1.0 on 2.2PA. Season 0.8/2.3. Low-vol PG prioritizes drives. MI #17 opp3P%30.4 elite D. Team slower proj PTS78<86. Fragile streak, proj1.13 spot-on, over 2.5 ~13% viable but edge poor."}
+2026-04-03 22:19:26,446 INFO xAI scoring parsed result for Jaden Bradley | Arizona | threes | over | EV=1.2262: score=12 context=Minutes proj 37 high vs last5 avg33.8 (39,33,39,23,35), but stable starter role post-wrist resolve. 3PM disastrous: last5 0/2 PUR,1/1 ARK,1/4 USU,1/2 LIU,2/2 HOU=avg1.0 on 2.2PA. Season 0.8/2.3. Low-vol PG prioritizes drives. MI #17 opp3P%30.4 elite D. Team slower proj PTS78<86. Fragile streak, proj1.13 spot-on, over 2.5 ~13% viable but edge poor.
+2026-04-03 22:19:26,447 INFO Bet grading queue progress: completed=7/22 active=15 queue_depth=0 succeeded=7 failed=0 max_parallel=15
+2026-04-03 22:19:26,448 INFO Starting xAI bet scoring call for Keaton Wagler | Illinois | threes | line=2.5 | under | EV=1.0597
+2026-04-03 22:19:27,675 INFO Completed xAI bet scoring call for Tarris Reed | Connecticut | points_rebounds | line=23.5 | over | EV=1.1806; response_chars=384 citations=74
+2026-04-03 22:19:27,675 INFO xAI scoring request for Tarris Reed | Connecticut | points_rebounds | over | EV=1.1806:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Tarris Reed","team":"Connecticut","opponent":"Illinois","bet":{"stat":"points_rebounds","side":"over","line":23.5,"projection":27.0055,"winLikelihood":0.66,"componentProjections":{"points":15.7877,"rebounds":11.2178}},"minutes":{"projection":33.0,"confidence":0.9,"last5":[29,35,29,33,33],"injurySummary":"N/A","confidenceJustification":"Consistent high recent minutes"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:27,675 INFO xAI scoring raw response for Tarris Reed | Connecticut | points_rebounds | over | EV=1.1806:
+{"betScore":78,"evaluationNotes":"Minutes proj 33 solid vs last5 avg 31.6 (29-35 range), consistent starter. PRA last5 avg 33 (20.8pts+12.2reb), but Furman 58 outlier; w/o it ~26. Vs Illini prior: ~4pts+3reb in 15min (injury/fouls). Season avg 23.2 at line. Illini 7ft bigs (Mirkovic) plan to contain; low team PTS70/REB35 proj suggests tougher boards. Hot streak fragile in Final4."}
+2026-04-03 22:19:27,676 INFO xAI scoring parsed result for Tarris Reed | Connecticut | points_rebounds | over | EV=1.1806: score=78 context=Minutes proj 33 solid vs last5 avg 31.6 (29-35 range), consistent starter. PRA last5 avg 33 (20.8pts+12.2reb), but Furman 58 outlier; w/o it ~26. Vs Illini prior: ~4pts+3reb in 15min (injury/fouls). Season avg 23.2 at line. Illini 7ft bigs (Mirkovic) plan to contain; low team PTS70/REB35 proj suggests tougher boards. Hot streak fragile in Final4.
+2026-04-03 22:19:27,677 INFO Bet grading queue progress: completed=8/22 active=14 queue_depth=0 succeeded=8 failed=0 max_parallel=15
+2026-04-03 22:19:27,969 INFO Completed xAI bet scoring call for Aday Mara | Michigan | rebounds | line=6.5 | under | EV=1.1840; response_chars=348 citations=49
+2026-04-03 22:19:27,970 INFO xAI scoring request for Aday Mara | Michigan | rebounds | under | EV=1.1840:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Aday Mara","team":"Michigan","opponent":"Arizona","bet":{"stat":"rebounds","side":"under","line":6.5,"projection":6.1849,"winLikelihood":0.59,"componentProjections":{}},"minutes":{"projection":20.0,"confidence":0.9,"last5":[27,21,26,27,18],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:19:27,970 INFO xAI scoring raw response for Aday Mara | Michigan | rebounds | under | EV=1.1840:
+{"betScore":72,"evaluationNotes":"Minutes proj 20 solid (last5 avg23.8 but 18 in blowout w/4fouls); foul trouble recurrent risks sub20mp. Recent5 reb:7,7,5,5,4 (avg5.6<6.5) in tourney low5.3rpg. Arizona elite frontcourt (Peat9rpg equiv, physical) + low team REB proj36.6 vs40.7 favors under. Prod fragile vs tough matchup, but size adv caps edge."}
+2026-04-03 22:19:27,970 INFO xAI scoring parsed result for Aday Mara | Michigan | rebounds | under | EV=1.1840: score=72 context=Minutes proj 20 solid (last5 avg23.8 but 18 in blowout w/4fouls); foul trouble recurrent risks sub20mp. Recent5 reb:7,7,5,5,4 (avg5.6<6.5) in tourney low5.3rpg. Arizona elite frontcourt (Peat9rpg equiv, physical) + low team REB proj36.6 vs40.7 favors under. Prod fragile vs tough matchup, but size adv caps edge.
+2026-04-03 22:19:27,970 INFO Bet grading queue progress: completed=9/22 active=13 queue_depth=0 succeeded=9 failed=0 max_parallel=15
+2026-04-03 22:19:29,834 INFO Completed xAI bet scoring call for Braylon Mullins | Connecticut | steals | line=0.5 | over | EV=1.1596; response_chars=324 citations=76
+2026-04-03 22:19:29,834 INFO xAI scoring request for Braylon Mullins | Connecticut | steals | over | EV=1.1596:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Braylon Mullins","team":"Connecticut","opponent":"Illinois","bet":{"stat":"steals","side":"over","line":0.5,"projection":0.988,"winLikelihood":0.63,"componentProjections":{}},"minutes":{"projection":29.0,"confidence":0.85,"last5":[27,37,32,29,26],"injurySummary":"N/A","confidenceJustification":"Slightly high std dev but consistent recent usage in lineups"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:29,834 INFO xAI scoring raw response for Braylon Mullins | Connecticut | steals | over | EV=1.1596:
+{"betScore":85,"evaluationNotes":"Minutes proj 29 stable vs last5 avg 30+; no injury issues now despite history. Season 1.0 SPG, recent incl 3 vs Furman, 1+ vs Duke. Starter role secure, hero status boosts usage. Team STL proj mildly down but over 0.5 very safe vs 0.99 proj. Steals volatile but low line, high confidence."}
+2026-04-03 22:19:29,834 INFO xAI scoring parsed result for Braylon Mullins | Connecticut | steals | over | EV=1.1596: score=85 context=Minutes proj 29 stable vs last5 avg 30+; no injury issues now despite history. Season 1.0 SPG, recent incl 3 vs Furman, 1+ vs Duke. Starter role secure, hero status boosts usage. Team STL proj mildly down but over 0.5 very safe vs 0.99 proj. Steals volatile but low line, high confidence.
+2026-04-03 22:19:29,835 INFO Bet grading queue progress: completed=10/22 active=12 queue_depth=0 succeeded=10 failed=0 max_parallel=15
+2026-04-03 22:19:31,687 INFO Completed xAI bet scoring call for Morez Johnson | Michigan | blocks | line=0.5 | over | EV=1.2340; response_chars=341 citations=63
+2026-04-03 22:19:31,687 INFO xAI scoring request for Morez Johnson | Michigan | blocks | over | EV=1.2340:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Morez Johnson","team":"Michigan","opponent":"Arizona","bet":{"stat":"blocks","side":"over","line":0.5,"projection":1.2092,"winLikelihood":0.67,"componentProjections":{}},"minutes":{"projection":24.0,"confidence":1.0,"last5":[24,26,27,24,23],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:19:31,687 INFO xAI scoring raw response for Morez Johnson | Michigan | blocks | over | EV=1.2340:
+{"betScore":72,"evaluationNotes":"Minutes proj 24 solid, last5 avg25min stable,no injury/rotation issues. Recent blocks last10:0.9avg,5/10 over0.5; last5:0.8avg,3/5 over. Season1.0BLK fits proj1.2 but volatile(Poisson). AZ bigs matchup boosts opp,but recent0s(2/5) show fragility. TeamBLK similar,lowerPTS pace risk. Edge ok but not elite."}
+2026-04-03 22:19:31,687 INFO xAI scoring parsed result for Morez Johnson | Michigan | blocks | over | EV=1.2340: score=72 context=Minutes proj 24 solid, last5 avg25min stable,no injury/rotation issues. Recent blocks last10:0.9avg,5/10 over0.5; last5:0.8avg,3/5 over. Season1.0BLK fits proj1.2 but volatile(Poisson). AZ bigs matchup boosts opp,but recent0s(2/5) show fragility. TeamBLK similar,lowerPTS pace risk. Edge ok but not elite.
+2026-04-03 22:19:31,688 INFO Bet grading queue progress: completed=11/22 active=11 queue_depth=0 succeeded=11 failed=0 max_parallel=15
+2026-04-03 22:19:31,957 INFO Completed xAI bet scoring call for Ivan Kharchenkov | Arizona | threes | line=2.5 | over | EV=1.4753; response_chars=399 citations=55
+2026-04-03 22:19:31,957 INFO xAI scoring request for Ivan Kharchenkov | Arizona | threes | over | EV=1.4753:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Ivan Kharchenkov","team":"Arizona","opponent":"Michigan","bet":{"stat":"threes","side":"over","line":2.5,"projection":1.4276,"winLikelihood":0.18,"componentProjections":{}},"minutes":{"projection":37.0,"confidence":0.9,"last5":[36,26,36,35,38],"injurySummary":"N/A","confidenceJustification":"High and stable recent minutes across nearly all top lineups"},"teamProjectedStats":{"BLK":4.2064,"REB":37.5967,"AST":14.4726,"STL":6.8573,"TO":10.5525,"3PM":6.2985,"PTS":78.0},"teamSeasonAverages":{"BLK":4.27,"REB":43.23,"AST":17.23,"STL":8.07,"TO":11.03,"3PM":5.87,"PTS":86.6}}
+2026-04-03 22:19:31,958 INFO xAI scoring raw response for Ivan Kharchenkov | Arizona | threes | over | EV=1.4753:
+{"betScore":12,"evaluationNotes":"Minutes stable at 34-38mp last5, starter role certain, no injuries. But 3PM avg 0.8 last10 (max 2), 2-3 att/g, season 20% 3P%. Recent: 0,0,1,1,2 vs PUR/ARK/USU/LIU/HOU. Drives aggressively, resists settling for 3s per quotes. Team 3PM steady ~6. Proj 1.43 spot-on, over 2.5 improbable vs Michigan defense allowing high 3pt attempts but low personal vol. Weak bet."}
+2026-04-03 22:19:31,958 INFO xAI scoring parsed result for Ivan Kharchenkov | Arizona | threes | over | EV=1.4753: score=12 context=Minutes stable at 34-38mp last5, starter role certain, no injuries. But 3PM avg 0.8 last10 (max 2), 2-3 att/g, season 20% 3P%. Recent: 0,0,1,1,2 vs PUR/ARK/USU/LIU/HOU. Drives aggressively, resists settling for 3s per quotes. Team 3PM steady ~6. Proj 1.43 spot-on, over 2.5 improbable vs Michigan defense allowing high 3pt attempts but low personal vol. Weak bet.
+2026-04-03 22:19:31,958 INFO Bet grading queue progress: completed=12/22 active=10 queue_depth=0 succeeded=12 failed=0 max_parallel=15
+2026-04-03 22:19:33,460 INFO Completed xAI bet scoring call for Aday Mara | Michigan | points_rebounds | line=18.5 | under | EV=1.3919; response_chars=376 citations=80
+2026-04-03 22:19:33,460 INFO xAI scoring request for Aday Mara | Michigan | points_rebounds | under | EV=1.3919:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Aday Mara","team":"Michigan","opponent":"Arizona","bet":{"stat":"points_rebounds","side":"under","line":18.5,"projection":15.8076,"winLikelihood":0.7,"componentProjections":{"points":9.6227,"rebounds":6.1849}},"minutes":{"projection":20.0,"confidence":0.9,"last5":[27,21,26,27,18],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:19:33,461 INFO xAI scoring raw response for Aday Mara | Michigan | points_rebounds | under | EV=1.3919:
+{"betScore":68,"evaluationNotes":"Minutes proj 20 underrates last5 avg 23.8 (18-27), but foul trouble risk high (4,3 fouls recent); pts+reb last5:15,13,21,26,21 avg19.2>18.5, but last2 unders(15@18min,13@27min) vs physical foes; AZ elite def reb (opp 18.7/g #7) caps rebs; team REB proj36.6<<season; role shared w/Johnson/Lendeborg; fragile prod in big matchups lowers edge."}
+2026-04-03 22:19:33,461 INFO xAI scoring parsed result for Aday Mara | Michigan | points_rebounds | under | EV=1.3919: score=68 context=Minutes proj 20 underrates last5 avg 23.8 (18-27), but foul trouble risk high (4,3 fouls recent); pts+reb last5:15,13,21,26,21 avg19.2>18.5, but last2 unders(15@18min,13@27min) vs physical foes; AZ elite def reb (opp 18.7/g #7) caps rebs; team REB proj36.6<<season; role shared w/Johnson/Lendeborg; fragile prod in big matchups lowers edge.
+2026-04-03 22:19:33,461 INFO Bet grading queue progress: completed=13/22 active=9 queue_depth=0 succeeded=13 failed=0 max_parallel=15
+2026-04-03 22:19:33,747 INFO Completed xAI bet scoring call for Jayden Ross | Connecticut | steals | line=0.5 | over | EV=1.1357; response_chars=379 citations=70
+2026-04-03 22:19:33,748 INFO xAI scoring request for Jayden Ross | Connecticut | steals | over | EV=1.1357:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Jayden Ross","team":"Connecticut","opponent":"Illinois","bet":{"stat":"steals","side":"over","line":0.5,"projection":0.9539,"winLikelihood":0.61,"componentProjections":{}},"minutes":{"projection":22.0,"confidence":0.95,"last5":[23,21,22,19,21],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:33,748 INFO xAI scoring raw response for Jayden Ross | Connecticut | steals | over | EV=1.1357:
+{"betScore":88,"evaluationNotes":"Minutes stable at 19-25 last 10, proj 22 solid, no injury/rotation issues. Recent steals hot: 5/5 last 5 games >=1 (avg 1.4), 8/10 last 10. Season 0.8 STL/G. Vs ILL earlier: 1 STL in 16 min. Defensive role secure. Illinois low TO (8.8/gm) caps opps, team STL proj down, but recent trend strong vs proj 0.95. Volatile stat but trustworthy edge."}
+2026-04-03 22:19:33,748 INFO xAI scoring parsed result for Jayden Ross | Connecticut | steals | over | EV=1.1357: score=88 context=Minutes stable at 19-25 last 10, proj 22 solid, no injury/rotation issues. Recent steals hot: 5/5 last 5 games >=1 (avg 1.4), 8/10 last 10. Season 0.8 STL/G. Vs ILL earlier: 1 STL in 16 min. Defensive role secure. Illinois low TO (8.8/gm) caps opps, team STL proj down, but recent trend strong vs proj 0.95. Volatile stat but trustworthy edge.
+2026-04-03 22:19:33,748 INFO Bet grading queue progress: completed=14/22 active=8 queue_depth=0 succeeded=14 failed=0 max_parallel=15
+2026-04-03 22:19:34,418 INFO Completed xAI bet scoring call for Elliot Cadeau | Michigan | steals | line=0.5 | over | EV=1.2371; response_chars=386 citations=77
+2026-04-03 22:19:34,419 INFO xAI scoring request for Elliot Cadeau | Michigan | steals | over | EV=1.2371:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Elliot Cadeau","team":"Michigan","opponent":"Arizona","bet":{"stat":"steals","side":"over","line":0.5,"projection":1.1773,"winLikelihood":0.67,"componentProjections":{}},"minutes":{"projection":35.0,"confidence":0.85,"last5":[38,26,37,34,34],"injurySummary":"Possible allergic reaction pre-Final Four travel; evaluated and cleared, plans to play","confidenceJustification":"High std dev (4.21); recent health issue but confirmed available for game"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:19:34,419 INFO xAI scoring raw response for Elliot Cadeau | Michigan | steals | over | EV=1.2371:
+{"betScore":72,"evaluationNotes":"Minutes proj 35 aligns w/ last5 avg ~34 (std 4.2), high conf; cleared allergic rxn, full go. Recent STL: last5 2,1,0,1,0 (avg 0.8, 3/5 over 0.5); last10 avg ~0.9, 6/10 over but 4 zeros. Season ~0.7SPG. Proj 1.18 optimistic vs recent; Arizona elite D may limit opps. Team STL stable ~6. Role certain as start PG. Edge ok but fragile zeros lower trust."}
+2026-04-03 22:19:34,419 INFO xAI scoring parsed result for Elliot Cadeau | Michigan | steals | over | EV=1.2371: score=72 context=Minutes proj 35 aligns w/ last5 avg ~34 (std 4.2), high conf; cleared allergic rxn, full go. Recent STL: last5 2,1,0,1,0 (avg 0.8, 3/5 over 0.5); last10 avg ~0.9, 6/10 over but 4 zeros. Season ~0.7SPG. Proj 1.18 optimistic vs recent; Arizona elite D may limit opps. Team STL stable ~6. Role certain as start PG. Edge ok but fragile zeros lower trust.
+2026-04-03 22:19:34,419 INFO Bet grading queue progress: completed=15/22 active=7 queue_depth=0 succeeded=15 failed=0 max_parallel=15
+2026-04-03 22:19:45,799 INFO Completed xAI bet scoring call for Tomislav Ivisic | Illinois | rebounds | line=4.5 | over | EV=1.0966; response_chars=377 citations=79
+2026-04-03 22:19:45,800 INFO xAI scoring request for Tomislav Ivisic | Illinois | rebounds | over | EV=1.0966:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Tomislav Ivisic","team":"Illinois","opponent":"Connecticut","bet":{"stat":"rebounds","side":"over","line":4.5,"projection":5.7813,"winLikelihood":0.59,"componentProjections":{}},"minutes":{"projection":27.0,"confidence":0.95,"last5":[24,21,23,29,27],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.4214,"REB":36.4126,"AST":12.7101,"STL":5.0628,"TO":9.048,"3PM":8.7752,"PTS":74.0},"teamSeasonAverages":{"BLK":4.77,"REB":41.07,"AST":14.67,"STL":3.8,"TO":9.03,"3PM":11.17,"PTS":84.47}}
+2026-04-03 22:19:45,800 INFO xAI scoring raw response for Tomislav Ivisic | Illinois | rebounds | over | EV=1.0966:
+{"betScore":68,"evaluationNotes":"Minutes stable at ~25 last 5 (proj 27 high conf). Season 5.6 rpg but recent tourney low: 3 vs Hou, 4 vs Iowa (fouled out), 2 vs OSU. Foul trouble risk, splitting C w/ Z Ivisic/Mirkovic (12 reb Iowa). Prior vs UConn 10 reb early szn but team REB proj down 36 vs 41 avg. Tough matchup Reed/Karaban limits opp. Fragile recent prod lowers trust."}
+2026-04-03 22:19:45,800 INFO xAI scoring parsed result for Tomislav Ivisic | Illinois | rebounds | over | EV=1.0966: score=68 context=Minutes stable at ~25 last 5 (proj 27 high conf). Season 5.6 rpg but recent tourney low: 3 vs Hou, 4 vs Iowa (fouled out), 2 vs OSU. Foul trouble risk, splitting C w/ Z Ivisic/Mirkovic (12 reb Iowa). Prior vs UConn 10 reb early szn but team REB proj down 36 vs 41 avg. Tough matchup Reed/Karaban limits opp. Fragile recent prod lowers trust.
+2026-04-03 22:19:45,801 INFO Bet grading queue progress: completed=16/22 active=6 queue_depth=0 succeeded=16 failed=0 max_parallel=15
+2026-04-03 22:19:46,178 INFO Completed xAI bet scoring call for Jaden Bradley | Arizona | turnovers | line=1.5 | over | EV=1.1071; response_chars=333 citations=56
+2026-04-03 22:19:46,178 INFO xAI scoring request for Jaden Bradley | Arizona | turnovers | over | EV=1.1071:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Jaden Bradley","team":"Arizona","opponent":"Michigan","bet":{"stat":"turnovers","side":"over","line":1.5,"projection":2.0418,"winLikelihood":0.6,"componentProjections":{}},"minutes":{"projection":37.0,"confidence":0.9,"last5":[34,23,39,33,38],"injurySummary":"N/A","confidenceJustification":"High recent minutes as core starter in most lineups, past wrist scare resolved"},"teamProjectedStats":{"BLK":4.2064,"REB":37.5967,"AST":14.4726,"STL":6.8573,"TO":10.5525,"3PM":6.2985,"PTS":78.0},"teamSeasonAverages":{"BLK":4.27,"REB":43.23,"AST":17.23,"STL":8.07,"TO":11.03,"3PM":5.87,"PTS":86.6}}
+2026-04-03 22:19:46,178 INFO xAI scoring raw response for Jaden Bradley | Arizona | turnovers | over | EV=1.1071:
+{"betScore":68,"evaluationNotes":"Minutes proj 37 optimistic vs last5 avg 33.8min (23 in blowout). TO avg 1.8 last5 (1,3,1,1,3; only 2/5 over 1.5), tourney 1.7. Starter PG role certain, wrist resolved. Michigan traps force TOs, team TO proj 10.6 supports higher usage TO. Mixed recent hit rate lowers trust, but matchup edges over."}
+2026-04-03 22:19:46,178 INFO xAI scoring parsed result for Jaden Bradley | Arizona | turnovers | over | EV=1.1071: score=68 context=Minutes proj 37 optimistic vs last5 avg 33.8min (23 in blowout). TO avg 1.8 last5 (1,3,1,1,3; only 2/5 over 1.5), tourney 1.7. Starter PG role certain, wrist resolved. Michigan traps force TOs, team TO proj 10.6 supports higher usage TO. Mixed recent hit rate lowers trust, but matchup edges over.
+2026-04-03 22:19:46,179 INFO Bet grading queue progress: completed=17/22 active=5 queue_depth=0 succeeded=17 failed=0 max_parallel=15
+2026-04-03 22:19:51,443 INFO Completed xAI bet scoring call for Keaton Wagler | Illinois | rebounds | line=4.5 | over | EV=1.0645; response_chars=317 citations=63
+2026-04-03 22:19:51,443 INFO xAI scoring request for Keaton Wagler | Illinois | rebounds | over | EV=1.0645:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Keaton Wagler","team":"Illinois","opponent":"Connecticut","bet":{"stat":"rebounds","side":"over","line":4.5,"projection":5.3367,"winLikelihood":0.58,"componentProjections":{}},"minutes":{"projection":37.0,"confidence":0.95,"last5":[43,32,32,38,37],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.4214,"REB":36.4126,"AST":12.7101,"STL":5.0628,"TO":9.048,"3PM":8.7752,"PTS":74.0},"teamSeasonAverages":{"BLK":4.77,"REB":41.07,"AST":14.67,"STL":3.8,"TO":9.03,"3PM":11.17,"PTS":84.47}}
+2026-04-03 22:19:51,444 INFO xAI scoring raw response for Keaton Wagler | Illinois | rebounds | over | EV=1.0645:
+{"betScore":84,"evaluationNotes":"Minutes proj 37 solid vs last5 avg 36.4, high conf. Rebs volatile last5:1,7,5,12,2 (avg5.4>4.5), tourney6.5. Season5.0. Lows tied to fouls(4PF/1reb,3PF/2reb). UConn physical but Illini elite rebs edge. Team REB proj down36.4vs41 but Wagler role strong. Edge holds despite variance."}
+2026-04-03 22:19:51,444 INFO xAI scoring parsed result for Keaton Wagler | Illinois | rebounds | over | EV=1.0645: score=84 context=Minutes proj 37 solid vs last5 avg 36.4, high conf. Rebs volatile last5:1,7,5,12,2 (avg5.4>4.5), tourney6.5. Season5.0. Lows tied to fouls(4PF/1reb,3PF/2reb). UConn physical but Illini elite rebs edge. Team REB proj down36.4vs41 but Wagler role strong. Edge holds despite variance.
+2026-04-03 22:19:51,444 INFO Bet grading queue progress: completed=18/22 active=4 queue_depth=0 succeeded=18 failed=0 max_parallel=15
+2026-04-03 22:19:54,033 INFO Completed xAI bet scoring call for Tarris Reed | Connecticut | points | line=14.5 | over | EV=1.0804; response_chars=317 citations=66
+2026-04-03 22:19:54,034 INFO xAI scoring request for Tarris Reed | Connecticut | points | over | EV=1.0804:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Tarris Reed","team":"Connecticut","opponent":"Illinois","bet":{"stat":"points","side":"over","line":14.5,"projection":15.7877,"winLikelihood":0.56,"componentProjections":{}},"minutes":{"projection":33.0,"confidence":0.9,"last5":[29,35,29,33,33],"injurySummary":"N/A","confidenceJustification":"Consistent high recent minutes"},"teamProjectedStats":{"BLK":4.5722,"REB":34.8923,"AST":15.7752,"STL":6.5302,"TO":10.3773,"3PM":7.7,"PTS":70.0},"teamSeasonAverages":{"BLK":5.47,"REB":36.37,"AST":18.63,"STL":7.0,"TO":10.87,"3PM":8.57,"PTS":78.7}}
+2026-04-03 22:19:54,034 INFO xAI scoring raw response for Tarris Reed | Connecticut | points | over | EV=1.0804:
+{"betScore":88,"evaluationNotes":"Minutes proj 33 reliable (last5:29-35 avg31+). Recent pts:26(Duke33min),20(MSU33),10(UCLA29),31(Furman35),17(StJ29); avg20.8>>14.5. Hot post-injury; prior vs Ill:2pts/15min hurt. No injuries/news. Key mismatch role. Team PTS70 low but 26 in73pt win. Conservative proj, strong edge."}
+2026-04-03 22:19:54,034 INFO xAI scoring parsed result for Tarris Reed | Connecticut | points | over | EV=1.0804: score=88 context=Minutes proj 33 reliable (last5:29-35 avg31+). Recent pts:26(Duke33min),20(MSU33),10(UCLA29),31(Furman35),17(StJ29); avg20.8>>14.5. Hot post-injury; prior vs Ill:2pts/15min hurt. No injuries/news. Key mismatch role. Team PTS70 low but 26 in73pt win. Conservative proj, strong edge.
+2026-04-03 22:19:54,035 INFO Bet grading queue progress: completed=19/22 active=3 queue_depth=0 succeeded=19 failed=0 max_parallel=15
+2026-04-03 22:19:58,982 INFO Completed xAI bet scoring call for Keaton Wagler | Illinois | threes | line=2.5 | under | EV=1.0597; response_chars=361 citations=71
+2026-04-03 22:19:58,983 INFO xAI scoring request for Keaton Wagler | Illinois | threes | under | EV=1.0597:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Keaton Wagler","team":"Illinois","opponent":"Connecticut","bet":{"stat":"threes","side":"under","line":2.5,"projection":2.2387,"winLikelihood":0.62,"componentProjections":{}},"minutes":{"projection":37.0,"confidence":0.95,"last5":[43,32,32,38,37],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":4.4214,"REB":36.4126,"AST":12.7101,"STL":5.0628,"TO":9.048,"3PM":8.7752,"PTS":74.0},"teamSeasonAverages":{"BLK":4.77,"REB":41.07,"AST":14.67,"STL":3.8,"TO":9.03,"3PM":11.17,"PTS":84.47}}
+2026-04-03 22:19:58,984 INFO xAI scoring raw response for Keaton Wagler | Illinois | threes | under | EV=1.0597:
+{"betScore":87,"evaluationNotes":"Minutes proj 37 stable (last5 avg 36.4, 32-43 range). Recent 3PM: 1,4,2,3,2 (avg 2.4 on 6.2 3PA, 40%+ shooter); 3/5 under 2.5. Team 3PM proj 8.8 << season 11.2, UConn #27 perim D limits. No injuries, foul trouble managed (3-4PF but full min). Star role certain, high vol but matchup suppresses. Edge holds adversarial review."}
+2026-04-03 22:19:58,984 INFO xAI scoring parsed result for Keaton Wagler | Illinois | threes | under | EV=1.0597: score=87 context=Minutes proj 37 stable (last5 avg 36.4, 32-43 range). Recent 3PM: 1,4,2,3,2 (avg 2.4 on 6.2 3PA, 40%+ shooter); 3/5 under 2.5. Team 3PM proj 8.8 << season 11.2, UConn #27 perim D limits. No injuries, foul trouble managed (3-4PF but full min). Star role certain, high vol but matchup suppresses. Edge holds adversarial review.
+2026-04-03 22:19:58,984 INFO Bet grading queue progress: completed=20/22 active=2 queue_depth=0 succeeded=20 failed=0 max_parallel=15
+2026-04-03 22:19:59,566 INFO Completed xAI bet scoring call for Morez Johnson | Michigan | points_rebounds_assists | line=20.5 | under | EV=1.0717; response_chars=353 citations=66
+2026-04-03 22:19:59,566 INFO xAI scoring request for Morez Johnson | Michigan | points_rebounds_assists | under | EV=1.0717:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Morez Johnson","team":"Michigan","opponent":"Arizona","bet":{"stat":"points_rebounds_assists","side":"under","line":20.5,"projection":19.5987,"winLikelihood":0.58,"componentProjections":{"points":11.1821,"rebounds":7.4342,"assists":0.9825}},"minutes":{"projection":24.0,"confidence":1.0,"last5":[24,26,27,24,23],"injurySummary":"N/A","confidenceJustification":"N/A"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:19:59,566 INFO xAI scoring raw response for Morez Johnson | Michigan | points_rebounds_assists | under | EV=1.0717:
+{"betScore":68,"evaluationNotes":"Minutes proj 24 solid, last5 avg 24.8min stable,no injury/role issues. Last5 PRA:17(Tenn),18(Bama),25(St.Louis),31(How),12(Purdue) avg20.6>19.6proj but volatile. Recent tougher foes under line. AZ bigs matchup,Yaxel/Mara share load limit PRA. Low team REB36.6/AST16.1 proj support under but fragility caps confidence."}
+2026-04-03 22:19:59,566 INFO xAI scoring parsed result for Morez Johnson | Michigan | points_rebounds_assists | under | EV=1.0717: score=68 context=Minutes proj 24 solid, last5 avg 24.8min stable,no injury/role issues. Last5 PRA:17(Tenn),18(Bama),25(St.Louis),31(How),12(Purdue) avg20.6>19.6proj but volatile. Recent tougher foes under line. AZ bigs matchup,Yaxel/Mara share load limit PRA. Low team REB36.6/AST16.1 proj support under but fragility caps confidence.
+2026-04-03 22:19:59,567 INFO Bet grading queue progress: completed=21/22 active=1 queue_depth=0 succeeded=21 failed=0 max_parallel=15
+2026-04-03 22:20:03,181 INFO Completed xAI bet scoring call for Roddy Gayle | Michigan | points_rebounds_assists | line=10.5 | over | EV=1.1166; response_chars=383 citations=75
+2026-04-03 22:20:03,181 INFO xAI scoring request for Roddy Gayle | Michigan | points_rebounds_assists | over | EV=1.1166:
+Score this specific college basketball player prop from 1-100 after adversarial review.
+Start by trying to disprove the bet.
+Use x_search and web_search to check recent news, injuries, lineup or rotation changes, coach quotes, foul trouble, role changes, and minutes trends for the player.
+Attack the minutes projection first. Then judge whether the stat projection is reasonable versus the recent minutes log, recent game-by-game production in this stat, the player's likely role, and the team projected stat environment versus team season averages.
+For combined bets, evaluate both the combined projection and each component projection separately, and compare them to recent component production.
+Score the bet itself, not the player overall. Lower the score for unstable minutes, weak role certainty, fragile recent production, stale assumptions, or news that makes the edge less trustworthy.
+Return exactly one JSON object with this exact schema: {"betScore":1,"evaluationNotes":"100-300 chars"}
+Rules: betScore must be an integer 1-100. evaluationNotes must be 100-300 characters. No markdown. No extra keys. No extra text.
+Data: {"player":"Roddy Gayle","team":"Michigan","opponent":"Arizona","bet":{"stat":"points_rebounds_assists","side":"over","line":10.5,"projection":12.2151,"winLikelihood":0.6,"componentProjections":{"points":7.3268,"rebounds":3.6647,"assists":1.2236}},"minutes":{"projection":22.0,"confidence":0.85,"last5":[13,23,20,26,22],"injurySummary":"N/A","confidenceJustification":"High std dev (4.35); stepped up post-Cason injury but variable usage"},"teamProjectedStats":{"BLK":6.6232,"REB":36.5745,"AST":16.1045,"STL":6.3104,"TO":11.467,"3PM":8.3806,"PTS":79.0},"teamSeasonAverages":{"BLK":5.9,"REB":40.66,"AST":19.21,"STL":5.97,"TO":12.03,"3PM":9.38,"PTS":88.97}}
+2026-04-03 22:20:03,181 INFO xAI scoring raw response for Roddy Gayle | Michigan | points_rebounds_assists | over | EV=1.1166:
+{"betScore":68,"evaluationNotes":"Minutes proj 22 reasonable (last5 avg 20.8, 13-26 range, high std); PRA last5 avg 12.4 (2@PUR/13min dud,17HOW,10SLU,19BAMA,14TENN) supports 12.2 proj but variable vs tough foes. Post-Cason role solid bench spark, tourney hot (7/12 3s), no injury. AZ backcourt edge, team low PTS/REB/AST proj vs season avg risks under; Final Four rotation tighter."}
+2026-04-03 22:20:03,182 INFO xAI scoring parsed result for Roddy Gayle | Michigan | points_rebounds_assists | over | EV=1.1166: score=68 context=Minutes proj 22 reasonable (last5 avg 20.8, 13-26 range, high std); PRA last5 avg 12.4 (2@PUR/13min dud,17HOW,10SLU,19BAMA,14TENN) supports 12.2 proj but variable vs tough foes. Post-Cason role solid bench spark, tourney hot (7/12 3s), no injury. AZ backcourt edge, team low PTS/REB/AST proj vs season avg risks under; Final Four rotation tighter.
+2026-04-03 22:20:03,182 INFO Bet grading queue progress: completed=22/22 active=0 queue_depth=0 succeeded=22 failed=0 max_parallel=15
+2026-04-03 22:20:03,185 INFO Bet grading queue finished: completed=22/22 active=0 queue_depth=0 succeeded=22 failed=0 max_parallel=15
+2026-04-03 22:20:03,209 INFO Bet grading complete for Braylon Mullins | Connecticut | points; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,210 INFO Bet grading complete for Tarris Reed | Connecticut | turnovers; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,210 INFO Bet grading complete for Kylan Boswell | Illinois | points_rebounds_assists; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,210 INFO Bet grading complete for Tarris Reed | Connecticut | steals; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,211 INFO Bet grading complete for Andrej Stojakovic | Illinois | threes; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,211 INFO Bet grading complete for Brayden Burries | Arizona | points_rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,211 INFO Bet grading complete for Jaden Bradley | Arizona | threes; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,211 INFO Bet grading complete for Tarris Reed | Connecticut | points_rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,212 INFO Bet grading complete for Aday Mara | Michigan | rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,212 INFO Bet grading complete for Braylon Mullins | Connecticut | steals; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,212 INFO Bet grading complete for Morez Johnson | Michigan | blocks; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,212 INFO Bet grading complete for Ivan Kharchenkov | Arizona | threes; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,213 INFO Bet grading complete for Aday Mara | Michigan | points_rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,213 INFO Bet grading complete for Jayden Ross | Connecticut | steals; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,213 INFO Bet grading complete for Elliot Cadeau | Michigan | steals; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,213 INFO Bet grading complete for Tomislav Ivisic | Illinois | rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,214 INFO Bet grading complete for Jaden Bradley | Arizona | turnovers; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,214 INFO Bet grading complete for Keaton Wagler | Illinois | rebounds; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,214 INFO Bet grading complete for Tarris Reed | Connecticut | points; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,214 INFO Bet grading complete for Keaton Wagler | Illinois | threes; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,214 INFO Bet grading complete for Morez Johnson | Michigan | points_rebounds_assists; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,215 INFO Bet grading complete for Roddy Gayle | Michigan | points_rebounds_assists; bets_processed=75/75 bets_remaining=0
+2026-04-03 22:20:03,215 INFO Bet grading workflow complete: eligible_bets=75 graded=75 ungraded=0
+2026-04-03 22:20:03,217 INFO Wrote xAI bet cache snapshot entries=75 path=/Users/tomwagner/kenpompy/outputs/cache/xai_bet_cache_2026-04-03_222003.json
+2026-04-03 22:20:03,253 INFO Merged existing analysis from /Users/tomwagner/kenpompy/outputs/pipeline/full_pipeline_existing_kp_Sun_Mar_22_2026_214511_saved_2026-03-21_215344_with_providers.csv: matched_rows=41 line_changed_rows=30
+2026-04-03 22:20:03,265 INFO Stage grade complete: output=/Users/tomwagner/kenpompy/graded_bets_04-04-2026-V6.csv rows=137 xai_graded=137

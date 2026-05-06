@@ -156,9 +156,10 @@ def get_teamstats(browser: CloudScraper, defense: Optional[bool]=False, season: 
 
 	# Dataframe tidying.
 	ts_df = ts_df[0]
-	ts_df = ts_df.iloc[:, 0:20]
+	ts_df = ts_df.iloc[:, 0:22]
 	ts_df.columns = ['Team', 'Conference', '3P%', '3P%.Rank', '2P%', '2P%.Rank', 'FT%', 'FT%.Rank',
-					 'Blk%', 'Blk%.Rank', 'Stl%', 'Stl%.Rank', 'NST%', 'NST%.Rank', 'A%', 'A%.Rank', '3PA%', '3PA%.Rank',
+					 'Blk%', 'Blk%.Rank', 'Stl%', 'Stl%.Rank', 'NST%', 'NST%.Rank',
+					 '2P Dist', '2P Dist.Rank', 'A%', 'A%.Rank', '3PA%', '3PA%.Rank',
 					 last_cols[0], last_cols[1]]
 
 	# Remove the header rows that are interjected for readability.

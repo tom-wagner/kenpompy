@@ -1,0 +1,4 @@
+2026-04-01 18:47:17,754 INFO Logging to /Users/tomwagner/kenpompy/outputs/kenpom_x_ai_logs/kenpom_x_ai_2026-04-01_184717.txt
+2026-04-01 18:47:17,756 INFO Pruned 1 old files from /Users/tomwagner/kenpompy/outputs/kenpom_x_ai_logs; kept newest 3
+2026-04-01 18:47:17,757 INFO Pruned 1 old files from /Users/tomwagner/kenpompy/outputs/pipeline_x_ai_logs; kept newest 10
+2026-04-01 18:48:34,959 INFO Stage scrape complete: workbook=/Users/tomwagner/kenpompy/outputs/kenpom/Sat_Apr_04_2026_184833.xlsx csv=/Users/tomwagner/kenpompy/outputs/kenpom/Sat_Apr_04_2026_184833.csv teams=4 players=42

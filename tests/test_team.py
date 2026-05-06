@@ -99,3 +99,55 @@ def test_get_scouting_report(browser):
 	assert data['APLD'] == ''
 	# Not including SoS and Personnel (88 with)
 	assert len(data) == 70
+
+
+def test_get_recent_lineups(monkeypatch):
+	html = """
+	<html>
+	<body>
+	<table id="dc-table2">
+	<tbody>
+	<tr><td></td><td>PG</td><td>SG</td><td>SF</td><td>PF</td><td>C</td><td>Pct</td></tr>
+	<tr>
+	<td>1</td>
+	<td><div><span class="seed-gray">5</span> <a href="player.php?p=50896">Allen Strothers</a><span class="seed-gray display-block">6-1 &nbsp;172 &nbsp;Sr</span></div></td>
+	<td><div><span class="seed-gray">11</span> <a href="player.php?p=52769">Brian Taylor</a><span class="seed-gray display-block">6-4 &nbsp;175 &nbsp;Sr</span></div></td>
+	<td><div><span class="seed-gray">35</span> <a href="player.php?p=56834">Jordan McCullum</a><span class="seed-gray display-block">6-8 &nbsp;180 &nbsp;So</span></div></td>
+	<td><div><span class="seed-gray">15</span> <a href="player.php?p=53195">Cam Morris</a><span class="seed-gray display-block">6-8 &nbsp;205 &nbsp;Sr</span></div></td>
+	<td><div><span class="seed-gray">13</span> <a href="player.php?p=55213">Blake Barkley</a><span class="seed-gray display-block">6-8 &nbsp;220 &nbsp;So</span></div></td>
+	<td>12.1<br><span class="seed-gray">&nbsp;</span></td>
+	</tr>
+	<tr>
+	<td>2</td>
+	<td><div><span class="seed-gray">4</span> <a href="player.php?p=54660">Jaylen Smith</a><span class="seed-gray display-block">5-11 &nbsp;175 &nbsp;Jr</span></div></td>
+	<td><div><span class="seed-gray">11</span> <a href="player.php?p=52769">Brian Taylor</a><span class="seed-gray display-block">6-4 &nbsp;175 &nbsp;Sr</span></div></td>
+	<td><div><span class="seed-gray">2</span> <a href="player.php?p=54363">Maki Johnson</a><span class="seed-gray display-block">6-4 &nbsp;186 &nbsp;Jr</span></div></td>
+	<td><div><span class="seed-gray">15</span> <a href="player.php?p=53195">Cam Morris</a><span class="seed-gray display-block">6-8 &nbsp;205 &nbsp;Sr</span></div></td>
+	<td><div><span class="seed-gray">13</span> <a href="player.php?p=55213">Blake Barkley</a><span class="seed-gray display-block">6-8 &nbsp;220 &nbsp;So</span></div></td>
+	<td>9.5<br><span class="seed-gray">&nbsp;</span></td>
+	</tr>
+	<tr><td colspan="5"></td><td>UNKNOWN</td><td>0.1</td></tr>
+	<tr><td colspan="7" style="text-align:left">Position designation is estimated by an algorithm and may not reflect reality.</td></tr>
+	</tbody>
+	</table>
+	</body>
+	</html>
+	"""
+
+	monkeypatch.setattr(kpteam, 'get_current_season', lambda browser: 2026)
+	monkeypatch.setattr(kpteam, 'get_valid_teams', lambda browser, season=None: ['East Tennessee St.'])
+	monkeypatch.setattr(kpteam, 'get_html', lambda browser, url: html.encode('utf-8'))
+
+	df = kpteam.get_recent_lineups(object(), 'East Tennessee St.', season=2026)
+
+	assert df.shape[0] == 2
+	assert list(df['LineupRank']) == [1, 2]
+	assert df.iloc[0]['PG_Name'] == 'Allen Strothers'
+	assert df.iloc[0]['PG_Number'] == 5
+	assert df.iloc[0]['PG_Height'] == '6-1'
+	assert df.iloc[0]['PG_Weight'] == 172
+	assert df.iloc[0]['PG_Year'] == 'Sr'
+	assert df.iloc[0]['PG_KenPomPlayerURL'] == 'https://kenpom.com/player.php?p=50896'
+	assert df.iloc[1]['SF_Name'] == 'Maki Johnson'
+	assert df.iloc[1]['Pct'] == 9.5
+	assert df.attrs['unknown_pct'] == 0.1

@@ -1,6 +1,7 @@
 import pytest
 import kenpompy.misc as kpmisc
 
+
 def test_get_current_season(browser):
 	current_season = kpmisc.get_current_season(browser)
 
@@ -9,6 +10,7 @@ def test_get_current_season(browser):
 
 	# Test that there are isn't a season beyond the "current" one (that it is indeed the latest)
 	assert browser.request(url='https://kenpom.com/?y=' + str(current_season + 1), method='GET', allow_redirects=False).status_code == 302
+
 
 def test_get_pomeroy_ratings(browser):
     expected = ['1', 'Virginia', 'ACC', '35-3', '+34.22', '123.4', '2', '89.2', '5', '59.4', '353', '+.050', '62', '+11.18', '22', '109.2', '34', '98.1', '14', '-3.24', '255', '1']
@@ -25,6 +27,7 @@ def test_get_pomeroy_ratings(browser):
 	# Shape test to ensure header rows are correctly filtered
     expected = (353, 22)
     assert df.shape == expected
+
 
 def test_get_trends(browser):
 	expected = ["2019","103.2","69.0","50.7","18.5","28.4","33.0","50.1","34.4","38.7","70.7","51.9","9.3","8.9","9.7",
@@ -91,3 +94,31 @@ def test_get_program_ratings(browser):
 	df = kpmisc.get_program_ratings(browser)
 	expected = (len(browser.page.select("tr:not(:has(th))")), 17)
 	assert df.shape == expected
+
+
+class DummyBrowser:
+    pass
+
+
+def test_get_current_season_caches_result(monkeypatch):
+    browser = DummyBrowser()
+    calls = {"count": 0}
+
+    def fake_get_html(_browser, _url):
+        calls["count"] += 1
+        return b"""
+        <html>
+          <body>
+            <div id="content-header"><h2>2026 Pomeroy College Basketball Ratings</h2></div>
+          </body>
+        </html>
+        """
+
+    monkeypatch.setattr(kpmisc, "get_html", fake_get_html)
+
+    first = kpmisc.get_current_season(browser)
+    second = kpmisc.get_current_season(browser)
+
+    assert first == 2026
+    assert second == 2026
+    assert calls["count"] == 1

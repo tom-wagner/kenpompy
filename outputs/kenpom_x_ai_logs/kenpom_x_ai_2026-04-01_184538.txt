@@ -1,0 +1,3 @@
+2026-04-01 18:45:38,470 INFO Logging to /Users/tomwagner/kenpompy/outputs/kenpom_x_ai_logs/kenpom_x_ai_2026-04-01_184538.txt
+2026-04-01 18:45:38,471 INFO Pruned 1 old files from /Users/tomwagner/kenpompy/outputs/kenpom_x_ai_logs; kept newest 3
+2026-04-01 18:45:38,472 INFO Pruned 1 old files from /Users/tomwagner/kenpompy/outputs/pipeline_x_ai_logs; kept newest 10

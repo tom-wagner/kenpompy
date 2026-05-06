@@ -1,0 +1,780 @@
+python3 scripts/main.py --date 03-10-2026
+03-10-2026
+GET https://kenpom.com/stats.php -> 200 (430622 bytes)
+four_factors
+                       Conference AdjTempo AdjTempo.Rank  AdjOE AdjOE.Rank Off-eFG%  ... Def-TO% Def-TO%.Rank Def-OR% Def-OR%.Rank Def-FTRate Def-FTRate.Rank
+Team                                                                                 ...                                                                     
+Illinois                      B10     65.5           284  131.7          1     55.0  ...    11.7          365    26.9           38       19.8               1
+Purdue                        B10     65.0           310  130.5          2     57.9  ...    15.9          230    26.0           22       27.5              26
+Alabama                       SEC     73.1             4  129.6          3     55.6  ...    12.7          362    33.0          298       33.0             124
+Michigan                      B10     71.5            18  128.6          4     58.7  ...    15.8          233    28.1           70       26.3              15
+Duke                          ACC     65.4           294  128.4          5     57.4  ...    18.5           77    24.9            9       22.7               2
+...                           ...      ...           ...    ...        ...      ...  ...     ...          ...     ...          ...        ...             ...
+Coppin St.                   MEAC     68.1           137   92.3        361     45.9  ...    17.5          122    34.8          333       42.9             337
+Stonehill                     NEC     66.4           236   92.0        362     46.9  ...    13.4          349    27.1           43       30.3              66
+Maine                          AE     64.8           319   91.7        363     49.6  ...    19.4           38    34.3          323       33.9             150
+Mississippi Valley St.       SWAC     67.0           202   90.7        364     45.4  ...    17.0          155    35.6          348       51.0             363
+Delaware St.                 MEAC     65.9           270   87.8        365     42.6  ...    20.1           24    31.7          243       40.1             299
+
+[365 rows x 23 columns]
+GET https://kenpom.com/teamstats.php -> 200 (417042 bytes)
+team_stats
+                       Conference   3P% 3P%.Rank   2P% 2P%.Rank   FT% FT%.Rank  Blk% Blk%.Rank  ... NST%.Rank 2P Dist 2P Dist.Rank    A% A%.Rank  3PA% 3PA%.Rank  AdjOE AdjOE.Rank
+Team                                                                                            ...                                                                               
+Belmont                       MVC  41.0        1  60.6        8  68.6      311   9.4       180  ...       309     5.4           88  61.9      19  45.7        52  120.9         41
+Saint Louis                   A10  40.9        2  59.1       13  73.3      160  10.9       297  ...       148     3.8            1  59.6      40  44.7        72  120.0         47
+Yale                          Ivy  40.0        3  54.0       93  76.3       44   9.3       176  ...        72     5.5          106  54.7     123  35.9       253  120.4         45
+Tulsa                        Amer  39.7        4  55.5       51  78.3       13   9.5       199  ...        40     5.1           49  55.1     113  46.1        45  122.3         30
+Liberty                      CUSA  39.6        5  61.0        5  70.8      242  11.1       306  ...        14     4.8           26  61.6      22  48.6        22  118.3         57
+...                           ...   ...      ...   ...      ...   ...      ...   ...       ...  ...       ...     ...          ...   ...     ...   ...       ...    ...        ...
+Kansas City                   Sum  28.4      361  47.6      320  66.2      352   9.3       179  ...       196     6.6          297  46.2     314  36.8       234   92.3        360
+Southeastern Louisiana       Slnd  28.4      362  49.4      279  68.4      320   9.7       211  ...       306     6.1          208  51.6     202  39.5       181   99.8        326
+UAB                          Amer  28.0      363  50.9      220  70.9      236   9.8       220  ...         1     5.3           79  49.3     253  30.5       348  109.9        163
+Southern Illinois             MVC  27.8      364  52.2      165  68.3      321   8.5       103  ...       200     6.1          207  48.6     277  29.2       356  104.0        272
+Rider                        MAAC  27.7      365  43.3      362  70.1      268   8.3        85  ...       155     7.8          357  44.3     343  27.5       361   95.8        352
+
+[365 rows x 21 columns]
+GET https://kenpom.com/teamstats.php?od=d -> 200 (417693 bytes)
+GET https://kenpom.com/pointdist.php -> 200 (268670 bytes)
+points_dist
+                    Conference Off-FT Off-FT.Rank Off-2P Off-2P.Rank Off-3P Off-3P.Rank Def-FT Def-FT.Rank Def-2P Def-2P.Rank Def-3P Def-3P.Rank
+Team                                                                                                                                            
+Prairie View A&M          SWAC   25.7           1   50.3         137   24.0         342   24.0          21   49.7         145   26.3         333
+New Orleans               Slnd   25.6           2   50.3         139   24.1         341   22.8          48   46.6         275   30.6         204
+Nevada                     MWC   25.6           3   47.5         225   26.9         292   21.0         107   44.6         325   34.4          73
+Sacramento St.            BSky   25.5           4   47.5         226   27.0         290   19.3         218   46.9         263   33.8          90
+Cal St. Bakersfield         BW   25.4           5   54.0          45   20.6         359   22.3          66   47.3         244   30.3         226
+...                        ...    ...         ...    ...         ...    ...         ...    ...         ...    ...         ...    ...         ...
+Indiana St.                MVC   15.0         361   50.6         132   34.4         102   16.6         330   56.6           6   26.8         323
+Texas Tech                 B12   14.8         362   42.4         338   42.9           3   18.4         258   54.2          22   27.3         316
+Northern Iowa              MVC   14.2         363   53.0          65   32.8         141   18.2         268   50.6         107   31.1         186
+Albany                      AE   13.8         364   55.3          28   30.9         198   19.8         185   47.2         249   33.0         117
+IU Indy                   Horz   13.0         365   52.8          69   34.1         114   22.9          42   49.7         146   27.4         315
+
+[365 rows x 13 columns]
+GET https://kenpom.com/fanmatch.php?d=2026-03-10 -> 200 (24222 bytes)
+GET https://kenpom.com?y=2026 -> 200 (365603 bytes)
+teams
+['Baylor', 'Arizona St.', 'Colorado', 'Oklahoma St.', 'Virginia Tech', 'Wake Forest', 'SMU', 'Syracuse', 'Stanford', 'Pittsburgh', 'Oregon', 'Maryland', 'BYU', 'Kansas St.', 'Northwestern', 'Penn St.', 'Cincinnati', 'Utah', 'FIU', 'Missouri St.', 'New Mexico St.', 'Jacksonville St.', 'Merrimack', 'Siena', 'LIU', 'Mercyhurst', 'UMBC', 'UMass Lowell', 'Vermont', 'NJIT']
+Starting for: Baylor
+GET https://kenpom.com/player-expanded.php?team=Baylor&y=2026 -> 200 (50901 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Baylor&y=2026 -> 200 (75007 bytes)
+2026-03-09 09:29:51,691 INFO xAI attempt 1/3 for Baylor
+2026-03-09 09:29:51,699 INFO Starting xAI minutes call for Baylor
+2026-03-09 09:31:13,694 INFO Completed xAI minutes call for Baylor; response_chars=2908 citations=85
+2026-03-09 09:31:13,697 INFO xAI JSON parsed successfully for Baylor on attempt 1
+xAI team call for Baylor: {
+  "Dan Skillings Jr.": {
+    "minutes": 25,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": "Consistent minutes around 22 MPG over last 3 games (21,20,26), SD 3.21 <4.0"
+  },
+  "JJ White": {
+    "minutes": 0,
+    "confidence": 0.95,
+    "injurySummary": "Questionable - Foot",
+    "confidenceJustification": "Did not play in last 3 games; questionable status per injury report"
+  },
+  "Will Kuykendall": {
+    "minutes": 0,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Drew Perry": {
+    "minutes": 0,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Obi Agbim": {
+    "minutes": 36,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": "Consistent high minutes 32-37 MPG over last 3 games, low SD ~2.5"
+  },
+  "Andre Iguodala II": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out - Redshirt",
+    "confidenceJustification": "Redshirting 2025-26 season per injury report"
+  },
+  "Isaac Williams IV": {
+    "minutes": 28,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Variable minutes 21-31 MPG last 3 games, SD 5.29 >=4.0"
+  },
+  "Michael Rataj": {
+    "minutes": 16,
+    "confidence": 0.80,
+    "injurySummary": "",
+    "confidenceJustification": "Highly variable 12-28 MPG last 3 games, SD 8.02 >=4.0; projecting reduced in close game"
+  },
+  "James Goodis": {
+    "minutes": 0,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Mayo Soyoye": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out - Redshirt",
+    "confidenceJustification": "Redshirting remainder of 2025-26 season per injury report"
+  },
+  "Maikcol Perez": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out - Knee",
+    "confidenceJustification": "Out for remainder of 2025-26 season per injury report"
+  },
+  "Juslin Bodo Bodo": {
+    "minutes": 0,
+    "confidence": 0.90,
+    "injurySummary": "Questionable - Arm",
+    "confidenceJustification": "Did not play last 3 games; questionable per injury report"
+  },
+  "Tounde Yessoufou": {
+    "minutes": 34,
+    "confidence": 0.88,
+    "injurySummary": "",
+    "confidenceJustification": "High minutes avg 33 MPG but SD 4.04 >=4.0 (31,38,31)"
+  },
+  "Cameron Carr": {
+    "minutes": 37,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": "Consistent high minutes 33-37 MPG last 3 games, low SD ~2.3"
+  },
+  "Caden Powell": {
+    "minutes": 24,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Variable minutes 21-28 MPG last 3 games, SD 4.04 >=4.0"
+  },
+  "James Nnaji": {
+    "minutes": 0,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": "Limited to 7 min in blowout, DNP otherwise; none expected in close game"
+  }
+}
+Starting for: Arizona St.
+GET https://kenpom.com/player-expanded.php?team=Arizona+St.&y=2026 -> 200 (52240 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Arizona+St.&y=2026 -> 200 (77010 bytes)
+2026-03-09 09:31:25,345 INFO xAI attempt 1/3 for Arizona St.
+2026-03-09 09:31:25,346 INFO Starting xAI minutes call for Arizona St.
+2026-03-09 09:32:47,510 INFO Completed xAI minutes call for Arizona St.; response_chars=1329 citations=95
+2026-03-09 09:32:47,511 INFO xAI JSON parsed successfully for Arizona St. on attempt 1
+xAI team call for Arizona St.: [
+  {
+    "player": "Moe Odum",
+    "minutes": 35,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Massamba Diop",
+    "minutes": 33,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Noah Meeusen",
+    "minutes": 28,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Anthony Johnson",
+    "minutes": 27,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Santiago Trouet",
+    "minutes": 24,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Minutes std dev 4.55; decreasing from 29 to 18 over last 3 games"
+  },
+  {
+    "player": "Bryce Ford",
+    "minutes": 20,
+    "confidence": 0.80,
+    "injurySummary": "Recent injury recovery",
+    "confidenceJustification": "Minutes std dev 5.73; decreasing 28-20-14, post-injury ramp-up"
+  },
+  {
+    "player": "Andrija Grbovic",
+    "minutes": 20,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Minutes std dev 7.48; increasing trend 11-17-29"
+  },
+  {
+    "player": "Allen Mukeba",
+    "minutes": 13,
+    "confidence": 0.90,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  }
+]
+Starting for: Colorado
+GET https://kenpom.com/player-expanded.php?team=Colorado&y=2026 -> 200 (55642 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Colorado&y=2026 -> 200 (78005 bytes)
+2026-03-09 09:32:59,100 INFO xAI attempt 1/3 for Colorado
+2026-03-09 09:32:59,101 INFO Starting xAI minutes call for Colorado
+2026-03-09 09:34:54,751 INFO Completed xAI minutes call for Colorado; response_chars=1737 citations=86
+2026-03-09 09:34:54,752 INFO xAI JSON parsed successfully for Colorado on attempt 1
+xAI team call for Colorado: {
+  "Isaiah Johnson": {
+    "minutes": 36,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Barrington Hargress": {
+    "minutes": 35,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Bangot Dak": {
+    "minutes": 28,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": "Std dev ~5.5 in last 3 (19,29,28); projecting higher for close tournament game as key forward"
+  },
+  "Jalin Holland": {
+    "minutes": 25,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Josiah Sanders": {
+    "minutes": 24,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": "Std dev ~4.6 (21,29,21); consistent rotation"
+  },
+  "Elijah Malone": {
+    "minutes": 20,
+    "confidence": 0.80,
+    "injurySummary": "",
+    "confidenceJustification": "High std dev ~14.6 (29,12,0); variable role but increased in recent loss"
+  },
+  "Ian Inman": {
+    "minutes": 15,
+    "confidence": 0.90,
+    "injurySummary": "",
+    "confidenceJustification": "Std dev ~4.9 (12,20,21); reliable bench minutes"
+  },
+  "Alon Michaeli": {
+    "minutes": 14,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Fawaz Ifaola": {
+    "minutes": 3,
+    "confidence": 0.70,
+    "injurySummary": "",
+    "confidenceJustification": "Std dev ~4.9 (9,0,8); very sporadic bench use"
+  },
+  "Sebastian Rancik": {
+    "minutes": 0,
+    "confidence": 0.40,
+    "injurySummary": "Undisclosed practice injury before Utah game; DNP last 2 games",
+    "confidenceJustification": "Uncertain for tournament per reports; high std dev but projecting 0 based on recent absence"
+  }
+}
+Starting for: Oklahoma St.
+GET https://kenpom.com/player-expanded.php?team=Oklahoma+St.&y=2026 -> 200 (57175 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Oklahoma+St.&y=2026 -> 200 (80895 bytes)
+2026-03-09 09:35:11,444 INFO xAI attempt 1/3 for Oklahoma St.
+2026-03-09 09:35:11,449 INFO Starting xAI minutes call for Oklahoma St.
+2026-03-09 09:36:26,904 INFO Completed xAI minutes call for Oklahoma St.; response_chars=1541 citations=71
+2026-03-09 09:36:26,905 INFO xAI JSON parsed successfully for Oklahoma St. on attempt 1
+xAI team call for Oklahoma St.: [
+  {
+    "player": "Kanye Clary",
+    "minutes": 36,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Anthony Roy",
+    "minutes": 35,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Christian Coleman",
+    "minutes": 28,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": "Minutes std dev 4.9 across last 3 games"
+  },
+  {
+    "player": "Jaylen Curry",
+    "minutes": 27,
+    "confidence": 0.97,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Benjamin Ahmed",
+    "minutes": 23,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  {
+    "player": "Vyctorius Miller",
+    "minutes": 17,
+    "confidence": 0.88,
+    "injurySummary": "",
+    "confidenceJustification": "High minutes variability, std dev 5.7"
+  },
+  {
+    "player": "Isaiah Coleman",
+    "minutes": 16,
+    "confidence": 0.88,
+    "injurySummary": "",
+    "confidenceJustification": "Minutes std dev 4.2 across last 3 games"
+  },
+  {
+    "player": "Andrija Vukovic",
+    "minutes": 15,
+    "confidence": 0.88,
+    "injurySummary": "",
+    "confidenceJustification": "Minutes std dev 4.3 across last 3 games"
+  },
+  {
+    "player": "Ryan Crotty",
+    "minutes": 3,
+    "confidence": 0.65,
+    "injurySummary": "No reported injury",
+    "confidenceJustification": "Sharp decline in minutes (17,6,2), std dev 6.3; possible minor issue or coach decision"
+  }
+]
+Starting for: Virginia Tech
+GET https://kenpom.com/player-expanded.php?team=Virginia+Tech&y=2026 -> 200 (52762 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Virginia+Tech&y=2026 -> 200 (76366 bytes)
+2026-03-09 09:36:43,617 INFO xAI attempt 1/3 for Virginia Tech
+2026-03-09 09:36:43,618 INFO Starting xAI minutes call for Virginia Tech
+2026-03-09 09:38:05,639 INFO Completed xAI minutes call for Virginia Tech; response_chars=2325 citations=77
+2026-03-09 09:38:05,640 INFO xAI JSON parsed successfully for Virginia Tech on attempt 1
+xAI team call for Virginia Tech: {
+  "Neoklis Avdalas": {
+    "minutes": 32,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jailen Bedford": {
+    "minutes": 27,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Ben Hammond": {
+    "minutes": 35,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Amani Hansberry": {
+    "minutes": 26,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Variable minutes in last 3 games (24,35,19; std dev ~6.7); matchup dependent."
+  },
+  "Tyler Johnson": {
+    "minutes": 12,
+    "confidence": 0.75,
+    "injurySummary": "Recently returned from injury",
+    "confidenceJustification": "Post-injury ramp-up: 2,8,15 MPG; minutes increasing but still variable."
+  },
+  "Tobi Lawal": {
+    "minutes": 34,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jaden Schutt": {
+    "minutes": 17,
+    "confidence": 0.8,
+    "injurySummary": "",
+    "confidenceJustification": "High minute variability (16,12,29; std dev ~7.3); situational bench role."
+  },
+  "Christian Gurdak": {
+    "minutes": 16,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Fairly consistent bench minutes (20,11,18; std dev ~3.9)."
+  },
+  "Antonio Dorn": {
+    "minutes": 1,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Sin'Cere Jones": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out for remainder of season - foot injury",
+    "confidenceJustification": "Confirmed out per latest injury report."
+  },
+  "Shamarius Peterkin": {
+    "minutes": 0,
+    "confidence": 0.6,
+    "injurySummary": "Questionable - undisclosed injury",
+    "confidenceJustification": "Questionable status; no minutes in last 3 games."
+  },
+  "Izaiah Pasha": {
+    "minutes": 0,
+    "confidence": 0.7,
+    "injurySummary": "",
+    "confidenceJustification": "Season avg 8 MPG but DNP last 3 games; likely out of current rotation."
+  },
+  "Solomon Davis": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Brett Freeman": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  }
+}
+Starting for: Wake Forest
+GET https://kenpom.com/player-expanded.php?team=Wake+Forest&y=2026 -> 200 (53558 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Wake+Forest&y=2026 -> 200 (77245 bytes)
+2026-03-09 09:38:22,335 INFO xAI attempt 1/3 for Wake Forest
+2026-03-09 09:38:22,340 INFO Starting xAI minutes call for Wake Forest
+2026-03-09 09:39:59,289 INFO Completed xAI minutes call for Wake Forest; response_chars=2287 citations=78
+2026-03-09 09:39:59,290 INFO xAI JSON parsed successfully for Wake Forest on attempt 1
+xAI team call for Wake Forest: {
+  "Omaha Biliew": {
+    "minutes": 27,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Nate Calmese": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out for remainder of 2025-26 season (ankle injury)",
+    "confidenceJustification": "Confirmed by coach Steve Forbes and multiple reports post-BC game injury."
+  },
+  "Juke Harris": {
+    "minutes": 40,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Will Underwood": {
+    "minutes": 0,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Myles Colvin": {
+    "minutes": 22,
+    "confidence": 0.92,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Isaac Carr": {
+    "minutes": 13,
+    "confidence": 0.90,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Mekhi Mason": {
+    "minutes": 24,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Vincent Ricchiuti": {
+    "minutes": 0,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Sebastian Akins": {
+    "minutes": 27,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Marqus Marion": {
+    "minutes": 0,
+    "confidence": 1.0,
+    "injurySummary": "Out for remainder of season (chest/undisclosed injury)",
+    "confidenceJustification": "Recent sources confirm out for rest of year following Virginia game."
+  },
+  "Cooper Schwieger": {
+    "minutes": 23,
+    "confidence": 0.93,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jaylen Cross": {
+    "minutes": 0,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Tre'Von Spillers": {
+    "minutes": 24,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Anson Beard Jr.": {
+    "minutes": 0,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Dimitrije Kovacevic": {
+    "minutes": 0,
+    "confidence": 0.9,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Owen Kmety": {
+    "minutes": 0,
+    "confidence": 0.90,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  }
+}
+Starting for: SMU
+GET https://kenpom.com/player-expanded.php?team=SMU&y=2026 -> 200 (54559 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=SMU&y=2026 -> 200 (78122 bytes)
+2026-03-09 09:40:10,941 INFO xAI attempt 1/3 for SMU
+2026-03-09 09:40:10,943 INFO Starting xAI minutes call for SMU
+2026-03-09 09:41:31,152 INFO Completed xAI minutes call for SMU; response_chars=1757 citations=85
+2026-03-09 09:41:31,153 INFO xAI JSON parsed successfully for SMU on attempt 1
+xAI team call for SMU: {
+  "Boopie Miller": {
+    "minutes": 39,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jaron Pierre Jr.": {
+    "minutes": 37,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Corey Washington": {
+    "minutes": 28,
+    "confidence": 0.96,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Samet Yiğitoğlu": {
+    "minutes": 32,
+    "confidence": 0.95,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jermaine O'Neal Jr.": {
+    "minutes": 25,
+    "confidence": 0.98,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Jaden Toombs": {
+    "minutes": 20,
+    "confidence": 0.96,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "B.J. Davis-Ray": {
+    "minutes": 14,
+    "confidence": 0.94,
+    "injurySummary": "",
+    "confidenceJustification": ""
+  },
+  "Mitchell Holmes": {
+    "minutes": 3,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Variable low bench minutes across last 3 games (2, 0, 4)"
+  },
+  "Chance Puryear": {
+    "minutes": 2,
+    "confidence": 0.85,
+    "injurySummary": "",
+    "confidenceJustification": "Variable low bench minutes (3, 0, 6)"
+  },
+  "B.J. Edwards": {
+    "minutes": 0,
+    "confidence": 0.98,
+    "injurySummary": "Ankle injury; out since Feb 25, did not play last 4 games, not expected",
+    "confidenceJustification": "Consistent DNP in last 3 games due to ongoing ankle injury"
+  },
+  "Sam Walters": {
+    "minutes": 0,
+    "confidence": 0.92,
+    "injurySummary": "Undisclosed injury; questionable recently, minimal play",
+    "confidenceJustification": "Played only 5 min in one of last 3 games, questionable status"
+  }
+}
+Starting for: Syracuse
+GET https://kenpom.com/player-expanded.php?team=Syracuse&y=2026 -> 200 (54173 bytes)
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+/Users/tomwagner/kenpompy/kenpompy/team.py:394: PerformanceWarning: dropping on a non-lexsorted multi-index without a level parameter may impact performance.
+  game = game.drop(columns=['MinutesMatrixTM', 'Starting Lineup #']) # 'Unnamed: 1_level_1', 'Unnamed: 2_level_1', 'Unnamed: 3_level_1']) # 'Starting Lineup #'
+GET https://kenpom.com/index.php -> 200 (365603 bytes)
+GET https://kenpom.com/team.php?team=Syracuse&y=2026 -> 200 (77458 bytes)
+2026-03-09 09:41:50,884 INFO xAI attempt 1/3 for Syracuse
+2026-03-09 09:41:50,885 INFO Starting xAI minutes call for Syracuse
+^CTraceback (most recent call last):
+  File "/Users/tomwagner/kenpompy/scripts/main.py", line 874, in <module>
+    [four_factors, team_stats, team_stats_def, points_dist, player_df] = main_fn(args.date, top_n=args.top_n)
+                                                                         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tomwagner/kenpompy/scripts/main.py", line 404, in main_fn
+    xai_outcome = call_xai_for_team_minutes_with_retries(team, df)
+  File "/Users/tomwagner/kenpompy/scripts/main.py", line 333, in call_xai_for_team_minutes_with_retries
+    result = call_xai_for_team_minutes(team, team_df)
+  File "/Users/tomwagner/kenpompy/scripts/main.py", line 309, in call_xai_for_team_minutes
+    for response, chunk in chat.stream():
+                           ~~~~~~~~~~~^^
+  File "/Users/tomwagner/kenpompy/venv/lib/python3.14/site-packages/xai_sdk/sync/chat.py", line 186, in stream
+    for chunk in stream:
+                 ^^^^^^
+  File "/Users/tomwagner/kenpompy/venv/lib/python3.14/site-packages/grpc/_channel.py", line 538, in __next__
+    return self._next()
+           ~~~~~~~~~~^^
+  File "/Users/tomwagner/kenpompy/venv/lib/python3.14/site-packages/grpc/_channel.py", line 947, in _next
+    _common.wait(self._state.condition.wait, _response_ready)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tomwagner/kenpompy/venv/lib/python3.14/site-packages/grpc/_common.py", line 154, in wait
+    _wait_once(wait_fn, MAXIMUM_WAIT_TIMEOUT, spin_cb)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tomwagner/kenpompy/venv/lib/python3.14/site-packages/grpc/_common.py", line 114, in _wait_once
+    wait_fn(timeout=timeout)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py", line 373, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

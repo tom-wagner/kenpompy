@@ -13,3 +13,5 @@ __pycache__/
 /.sos/*.xlsx
 *.xlsx
 .DS_Store
+.env
+unabated_sim_output.json

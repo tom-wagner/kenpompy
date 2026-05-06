@@ -1,0 +1,406 @@
+{
+  "cacheDate": "04-04-2026",
+  "teams": {
+    "Arizona": {
+      "players": {},
+      "teamMinutes": {
+        "projectionData": {
+          "Anthony Dell'Orso": {
+            "confidence": 0.85,
+            "confidenceJustification": "Minutes trending down recently but appears in several recent lineups as bench guard option",
+            "injurySummary": "",
+            "minutes": 12
+          },
+          "Brayden Burries": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 32
+          },
+          "Dwayne Aristode": {
+            "confidence": 0.9,
+            "confidenceJustification": "Consistently low recent minutes, limited lineup appearances",
+            "injurySummary": "",
+            "minutes": 2
+          },
+          "Evan Nelson": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "Ivan Kharchenkov": {
+            "confidence": 0.9,
+            "confidenceJustification": "High and stable recent minutes across nearly all top lineups",
+            "injurySummary": "",
+            "minutes": 36
+          },
+          "Jaden Bradley": {
+            "confidence": 0.9,
+            "confidenceJustification": "High recent minutes as core starter in most lineups, past wrist scare resolved",
+            "injurySummary": "",
+            "minutes": 36
+          },
+          "Koa Peat": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 32
+          },
+          "Motiejus Krivas": {
+            "confidence": 0.9,
+            "confidenceJustification": "Variable recent minutes but key in top lineup shares with Peat/Awaka",
+            "injurySummary": "",
+            "minutes": 29
+          },
+          "Sidi Gueye": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 1
+          },
+          "Tobe Awaka": {
+            "confidence": 0.85,
+            "confidenceJustification": "Variable recent minutes but frequent in lineups spelling frontcourt",
+            "injurySummary": "",
+            "minutes": 20
+          }
+        },
+        "result": {
+          "citations": "['https://heavy.com/sports/mens-college-basketball/arizona-wildcats/arizona-injury-status-update-ncaa-march-madness-sweet-16-arkansas', 'https://www.desmoinesregister.com/story/sports/college/iowa-state/basketball-mens/2026/03/13/iowa-state-basketball-vs-arizona-final-injury-report-released/89144483007', 'https://www.facebook.com/ArizonaSports/posts/when-the-doctor-came-out-with-a-smile-on-his-face-i-was-a-little-bit-relievedari/1609508197851029', 'https://x.com/i/status/2039330941387059492', 'https://scstudentmedia.com/dwayne-aristode', 'https://www.msn.com/en-us/sports/other/arizona-vs-michigan-march-madness-odds-injuries-prediction-for-final-4/ar-AA1ZFYYT', 'https://www.espn.com/mens-college-basketball/team/_/id/12/arizona-wildcats', 'https://x.com/i/status/2036101327047041315', 'https://www.youtube.com/watch?v=BNW1Uc6lgoI', 'https://www.facebook.com/ArizonaDailyStar/posts/among-the-factors-behind-arizona-hoops-perfect-november-is-everyone-has-been-ava/1355521813286699', 'https://www.azdesertswarm.com/basketball/75992/arizona-wildcats-mens-basketball-injuries-illness-koa-peat-aristode-tommy-lloyd-history-big12-2026-veesaar-kriisa-krivas-ballo', 'https://www.si.com/college/arizona/wildcats-basketball-terrific-work-tobe-awaka-this-season-breakdown-', 'https://www.msn.com/en-us/sports/other/jaden-bradley-injury-update-arizona-guard-leaves-big-12-championship-game-vs-houston/ar-AA1YE946?uxmode=ruby', 'https://x.com/i/status/2039360173844869332', 'https://www.azdesertswarm.com/basketball/77969/arizona-wildcats-michigan-wolverines-preview-final-four-yaxel-lendeborg-aday-mara-bigten-indianapolis-prediction-analysis-2026', 'https://gophnx.com/anthony-dellorso-helps-arizona-basketball', 'https://www.facebook.com/ArizonaSports/posts/arizona-senior-forward-tobe-awaka-on-advancing-to-the-final-four-couldnt-ask-for/1623462243122291', 'https://www.azdesertswarm.com/basketball/2025/7/24/24473975/arizona-wildcats-mens-basketball-tobe-awaka-motiejus-krivas-injury-henri-veesaar-big12-2025-2026', 'https://zonazealots.com/ivan-kharchenkov-playing-best-basketball-this-season-as-impact-continues-rising', 'https://x.com/i/status/2039488700829343850', 'https://www.rotowire.com/cbasketball/injury-report.php', 'https://www.si.com/college/arizona/wildcats-basketball-motiejus-krivas-tommy-lloyd-jaden-bradley', 'https://x.com/i/status/2038487581697179984', 'https://arizonasports.com/ncaa/uofa-basketball/arizona-motiejus-krivas-out-season/3569325', 'https://www.azcentral.com/story/sports/college/ua/2025/11/29/krivas-leads-arizona-wildcats-basketball-win-vs-norfolk-state-kharchenkov-injured-leaves/87532222007', 'https://x.com/i/status/2039394722385400315', 'https://www.azdesertswarm.com/basketball/76048/arizona-wildcats-mens-basketball-koa-peat-dwayne-aristode-injury-availbility-updates-byu-2026-big12', 'https://x.com/i/status/2039137344209735734', 'https://www.foxsports.com/college-basketball/tobe-awaka-player', 'https://arizonasports.com/ncaa/uofa-basketball/koa-peat-out-week/3612068', 'https://tucson.com/sports/arizonawildcats/basketball/article_c35e54fd-0e44-45f8-978b-67bb26ef2637.html', 'https://www.foxsports.com/stories/college-basketball/college-basketball-2025-2026-buzz', 'https://www.rotowire.com/cbasketball/article/march-madness-final-four-arizona-vs-michigan-game-preview-and-predictions-109761', 'https://www.facebook.com/ArizonaSports/videos/arizonas-motiejus-krivas-says-the-foot-injury-that-ended-his-season-last-year-ch/954431850303582', 'https://sports.yahoo.com/articles/tobe-awaka-details-arizona-basketball-004019133.html', 'https://247sports.com/college/arizona/article/tobe-awaka-keeping-perspective-after-loss-texas-tech-arizona-274430881', 'https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-wolverines-2026-04-04/injuries', 'https://www.facebook.com/ArizonaSports/posts/teammates-are-as-confident-as-ever-in-mewildcats-senior-guard-anthony-dellorso-d/1623811313087384', 'https://x.com/i/status/2039238528257704240', 'https://www.facebook.com/MarchMadnessMBB/posts/anthony-dellorso-dropped-26-off-the-bench-on-10-14-shooting-to-keep-arizonas-run/1325703012926088', 'https://www.foxsports.com/college-basketball/ivan-kharchenkov-player', 'https://arizonasports.com/ncaa/uofa-basketball/koa-peat-arizona/3612694', 'https://x.com/i/status/2029621649902031247', 'https://arizonasports.com/ncaa/uofa-basketball/arizona-west-ncaa/3614598', 'https://www.reddit.com/r/CollegeBasketball/comments/1r7odxu/arizona_mbb_koa_peat_has_a_muscle_strain_in_his', 'https://www.profootballnetwork.com/mens-cbb/purdue-arizona-injury-updates-march-2026', 'https://www.instagram.com/reel/DWVJmKCjtVF', 'https://www.instagram.com/p/DRssFvdkw5S', 'https://x.com/i/status/2035551719686386115', 'https://sports.yahoo.com/articles/michigan-expert-previews-final-four-120000706.html', 'https://zonazealots.com/jaden-bradley-returns-with-wrap-on-wrist-after-suffering-injury-in-second-half', 'https://tucson.com/sports/arizonawildcats/basketball/article_df3570c5-b4c2-45b8-b7b5-56d1f7a49f87.html', 'https://www.covers.com/sport/basketball/ncaab/teams/main/arizona-wildcats/injuries', 'https://www.instagram.com/p/DVPSVyJEk_a', 'https://x.com/i/status/2039336199308083235', 'https://tucson.com/sports/arizonawildcats/basketball/article_8ef11cc8-3ba5-450a-ac20-ed1e473318e5.html', 'https://tucson.com/sports/subscriber/article_9834a534-5ce0-49fa-beb4-528956929a64.html', 'https://www.facebook.com/ArizonaDailyStar/posts/after-missing-four-games-with-an-undisclosed-illness-so-significant-he-didnt-eve/1445634464275433', 'https://www.facebook.com/groups/1533266070767324/posts/2159158634844728', 'https://x.com/i/status/2032278615665361401', 'https://x.com/i/status/2039483628317557231', 'https://www.msn.com/en-us/sports/other/arizona-basketball-provides-dwayne-aristode-and-koa-peat-updates/ar-AA1WBuw1', 'https://tucson.com/sports/arizonawildcats/basketball/article_7354e5e7-6672-495a-9eec-0222ff0f0065.html', 'https://x.com/i/status/2033351622378815970', 'https://tucson.com/sports/arizonawildcats/basketball/article_728cd896-e5e7-443b-9a2f-a3a3198214e6.html', 'https://www.espn.com/watch/player/_/id/47574140/device/redirected/true', 'https://www.si.com/college/arizona/wildcats-teammates-applaud-leadership-after-tournament-win', 'https://www.youtube.com/watch?v=FXbMQASoI6w', 'https://sports.yahoo.com/articles/sixth-man-tobe-awaka-unsung-010934340.html', 'https://www.app.com/story/sports/college/2026/03/29/arizona-vs-michigan-march-madness-odds-injuries-prediction-for-final-4/89379694007', 'https://allsportstucson.com/2026/02/19/delly-to-the-rescue-senior-comes-off-the-bench-to-give-arizona-a-jolt-in-win-over-byu', 'https://www.scacchoops.com/injuries.asp?conference=Big+12', 'https://x.com/i/status/2038266603796664641', 'https://arizonasports.com/ncaa/uofa-basketball/jaden-bradley-wrist/3614564', 'https://x.com/i/status/2038948278604120255', 'https://bustingbrackets.com/arizona-basketball-loss-of-motiejus-krivas-a-huge-hit-for-rest-of-2024-25-season', 'https://x.com/i/status/2039290303899680787', 'https://www.si.com/college/arizona/wildcats-how-dell-orso-has-carried-through-gauntlet', 'https://www.facebook.com/ZonaZealots/posts/arizona-overcame-a-wrist-injury-to-jaden-bradley-and-a-nearly-seven-minute-scori/1337194108439172', 'https://www.azdesertswarm.com/basketball/76091/arizona-wildcats-mens-basketball-byu-cougars-tommy-lloyd-jaden-bradley-anthony-dellorso-big12-2026-postgame', 'https://x.com/Wildcats1290/status/2032964132455198893', 'https://www.si.com/nba/draft/newsfeed/injuries-continue-to-impact-talent-rich-2026-nba-draft-class-01khvh31gqrh', 'https://x.com/i/status/2039156394591498424', 'https://www.facebook.com/ArizonaDailyStar/posts/injuries-and-illness-disrupt-arizonas-eight-man-rotation-forcing-coach-tommy-llo/1429959482509598', 'https://gophnx.com/arizona-surpasses-start-vs-nsu-with-auburn-next', 'https://nationaltoday.com/us/mo/kansas-city/news/2026/03/14/arizona-guard-jaden-bradley-leaves-big-12-championship-game', 'https://tucson.com/sports/arizonawildcats/basketball/article_cfeee8f4-6458-4840-99ba-f944d3569b1a.html', 'https://tucson.com/sports/arizonawildcats/basketball/article_728a9fb0-d89e-4c81-a688-d2b79fe59a9f.html', 'https://x.com/i/status/2037733255995150482', 'https://www.azcentral.com/story/sports/college/ua/2026/02/23/arizona-not-waiting-to-get-healthy-in-race-towards-big-12-title/88825006007', 'https://zonazealots.com/tommy-lloyd-provides-status-update-on-freshmen-forward-dwayne-aristode', 'https://www.youtube.com/watch?v=miWNNYN3ZgE', 'https://x.com/i/status/2039373579112808777', 'https://x.com/i/status/2039268262928622075', 'https://www.azdesertswarm.com/basketball/75968/arizona-wildcats-mens-basketball-texas-tech-red-raiders-tommy-lloyd-tobe-awaka-ivan-kharchenkov-postgame-big12-2026']",
+          "text": "{\"Anthony Dell'Orso\":{\"minutes\":12,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Minutes trending down recently but appears in several recent lineups as bench guard option\"},\"Brayden Burries\":{\"minutes\":32,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Dwayne Aristode\":{\"minutes\":2,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Consistently low recent minutes, limited lineup appearances\"},\"Evan Nelson\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Ivan Kharchenkov\":{\"minutes\":36,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"High and stable recent minutes across nearly all top lineups\"},\"Jaden Bradley\":{\"minutes\":36,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"High recent minutes as core starter in most lineups, past wrist scare resolved\"},\"Koa Peat\":{\"minutes\":32,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Motiejus Krivas\":{\"minutes\":29,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Variable recent minutes but key in top lineup shares with Peat/Awaka\"},\"Sidi Gueye\":{\"minutes\":1,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Tobe Awaka\":{\"minutes\":20,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Variable recent minutes but frequent in lineups spelling frontcourt\"}}"
+        },
+        "updatedAt": "2026-04-01T18:50:22.698247"
+      }
+    },
+    "Connecticut": {
+      "players": {
+        "Jaylin Stewart": {
+          "adjustmentData": {
+            "Eric Reibe": {
+              "confidence": 0.82,
+              "confidenceJustification": "Variable recent minutes (5-16); slight reduction to reallocate bench minutes to returning Stewart given lineup context",
+              "injurySummary": "",
+              "minutesAdjustment": -3
+            },
+            "Jaylin Stewart": {
+              "confidence": 0.78,
+              "confidenceJustification": "Recent usage 3-5 min post-return; included in best-performing lineup (+50.1); limited role per coach but trending up",
+              "injurySummary": "Knee injury recovery; returned in Sweet 16 with 3 min, 5 min in Elite 8; coach expects limited tournament minutes",
+              "minutesAdjustment": 3
+            }
+          },
+          "result": {
+            "citations": "[]",
+            "text": "{\"Jaylin Stewart\": {\"minutesAdjustment\": 3, \"confidence\": 0.78, \"injurySummary\": \"Knee injury recovery; returned in Sweet 16 with 3 min, 5 min in Elite 8; coach expects limited tournament minutes\", \"confidenceJustification\": \"Recent usage 3-5 min post-return; included in best-performing lineup (+50.1); limited role per coach but trending up\"}, \"Eric Reibe\": {\"minutesAdjustment\": -3, \"confidence\": 0.82, \"injurySummary\": \"\", \"confidenceJustification\": \"Variable recent minutes (5-16); slight reduction to reallocate bench minutes to returning Stewart given lineup context\"}}"
+          },
+          "updatedAt": "2026-04-01T18:51:30.738964"
+        },
+        "Malachi Smith": {
+          "adjustmentData": {
+            "Malachi Smith": {
+              "confidence": 0.9,
+              "confidenceJustification": "Minutes stabilized at 17-18 in recent tournament games (Sweet 16:17, Elite 8:18) after early spike (32) when Demary limited; aligns with backup PG role per lineups and coach comments",
+              "injurySummary": "Knee injury history from summer 2025, fully recovered; no recent issues",
+              "minutesAdjustment": 0
+            }
+          },
+          "result": {
+            "citations": "['https://x.com/i/status/2038376114473558383', 'https://www.msn.com/en-us/sports/other/uconn-huskies-transfer-guard-suffers-injury-during-june-workouts/ar-AA1HDKu5?apiversion=v2&batchservertelemetry=1&cvid=4e76b29f4ccd4488a4138ec91c10724b&domshim=1&noservercache=1&noservertelemetry=1&ocid=md12qg%2Cmd12qg&renderwebcomponents=1&wcseo=1', 'https://x.com/i/status/2037871578361311435', 'https://dailycampus.com/2026/03/26/mens-basketball-malachi-smith-saved-uconn-in-the-ncaa-tournaments-opening-weekend', 'https://x.com/i/status/2030119753591701684', 'https://www.waaytv.com/news/social/uconn-s-last-gasp-3-pointer-to-shock-duke-was-appropriately-on-the-edge-of/article_a5596e00-05aa-5abd-b6bb-154f1f9c0a15.html', 'https://www.reddit.com/r/UConnBasketball/comments/1mfefnf/prediction_on_uconn_mens_basketball', 'https://x.com/i/status/2038406262480613677', 'https://x.com/i/status/2038392065306865836', 'http://dalydoseofhoops.blogspot.com/2026/03/super-submalachi-smith-shines-in-long.html', 'https://storrscentral.com/s/1461/husky-review-illinois-112825', 'https://www.sports-reference.com/cbb/boxscores/2026-03-27-21-connecticut.html', 'https://www.courant.com/2025/06/27/uconn-says-guard-malachi-smith-suffered-knee-injury-in-workouts', 'https://www.facebook.com/nationofblue/posts/malachi-smith-ran-off-the-bench-that-should-be-a-technical-the-duke-radio-team-c/1397180182451394', 'https://x.com/i/status/2039168361108533598', 'https://x.com/i/status/2037751830722027790', 'https://www.youtube.com/watch?v=1Gi8XFGKdg4', 'https://www.foxsports.com/college-basketball/malichi-smith-player', 'https://x.com/i/status/2038446248559067419', 'https://x.com/i/status/2038035927818195282', 'https://www.thechampaignroom.com/illinois-fighting-illini-basketball-news/53148/uconn-scouting-report-what-to-know-and-how-illinois-can-win-fighting-illini-ncaa-big-ten-brad-underwood-tournament', 'https://www.youtube.com/watch?v=g93Oye4j0Cc', 'https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856577', 'https://sports.yahoo.com/articles/uconn-stuns-duke-wild-closing-233305786.html', 'https://x.com/i/status/2035224003854344536', 'https://www.13abc.com/2026/03/30/final-four-is-set-with-uconn-stunning-duke-join-illinois-arizona-michigan', 'https://heavy.com/sports/mens-college-basketball/uconn-huskies/uconn-hurley-demary-injury-update-ucla', 'https://basketball.realgm.com/ncaa/boxscore/2026-03-29/UConn-at-Duke/521887', 'https://sports.yahoo.com/articles/facing-rare-double-digit-deficit-015857696.html', 'https://www.espn.com/mens-college-basketball/game/_/gameId/401856577/uconn-duke', 'https://www.aol.com/articles/uconn-stuns-duke-wild-closing-233305321.html', 'https://x.com/i/status/2038388853933818277', 'https://x.com/i/status/2038382447742624127', 'https://x.com/i/status/2038628477918728698', 'https://www.espn.com/mens-college-basketball/player/gamelog/_/id/4683861/malachi-smith', 'https://sports.yahoo.com/articles/uconn-scouting-report-know-illinois-230744915.html', 'https://www.aol.com/articles/dan-hurley-under-fire-bizarre-190532850.html', 'https://www.reddit.com/r/eagles/comments/1pa68y9/kempski_the_eagles_run_game_is_gone_saquon_isnt', 'https://www.rotowire.com/cbasketball/article/march-madness-final-four-connecticut-vs-illinois-game-preview-and-predictions-109779', 'https://x.com/i/status/2035478685067661822', 'https://x.com/i/status/2035815587885056395', 'https://x.com/JonRothstein/status/1938645403747905740', 'https://x.com/i/status/2038787861936324898', 'https://www.facebook.com/danpatrickshow/posts/i-give-the-official-and-the-officiating-crew-a-lot-of-credit-for-swallowing-thei/1369640025206174', 'https://www.facebook.com/ESPN/posts/dan-hurleys-message-leaving-the-court-after-uconns-three-peat-chances-were-ended/2675849073910680', 'https://www.espn.com/mens-college-basketball/recap/_/gameId/401856571', 'https://www.sportingnews.com/us/ncaa-basketball/news/duke-uconn-box-score-stats-2026-march-madness/73886b8519ba11a21ce54889', 'https://www.nytimes.com/athletic/live-blogs/uconn-vs-duke-live-updates-score-mens-march-madness-2026-elite-eight-result-bracket/Oqsugo6SbKsc/6zWhX5wjD9tG', 'https://uconnhuskies.com/sports/mens-basketball/roster/malachi-smith/14937', 'https://sports.yahoo.com/articles/uconn-notes-dan-hurley-pep-213300709.html', 'https://en.wikipedia.org/wiki/Malachi_Smith_(basketball)', 'https://www.espn.com/mens-college-basketball/player/_/id/4683861/malachi-smith', 'https://www.foxsports.com/college-basketball/malichi-smith-player-stats?category=advanced&seasonType=reg', 'https://www.newsbreak.com/pfsn-299253692/4136658933995-dan-hurley-gives-worrying-update-on-malachi-smith-but-eric-reibe-s-injury-news-should-please-uconn-fans', 'https://writingillini.com/one-glaring-stat-illinois-basketball-needs-to-correct-in-the-final-four-vs-uconn', 'https://x.com/i/status/2039165534990704890', 'https://sports.yahoo.com/articles/former-flyer-starting-point-guard-013805564.html', 'https://x.com/i/status/2032527597339279505', 'https://www.cbssports.com/college-basketball/news/final-four-2026-breakdown-illinois-uconn-michigan-arizona', 'https://x.com/i/status/2039393427121393778', 'https://x.com/i/status/2037995682951299346', 'https://www.daytondailynews.com/sports/without-malachi-wed-be-cooked-former-flyer-plays-key-role-in-helping-uconn-reach-elite-eight/NTZ3CKNVUND4FLE7SKD6E3LOVQ', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/malachi-smith-dan-hurley-illinois-new-york-msg-21212487.php', 'https://www.newsweek.com/sports/ncaa/uconns-dan-hurley-shares-silas-demary-jr-injury-update-after-win-11714738', 'https://www.msn.com/en-us/sports/other/uconn-vs-michigan-state-box-score-full-stats-from-2026-march-madness-sweet-16-game/ar-AA1ZAqRr?apiversion=v2&batchservertelemetry=1&domshim=1&gemSnapshotKey=GM9786FBE0-snapshot-2&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://www.youtube.com/watch?v=rbinggVurt8', 'https://www.daytondailynews.com/sports/the-world-just-stopped-former-flyer-witnesses-famous-shot-in-uconn-victory-vs-duke/article_9ca7f983-386f-4484-a2bb-5b737f8429eb.html', 'https://www.facebook.com/FlyerNationDDN/posts/twelve-years-after-scoochie-smith-played-in-the-elite-eight-malachi-smith-has-re/1392096869386028', 'https://www.npr.org/2026/03/29/nx-s1-5765506/final-four-ncaa-2026', 'https://www.sports-reference.com/cbb/players/malachi-smith-2.html', 'https://www.si.com/college/illinois/basketball/illinois-vs-uconn-final-four-rematch-different']",
+            "text": "{\"Malachi Smith\": {\"minutesAdjustment\": 0, \"confidence\": 0.9, \"injurySummary\": \"Knee injury history from summer 2025, fully recovered; no recent issues\", \"confidenceJustification\": \"Minutes stabilized at 17-18 in recent tournament games (Sweet 16:17, Elite 8:18) after early spike (32) when Demary limited; aligns with backup PG role per lineups and coach comments\"}}"
+          },
+          "updatedAt": "2026-04-01T18:52:28.702533"
+        },
+        "Silas Demary": {
+          "adjustmentData": {
+            "Malachi Smith": {
+              "confidence": 0.9,
+              "confidenceJustification": "Fills complementary guard role when Demary minutes managed",
+              "injurySummary": "",
+              "minutesAdjustment": 1
+            },
+            "Silas Demary": {
+              "confidence": 0.85,
+              "confidenceJustification": "High recent consistency (22,23,23 min) reduces prior std dev concerns amid ongoing injury management",
+              "injurySummary": "Grade 2 high ankle sprain with calf/Achilles issues, consistently played 22-23 min in last 3 tournament games despite limited practice",
+              "minutesAdjustment": -1
+            }
+          },
+          "result": {
+            "citations": "['https://x.com/i/status/2035942017188974907', 'https://s3.us-east-2.amazonaws.com/sidearm.nextgen.sites/uconnhuskies.com/documents/2026/3/28/38_-_Duke.pdf?timestamp=20260328103825', 'https://sports.yahoo.com/articles/uconn-scouting-report-know-illinois-230744915.html', 'https://www.espn.com/mens-college-basketball/story/_/id/48342842/uconn-rallies-19-point-deficit-stuns-duke-last-second-3-reach-final-four-men-ncaa-tournament', 'https://x.com/i/status/2038570468463014225', 'https://www.proballers.com/basketball/player/276091/silas-demary-jr', 'https://x.com/i/status/2035853853304696869', 'https://x.com/i/status/2035150304308515191', 'https://www.cbssports.com/college-basketball/news/final-four-2026-breakdown-illinois-uconn-michigan-arizona', 'https://sports.yahoo.com/articles/dom-amore-silas-demary-jr-153100366.html', 'https://x.com/i/status/2039357132064362923', 'https://www.nytimes.com/athletic/live-blogs/march-madness-sweet-16-bracket-live-updates-scores-results/RPGLXVMI5uMX/v6KLKLt0WHU5', 'https://storrscentral.com/s/1758/uconn-pulls-away-to-defeat-ucla-73-57', 'https://www.youtube.com/watch?v=FkQ4yQwPgVQ', 'https://x.com/i/status/2037499221276803448', 'https://x.com/i/status/2035881318622347486', 'https://uconnhuskies.com/news/2026/1/24/mens-basketball-no-2-uconn-tops-villanova-in-ot-to-win-15th-straight', 'https://x.com/i/status/2037968533498253562', 'https://www.si.com/college/uconn/basketball/uconn-huskies-silas-demary-jr-details-injury-prep-before-elite-eight', 'https://www.facebook.com/hartfordcourant/posts/silas-demarys-daily-grind-to-get-on-the-court-yet-more-overreaction-to-dan-hurle/1350695427088295', 'https://x.com/i/status/2039067926263673306', 'https://x.com/i/status/2038404355485782352', 'https://www.newstimes.com/sports/uconn-mens-basketball/article/silas-demary-jr-injury-furman-dan-hurley-stewart-22087360.php', 'https://www.espn.com/mens-college-basketball/player/gamelog/_/id/5054083/silas-demary-jr', 'https://www.usatoday.com/story/sports/ncaab/2026/03/22/silas-demary-injury-update-ankle-status-uconn-ucla-march-madness/89275828007', 'https://www.youtube.com/watch?v=0ODv7gLIdvs&vl=fr', 'https://www.nbcnews.com/sports/college-basketball/ncaa-tournament-connecticut-duke-elite-eight-final-four-results-rcna265728', 'https://heavy.com/sports/mens-college-basketball/uconn-huskies/silas-demary-injury-update-sweet-16', 'https://www.aol.com/articles/referee-explains-really-happened-strange-122801274.html', 'http://dalydoseofhoops.blogspot.com/2026/03/demary-guts-out-22-minutes-and-plus-22.html', 'https://www.theuconnblog.com/uconn-huskies-mens-basketball/53627/silas-demary-jr-s-triple-double-powers-no-3-uconn-past-bryant-72-49', 'https://www.instagram.com/p/DWkGYPvEaLq', 'https://www.aol.com/articles/dan-hurley-under-fire-bizarre-190532312.html', 'https://x.com/i/status/2037247553322848730', 'https://x.com/i/status/2038640585641251283', 'https://www.youtube.com/watch?v=rbinggVurt8', 'https://x.com/i/status/2038601877319827825', 'https://www.courant.com/2026/03/23/dom-amore-silas-demary-jr-plays-through-pain-and-sparks-uconn-men-back-to-sweet-16', 'https://www.sportingnews.com/us/ncaa-basketball/news/duke-uconn-box-score-stats-2026-march-madness/73886b8519ba11a21ce54889', 'https://x.com/i/status/2036239171652600273', 'https://x.com/i/status/2039094080446021998', 'https://www.rotowire.com/cbasketball/article/march-madness-final-four-connecticut-vs-illinois-game-preview-and-predictions-109779', 'https://www.greenwichtime.com/sports/uconn-mens-basketball/article/injury-news-dan-hurley-silas-demary-jaylin-stewart-22080303.php', 'https://www.nhregister.com/sports/uconn-mens-basketball/article/silas-demary-jr-injury-furman-dan-hurley-stewart-22087360.php', 'https://x.com/PeteThamel/status/2035881062119715094', 'https://www.si.com/college/uconn/basketball/uconn-huskies-positive-injury-update-silas-demary-jr', 'https://www.theuconnblog.com/uconn-huskies-mens-basketball/53653/preview-no-5-uconn-mens-basketball-vs-no-13-illinois-nov-28-1230-p-m-fox', 'https://www.espn.com/mens-college-basketball/game/_/gameId/401856577/uconn-duke', 'https://x.com/i/status/2039394938786296080', 'https://x.com/i/status/2038453982935527698', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/uconn-vs-xavier-live-updates-big-east-tournament-22073625.php', 'https://www.thechampaignroom.com/illinois-fighting-illini-basketball-news/53148/uconn-scouting-report-what-to-know-and-how-illinois-can-win-fighting-illini-ncaa-big-ten-brad-underwood-tournament', 'https://sports.yahoo.com/articles/duke-vs-uconn-box-score-220714165.html', 'https://www.courant.com/2026/03/31/dom-amore-silas-demarys-daily-grind-hurley-derangement-syndrome-and-other-final-four-takes', 'https://nationaltoday.com/us/dc/washington/news/2026/03/29/uconns-silas-demary-jr-details-injury-prep-before-elite-eight', 'https://www.dailygazette.com/tribune/did-uconn-coach-dan-hurley-cross-a-line-breaking-down-the-reaction-to-braylon-mullins/article_89df40b3-78f7-5542-80ac-d0b8b2acb4b7.html', 'https://x.com/i/status/2032979689652773155', 'https://x.com/i/status/2035147641210675352', 'https://www.youtube.com/watch?v=wgdbLu8v33c', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/silas-demary-jr-injury-big-east-final-dan-hurley-22077274.php', 'https://www.msn.com/en-us/sports/other/uconn-s-point-guard-situation-remains-up-in-the-air-after-foggy-injury-update-ahead-of-round-of-32/ar-AA1Z8pKr', 'https://uconnhuskies.com/news/2026/1/28/mens-basketball-no-2-huskies-take-16th-straight-with-87-81-win-over-pc', 'https://x.com/i/status/2034806299871867011', 'https://www.facebook.com/ctpost/posts/it-had-no-real-bearing-on-the-game-but-dan-hurley-was-miffed-by-the-technical-fo/1396200932519334', 'https://x.com/i/status/2038390732071878914', 'https://x.com/i/status/2037759973501891047', 'https://www.espn.com/mens-college-basketball/recap/_/gameId/401856577', 'https://x.com/i/status/2038689731471409300', 'https://heavy.com/sports/mens-college-basketball/uconn-huskies/uconn-hurley-demary-injury-update-ucla', 'https://x.com/i/status/2038646840015327386', 'https://goduke.com/news/2026/3/29/mens-basketball-uconn-upends-duke-73-72', 'https://sports.yahoo.com/articles/ncaa-tournament-sweet-16-2-135407269.html', 'https://www.facebook.com/UConnMBB/posts/silas-demary-jr-vs-ucla22-in-22-minutesimpact-player/1244250061200711', 'https://sports.yahoo.com/articles/dan-hurley-breaks-down-uconns-161115388.html', 'https://x.com/i/status/2039392568799080924', 'https://x.com/i/status/2035911177692143649', 'https://www.espn.com/mens-college-basketball/player/_/id/5054083/silas-demary-jr', 'https://www.fox61.com/article/sports/ncaa/uconn/uconn-mens-basketball/uncertainty-surrounds-uconn-men-as-they-prepare-for-michigan-state-sweet-16/520-3a1c4254-6e59-48b7-82a8-60328e5b46de', 'https://the-boneyard.com/threads/uconn-vs-msu-sweet-16.213366', 'https://x.com/i/status/2038689278088147135', 'https://sports.yahoo.com/articles/uconn-basketball-silas-demary-jr-063220441.html', 'https://www.instagram.com/p/DWfOImUjI4i', 'https://www.nytimes.com/athletic/live-blogs/uconn-vs-duke-live-updates-score-mens-march-madness-2026-elite-eight-result-bracket/Oqsugo6SbKsc/2e6vhJJfEMTv', 'https://x.com/AdamZagoria/status/2037247553322848730', 'https://www.youtube.com/watch?v=39M8Z852KOE', 'https://x.com/i/status/2037634905740390823', 'https://sports.yahoo.com/articles/uconn-won-last-natty-help-155814684.html', 'https://x.com/i/status/2038607464673775924', 'https://x.com/i/status/2035859200417402984', 'https://storrscentral.com/s/1784/elite-eight-uconn-tops-duke-on-mullins-buzzer-beater-73-72', 'https://www.espn.com/mens-college-basketball/boxscore/_/gameId/401856577', 'https://www.courant.com/2026/03/31/breaking-down-the-reaction-to-mullins-game-winning-shot-from-uconns-bench-did-hurley-cross-a-line', 'https://www.dailymotion.com/video/xa3tkge']",
+            "text": "{\"Silas Demary\":{\"minutesAdjustment\":-1,\"confidence\":0.85,\"injurySummary\":\"Grade 2 high ankle sprain with calf/Achilles issues, consistently played 22-23 min in last 3 tournament games despite limited practice\",\"confidenceJustification\":\"High recent consistency (22,23,23 min) reduces prior std dev concerns amid ongoing injury management\"},\"Malachi Smith\":{\"minutesAdjustment\":1,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Fills complementary guard role when Demary minutes managed\"}}"
+          },
+          "updatedAt": "2026-04-01T18:53:13.488356"
+        },
+        "Solo Ball": {
+          "adjustmentData": {
+            "Solo Ball": {
+              "confidence": 0.85,
+              "confidenceJustification": "High recent minutes (30, 32) in Sweet 16/Elite 8; reports confirm wrist improving and key role as starter (25-30+ MPG)",
+              "injurySummary": "Nagging wrist injury, managed with strong recent tournament play",
+              "minutesAdjustment": 0
+            }
+          },
+          "result": {
+            "citations": "['https://x.com/i/status/2039054159752601891', 'https://www.rotowire.com/cbasketball/article/march-madness-final-four-connecticut-vs-illinois-game-preview-and-predictions-109779', 'https://www.cbssports.com/college-basketball/news/final-four-2026-breakdown-illinois-uconn-michigan-arizona', 'https://www.facebook.com/UConnMBB/posts/solo-ball-masterclass/1198426019116449', 'https://x.com/i/status/2037718159197679696', 'https://x.com/i/status/2038570468463014225', 'https://x.com/DaveBorges/status/2002845211077329329', 'https://x.com/i/status/2017806904202850753', 'https://www.rotowire.com/cbasketball/player/solo-ball-22332', 'https://x.com/i/status/2038392211310539025', 'https://www.courant.com/2026/03/27/learn-to-ask-for-help-how-uconns-solo-ball-has-dealt-with-string-of-shooting-struggles', 'https://x.com/i/status/2038419064914055658', 'https://sports.yahoo.com/articles/uconn-scouting-report-know-illinois-230744915.html', 'https://www.si.com/college/uconn/basketball/uconn-huskies-provide-solo-ball-injury-update', 'https://x.com/i/status/2009097321460408482', 'https://x.com/i/status/2038669637433327733', 'https://x.com/i/status/2005769070872859041', 'https://locked-on-uconn-daily-podcast-on-university-of-connecticut.simplecast.com/episodes/resilience-uconn-returns-to-elite-8-alex-karaban-tarris-reed-solo-ball-shine-in-victory-KvBBgey2', 'https://x.com/i/status/2038314765013897643', 'https://x.com/i/status/2037944091401728421', 'https://x.com/i/status/2035196009475633323', 'https://x.com/i/status/2038390367553249535', 'https://x.com/i/status/2038391842119848292', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/injury-report-big-east-solo-ball-dan-hurley-21256230.php', 'https://www.greenwichtime.com/sports/article/uconn-guard-solo-ball-ruled-out-for-game-against-21255804.php', 'https://x.com/i/status/2038895483926520034', 'https://x.com/i/status/2039055513673961927', 'https://x.com/i/status/2037760890951397592', 'https://the-boneyard.com/threads/solo-ball%E2%80%99s-minutes-last-night.211473', 'https://x.com/i/status/2037745134519930892', 'https://podcasts.apple.com/mo/podcast/leader-alex-karaban-stepped-up-in-solo-balls-absence/id1733756265?i=1000742596494', 'https://wgntv.com/sports/final-four-preview-a-full-breakdown-of-the-teams-that-will-meet-in-indianapolis-with-a-mens-national-title-on-the-line', 'https://www.si.com/college/illinois/basketball/espn-predictor-illinois-vs-uconn-final-four', 'https://sports.yahoo.com/articles/uconn-guard-solo-ball-ruled-215708465.html', 'https://heavy.com/sports/mens-college-basketball/uconn-huskies/uconn-announces-injury-update-ucla-game', 'https://www.si.com/college/uconn/basketball/uconn-huskies-mens-rotation-adjustment-could-define-march-madness-2026', 'https://x.com/i/status/1769162973820444881', 'https://www.covers.com/sport/basketball/ncaab/teams/main/uconn-huskies/injuries', 'https://x.com/i/status/2038391980506353730', 'https://www.newsweek.com/sports/ncaa/uconn-gets-injury-updates-on-jaylin-stewart-silas-demary-for-march-madness-11707232', 'https://www.courant.com/2026/03/12/what-jaylin-stewarts-injury-means-for-uconns-depth-in-march-karaban-up-for-award', 'https://www.thechampaignroom.com/illinois-fighting-illini-basketball-news/53148/uconn-scouting-report-what-to-know-and-how-illinois-can-win-fighting-illini-ncaa-big-ten-brad-underwood-tournament', 'https://x.com/i/status/2038392181006704881', 'https://www.sling.com/whatson/sports/college-basketball/how-to-watch-uconn-illinois-final-four', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/solo-ball-injury-depaul-21255558.php', 'https://x.com/i/status/2039159917014085838', 'https://x.com/i/status/2037746611049083386', 'https://www.illinoisloyalty.com/post/illinois-vs-uconn-saturday-april-4th-5-09pm-ct-tbs.42039/page-25', 'https://www.nhregister.com/sports/uconn-mens-basketball/article/solo-ball-braylon-mullins-shooting-stats-ncaa-22089752.php', 'https://www.youtube.com/watch?v=rbinggVurt8', 'https://www.youtube.com/watch?v=tpbxDFqB0u8', 'https://x.com/i/status/2037921146708922378', 'https://www.instagram.com/p/DUB4xE0khBT']",
+            "text": "{\"Solo Ball\":{\"minutesAdjustment\":0,\"confidence\":0.85,\"injurySummary\":\"Nagging wrist injury, managed with strong recent tournament play\",\"confidenceJustification\":\"High recent minutes (30, 32) in Sweet 16/Elite 8; reports confirm wrist improving and key role as starter (25-30+ MPG)\"}}"
+          },
+          "updatedAt": "2026-04-01T18:53:47.894767"
+        }
+      },
+      "teamMinutes": {
+        "projectionData": {
+          "Alec Millender": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "Alex Karaban": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 37
+          },
+          "Braylon Mullins": {
+            "confidence": 0.85,
+            "confidenceJustification": "Slightly high std dev but consistent recent usage in lineups",
+            "injurySummary": "",
+            "minutes": 29
+          },
+          "Dwayne Koroma": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "Eric Reibe": {
+            "confidence": 0.85,
+            "confidenceJustification": "Declining trend but steady bench role in lineups",
+            "injurySummary": "",
+            "minutes": 8
+          },
+          "Jayden Ross": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 22
+          },
+          "Jaylin Stewart": {
+            "confidence": 0.6,
+            "confidenceJustification": "Injury history and low recent usage",
+            "injurySummary": "Recovering from knee injury since Feb, limited recent play",
+            "minutes": 2
+          },
+          "Malachi Smith": {
+            "confidence": 0.8,
+            "confidenceJustification": "High std dev with recent stabilization at 17 min, backup role in lineups",
+            "injurySummary": "Knee injury history from summer 2025",
+            "minutes": 17
+          },
+          "Silas Demary": {
+            "confidence": 0.75,
+            "confidenceJustification": "High std dev, ongoing injury management in tournament",
+            "injurySummary": "Grade 2 high ankle sprain with calf/Achilles issues, played 23 min recently",
+            "minutes": 24
+          },
+          "Solo Ball": {
+            "confidence": 0.75,
+            "confidenceJustification": "High std dev, variable but strong recent minutes and lineup usage",
+            "injurySummary": "Nagging wrist injury",
+            "minutes": 28
+          },
+          "Tarris Reed": {
+            "confidence": 0.9,
+            "confidenceJustification": "Consistent high recent minutes",
+            "injurySummary": "",
+            "minutes": 33
+          }
+        },
+        "result": {
+          "citations": "['https://x.com/JonRothstein/status/2002831340581110121', 'https://www.covers.com/sport/football/ncaaf/teams/main/uconn-huskies/injuries', 'https://www.stamfordadvocate.com/sports/uconn-mens-basketball/article/injury-news-dan-hurley-silas-demary-jaylin-stewart-22080303.php', 'https://sports.yahoo.com/articles/uconn-scouting-report-know-illinois-230744915.html', 'https://dailycampus.com/2026/03/26/mens-basketball-malachi-smith-saved-uconn-in-the-ncaa-tournaments-opening-weekend', 'https://www.teamrankings.com/ncaa-basketball/matchup/huskies-fighting-illini-2025-11-28/injuries', 'https://x.com/i/status/2036800191018213780', 'https://www.ctinsider.com/sports/article/tarris-reed-braylon-mullins-illinois-msg-21213094.php', 'https://x.com/i/status/2035150304308515191', 'https://sports.yahoo.com/articles/dom-amore-silas-demary-jr-153100366.html', 'https://www.instagram.com/p/DWID_62ET0X', 'https://www.instagram.com/p/DWIECZJjc4Y', 'https://www.facebook.com/61556667530916/posts/breaking-uconns-silas-demary-jr-and-jaylin-stewart-are-both-out-vs-furman-per-th/122296638014222251', 'https://sports.yahoo.com/articles/uconn-fans-share-crazy-injury-150215609.html', 'https://www.si.com/college/uconn/basketball/uconn-huskies-closer-healthy-before-illinois-matchup', 'https://www.covers.com/sport/basketball/ncaab/teams/main/uconn-huskies/injuries', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/silas-demary-jr-ncaa-tournament-injury-22088526.php', 'https://x.com/i/status/2038948278604120255', 'https://x.com/i/status/2037666092412280979', 'https://x.com/i/status/2035147666049450391', 'https://www.si.com/college/uconn/basketball/uconn-huskies-silas-demary-jr-details-injury-prep-before-elite-eight', 'https://www.espn.com/mens-college-basketball/game/_/gameId/401856598/illinois-uconn', 'https://x.com/i/status/2038675688673194039', 'https://www.stamfordadvocate.com/sports/uconn-mens-basketball/article/silas-demary-jr-ncaa-tournament-injury-22088526.php', 'https://www.reddit.com/r/CollegeBasketball/comments/17r2h4h/goodman_dayton_starting_point_guard_malachi_smith', 'https://www.espn.com/mens-college-basketball/story/_/id/48333106/injured-stars-foster-demary-set-face-duke-uconn', 'https://www.thetelegraph.com/sports/article/braylon-mullins-injury-update-illinois-uconn-21211387.php', 'https://heavy.com/sports/mens-college-basketball/uconn-huskies/silas-demary-injury-update-sweet-16', 'https://www.profootballnetwork.com/mens-cbb/jaylin-stewart-silas-demary-jr-uconn-injury-march-2026', 'https://sports.yahoo.com/article/uconn-says-guard-malachi-smith-174000942.html', 'https://www.reddit.com/r/CollegeBasketball/comments/1rzcx1i/borzello_silas_demary_jr_and_jaylin_stewart_are', 'https://www.facebook.com/middletownpress/posts/uconn-mens-basketball-transfer-malachi-smith-suffered-a-knee-injury-during-worko/1262456742546115', 'https://www.covers.com/sport/basketball/ncaab/injuries', 'https://www.msn.com/en-us/sports/other/dan-hurley-gives-injury-updates-on-uconn-s-jaylin-stewart-silas-demary-jr-ahead-of-ncaa-tournament/ar-AA1YM5To?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://www.instagram.com/p/DSiTZvfEeKY', 'https://x.com/JonRothstein/status/1938645403747905740', 'https://www.thehour.com/sports/article/tarris-reed-braylon-mullins-illinois-msg-21213094.php', 'https://www.espn.com/mens-college-basketball/player/_/id/4895737/solo-ball', 'https://x.com/i/status/2036848649796542526', 'https://www.courant.com/2026/03/14/uconn-mens-basketball-punished-by-st-johns-in-big-east-final-72-52-demary-injury-a-concern', 'https://www.msn.com/en-us/sports/other/uconn-injury-report-for-march-madness-second-round-vs-ucla/ar-AA1Zavfi?apiversion=v2&batchservertelemetry=1&cvid=69c07c83ad1f4c8aa658fe46eb47b907&domshim=1&noservercache=1&noservertelemetry=1&ocid=iehp%2Cspartanntp&renderwebcomponents=1&wcseo=1', 'https://www.si.com/college/uconn/basketball/uconn-huskies-injury-report-march-madness-sweet-16', 'https://nationaltoday.com/us/ny/new-york/news/2026/03/16/uconns-silas-demary-jr-injury-update-provides-optimism-ahead-of-ncaa-tournament', 'https://www.profootballnetwork.com/mens-cbb/duke-uconn-injury-report-march-2026', 'https://www.teamrankings.com/ncaa-basketball/matchup/fighting-illini-huskies-2026-04-04/injuries', 'https://www.courant.com/2026/03/20/jaylin-stewart-hopes-to-return-soon-for-uconn-mens-basketball-in-ncaa-tournament', 'https://clutchpoints.com/ncaa-basketball/uconn-basketball-news-dan-hurley-drops-pivotal-updates-illinois-game', 'https://x.com/i/status/2035877387162747143', 'https://x.com/i/status/2036918868468228278', 'https://www.nhregister.com/sports/uconn-mens-basketball/article/silas-demary-jr-injury-furman-dan-hurley-stewart-22087360.php', 'https://www.msn.com/en-us/sports/other/uconn-huskies-transfer-guard-suffers-injury-during-june-workouts/ar-AA1HDKu5?apiversion=v2&batchservertelemetry=1&cvid=4e76b29f4ccd4488a4138ec91c10724b&domshim=1&noservercache=1&noservertelemetry=1&ocid=md12qg%2Cmd12qg&renderwebcomponents=1&wcseo=1', 'https://sports.yahoo.com/articles/silas-demary-jr-injury-good-064825565.html', 'https://x.com/i/status/2036968801472741516', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/malachi-smith-injury-transfer-recovery-huskies-20397432.php', 'https://x.com/i/status/2039404815785115956', 'https://x.com/i/status/2037596538407407787', 'https://x.com/i/status/2035850912057417907', 'https://x.com/i/status/2038733779670286684', 'https://nationaltoday.com/us/pa/philadelphia/news/2026/03/16/uconn-basketball-faces-injury-concerns-ahead-of-ncaa-tournament', 'https://sports.yahoo.com/articles/3-reasons-illinois-beat-uconn-030325140.html', 'https://x.com/i/status/2035852523823604074', 'https://www.courant.com/2026/03/21/uconns-point-guard-situation-remains-up-in-the-air-after-foggy-injury-update-ahead-of-round-of-32', 'https://x.com/AdamZagoria/status/1938646230554288409', 'https://sports.yahoo.com/articles/uconn-point-guard-situation-remains-222600570.html', 'https://www.newsweek.com/sports/ncaa/uconn-injury-report-could-bring-good-news-for-michigan-state-clash-11748945', 'https://www.daytondailynews.com/sports/without-malachi-wed-be-cooked-former-flyer-plays-key-role-in-helping-uconn-reach-elite-eight/NTZ3CKNVUND4FLE7SKD6E3LOVQ', 'https://x.com/i/status/2035876564185800875', 'https://x.com/i/status/2038085851561754803', 'https://nationaltoday.com/us/dc/washington/news/2026/03/29/uconns-silas-demary-jr-details-injury-prep-before-elite-eight', 'https://www.msn.com/en-us/sports/other/uconn-injury-report-for-march-madness-second-round-vs-ucla/ar-AA1Zavfi?apiversion=v2&batchservertelemetry=1&cvid=69c077570b644dca9405be4b1b0c3317&domshim=1&noservercache=1&noservertelemetry=1&ocid=hplocalnews&renderwebcomponents=1&wcseo=1', 'https://x.com/i/status/2037158595532317169', 'https://x.com/i/status/2035147641210675352', 'https://www.reddit.com/r/BigEast/comments/1rz1qf8/uconnfurman_injury_report_latest_on_silas_demary', 'https://x.com/i/status/2035851480154960201', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/solo-ball-braylon-mullins-shooting-stats-ncaa-22089752.php', 'https://x.com/i/status/2038080400338104558', 'https://shows.acast.com/hartford-daily-news-now/episodes/6929736c635c16d6405f12cb', 'https://x.com/i/status/2034806299871867011', 'https://www.instagram.com/reel/DWOBaH1jIHa', 'https://x.com/i/status/2035853831548919951', 'https://www.rotowire.com/cbasketball/player/solo-ball-22332', 'https://www.msn.com/en-us/sports/other/uconn-provides-solo-ball-injury-update/ar-AA1Ti4sx?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://www.profootballnetwork.com/mens-cbb/uconn-illinois-injury-report-latest-final-four', 'https://www.newsweek.com/sports/ncaa/uconn-gets-injury-updates-on-jaylin-stewart-silas-demary-for-march-madness-11707232', 'https://sports.yahoo.com/articles/silas-demary-jr-injury-uconn-181623549.html', 'https://www.youtube.com/watch?v=hx3-VD4F0nY', 'https://x.com/i/status/2036895265161175064', 'https://sports.yahoo.com/articles/game-time-decisions-uconn-men-001200924.html', 'https://the-boneyard.com/threads/malachi-smith-undergoes-knee-procedure-back-in-august.208328', 'https://slamonline.com/college/uconn-guard-solo-ball-misses-victory-at-depaul-with-minor-wrist-injury', 'https://x.com/i/status/2036827181746147563', 'https://x.com/i/status/2035533025455329485', 'https://x.com/i/status/2035852549329199135', 'https://x.com/i/status/2037546097548157235', 'https://www.profootballnetwork.com/mens-cbb/uconn-vs-illinois-prediction-starting-lineup-injuries-and-more', 'https://www.ctinsider.com/sports/uconn-mens-basketball/article/injury-report-big-east-solo-ball-dan-hurley-21256230.php', 'https://x.com/i/status/2035763983907803631', 'https://www.foxsports.com/college-basketball/solomon-ball-player', 'https://www.si.com/college/uconn/basketball/uconn-huskies-provide-solo-ball-injury-update', 'https://www.foxsports.com/college-basketball/jaylin-stewart-3-player', 'https://www.facebook.com/HeavyOnSports/posts/huskies-key-guard-silas-demary-jrs-injury-status-just-changed-and-it-could-impac/1566925568771010', 'https://x.com/i/status/2038035927818195282']",
+          "text": "{\"Alec Millender\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Alex Karaban\":{\"minutes\":37,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Braylon Mullins\":{\"minutes\":29,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Slightly high std dev but consistent recent usage in lineups\"},\"Dwayne Koroma\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Eric Reibe\":{\"minutes\":8,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Declining trend but steady bench role in lineups\"},\"Jayden Ross\":{\"minutes\":22,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Jaylin Stewart\":{\"minutes\":2,\"confidence\":0.6,\"injurySummary\":\"Recovering from knee injury since Feb, limited recent play\",\"confidenceJustification\":\"Injury history and low recent usage\"},\"Malachi Smith\":{\"minutes\":17,\"confidence\":0.8,\"injurySummary\":\"Knee injury history from summer 2025\",\"confidenceJustification\":\"High std dev with recent stabilization at 17 min, backup role in lineups\"},\"Silas Demary\":{\"minutes\":24,\"confidence\":0.75,\"injurySummary\":\"Grade 2 high ankle sprain with calf/Achilles issues, played 23 min recently\",\"confidenceJustification\":\"High std dev, ongoing injury management in tournament\"},\"Solo Ball\":{\"minutes\":28,\"confidence\":0.75,\"injurySummary\":\"Nagging wrist injury\",\"confidenceJustification\":\"High std dev, variable but strong recent minutes and lineup usage\"},\"Tarris Reed\":{\"minutes\":33,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Consistent high recent minutes\"}}"
+        },
+        "updatedAt": "2026-04-01T18:50:22.700149"
+      }
+    },
+    "Illinois": {
+      "players": {
+        "Jake Davis": {
+          "adjustmentData": {
+            "Andrej Stojakovic": {
+              "confidence": 0.9,
+              "confidenceJustification": "",
+              "injurySummary": "",
+              "minutesAdjustment": -1
+            },
+            "Ben Humrichous": {
+              "confidence": 0.9,
+              "confidenceJustification": "",
+              "injurySummary": "",
+              "minutesAdjustment": -1
+            },
+            "Jake Davis": {
+              "confidence": 0.9,
+              "confidenceJustification": "Season-long starter (17 straight, ~20 min avg), top KenPom lineup (20%), coach Underwood praises as leader/shooter with expanded role vs early-season (9 min vs UConn); recent tourney 13-17 aligns closer to 17 post-adjust",
+              "injurySummary": "",
+              "minutesAdjustment": 2
+            }
+          },
+          "result": {
+            "citations": "['https://www.facebook.com/IlliniMBasketball/posts/spark-plug-with-a-game-high-28-plusminus-and-a-career-high-4-three-pointers-in-a/1298436048984812', 'https://www.facebook.com/100093705583317/posts/illini-brad-underwood-on-jake-davis-ben-humrichousi-wish-you-could-see-them-in-p/793987713734741', 'https://dailyillini.com/sports-stories/mens-sports/men-basketball/2025/11/28/shooting-struggles-sink-no-13-illinois', 'https://www.sports-reference.com/cbb/players/jake-davis-2.html', 'https://www.espn.com/mens-college-basketball/player/gamelog/_/id/5176150/jake-davis', 'https://www.proballers.com/basketball/player/275147/jake-davis', 'https://x.com/i/status/2038403650482016272', 'https://x.com/i/status/2036429297871647222', 'https://x.com/i/status/2039108950679756960', 'https://www.youtube.com/watch?v=XoHi7ANUGj4', 'https://ca.sports.yahoo.com/ncaab/players/330637/gamelog', 'https://www.espn.com/mens-college-basketball/game/_/gameId/401856574', 'https://x.com/i/status/2038812250761277795', 'https://x.com/i/status/2039048987638984764', 'https://x.com/i/status/2036904896373350472', 'https://x.com/i/status/2021089514932814069', 'https://www.reddit.com/r/CollegeBasketball/comments/1r1mbf7/illini_blow_12point_late_2nd_half_lead_on_jake', 'https://247sports.com/article/jake-davis-illinois-fighting-illini-basketball-role-player-consummate-winner-feature-272045489', 'https://x.com/i/status/2035844253486653746', 'https://www.cbssports.com/college-basketball/players/29231382/jake-davis', 'https://www.sports-reference.com/cbb/players/jake-davis-2/gamelog', 'https://fightingillini.com/news/2026/3/8/mens-basketball-11-illinois-outlasts-maryland-secures-quarterfinal-berth-in-b1g-tourney.aspx', 'https://sports.yahoo.com/articles/iowa-vs-illinois-box-score-222005229.html', 'https://www.espn.com/mens-college-basketball/player/_/id/5176150/jake-davis', 'https://x.com/i/status/2035513146979303578', 'https://www.facebook.com/100093705583317/videos/jake-davis-of-the-illini/1276920234247518', 'https://x.com/i/status/2035845503401836828', 'https://x.com/i/status/2035470033971802266', 'https://x.com/i/status/2034756871005819288', 'https://www.facebook.com/100093705583317/videos/jake-davis-is-clutch/1238454411724530', 'https://x.com/JWerner247/status/2014785902925455822', 'https://x.com/i/status/2035552814328348733', 'https://www.si.com/college/illinois/basketball/why-illinois-brad-underwood-may-keep-starting-jake-davis-over-andrej-stojakovic', 'https://www.facebook.com/100093705583317/videos/jake-davis/1774748723222435', 'https://x.com/i/status/2035561909638877308', 'https://www.youtube.com/watch?v=I1idpBIVcwU', 'https://x.com/i/status/2018741438163423660', 'https://armchairillini.com/jake-davis-the-leader-of-illinois-basketball', 'https://x.com/i/status/2038688006077382961', 'https://fightingillini.com/sports/mens-basketball/stats/2025-26/uconn/boxscore/28025', 'https://fightingillini.com/news/2025/11/28/mens-basketball-13-illinois-goes-cold-in-loss-to-5-uconn-at-madison-square-garden.aspx', 'https://x.com/i/status/2009602325464359246', 'https://x.com/i/status/2039080235325428001', 'https://x.com/i/status/2038607656475128281', 'https://www.thetelegraph.com/sports/article/illinois-routs-southern-90-55-21266814.php', 'https://www.foxsports.com/college-basketball/jake-davis-player-stats?category=shooting&seasonType=reg', 'https://x.com/i/status/2038689419763343629', 'https://x.com/i/status/2038821901322100856', 'https://x.com/i/status/2035511787039174909', 'https://x.com/i/status/2016830682345996573', 'https://www.thetelegraph.com/sports/article/illinois-jake-davis-fast-twitch-energy-drink-22157157.php', 'https://www.rotowire.com/cbasketball/player/jake-davis-22865', 'https://www.facebook.com/cathedralhighschool/posts/just-minutes-before-cathedral-basketball-won-the-2026-state-championship-jake-da/1619122542953007', 'https://sports.yahoo.com/articles/illinois-vs-ucla-preview-why-004734943.html', 'http://www.atomticketsfeesettlement.com/jazz/mr23', 'https://www.espn.com/mens-college-basketball/game/_/gameId/401811096/illinois-uconn', 'https://x.com/CBBheadquarters/status/2038607656475128281', 'https://www.youtube.com/watch?v=CF8xZZchUlM', 'https://x.com/i/status/2035929790746685869', 'https://www.youtube.com/watch?v=uuF_B7Iqb9Y', 'https://www.youtube.com/watch?v=KqcQFY5Z1HI', 'https://www.thechampaignroom.com/illinois-fighting-illini-basketball-news/50521/he-just-does-everything-right-jake-davis-finding-role-for-illini-fighting-illini-ncaa-big-ten', 'https://x.com/i/status/2039084413435215977', 'https://x.com/i/status/2014157742676570380', 'https://www.nba.com/news/ncaa-tournament-2026-houston-vs-illinois', 'https://www.espn.com/mens-college-basketball/recap/_/gameId/401856566', 'https://fightingillini.com/sports/mens-basketball/roster/jake-davis/15199', 'https://x.com/GourdieReport/status/2014473098892918871', 'https://www.foxsports.com/college-basketball/jake-davis-player', 'https://www.illinoisloyalty.com/post/uconn-74-illinois-61-postgame.40524/page-3', 'https://www.facebook.com/100093705583317/videos/jake-davis/871040219165685', 'https://uconnhuskies.com/sports/mens-basketball/stats/2025-26/illinois/boxscore/25091', 'https://x.com/i/status/2036927747923067386', 'https://www.facebook.com/writingillinicom/posts/1388605653065789', 'https://writingillini.com/illinois-has-impeccable-timing-as-everything-is-coming-together-for-an-ncaa-tournament-run']",
+            "text": "{\"Jake Davis\": {\"minutesAdjustment\": 2, \"confidence\": 0.9, \"injurySummary\": \"\", \"confidenceJustification\": \"Season-long starter (17 straight, ~20 min avg), top KenPom lineup (20%), coach Underwood praises as leader/shooter with expanded role vs early-season (9 min vs UConn); recent tourney 13-17 aligns closer to 17 post-adjust\"}, \"Andrej Stojakovic\": {\"minutesAdjustment\": -1, \"confidence\": 0.9, \"injurySummary\": \"\", \"confidenceJustification\": \"\"}, \"Ben Humrichous\": {\"minutesAdjustment\": -1, \"confidence\": 0.9, \"injurySummary\": \"\", \"confidenceJustification\": \"\"}}"
+          },
+          "updatedAt": "2026-04-01T18:51:12.380796"
+        }
+      },
+      "teamMinutes": {
+        "projectionData": {
+          "Andrej Stojakovic": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 26
+          },
+          "Ben Humrichous": {
+            "confidence": 0.85,
+            "confidenceJustification": "Recent dip to 15-19 min in last two games after higher usage",
+            "injurySummary": "",
+            "minutes": 21
+          },
+          "Brandon Lee": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "David Mirkovic": {
+            "confidence": 0.9,
+            "confidenceJustification": "Variance in recent games (23-38 min), but consistently heavy rotation player",
+            "injurySummary": "",
+            "minutes": 34
+          },
+          "Jake Davis": {
+            "confidence": 0.8,
+            "confidenceJustification": "Sharp decline to 13-14 min in last three games from earlier 17-28",
+            "injurySummary": "",
+            "minutes": 15
+          },
+          "Jason Jakstys": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "Undisclosed injury, will not play",
+            "minutes": 0
+          },
+          "Keaton Wagler": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 37
+          },
+          "Kylan Boswell": {
+            "confidence": 0.9,
+            "confidenceJustification": "Recovered from February broken hand; full minutes recently",
+            "injurySummary": "",
+            "minutes": 27
+          },
+          "Mihailo Petrovic": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "Tomislav Ivisic": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 26
+          },
+          "Zvonimir Ivisic": {
+            "confidence": 0.85,
+            "confidenceJustification": "Decline to 12 min in last two games after 17-23 earlier",
+            "injurySummary": "",
+            "minutes": 14
+          }
+        },
+        "result": {
+          "citations": "['https://fightingillini.com/sports/mens-basketball', 'https://x.com/i/status/2032540393523269711', 'https://armchairillini.com/illinois-basketball-role-identification-amidst-injuries-lead-to-second-straight-loss', 'https://www.si.com/college/illinois/basketball/why-illinois-brad-underwood-may-keep-starting-jake-davis-over-andrej-stojakovic', 'https://x.com/i/status/2038035927818195282', 'https://x.com/i/status/2035516902794006688', 'https://www.covers.com/sport/basketball/ncaab/injuries', 'https://x.com/i/status/2035078393440411845', 'https://www.facebook.com/skcollegebasketball/posts/uconn-vs-illinois-final-four-predictions-odds-picks-for-april-4-mens-ncaa-tourna/827321293738284', 'https://x.com/i/status/2035147666049450391', 'https://sports.yahoo.com/articles/uconn-scouting-report-know-illinois-230744915.html', 'https://bleacherreport.com/game/illinois-fighting-illini-basketball-vs-uconn-basketball-2026-4-4-17-09', 'https://247sports.com/article/fighting-illini-basketball-bench-taking-shape-ben-humrichous-andrej-stojakovic-zvonimir-ivisic-illinois-head-coach-brad-underwood-279037846', 'https://x.com/i/status/2034623497675173944', 'https://www.thetelegraph.com/sports/article/tomislav-ivisic-injury-update-illinois-colgate-21167977.php', 'https://www.teamrankings.com/ncaa-basketball/matchup/fighting-illini-huskies-2026-04-04/injuries', 'https://www.si.com/college/illinois/basketball/is-illinois-kylan-boswell-close-to-return-brad-underwood-shares-new-update', 'https://www.covers.com/sport/basketball/ncaab/teams/main/illinois-fighting-illini/injuries', 'https://www.reddit.com/r/fightingillini/comments/1s8txqk/illinois_basketball_stars_keaton_wagler_david', 'https://www.facebook.com/25NewsWEEK/posts/illinoiss-two-freshmen-standouts-keaton-wagler13-pts12-rebs-and-david-mirkovic14/1490111529811403', 'https://writingillini.com/kylan-boswell-injury-exposes-champion-trait-for-the-illinois-basketball-program', 'https://lancasteronline.com/sports/basketball/college/illinois-freshmen-keaton-wagler-david-mirkovi-garner-national-attention-in-unique-ways-on-road-to/article_b54819d2-4426-5bb4-8f6f-1e3d0bf73644.html', 'https://x.com/i/status/2029022208295637260', 'https://x.com/i/status/2035529854704029847', 'https://x.com/i/status/2038948278604120255', 'https://x.com/i/status/2037546097548157235', 'https://writingillini.com/5-painful-observations-from-the-illinois-basketball-loss-to-michigan', 'https://sports.yahoo.com/articles/illinois-few-answers-inability-stay-011253293.html', 'https://x.com/i/status/2038675688673194039', 'https://x.com/i/status/2038733779670286684', 'https://www.thechampaignroom.com/illinois-fighting-illini-basketball-news/53148/uconn-scouting-report-what-to-know-and-how-illinois-can-win-fighting-illini-ncaa-big-ten-brad-underwood-tournament', 'https://x.com/i/status/2035509864991019182', 'https://x.com/i/status/2035794027404988836', 'https://x.com/i/status/2035147641210675352', 'https://x.com/i/status/2034806299871867011', 'https://www.facebook.com/cbschicago/posts/jake-davis-finished-with-13-points-for-illinois-tomislav-ivisic-scored-12-and-da/1455381029289439', 'https://www.si.com/college/illinois/basketball/uconn-dominance-illinois-advantage', 'https://ca.sports.yahoo.com/news/kylan-boswell-injury-exposes-champion-135219611.html', 'https://www.facebook.com/100093705583317/posts/illini-in-the-summer-kylan-boswell-said-he-knew-freshman-keaton-wagler-would-be-/825063400627172', 'https://x.com/i/status/2030768149310697682', 'https://x.com/JWerner247/status/2037351953223524527', 'https://x.com/WritingIlliniFS/status/2020136222245462190', 'https://bustingbrackets.com/illinois-basketball-takes-early-hit-with-potential-serious-injury-to-rotation-player', 'https://www.profootballnetwork.com/mens-cbb/uconn-illinois-injury-report-latest-final-four']",
+          "text": "{\"Andrej Stojakovic\":{\"minutes\":26,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Ben Humrichous\":{\"minutes\":21,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Recent dip to 15-19 min in last two games after higher usage\"},\"Brandon Lee\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"David Mirkovic\":{\"minutes\":34,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Variance in recent games (23-38 min), but consistently heavy rotation player\"},\"Jake Davis\":{\"minutes\":15,\"confidence\":0.8,\"injurySummary\":\"\",\"confidenceJustification\":\"Sharp decline to 13-14 min in last three games from earlier 17-28\"},\"Jason Jakstys\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"Undisclosed injury, will not play\",\"confidenceJustification\":\"\"},\"Keaton Wagler\":{\"minutes\":37,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Kylan Boswell\":{\"minutes\":27,\"confidence\":0.9,\"injurySummary\":\"\",\"confidenceJustification\":\"Recovered from February broken hand; full minutes recently\"},\"Mihailo Petrovic\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Tomislav Ivisic\":{\"minutes\":26,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Zvonimir Ivisic\":{\"minutes\":14,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"Decline to 12 min in last two games after 17-23 earlier\"}}"
+        },
+        "updatedAt": "2026-04-01T18:50:22.695781"
+      }
+    },
+    "Michigan": {
+      "players": {},
+      "teamMinutes": {
+        "projectionData": {
+          "Aday Mara": {
+            "confidence": 0.9,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 25
+          },
+          "Elliot Cadeau": {
+            "confidence": 0.85,
+            "confidenceJustification": "High std dev (4.21); recent health issue but confirmed available for game",
+            "injurySummary": "Possible allergic reaction pre-Final Four travel; evaluated and cleared, plans to play",
+            "minutes": 33
+          },
+          "LJ Cason": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "Torn ACL; out for remainder of 2025-26 season",
+            "minutes": 0
+          },
+          "Morez Johnson": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 26
+          },
+          "Nimari Burnett": {
+            "confidence": 0.9,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 23
+          },
+          "Oscar Goodman": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 0
+          },
+          "Roddy Gayle": {
+            "confidence": 0.85,
+            "confidenceJustification": "High std dev (4.35); stepped up post-Cason injury but variable usage",
+            "injurySummary": "",
+            "minutes": 22
+          },
+          "Trey McKenney": {
+            "confidence": 1.0,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 24
+          },
+          "Will Tschetter": {
+            "confidence": 0.8,
+            "confidenceJustification": "High std dev (4.27); bench role with variable minutes",
+            "injurySummary": "",
+            "minutes": 13
+          },
+          "Yaxel Lendeborg": {
+            "confidence": 0.95,
+            "confidenceJustification": "",
+            "injurySummary": "",
+            "minutes": 34
+          }
+        },
+        "result": {
+          "citations": "['https://sports.yahoo.com/articles/michigan-injury-report-released-ncaa-111139284.html', 'https://x.com/i/status/2039404618703155409', 'https://247sports.com/article/michigan-basketball-releases-injury-report-for-ncaa-tournament-game-against-alabama-279188255', 'https://x.com/i/status/2039493208686641407', 'https://www.teamrankings.com/ncaa-basketball/matchup/wildcats-wolverines-2026-04-04/injuries', 'https://basketball.realgm.com/ncaa/conferences/Big-Ten-Conference/2/Michigan/1/stats/2025/Minute_Per/All/Sr/Conference_Tournament/PF/trb/asc/1', 'https://www.youtube.com/watch?v=oPvQVBBKBQA&vl=bn', 'https://www.michigandaily.com/sports/mens-basketball/among-flood-of-roster-movement-will-tschetter-hasnt-gone-anywhere', 'https://www.espn.com/mens-college-basketball/team/_/id/130/michigan-wolverines', 'https://x.com/i/status/2039528482934305190', 'https://www.mlive.com/wolverines/2026/01/updates-on-michigan-basketballs-2-injured-starters.html', 'https://www.covers.com/sport/basketball/ncaab/teams/main/michigan-wolverines/injuries', 'https://sports.yahoo.com/mens-college-basketball/breaking-news/article/michigan-pg-elliot-cadeau-fine-after-receiving-medical-attention-for-possible-allergic-reaction-school-says-205959285.html', 'https://247sports.com/article/michigan-basketball-releases-injury-report-for-ncaa-tournament-first-round-game-278194138', 'https://www.youtube.com/watch?v=5D_428NiTw0', 'https://www.freep.com/story/sports/college/university-michigan/wolverines/2026/03/18/lj-cason-michigan-basketball-injury-acl-tear-march-madness/89217057007', 'https://www.sports-reference.com/cbb/schools/michigan', 'https://www.msn.com/en-us/sports/other/michigan-wolverines-injury-report-heading-into-the-big-ten-tournament-quarterfinals/ar-AA1YyqjB?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://arizonasports.com/ncaa/uofa-basketball/elliot-cadeau-michigan/3616510', 'https://x.com/i/status/2039444343652544828', 'https://www.youtube.com/watch?v=9jAcII_XzV0', 'http://www.msn.com/en-us/health/other/michigan-pg-elliot-cadeau-suffers-allergic-reaction-before-final-four/ar-AA1ZWFxG?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://x.com/i/status/2039424420712776114', 'https://en.wikipedia.org/wiki/Roddy_Gayle_Jr.', 'https://www.si.com/college/michigan/basketball/michigan-forward-yaxel-lendeborg-gives-update-on-his-injury-after-loss-to-purdue', 'https://mgoblue.com/sports/mens-basketball/roster/nimari-burnett/27042', 'https://www.youtube.com/watch?v=l2TvyLt2lNg', 'https://www.facebook.com/stoolpresidente/posts/michigan-vs-arizona-for-all-the-marbles/1525206968964785', 'https://www.mlive.com/wolverines/basketball/2026/04/michigan-starter-does-not-travel-with-team-to-final-four-after-possible-allergic-reaction.html', 'https://africa.espn.com/mens-college-basketball/story/_/id/48371635/michigan-says-elliot-cadeau-receiving-medical-treatment', 'https://x.com/i/status/2039382578356961339', 'https://gbmwolverine.com/march-roddy-gayle-has-made-a-triumphant-return-for-michigan-basketball', 'https://www.maizenbrew.com/michigan-mens-basketball/108021/michigan-basketball-march-madness-trey-mckenney-roddy-gayle-lj-cason-injury', 'https://www.maizenbrew.com/michigan-mens-basketball/107728/michigan-basketball-lj-cason-redshirt-dusty-may-michigan-state', 'https://www.youtube.com/watch?v=UmFUEfO17Lw', 'https://www.foxsports.com/college-basketball/will-tschetter-player', 'https://x.com/i/status/2038035927818195282', 'https://www.youtube.com/watch?v=LfrZpqOG0nU', 'https://x.com/i/status/2039405611616776560', 'https://www.facebook.com/BTN/posts/yaxel-lendeborg-and-roddy-gayle-jr-repping-injured-g-lj-casons-jersey-whos-out-f/1516857799806515', 'https://x.com/i/status/2037910303388647934', 'https://x.com/i/status/2036101327047041315', 'https://sports.yahoo.com/articles/back-element-march-roddy-triumphant-090959039.html', 'https://x.com/i/status/2038199619188838464', 'https://www.facebook.com/detroitsportsnation/posts/breaking-michigan-star-yaxel-lendeborg-reveals-injury-status-for-ncaa-tournament/1356280249864644', 'https://247sports.com/college/michigan/article/michigan-basketball-releases-injury-report-for-ncaa-tournament-game-against-alabama-279188255', 'https://www.youtube.com/watch?v=bdR9RU1HB38', 'https://x.com/i/status/2032870115708965280', 'https://www.detroitnews.com/story/sports/college/university-michigan/wolverines/2026/03/18/yaxel-lendeborg-injury-update-michigan-basketball-ncaa-tournament-march-madness/89215439007', 'https://www.maizenbrew.com/michigan-mens-basketball/102959/michigan-basketball-yaxel-lenedeborg-injury-dusty-may-penn-state', 'https://www.facebook.com/Local4/posts/michigan-wolverines-star-forward-yaxel-lendeborg-talks-ankle-injury-following-th/1373861381453094', 'https://x.com/i/status/2036127376560525712', 'https://x.com/i/status/2029706522318586215', 'https://mgoblue.com/sports/mens-basketball/roster/will-tschetter/27053', 'https://www.youtube.com/shorts/hSSpLxH7PQc', 'https://www.youtube.com/watch?v=_fJb4jP197E', 'https://x.com/i/status/2037220503341920717', 'https://www.espn.com/mens-college-basketball/team/stats/_/id/130/michigan-wolverines', 'https://www.facebook.com/WJBKFox2Detroit/posts/michigan-point-guard-elliot-cadeau-received-medical-attention-for-a-possible-all/1355756439932923', 'https://jayluchs.com/babbaaxshop/college/michigan/basketball/watch-will-tschetter-emotional-reaction-to-michigan-advancing-to-final-four', 'https://www.cbssports.com/college-basketball/teams/MICH/michigan-wolverines/stats', 'https://www.msn.com/en-us/sports/other/michigan-basketball-forced-to-revamp-rotation-after-lj-cason-s-injury/ar-AA1XnIEr', 'https://x.com/i/status/2039519275602637222', 'https://sports.yahoo.com/articles/wolverine-turned-down-more-money-111424983.html', 'https://www.detroitnews.com/story/sports/college/university-michigan/2026/03/19/michigan-basketballs-l-j-cason-opens-up-on-season-ending-acl-injury-it-was-a-surprise/89227576007', 'https://en.wikipedia.org/wiki/Will_Tschetter', 'https://www.rotowire.com/cbasketball/player/roddy-gayle-20384', 'https://x.com/i/status/2039527127993766199', 'https://247sports.com/college/michigan/article/yaxel-lendeborg-gives-the-latest-on-his-ankle-injury-ahead-of-ncaa-tournament-opener-278190682', 'https://x.com/ByAZuniga/status/2008194756661411951', 'https://www.youtube.com/watch?v=5ZHTpOXCboY', 'https://mgoblue.com/news/2026/3/19/mens-basketball-wolverines-hit-century-mark-in-record-setting-ncaa-tournament-opener', 'https://www.mlive.com/wolverines/basketball/2026/03/yaxel-lendeborg-injury-status-as-michigan-readies-for-ncaa-tournament-vs-howard.html', 'https://www.msn.com/en-us/sports/nba/nimari-burnett-injury-update-michigan-guard-leaves-game-vs-usc-with-bad-cut-near-eye/ar-AA1TtTPe?apiversion=v2&batchservertelemetry=1&domshim=1&noservercache=1&noservertelemetry=1&renderwebcomponents=1&wcseo=1', 'https://247sports.com/college/michigan/article/michigan-basketball-yaxel-lendeborg-and-nimari-burnett-injury-updates-penn-state-preview-and-more--269485515', 'https://x.com/i/status/2039453137703178650', 'https://kornackiwolverinereport.substack.com/p/michigans-rare-9-man-playing-rotation', 'https://x.com/i/status/2039479714432102855', 'https://www.rotowire.com/cbasketball/player/will-tschetter-18818', 'https://www.facebook.com/annarbornews/posts/a-michian-basketball-spokesperson-said-that-despite-elliot-cadeaus-possible-alle/1528535562615800', 'https://umhoops.com/2026/03/29/8-24-to-final-four-for-nimari-burnett-will-tschetter-and-harrison-hochberg', 'https://sports.yahoo.com/articles/yaxel-lendeborg-injury-updates-michigan-134756331.html', 'https://sports.yahoo.com/articles/yaxel-lendeborg-sprained-ankle-big-213504131.html', 'https://www.fox32chicago.com/sports/michigans-elliot-cadeau-gets-medical-attention-before-traveling-final-four', 'https://mgoblue.com/news/2026/2/28/mens-basketball-knee-injury-sidelines-lj-cason-for-remainder-of-season', 'https://www.facebook.com/annarbornews/posts/dusty-may-shed-light-on-injuries-to-yaxel-lendeborg-and-nimari-burnett/1447645940704763', 'https://wolverineswire.usatoday.com/story/sports/college/wolverines/mens-basketball/2026/03/06/michigan-basketball-finds-new-spark-after-cason-injury-roddy-gayle/89021879007', 'https://x.com/i/status/2039416587451588888', 'https://www.mlive.com/wolverines/2026/02/michigan-basketball-where-was-roddy-gayle-jr-and-whats-up-with-winters-grady.html', 'https://gbmwolverine.com/michigan-should-hope-for-this-opponent-in-national-championship-after-an-arizona-win', 'https://www.ncaa.com/video/basketball-men/2026-03-29/michigan-wolverines-vs-tennessee-volunteers-condensed-game-202621823', 'https://mgoblue.com/sports/mens-basketball/roster/roddy-gayle-jr/27046', 'https://www.facebook.com/detroitsportsnation/posts/-michigan-injury-report-released-for-ncaa-tournament-opener-vs-howard-story-in-c/1359288336230502', 'https://sports.yahoo.com/articles/michigan-basketball-x-factor-beat-041522077.html', 'https://x.com/i/status/2039510178098229647', 'https://x.com/i/status/2036127025992212497', 'https://www.detroitnews.com/story/sports/college/university-michigan/2026/04/01/michigan-basketball-player-elliot-cadeau-suffers-medical-incident-ahead-of-final-four/89425949007', 'https://www.espn.com/mens-college-basketball/player/_/id/4684596/will-tschetter', 'https://x.com/i/status/2039520466386485735', 'https://wolverineswire.usatoday.com/story/sports/college/wolverines/mens-basketball/2026/03/18/yaxel-lendeborg-injury-update-for-ncaa-tournament/89219691007', 'https://x.com/i/status/2039508536338567525', 'https://www.instagram.com/p/DWmmyvnkwal', 'https://www.on3.com/college/michigan-wolverines/news/nimari-burnett-injury-update-michigan-guard-leaves-game-vs-usc-bad-cut-near-eye', 'https://www.si.com/college/michigan/basketball/yaxel-lendeborg-injury-status-ahead-of-michigan-vs-howard-in-ncaa-tournament', 'https://www.si.com/college/michigan/basketball/dusty-may-challenges-michigan-bench-after-lj-cason-injury-ahead-of-ncaa-tournament', 'https://www.maizenbrew.com/michigan-mens-basketball/107288/michigan-basketball-lj-cason-injury-jon-rothstein', 'https://x.com/i/status/2039457267943108822', 'https://x.com/i/status/2039405808052506976', 'https://x.com/i/status/2038357934338425096', 'https://www.msn.com/en-us/sports/other/an-injury-update-on-yaxel-lendeborg-entering-ncaa-tournament/ar-AA1YGzB5']",
+          "text": "{\"Aday Mara\":{\"minutes\":25,\"confidence\":0.90,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Elliot Cadeau\":{\"minutes\":33,\"confidence\":0.85,\"injurySummary\":\"Possible allergic reaction pre-Final Four travel; evaluated and cleared, plans to play\",\"confidenceJustification\":\"High std dev (4.21); recent health issue but confirmed available for game\"},\"LJ Cason\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"Torn ACL; out for remainder of 2025-26 season\",\"confidenceJustification\":\"\"},\"Morez Johnson\":{\"minutes\":26,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Nimari Burnett\":{\"minutes\":23,\"confidence\":0.90,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Oscar Goodman\":{\"minutes\":0,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Roddy Gayle\":{\"minutes\":22,\"confidence\":0.85,\"injurySummary\":\"\",\"confidenceJustification\":\"High std dev (4.35); stepped up post-Cason injury but variable usage\"},\"Trey McKenney\":{\"minutes\":24,\"confidence\":1.0,\"injurySummary\":\"\",\"confidenceJustification\":\"\"},\"Will Tschetter\":{\"minutes\":13,\"confidence\":0.80,\"injurySummary\":\"\",\"confidenceJustification\":\"High std dev (4.27); bench role with variable minutes\"},\"Yaxel Lendeborg\":{\"minutes\":34,\"confidence\":0.95,\"injurySummary\":\"\",\"confidenceJustification\":\"\"}}"
+        },
+        "updatedAt": "2026-04-01T18:50:22.701826"
+      }
+    }
+  }
+}

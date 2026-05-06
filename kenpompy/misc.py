@@ -22,11 +22,17 @@ def get_current_season(browser: CloudScraper):
 	Returns:
 		current_season (int): Number corresponding to the last season year that has data published
 	"""
+	cached_season = getattr(browser, '_kenpom_current_season_cache', None)
+	if cached_season is not None:
+		return cached_season
+
 	url = 'https://kenpom.com/index.php'
 	content = BeautifulSoup(get_html(browser, url), "html.parser")
 	page_title = content.select_one('#content-header h2').text
 	YEAR_PATTERN = r'^(\d{4})'
-	return int(re.match(YEAR_PATTERN, page_title).group(0))
+	current_season = int(re.match(YEAR_PATTERN, page_title).group(0))
+	setattr(browser, '_kenpom_current_season_cache', current_season)
+	return current_season
 
 def get_pomeroy_ratings(browser: CloudScraper, season: Optional[str]=None):
     """

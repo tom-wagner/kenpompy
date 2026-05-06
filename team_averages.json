@@ -1,0 +1,3658 @@
+{
+  "source": "https://www.sports-reference.com/cbb/seasons/men/2026-school-stats.html",
+  "season": "2025-26",
+  "fetched_date": "2026-03-05",
+  "num_teams": 365,
+  "teams": {
+    "Abilene Christian": {
+      "g": 29,
+      "ppg": 70.97,
+      "apg": 13.62,
+      "rpg": 32.17,
+      "three_pm": 5.97,
+      "topg": 14.28,
+      "spg": 9.93,
+      "bpg": 2.83
+    },
+    "Air Force": {
+      "g": 30,
+      "ppg": 62.17,
+      "apg": 12.57,
+      "rpg": 29.27,
+      "three_pm": 6.83,
+      "topg": 14.87,
+      "spg": 5.47,
+      "bpg": 2.4
+    },
+    "Akron": {
+      "g": 30,
+      "ppg": 89.43,
+      "apg": 18.97,
+      "rpg": 38.07,
+      "three_pm": 10.9,
+      "topg": 11.07,
+      "spg": 7.67,
+      "bpg": 3.03
+    },
+    "Alabama": {
+      "g": 30,
+      "ppg": 92.0,
+      "apg": 16.33,
+      "rpg": 40.73,
+      "three_pm": 12.97,
+      "topg": 10.0,
+      "spg": 6.5,
+      "bpg": 5.07
+    },
+    "Alabama A&M": {
+      "g": 30,
+      "ppg": 71.77,
+      "apg": 11.4,
+      "rpg": 34.17,
+      "three_pm": 6.37,
+      "topg": 11.5,
+      "spg": 5.93,
+      "bpg": 2.9
+    },
+    "Alabama State": {
+      "g": 30,
+      "ppg": 73.77,
+      "apg": 12.4,
+      "rpg": 35.9,
+      "three_pm": 7.53,
+      "topg": 13.17,
+      "spg": 8.23,
+      "bpg": 3.57
+    },
+    "Albany (NY)": {
+      "g": 31,
+      "ppg": 71.84,
+      "apg": 13.97,
+      "rpg": 34.26,
+      "three_pm": 7.26,
+      "topg": 12.23,
+      "spg": 6.87,
+      "bpg": 3.84
+    },
+    "Alcorn State": {
+      "g": 29,
+      "ppg": 67.59,
+      "apg": 11.28,
+      "rpg": 29.62,
+      "three_pm": 6.69,
+      "topg": 13.72,
+      "spg": 7.79,
+      "bpg": 3.38
+    },
+    "American": {
+      "g": 31,
+      "ppg": 74.65,
+      "apg": 13.52,
+      "rpg": 31.9,
+      "three_pm": 9.13,
+      "topg": 10.65,
+      "spg": 7.68,
+      "bpg": 1.55
+    },
+    "Appalachian State": {
+      "g": 31,
+      "ppg": 72.0,
+      "apg": 12.29,
+      "rpg": 39.32,
+      "three_pm": 8.03,
+      "topg": 9.87,
+      "spg": 4.87,
+      "bpg": 3.65
+    },
+    "Arizona": {
+      "g": 30,
+      "ppg": 86.6,
+      "apg": 17.23,
+      "rpg": 43.23,
+      "three_pm": 5.87,
+      "topg": 11.03,
+      "spg": 8.07,
+      "bpg": 4.27
+    },
+    "Arizona State": {
+      "g": 30,
+      "ppg": 77.63,
+      "apg": 14.07,
+      "rpg": 33.4,
+      "three_pm": 7.63,
+      "topg": 11.23,
+      "spg": 7.07,
+      "bpg": 4.7
+    },
+    "Arkansas": {
+      "g": 30,
+      "ppg": 90.3,
+      "apg": 17.2,
+      "rpg": 35.73,
+      "three_pm": 8.2,
+      "topg": 8.97,
+      "spg": 7.3,
+      "bpg": 5.2
+    },
+    "Arkansas State": {
+      "g": 31,
+      "ppg": 83.16,
+      "apg": 15.68,
+      "rpg": 41.23,
+      "three_pm": 9.29,
+      "topg": 14.29,
+      "spg": 7.55,
+      "bpg": 2.65
+    },
+    "Arkansas-Pine Bluff": {
+      "g": 30,
+      "ppg": 76.93,
+      "apg": 15.4,
+      "rpg": 33.73,
+      "three_pm": 7.67,
+      "topg": 13.77,
+      "spg": 7.07,
+      "bpg": 3.0
+    },
+    "Army": {
+      "g": 32,
+      "ppg": 72.16,
+      "apg": 15.03,
+      "rpg": 35.47,
+      "three_pm": 10.59,
+      "topg": 11.91,
+      "spg": 5.84,
+      "bpg": 1.59
+    },
+    "Auburn": {
+      "g": 30,
+      "ppg": 83.5,
+      "apg": 12.8,
+      "rpg": 36.37,
+      "three_pm": 7.87,
+      "topg": 10.2,
+      "spg": 7.63,
+      "bpg": 4.23
+    },
+    "Austin Peay": {
+      "g": 29,
+      "ppg": 82.0,
+      "apg": 16.38,
+      "rpg": 35.21,
+      "three_pm": 8.59,
+      "topg": 10.86,
+      "spg": 9.55,
+      "bpg": 2.55
+    },
+    "Ball State": {
+      "g": 30,
+      "ppg": 66.93,
+      "apg": 12.33,
+      "rpg": 32.43,
+      "three_pm": 6.97,
+      "topg": 10.6,
+      "spg": 7.6,
+      "bpg": 2.57
+    },
+    "Baylor": {
+      "g": 30,
+      "ppg": 82.07,
+      "apg": 15.73,
+      "rpg": 37.17,
+      "three_pm": 8.23,
+      "topg": 11.8,
+      "spg": 6.37,
+      "bpg": 4.2
+    },
+    "Bellarmine": {
+      "g": 31,
+      "ppg": 80.26,
+      "apg": 15.03,
+      "rpg": 27.97,
+      "three_pm": 8.42,
+      "topg": 10.19,
+      "spg": 6.1,
+      "bpg": 1.71
+    },
+    "Belmont": {
+      "g": 31,
+      "ppg": 84.03,
+      "apg": 18.42,
+      "rpg": 36.19,
+      "three_pm": 10.81,
+      "topg": 12.61,
+      "spg": 6.29,
+      "bpg": 3.45
+    },
+    "Bethune-Cookman": {
+      "g": 30,
+      "ppg": 75.6,
+      "apg": 13.9,
+      "rpg": 36.13,
+      "three_pm": 5.93,
+      "topg": 13.8,
+      "spg": 7.07,
+      "bpg": 4.7
+    },
+    "Binghamton": {
+      "g": 31,
+      "ppg": 67.9,
+      "apg": 11.65,
+      "rpg": 31.26,
+      "three_pm": 5.29,
+      "topg": 12.32,
+      "spg": 5.16,
+      "bpg": 2.97
+    },
+    "Boise State": {
+      "g": 30,
+      "ppg": 78.33,
+      "apg": 13.4,
+      "rpg": 35.87,
+      "three_pm": 8.5,
+      "topg": 11.67,
+      "spg": 4.63,
+      "bpg": 2.27
+    },
+    "Boston College": {
+      "g": 30,
+      "ppg": 67.1,
+      "apg": 11.37,
+      "rpg": 36.3,
+      "three_pm": 7.33,
+      "topg": 10.43,
+      "spg": 4.73,
+      "bpg": 4.17
+    },
+    "Boston University": {
+      "g": 31,
+      "ppg": 76.06,
+      "apg": 14.71,
+      "rpg": 32.71,
+      "three_pm": 9.58,
+      "topg": 11.55,
+      "spg": 4.94,
+      "bpg": 3.29
+    },
+    "Bowling Green": {
+      "g": 30,
+      "ppg": 81.63,
+      "apg": 14.3,
+      "rpg": 36.1,
+      "three_pm": 7.17,
+      "topg": 11.63,
+      "spg": 9.93,
+      "bpg": 3.67
+    },
+    "Bradley": {
+      "g": 31,
+      "ppg": 77.45,
+      "apg": 13.19,
+      "rpg": 34.61,
+      "three_pm": 8.84,
+      "topg": 9.68,
+      "spg": 7.87,
+      "bpg": 3.23
+    },
+    "Brigham Young": {
+      "g": 30,
+      "ppg": 84.4,
+      "apg": 13.9,
+      "rpg": 38.53,
+      "three_pm": 8.77,
+      "topg": 10.8,
+      "spg": 7.3,
+      "bpg": 4.57
+    },
+    "Brown": {
+      "g": 26,
+      "ppg": 70.73,
+      "apg": 15.5,
+      "rpg": 34.96,
+      "three_pm": 7.0,
+      "topg": 12.46,
+      "spg": 7.92,
+      "bpg": 3.85
+    },
+    "Bryant": {
+      "g": 30,
+      "ppg": 65.1,
+      "apg": 12.23,
+      "rpg": 33.73,
+      "three_pm": 8.03,
+      "topg": 13.17,
+      "spg": 5.9,
+      "bpg": 4.33
+    },
+    "Bucknell": {
+      "g": 32,
+      "ppg": 67.31,
+      "apg": 12.62,
+      "rpg": 31.38,
+      "three_pm": 7.25,
+      "topg": 12.84,
+      "spg": 7.22,
+      "bpg": 1.84
+    },
+    "Buffalo": {
+      "g": 30,
+      "ppg": 78.3,
+      "apg": 14.7,
+      "rpg": 31.7,
+      "three_pm": 9.6,
+      "topg": 10.8,
+      "spg": 7.67,
+      "bpg": 2.83
+    },
+    "Butler": {
+      "g": 30,
+      "ppg": 79.27,
+      "apg": 15.43,
+      "rpg": 37.6,
+      "three_pm": 6.97,
+      "topg": 11.27,
+      "spg": 6.53,
+      "bpg": 3.2
+    },
+    "Cal Poly": {
+      "g": 30,
+      "ppg": 81.6,
+      "apg": 13.23,
+      "rpg": 37.77,
+      "three_pm": 10.97,
+      "topg": 15.6,
+      "spg": 6.6,
+      "bpg": 2.27
+    },
+    "Cal State Bakersfield": {
+      "g": 30,
+      "ppg": 72.63,
+      "apg": 10.9,
+      "rpg": 34.73,
+      "three_pm": 4.77,
+      "topg": 13.53,
+      "spg": 7.53,
+      "bpg": 4.83
+    },
+    "Cal State Fullerton": {
+      "g": 30,
+      "ppg": 83.73,
+      "apg": 16.2,
+      "rpg": 35.13,
+      "three_pm": 9.07,
+      "topg": 11.47,
+      "spg": 7.97,
+      "bpg": 2.83
+    },
+    "Cal State Northridge": {
+      "g": 30,
+      "ppg": 81.53,
+      "apg": 16.97,
+      "rpg": 41.63,
+      "three_pm": 7.07,
+      "topg": 13.07,
+      "spg": 7.0,
+      "bpg": 2.83
+    },
+    "California": {
+      "g": 30,
+      "ppg": 77.67,
+      "apg": 14.0,
+      "rpg": 34.83,
+      "three_pm": 8.93,
+      "topg": 10.37,
+      "spg": 6.03,
+      "bpg": 3.23
+    },
+    "California Baptist": {
+      "g": 29,
+      "ppg": 72.14,
+      "apg": 10.28,
+      "rpg": 40.38,
+      "three_pm": 6.24,
+      "topg": 12.31,
+      "spg": 5.28,
+      "bpg": 3.0
+    },
+    "Campbell": {
+      "g": 31,
+      "ppg": 78.9,
+      "apg": 12.52,
+      "rpg": 35.71,
+      "three_pm": 7.39,
+      "topg": 12.13,
+      "spg": 6.81,
+      "bpg": 1.87
+    },
+    "Canisius": {
+      "g": 31,
+      "ppg": 62.94,
+      "apg": 12.0,
+      "rpg": 33.45,
+      "three_pm": 7.16,
+      "topg": 12.68,
+      "spg": 4.94,
+      "bpg": 2.58
+    },
+    "Central Arkansas": {
+      "g": 31,
+      "ppg": 80.55,
+      "apg": 16.29,
+      "rpg": 36.06,
+      "three_pm": 10.58,
+      "topg": 10.87,
+      "spg": 8.81,
+      "bpg": 1.71
+    },
+    "Central Connecticut State": {
+      "g": 30,
+      "ppg": 73.83,
+      "apg": 13.8,
+      "rpg": 34.37,
+      "three_pm": 7.3,
+      "topg": 10.57,
+      "spg": 5.6,
+      "bpg": 4.03
+    },
+    "Central Michigan": {
+      "g": 30,
+      "ppg": 73.53,
+      "apg": 15.17,
+      "rpg": 32.77,
+      "three_pm": 6.6,
+      "topg": 12.67,
+      "spg": 6.73,
+      "bpg": 4.3
+    },
+    "Charleston Southern": {
+      "g": 31,
+      "ppg": 83.52,
+      "apg": 16.84,
+      "rpg": 42.06,
+      "three_pm": 12.06,
+      "topg": 14.23,
+      "spg": 4.84,
+      "bpg": 4.87
+    },
+    "Charlotte": {
+      "g": 30,
+      "ppg": 73.7,
+      "apg": 12.87,
+      "rpg": 34.1,
+      "three_pm": 8.5,
+      "topg": 11.9,
+      "spg": 4.63,
+      "bpg": 3.43
+    },
+    "Chattanooga": {
+      "g": 31,
+      "ppg": 76.42,
+      "apg": 15.16,
+      "rpg": 33.19,
+      "three_pm": 10.55,
+      "topg": 9.68,
+      "spg": 5.35,
+      "bpg": 2.65
+    },
+    "Chicago State": {
+      "g": 32,
+      "ppg": 65.78,
+      "apg": 11.72,
+      "rpg": 31.12,
+      "three_pm": 5.78,
+      "topg": 10.47,
+      "spg": 8.16,
+      "bpg": 1.25
+    },
+    "Cincinnati": {
+      "g": 30,
+      "ppg": 73.73,
+      "apg": 16.67,
+      "rpg": 36.93,
+      "three_pm": 8.77,
+      "topg": 11.47,
+      "spg": 6.57,
+      "bpg": 4.03
+    },
+    "Clemson": {
+      "g": 30,
+      "ppg": 74.33,
+      "apg": 12.87,
+      "rpg": 34.73,
+      "three_pm": 8.13,
+      "topg": 9.77,
+      "spg": 6.17,
+      "bpg": 2.73
+    },
+    "Cleveland State": {
+      "g": 33,
+      "ppg": 79.79,
+      "apg": 15.45,
+      "rpg": 32.55,
+      "three_pm": 10.82,
+      "topg": 12.85,
+      "spg": 5.64,
+      "bpg": 2.73
+    },
+    "Coastal Carolina": {
+      "g": 31,
+      "ppg": 73.35,
+      "apg": 10.48,
+      "rpg": 40.32,
+      "three_pm": 8.94,
+      "topg": 10.65,
+      "spg": 4.42,
+      "bpg": 3.42
+    },
+    "Colgate": {
+      "g": 31,
+      "ppg": 76.23,
+      "apg": 14.58,
+      "rpg": 34.32,
+      "three_pm": 7.42,
+      "topg": 10.29,
+      "spg": 6.1,
+      "bpg": 3.19
+    },
+    "College of Charleston": {
+      "g": 31,
+      "ppg": 76.03,
+      "apg": 13.45,
+      "rpg": 37.55,
+      "three_pm": 6.61,
+      "topg": 10.74,
+      "spg": 5.74,
+      "bpg": 4.48
+    },
+    "Colorado": {
+      "g": 30,
+      "ppg": 79.9,
+      "apg": 15.67,
+      "rpg": 34.37,
+      "three_pm": 7.37,
+      "topg": 10.33,
+      "spg": 6.33,
+      "bpg": 3.4
+    },
+    "Colorado State": {
+      "g": 30,
+      "ppg": 77.13,
+      "apg": 15.97,
+      "rpg": 32.5,
+      "three_pm": 9.9,
+      "topg": 11.9,
+      "spg": 5.27,
+      "bpg": 2.03
+    },
+    "Columbia": {
+      "g": 27,
+      "ppg": 76.85,
+      "apg": 15.96,
+      "rpg": 39.41,
+      "three_pm": 8.04,
+      "topg": 13.22,
+      "spg": 5.78,
+      "bpg": 3.07
+    },
+    "Connecticut": {
+      "g": 30,
+      "ppg": 78.7,
+      "apg": 18.63,
+      "rpg": 36.37,
+      "three_pm": 8.57,
+      "topg": 10.87,
+      "spg": 7.0,
+      "bpg": 5.47
+    },
+    "Coppin State": {
+      "g": 30,
+      "ppg": 65.53,
+      "apg": 11.87,
+      "rpg": 32.23,
+      "three_pm": 5.97,
+      "topg": 15.5,
+      "spg": 6.5,
+      "bpg": 3.2
+    },
+    "Cornell": {
+      "g": 26,
+      "ppg": 88.08,
+      "apg": 21.08,
+      "rpg": 35.38,
+      "three_pm": 12.77,
+      "topg": 11.96,
+      "spg": 6.12,
+      "bpg": 2.77
+    },
+    "Creighton": {
+      "g": 31,
+      "ppg": 75.58,
+      "apg": 15.55,
+      "rpg": 35.06,
+      "three_pm": 9.9,
+      "topg": 11.39,
+      "spg": 5.84,
+      "bpg": 2.61
+    },
+    "Dartmouth": {
+      "g": 26,
+      "ppg": 75.27,
+      "apg": 13.85,
+      "rpg": 35.46,
+      "three_pm": 10.15,
+      "topg": 12.23,
+      "spg": 4.88,
+      "bpg": 3.73
+    },
+    "Davidson": {
+      "g": 30,
+      "ppg": 72.57,
+      "apg": 13.8,
+      "rpg": 33.27,
+      "three_pm": 9.1,
+      "topg": 10.47,
+      "spg": 6.67,
+      "bpg": 4.23
+    },
+    "Dayton": {
+      "g": 30,
+      "ppg": 75.53,
+      "apg": 14.47,
+      "rpg": 32.53,
+      "three_pm": 7.63,
+      "topg": 12.2,
+      "spg": 8.7,
+      "bpg": 4.13
+    },
+    "Delaware": {
+      "g": 29,
+      "ppg": 68.17,
+      "apg": 12.1,
+      "rpg": 30.66,
+      "three_pm": 8.55,
+      "topg": 11.9,
+      "spg": 5.59,
+      "bpg": 2.9
+    },
+    "Delaware State": {
+      "g": 28,
+      "ppg": 61.11,
+      "apg": 10.57,
+      "rpg": 30.75,
+      "three_pm": 4.79,
+      "topg": 13.14,
+      "spg": 7.96,
+      "bpg": 1.71
+    },
+    "Denver": {
+      "g": 31,
+      "ppg": 83.32,
+      "apg": 11.74,
+      "rpg": 33.97,
+      "three_pm": 8.94,
+      "topg": 9.71,
+      "spg": 4.65,
+      "bpg": 1.97
+    },
+    "DePaul": {
+      "g": 30,
+      "ppg": 70.7,
+      "apg": 15.03,
+      "rpg": 33.3,
+      "three_pm": 7.17,
+      "topg": 12.17,
+      "spg": 6.9,
+      "bpg": 3.33
+    },
+    "Detroit Mercy": {
+      "g": 30,
+      "ppg": 77.93,
+      "apg": 13.2,
+      "rpg": 37.67,
+      "three_pm": 6.7,
+      "topg": 11.4,
+      "spg": 5.9,
+      "bpg": 3.27
+    },
+    "Drake": {
+      "g": 31,
+      "ppg": 75.29,
+      "apg": 13.32,
+      "rpg": 35.81,
+      "three_pm": 9.16,
+      "topg": 10.32,
+      "spg": 5.45,
+      "bpg": 3.1
+    },
+    "Drexel": {
+      "g": 31,
+      "ppg": 67.94,
+      "apg": 13.39,
+      "rpg": 35.16,
+      "three_pm": 7.77,
+      "topg": 12.45,
+      "spg": 6.06,
+      "bpg": 3.74
+    },
+    "Duke": {
+      "g": 30,
+      "ppg": 83.17,
+      "apg": 17.33,
+      "rpg": 40.0,
+      "three_pm": 9.07,
+      "topg": 10.5,
+      "spg": 7.9,
+      "bpg": 3.33
+    },
+    "Duquesne": {
+      "g": 30,
+      "ppg": 79.07,
+      "apg": 15.43,
+      "rpg": 35.13,
+      "three_pm": 8.8,
+      "topg": 12.93,
+      "spg": 7.73,
+      "bpg": 3.03
+    },
+    "East Carolina": {
+      "g": 29,
+      "ppg": 71.31,
+      "apg": 11.72,
+      "rpg": 36.38,
+      "three_pm": 5.24,
+      "topg": 12.07,
+      "spg": 6.48,
+      "bpg": 4.07
+    },
+    "East Tennessee State": {
+      "g": 31,
+      "ppg": 78.23,
+      "apg": 14.48,
+      "rpg": 34.32,
+      "three_pm": 7.45,
+      "topg": 10.19,
+      "spg": 8.84,
+      "bpg": 3.39
+    },
+    "East Texas A&M": {
+      "g": 32,
+      "ppg": 70.19,
+      "apg": 16.09,
+      "rpg": 33.09,
+      "three_pm": 8.56,
+      "topg": 12.94,
+      "spg": 7.28,
+      "bpg": 3.19
+    },
+    "Eastern Illinois": {
+      "g": 32,
+      "ppg": 67.22,
+      "apg": 12.28,
+      "rpg": 32.81,
+      "three_pm": 5.38,
+      "topg": 12.47,
+      "spg": 7.81,
+      "bpg": 3.06
+    },
+    "Eastern Kentucky": {
+      "g": 32,
+      "ppg": 80.25,
+      "apg": 14.62,
+      "rpg": 36.03,
+      "three_pm": 11.25,
+      "topg": 11.75,
+      "spg": 7.0,
+      "bpg": 3.09
+    },
+    "Eastern Michigan": {
+      "g": 30,
+      "ppg": 70.73,
+      "apg": 12.8,
+      "rpg": 35.47,
+      "three_pm": 6.1,
+      "topg": 12.0,
+      "spg": 5.97,
+      "bpg": 4.1
+    },
+    "Eastern Washington": {
+      "g": 31,
+      "ppg": 78.19,
+      "apg": 13.55,
+      "rpg": 32.16,
+      "three_pm": 7.32,
+      "topg": 12.35,
+      "spg": 6.19,
+      "bpg": 3.45
+    },
+    "Elon": {
+      "g": 31,
+      "ppg": 78.65,
+      "apg": 14.97,
+      "rpg": 35.45,
+      "three_pm": 8.9,
+      "topg": 10.55,
+      "spg": 6.87,
+      "bpg": 2.94
+    },
+    "Evansville": {
+      "g": 31,
+      "ppg": 67.23,
+      "apg": 13.23,
+      "rpg": 31.19,
+      "three_pm": 7.77,
+      "topg": 12.84,
+      "spg": 5.32,
+      "bpg": 3.39
+    },
+    "Fairfield": {
+      "g": 31,
+      "ppg": 74.9,
+      "apg": 12.06,
+      "rpg": 38.45,
+      "three_pm": 7.58,
+      "topg": 10.32,
+      "spg": 6.65,
+      "bpg": 3.58
+    },
+    "FDU": {
+      "g": 32,
+      "ppg": 67.19,
+      "apg": 12.06,
+      "rpg": 35.31,
+      "three_pm": 7.94,
+      "topg": 11.78,
+      "spg": 5.03,
+      "bpg": 1.53
+    },
+    "Florida": {
+      "g": 30,
+      "ppg": 87.83,
+      "apg": 16.83,
+      "rpg": 45.67,
+      "three_pm": 7.57,
+      "topg": 11.73,
+      "spg": 6.67,
+      "bpg": 5.07
+    },
+    "Florida A&M": {
+      "g": 28,
+      "ppg": 70.07,
+      "apg": 12.86,
+      "rpg": 33.82,
+      "three_pm": 6.96,
+      "topg": 15.21,
+      "spg": 7.64,
+      "bpg": 3.07
+    },
+    "Florida Atlantic": {
+      "g": 30,
+      "ppg": 79.77,
+      "apg": 13.6,
+      "rpg": 39.0,
+      "three_pm": 8.13,
+      "topg": 12.03,
+      "spg": 5.93,
+      "bpg": 5.63
+    },
+    "Florida Gulf Coast": {
+      "g": 32,
+      "ppg": 77.84,
+      "apg": 14.91,
+      "rpg": 36.66,
+      "three_pm": 8.06,
+      "topg": 10.97,
+      "spg": 7.62,
+      "bpg": 3.69
+    },
+    "Florida International": {
+      "g": 29,
+      "ppg": 81.0,
+      "apg": 15.1,
+      "rpg": 37.59,
+      "three_pm": 7.55,
+      "topg": 12.93,
+      "spg": 9.38,
+      "bpg": 4.66
+    },
+    "Florida State": {
+      "g": 30,
+      "ppg": 79.57,
+      "apg": 14.17,
+      "rpg": 36.2,
+      "three_pm": 10.1,
+      "topg": 11.13,
+      "spg": 7.73,
+      "bpg": 3.93
+    },
+    "Fordham": {
+      "g": 30,
+      "ppg": 70.4,
+      "apg": 14.53,
+      "rpg": 38.8,
+      "three_pm": 6.77,
+      "topg": 11.27,
+      "spg": 7.2,
+      "bpg": 2.3
+    },
+    "Fresno State": {
+      "g": 30,
+      "ppg": 73.6,
+      "apg": 13.0,
+      "rpg": 34.77,
+      "three_pm": 7.53,
+      "topg": 12.6,
+      "spg": 6.77,
+      "bpg": 2.07
+    },
+    "Furman": {
+      "g": 31,
+      "ppg": 76.03,
+      "apg": 15.94,
+      "rpg": 38.52,
+      "three_pm": 8.77,
+      "topg": 12.1,
+      "spg": 4.68,
+      "bpg": 3.35
+    },
+    "Gardner-Webb": {
+      "g": 32,
+      "ppg": 68.41,
+      "apg": 10.22,
+      "rpg": 30.53,
+      "three_pm": 6.91,
+      "topg": 13.66,
+      "spg": 6.31,
+      "bpg": 2.44
+    },
+    "George Mason": {
+      "g": 30,
+      "ppg": 73.47,
+      "apg": 12.83,
+      "rpg": 34.63,
+      "three_pm": 6.37,
+      "topg": 10.67,
+      "spg": 4.97,
+      "bpg": 3.07
+    },
+    "George Washington": {
+      "g": 30,
+      "ppg": 83.3,
+      "apg": 15.67,
+      "rpg": 37.6,
+      "three_pm": 10.0,
+      "topg": 12.83,
+      "spg": 7.57,
+      "bpg": 3.43
+    },
+    "Georgetown": {
+      "g": 30,
+      "ppg": 74.37,
+      "apg": 14.87,
+      "rpg": 35.83,
+      "three_pm": 6.77,
+      "topg": 10.53,
+      "spg": 6.5,
+      "bpg": 3.73
+    },
+    "Georgia": {
+      "g": 30,
+      "ppg": 90.0,
+      "apg": 14.9,
+      "rpg": 38.33,
+      "three_pm": 9.6,
+      "topg": 10.57,
+      "spg": 8.2,
+      "bpg": 6.33
+    },
+    "Georgia Southern": {
+      "g": 32,
+      "ppg": 80.66,
+      "apg": 10.97,
+      "rpg": 34.66,
+      "three_pm": 9.56,
+      "topg": 10.44,
+      "spg": 8.06,
+      "bpg": 3.69
+    },
+    "Georgia State": {
+      "g": 32,
+      "ppg": 70.41,
+      "apg": 11.59,
+      "rpg": 35.09,
+      "three_pm": 8.12,
+      "topg": 10.88,
+      "spg": 6.91,
+      "bpg": 3.16
+    },
+    "Georgia Tech": {
+      "g": 30,
+      "ppg": 73.7,
+      "apg": 15.93,
+      "rpg": 37.17,
+      "three_pm": 6.97,
+      "topg": 13.37,
+      "spg": 6.07,
+      "bpg": 3.93
+    },
+    "Gonzaga": {
+      "g": 31,
+      "ppg": 85.97,
+      "apg": 18.19,
+      "rpg": 40.23,
+      "three_pm": 6.68,
+      "topg": 9.71,
+      "spg": 8.68,
+      "bpg": 3.68
+    },
+    "Grambling": {
+      "g": 30,
+      "ppg": 70.47,
+      "apg": 12.07,
+      "rpg": 33.23,
+      "three_pm": 6.5,
+      "topg": 14.77,
+      "spg": 8.0,
+      "bpg": 2.83
+    },
+    "Grand Canyon": {
+      "g": 30,
+      "ppg": 75.17,
+      "apg": 12.57,
+      "rpg": 36.4,
+      "three_pm": 6.9,
+      "topg": 12.33,
+      "spg": 6.4,
+      "bpg": 3.6
+    },
+    "Green Bay": {
+      "g": 32,
+      "ppg": 74.78,
+      "apg": 13.81,
+      "rpg": 31.5,
+      "three_pm": 7.16,
+      "topg": 10.5,
+      "spg": 4.59,
+      "bpg": 2.72
+    },
+    "Hampton": {
+      "g": 31,
+      "ppg": 69.97,
+      "apg": 12.19,
+      "rpg": 35.9,
+      "three_pm": 6.45,
+      "topg": 11.23,
+      "spg": 6.65,
+      "bpg": 3.19
+    },
+    "Harvard": {
+      "g": 27,
+      "ppg": 70.04,
+      "apg": 13.85,
+      "rpg": 31.74,
+      "three_pm": 7.52,
+      "topg": 10.93,
+      "spg": 7.37,
+      "bpg": 3.44
+    },
+    "Hawaii": {
+      "g": 28,
+      "ppg": 79.68,
+      "apg": 13.75,
+      "rpg": 39.25,
+      "three_pm": 7.68,
+      "topg": 13.61,
+      "spg": 6.54,
+      "bpg": 3.86
+    },
+    "High Point": {
+      "g": 31,
+      "ppg": 90.71,
+      "apg": 16.61,
+      "rpg": 36.0,
+      "three_pm": 9.29,
+      "topg": 9.32,
+      "spg": 11.13,
+      "bpg": 3.94
+    },
+    "Hofstra": {
+      "g": 31,
+      "ppg": 75.35,
+      "apg": 13.0,
+      "rpg": 39.1,
+      "three_pm": 9.39,
+      "topg": 10.77,
+      "spg": 4.97,
+      "bpg": 3.97
+    },
+    "Holy Cross": {
+      "g": 32,
+      "ppg": 68.28,
+      "apg": 10.97,
+      "rpg": 31.38,
+      "three_pm": 6.72,
+      "topg": 10.16,
+      "spg": 5.66,
+      "bpg": 1.75
+    },
+    "Houston": {
+      "g": 30,
+      "ppg": 77.5,
+      "apg": 14.9,
+      "rpg": 36.6,
+      "three_pm": 8.8,
+      "topg": 8.27,
+      "spg": 7.87,
+      "bpg": 3.83
+    },
+    "Houston Christian": {
+      "g": 31,
+      "ppg": 67.32,
+      "apg": 14.0,
+      "rpg": 32.06,
+      "three_pm": 6.03,
+      "topg": 12.45,
+      "spg": 6.58,
+      "bpg": 3.97
+    },
+    "Howard": {
+      "g": 30,
+      "ppg": 77.47,
+      "apg": 16.53,
+      "rpg": 36.7,
+      "three_pm": 6.63,
+      "topg": 13.6,
+      "spg": 8.73,
+      "bpg": 3.67
+    },
+    "Idaho": {
+      "g": 31,
+      "ppg": 79.0,
+      "apg": 13.1,
+      "rpg": 37.0,
+      "three_pm": 10.52,
+      "topg": 10.81,
+      "spg": 6.03,
+      "bpg": 2.26
+    },
+    "Idaho State": {
+      "g": 31,
+      "ppg": 74.45,
+      "apg": 11.97,
+      "rpg": 32.77,
+      "three_pm": 7.71,
+      "topg": 11.06,
+      "spg": 5.35,
+      "bpg": 4.32
+    },
+    "Illinois": {
+      "g": 30,
+      "ppg": 84.47,
+      "apg": 14.67,
+      "rpg": 41.07,
+      "three_pm": 11.17,
+      "topg": 9.03,
+      "spg": 3.8,
+      "bpg": 4.77
+    },
+    "Illinois State": {
+      "g": 31,
+      "ppg": 75.87,
+      "apg": 13.68,
+      "rpg": 36.0,
+      "three_pm": 8.77,
+      "topg": 11.39,
+      "spg": 5.68,
+      "bpg": 2.29
+    },
+    "Illinois-Chicago": {
+      "g": 31,
+      "ppg": 75.29,
+      "apg": 14.52,
+      "rpg": 36.55,
+      "three_pm": 6.32,
+      "topg": 12.29,
+      "spg": 8.23,
+      "bpg": 3.74
+    },
+    "Incarnate Word": {
+      "g": 31,
+      "ppg": 74.26,
+      "apg": 11.68,
+      "rpg": 34.26,
+      "three_pm": 8.58,
+      "topg": 11.16,
+      "spg": 5.39,
+      "bpg": 2.48
+    },
+    "Indiana": {
+      "g": 30,
+      "ppg": 78.73,
+      "apg": 16.87,
+      "rpg": 32.87,
+      "three_pm": 10.1,
+      "topg": 10.07,
+      "spg": 4.63,
+      "bpg": 2.77
+    },
+    "Indiana State": {
+      "g": 31,
+      "ppg": 73.94,
+      "apg": 17.45,
+      "rpg": 35.0,
+      "three_pm": 8.39,
+      "topg": 13.71,
+      "spg": 6.26,
+      "bpg": 3.1
+    },
+    "Iona": {
+      "g": 31,
+      "ppg": 73.65,
+      "apg": 13.87,
+      "rpg": 35.61,
+      "three_pm": 9.61,
+      "topg": 12.16,
+      "spg": 6.81,
+      "bpg": 3.0
+    },
+    "Iowa": {
+      "g": 29,
+      "ppg": 75.69,
+      "apg": 15.14,
+      "rpg": 29.83,
+      "three_pm": 7.83,
+      "topg": 9.48,
+      "spg": 7.07,
+      "bpg": 2.1
+    },
+    "Iowa State": {
+      "g": 30,
+      "ppg": 81.63,
+      "apg": 17.4,
+      "rpg": 35.6,
+      "three_pm": 8.83,
+      "topg": 10.37,
+      "spg": 8.77,
+      "bpg": 2.87
+    },
+    "IU Indy": {
+      "g": 32,
+      "ppg": 83.53,
+      "apg": 20.25,
+      "rpg": 32.41,
+      "three_pm": 9.62,
+      "topg": 12.0,
+      "spg": 8.88,
+      "bpg": 3.19
+    },
+    "Jackson State": {
+      "g": 30,
+      "ppg": 70.17,
+      "apg": 10.63,
+      "rpg": 33.63,
+      "three_pm": 8.03,
+      "topg": 13.97,
+      "spg": 6.07,
+      "bpg": 3.0
+    },
+    "Jacksonville": {
+      "g": 32,
+      "ppg": 73.09,
+      "apg": 12.06,
+      "rpg": 33.91,
+      "three_pm": 7.09,
+      "topg": 11.22,
+      "spg": 6.62,
+      "bpg": 2.94
+    },
+    "Jacksonville State": {
+      "g": 29,
+      "ppg": 73.21,
+      "apg": 12.38,
+      "rpg": 36.31,
+      "three_pm": 8.0,
+      "topg": 11.31,
+      "spg": 6.14,
+      "bpg": 2.97
+    },
+    "James Madison": {
+      "g": 32,
+      "ppg": 74.38,
+      "apg": 12.62,
+      "rpg": 36.88,
+      "three_pm": 8.53,
+      "topg": 11.72,
+      "spg": 5.28,
+      "bpg": 4.19
+    },
+    "Kansas": {
+      "g": 30,
+      "ppg": 75.57,
+      "apg": 14.4,
+      "rpg": 38.63,
+      "three_pm": 7.37,
+      "topg": 10.73,
+      "spg": 5.5,
+      "bpg": 5.87
+    },
+    "Kansas City": {
+      "g": 31,
+      "ppg": 69.32,
+      "apg": 11.87,
+      "rpg": 33.35,
+      "three_pm": 6.71,
+      "topg": 13.13,
+      "spg": 6.29,
+      "bpg": 3.16
+    },
+    "Kansas State": {
+      "g": 30,
+      "ppg": 79.0,
+      "apg": 17.13,
+      "rpg": 34.37,
+      "three_pm": 9.37,
+      "topg": 13.03,
+      "spg": 7.0,
+      "bpg": 3.6
+    },
+    "Kennesaw State": {
+      "g": 29,
+      "ppg": 84.17,
+      "apg": 14.72,
+      "rpg": 40.69,
+      "three_pm": 9.9,
+      "topg": 12.0,
+      "spg": 7.1,
+      "bpg": 5.52
+    },
+    "Kent State": {
+      "g": 30,
+      "ppg": 85.6,
+      "apg": 16.43,
+      "rpg": 39.8,
+      "three_pm": 9.9,
+      "topg": 13.6,
+      "spg": 6.8,
+      "bpg": 3.6
+    },
+    "Kentucky": {
+      "g": 30,
+      "ppg": 81.37,
+      "apg": 16.17,
+      "rpg": 38.2,
+      "three_pm": 8.33,
+      "topg": 10.73,
+      "spg": 7.1,
+      "bpg": 4.33
+    },
+    "La Salle": {
+      "g": 30,
+      "ppg": 66.4,
+      "apg": 13.13,
+      "rpg": 35.23,
+      "three_pm": 5.3,
+      "topg": 12.4,
+      "spg": 6.7,
+      "bpg": 2.6
+    },
+    "Lafayette": {
+      "g": 32,
+      "ppg": 69.44,
+      "apg": 13.62,
+      "rpg": 33.09,
+      "three_pm": 7.38,
+      "topg": 10.38,
+      "spg": 5.56,
+      "bpg": 2.34
+    },
+    "Lamar": {
+      "g": 31,
+      "ppg": 69.9,
+      "apg": 14.48,
+      "rpg": 37.26,
+      "three_pm": 6.81,
+      "topg": 12.0,
+      "spg": 6.48,
+      "bpg": 4.39
+    },
+    "Le Moyne": {
+      "g": 32,
+      "ppg": 73.0,
+      "apg": 14.22,
+      "rpg": 34.94,
+      "three_pm": 7.53,
+      "topg": 13.16,
+      "spg": 5.81,
+      "bpg": 3.31
+    },
+    "Lehigh": {
+      "g": 31,
+      "ppg": 73.26,
+      "apg": 14.45,
+      "rpg": 31.61,
+      "three_pm": 7.9,
+      "topg": 12.32,
+      "spg": 6.81,
+      "bpg": 3.32
+    },
+    "Liberty": {
+      "g": 29,
+      "ppg": 78.69,
+      "apg": 17.1,
+      "rpg": 29.14,
+      "three_pm": 10.38,
+      "topg": 8.97,
+      "spg": 6.55,
+      "bpg": 3.48
+    },
+    "Lindenwood": {
+      "g": 32,
+      "ppg": 78.12,
+      "apg": 14.78,
+      "rpg": 39.03,
+      "three_pm": 5.97,
+      "topg": 13.5,
+      "spg": 8.97,
+      "bpg": 4.5
+    },
+    "Lipscomb": {
+      "g": 31,
+      "ppg": 80.52,
+      "apg": 18.23,
+      "rpg": 35.03,
+      "three_pm": 10.84,
+      "topg": 11.29,
+      "spg": 7.0,
+      "bpg": 2.87
+    },
+    "Little Rock": {
+      "g": 32,
+      "ppg": 70.53,
+      "apg": 14.0,
+      "rpg": 33.84,
+      "three_pm": 6.5,
+      "topg": 12.78,
+      "spg": 7.88,
+      "bpg": 4.47
+    },
+    "Long Beach State": {
+      "g": 30,
+      "ppg": 74.73,
+      "apg": 13.53,
+      "rpg": 32.73,
+      "three_pm": 6.77,
+      "topg": 12.67,
+      "spg": 7.07,
+      "bpg": 3.07
+    },
+    "Long Island University": {
+      "g": 32,
+      "ppg": 74.25,
+      "apg": 13.84,
+      "rpg": 35.03,
+      "three_pm": 6.12,
+      "topg": 13.38,
+      "spg": 7.88,
+      "bpg": 5.31
+    },
+    "Longwood": {
+      "g": 31,
+      "ppg": 77.55,
+      "apg": 12.84,
+      "rpg": 36.87,
+      "three_pm": 6.26,
+      "topg": 14.03,
+      "spg": 8.74,
+      "bpg": 2.39
+    },
+    "Louisiana": {
+      "g": 33,
+      "ppg": 63.67,
+      "apg": 10.3,
+      "rpg": 30.33,
+      "three_pm": 7.58,
+      "topg": 10.76,
+      "spg": 5.79,
+      "bpg": 3.52
+    },
+    "Louisiana State": {
+      "g": 30,
+      "ppg": 81.1,
+      "apg": 14.77,
+      "rpg": 36.37,
+      "three_pm": 6.8,
+      "topg": 10.7,
+      "spg": 6.03,
+      "bpg": 3.87
+    },
+    "Louisiana Tech": {
+      "g": 29,
+      "ppg": 69.28,
+      "apg": 12.31,
+      "rpg": 38.72,
+      "three_pm": 5.72,
+      "topg": 12.86,
+      "spg": 7.24,
+      "bpg": 4.97
+    },
+    "Louisiana-Monroe": {
+      "g": 32,
+      "ppg": 72.44,
+      "apg": 12.19,
+      "rpg": 32.41,
+      "three_pm": 7.69,
+      "topg": 12.12,
+      "spg": 6.12,
+      "bpg": 3.41
+    },
+    "Louisville": {
+      "g": 30,
+      "ppg": 85.67,
+      "apg": 17.27,
+      "rpg": 39.3,
+      "three_pm": 11.87,
+      "topg": 11.8,
+      "spg": 7.07,
+      "bpg": 3.33
+    },
+    "Loyola (IL)": {
+      "g": 30,
+      "ppg": 66.73,
+      "apg": 13.77,
+      "rpg": 33.77,
+      "three_pm": 8.13,
+      "topg": 13.1,
+      "spg": 3.97,
+      "bpg": 3.77
+    },
+    "Loyola (MD)": {
+      "g": 31,
+      "ppg": 75.16,
+      "apg": 13.29,
+      "rpg": 35.55,
+      "three_pm": 9.52,
+      "topg": 11.1,
+      "spg": 6.26,
+      "bpg": 3.65
+    },
+    "Loyola Marymount": {
+      "g": 31,
+      "ppg": 74.65,
+      "apg": 13.29,
+      "rpg": 34.06,
+      "three_pm": 8.26,
+      "topg": 12.1,
+      "spg": 6.13,
+      "bpg": 4.1
+    },
+    "Maine": {
+      "g": 31,
+      "ppg": 62.68,
+      "apg": 12.23,
+      "rpg": 28.0,
+      "three_pm": 6.0,
+      "topg": 12.35,
+      "spg": 7.77,
+      "bpg": 3.19
+    },
+    "Manhattan": {
+      "g": 31,
+      "ppg": 74.48,
+      "apg": 12.97,
+      "rpg": 33.13,
+      "three_pm": 7.29,
+      "topg": 10.48,
+      "spg": 7.9,
+      "bpg": 2.39
+    },
+    "Marist": {
+      "g": 29,
+      "ppg": 69.86,
+      "apg": 15.24,
+      "rpg": 35.52,
+      "three_pm": 6.66,
+      "topg": 10.93,
+      "spg": 7.03,
+      "bpg": 2.9
+    },
+    "Marquette": {
+      "g": 30,
+      "ppg": 75.0,
+      "apg": 15.33,
+      "rpg": 34.37,
+      "three_pm": 8.07,
+      "topg": 11.4,
+      "spg": 9.43,
+      "bpg": 3.1
+    },
+    "Marshall": {
+      "g": 31,
+      "ppg": 81.23,
+      "apg": 16.81,
+      "rpg": 36.87,
+      "three_pm": 10.06,
+      "topg": 11.58,
+      "spg": 6.19,
+      "bpg": 4.87
+    },
+    "Maryland": {
+      "g": 30,
+      "ppg": 69.8,
+      "apg": 10.53,
+      "rpg": 35.53,
+      "three_pm": 8.47,
+      "topg": 12.53,
+      "spg": 4.77,
+      "bpg": 2.87
+    },
+    "Maryland-Baltimore County": {
+      "g": 29,
+      "ppg": 75.52,
+      "apg": 12.31,
+      "rpg": 35.69,
+      "three_pm": 7.83,
+      "topg": 9.83,
+      "spg": 4.97,
+      "bpg": 2.62
+    },
+    "Maryland-Eastern Shore": {
+      "g": 30,
+      "ppg": 64.27,
+      "apg": 13.63,
+      "rpg": 32.5,
+      "three_pm": 5.47,
+      "topg": 15.8,
+      "spg": 5.67,
+      "bpg": 2.37
+    },
+    "Massachusetts": {
+      "g": 31,
+      "ppg": 80.45,
+      "apg": 17.35,
+      "rpg": 37.35,
+      "three_pm": 7.77,
+      "topg": 13.1,
+      "spg": 6.65,
+      "bpg": 2.23
+    },
+    "Massachusetts-Lowell": {
+      "g": 31,
+      "ppg": 74.87,
+      "apg": 12.48,
+      "rpg": 37.52,
+      "three_pm": 5.71,
+      "topg": 12.26,
+      "spg": 5.16,
+      "bpg": 3.03
+    },
+    "McNeese State": {
+      "g": 31,
+      "ppg": 80.03,
+      "apg": 14.1,
+      "rpg": 34.74,
+      "three_pm": 6.55,
+      "topg": 9.48,
+      "spg": 10.42,
+      "bpg": 4.26
+    },
+    "Memphis": {
+      "g": 29,
+      "ppg": 74.24,
+      "apg": 13.24,
+      "rpg": 36.45,
+      "three_pm": 6.66,
+      "topg": 13.83,
+      "spg": 8.83,
+      "bpg": 4.14
+    },
+    "Mercer": {
+      "g": 31,
+      "ppg": 83.0,
+      "apg": 13.87,
+      "rpg": 37.9,
+      "three_pm": 8.77,
+      "topg": 10.58,
+      "spg": 7.87,
+      "bpg": 3.48
+    },
+    "Mercyhurst": {
+      "g": 32,
+      "ppg": 69.75,
+      "apg": 14.69,
+      "rpg": 32.5,
+      "three_pm": 6.03,
+      "topg": 9.53,
+      "spg": 7.38,
+      "bpg": 3.75
+    },
+    "Merrimack": {
+      "g": 31,
+      "ppg": 69.29,
+      "apg": 12.35,
+      "rpg": 28.61,
+      "three_pm": 8.0,
+      "topg": 9.71,
+      "spg": 8.1,
+      "bpg": 4.94
+    },
+    "Miami (FL)": {
+      "g": 30,
+      "ppg": 82.5,
+      "apg": 16.4,
+      "rpg": 38.2,
+      "three_pm": 6.67,
+      "topg": 11.57,
+      "spg": 8.0,
+      "bpg": 3.33
+    },
+    "Miami (OH)": {
+      "g": 30,
+      "ppg": 90.3,
+      "apg": 16.17,
+      "rpg": 35.53,
+      "three_pm": 10.37,
+      "topg": 10.6,
+      "spg": 7.63,
+      "bpg": 3.43
+    },
+    "Michigan": {
+      "g": 29,
+      "ppg": 88.97,
+      "apg": 19.21,
+      "rpg": 40.66,
+      "three_pm": 9.38,
+      "topg": 12.03,
+      "spg": 5.97,
+      "bpg": 5.9
+    },
+    "Michigan State": {
+      "g": 29,
+      "ppg": 78.31,
+      "apg": 18.34,
+      "rpg": 40.38,
+      "three_pm": 7.72,
+      "topg": 11.52,
+      "spg": 5.24,
+      "bpg": 4.1
+    },
+    "Middle Tennessee": {
+      "g": 29,
+      "ppg": 75.76,
+      "apg": 14.28,
+      "rpg": 36.45,
+      "three_pm": 9.21,
+      "topg": 11.28,
+      "spg": 6.21,
+      "bpg": 4.28
+    },
+    "Milwaukee": {
+      "g": 32,
+      "ppg": 76.25,
+      "apg": 13.31,
+      "rpg": 36.03,
+      "three_pm": 7.5,
+      "topg": 10.41,
+      "spg": 6.75,
+      "bpg": 2.94
+    },
+    "Minnesota": {
+      "g": 30,
+      "ppg": 70.23,
+      "apg": 17.23,
+      "rpg": 31.37,
+      "three_pm": 8.67,
+      "topg": 10.47,
+      "spg": 6.5,
+      "bpg": 2.7
+    },
+    "Mississippi": {
+      "g": 30,
+      "ppg": 75.77,
+      "apg": 13.9,
+      "rpg": 34.17,
+      "three_pm": 7.37,
+      "topg": 9.77,
+      "spg": 6.9,
+      "bpg": 4.23
+    },
+    "Mississippi State": {
+      "g": 30,
+      "ppg": 77.57,
+      "apg": 12.8,
+      "rpg": 38.43,
+      "three_pm": 8.23,
+      "topg": 11.5,
+      "spg": 5.8,
+      "bpg": 4.43
+    },
+    "Mississippi Valley State": {
+      "g": 31,
+      "ppg": 64.23,
+      "apg": 12.06,
+      "rpg": 30.55,
+      "three_pm": 5.03,
+      "topg": 15.35,
+      "spg": 7.29,
+      "bpg": 2.55
+    },
+    "Missouri": {
+      "g": 30,
+      "ppg": 79.77,
+      "apg": 14.37,
+      "rpg": 35.67,
+      "three_pm": 7.3,
+      "topg": 12.27,
+      "spg": 6.67,
+      "bpg": 3.5
+    },
+    "Missouri State": {
+      "g": 29,
+      "ppg": 75.28,
+      "apg": 14.28,
+      "rpg": 35.31,
+      "three_pm": 7.55,
+      "topg": 11.55,
+      "spg": 7.17,
+      "bpg": 3.28
+    },
+    "Monmouth": {
+      "g": 31,
+      "ppg": 73.0,
+      "apg": 14.13,
+      "rpg": 35.45,
+      "three_pm": 7.1,
+      "topg": 11.48,
+      "spg": 7.58,
+      "bpg": 4.32
+    },
+    "Montana": {
+      "g": 31,
+      "ppg": 77.13,
+      "apg": 15.32,
+      "rpg": 34.55,
+      "three_pm": 8.16,
+      "topg": 13.68,
+      "spg": 5.77,
+      "bpg": 2.45
+    },
+    "Montana State": {
+      "g": 31,
+      "ppg": 78.03,
+      "apg": 11.42,
+      "rpg": 33.16,
+      "three_pm": 9.87,
+      "topg": 10.13,
+      "spg": 6.94,
+      "bpg": 2.87
+    },
+    "Morehead State": {
+      "g": 31,
+      "ppg": 75.84,
+      "apg": 13.84,
+      "rpg": 36.0,
+      "three_pm": 6.0,
+      "topg": 11.94,
+      "spg": 6.61,
+      "bpg": 3.0
+    },
+    "Morgan State": {
+      "g": 28,
+      "ppg": 75.64,
+      "apg": 13.43,
+      "rpg": 34.75,
+      "three_pm": 7.04,
+      "topg": 12.75,
+      "spg": 5.04,
+      "bpg": 3.5
+    },
+    "Mount St. Mary's": {
+      "g": 31,
+      "ppg": 68.39,
+      "apg": 13.77,
+      "rpg": 36.94,
+      "three_pm": 7.77,
+      "topg": 15.39,
+      "spg": 6.16,
+      "bpg": 3.0
+    },
+    "Murray State": {
+      "g": 31,
+      "ppg": 83.48,
+      "apg": 13.81,
+      "rpg": 36.58,
+      "three_pm": 9.58,
+      "topg": 11.84,
+      "spg": 5.97,
+      "bpg": 3.97
+    },
+    "Navy": {
+      "g": 31,
+      "ppg": 74.81,
+      "apg": 16.26,
+      "rpg": 37.0,
+      "three_pm": 6.58,
+      "topg": 11.45,
+      "spg": 7.55,
+      "bpg": 3.06
+    },
+    "NC State": {
+      "g": 30,
+      "ppg": 83.53,
+      "apg": 15.93,
+      "rpg": 35.03,
+      "three_pm": 10.37,
+      "topg": 9.23,
+      "spg": 8.3,
+      "bpg": 3.33
+    },
+    "Nebraska": {
+      "g": 30,
+      "ppg": 77.7,
+      "apg": 18.07,
+      "rpg": 35.3,
+      "three_pm": 10.57,
+      "topg": 9.67,
+      "spg": 7.23,
+      "bpg": 2.67
+    },
+    "Nevada": {
+      "g": 30,
+      "ppg": 75.93,
+      "apg": 14.17,
+      "rpg": 35.73,
+      "three_pm": 6.9,
+      "topg": 9.83,
+      "spg": 6.53,
+      "bpg": 3.8
+    },
+    "Nevada-Las Vegas": {
+      "g": 30,
+      "ppg": 80.03,
+      "apg": 14.4,
+      "rpg": 35.1,
+      "three_pm": 7.23,
+      "topg": 11.97,
+      "spg": 7.8,
+      "bpg": 4.57
+    },
+    "New Hampshire": {
+      "g": 29,
+      "ppg": 69.21,
+      "apg": 11.24,
+      "rpg": 35.66,
+      "three_pm": 8.1,
+      "topg": 11.24,
+      "spg": 6.28,
+      "bpg": 2.28
+    },
+    "New Haven": {
+      "g": 31,
+      "ppg": 64.94,
+      "apg": 12.1,
+      "rpg": 31.39,
+      "three_pm": 6.71,
+      "topg": 11.06,
+      "spg": 6.55,
+      "bpg": 2.29
+    },
+    "New Mexico": {
+      "g": 30,
+      "ppg": 80.43,
+      "apg": 14.53,
+      "rpg": 36.17,
+      "three_pm": 9.33,
+      "topg": 10.8,
+      "spg": 7.9,
+      "bpg": 2.97
+    },
+    "New Mexico State": {
+      "g": 28,
+      "ppg": 75.64,
+      "apg": 13.46,
+      "rpg": 37.61,
+      "three_pm": 7.89,
+      "topg": 10.46,
+      "spg": 6.57,
+      "bpg": 3.36
+    },
+    "New Orleans": {
+      "g": 31,
+      "ppg": 75.0,
+      "apg": 13.03,
+      "rpg": 37.55,
+      "three_pm": 6.06,
+      "topg": 14.58,
+      "spg": 5.68,
+      "bpg": 3.84
+    },
+    "Niagara": {
+      "g": 30,
+      "ppg": 63.87,
+      "apg": 14.0,
+      "rpg": 29.17,
+      "three_pm": 7.1,
+      "topg": 11.93,
+      "spg": 5.63,
+      "bpg": 2.9
+    },
+    "Nicholls State": {
+      "g": 31,
+      "ppg": 72.87,
+      "apg": 13.19,
+      "rpg": 31.16,
+      "three_pm": 8.77,
+      "topg": 11.81,
+      "spg": 8.94,
+      "bpg": 2.65
+    },
+    "NJIT": {
+      "g": 31,
+      "ppg": 67.68,
+      "apg": 10.9,
+      "rpg": 34.55,
+      "three_pm": 7.13,
+      "topg": 11.42,
+      "spg": 6.61,
+      "bpg": 3.29
+    },
+    "Norfolk State": {
+      "g": 30,
+      "ppg": 76.23,
+      "apg": 12.0,
+      "rpg": 34.93,
+      "three_pm": 6.0,
+      "topg": 12.27,
+      "spg": 7.13,
+      "bpg": 3.03
+    },
+    "North Alabama": {
+      "g": 30,
+      "ppg": 69.4,
+      "apg": 10.07,
+      "rpg": 33.43,
+      "three_pm": 5.8,
+      "topg": 11.43,
+      "spg": 6.53,
+      "bpg": 3.77
+    },
+    "North Carolina": {
+      "g": 30,
+      "ppg": 80.43,
+      "apg": 16.07,
+      "rpg": 38.33,
+      "three_pm": 8.53,
+      "topg": 9.5,
+      "spg": 5.47,
+      "bpg": 3.37
+    },
+    "North Carolina A&T": {
+      "g": 29,
+      "ppg": 75.17,
+      "apg": 12.07,
+      "rpg": 37.0,
+      "three_pm": 5.83,
+      "topg": 12.79,
+      "spg": 5.31,
+      "bpg": 3.83
+    },
+    "North Carolina Central": {
+      "g": 28,
+      "ppg": 72.5,
+      "apg": 14.21,
+      "rpg": 31.32,
+      "three_pm": 6.36,
+      "topg": 12.29,
+      "spg": 8.89,
+      "bpg": 3.46
+    },
+    "North Dakota": {
+      "g": 32,
+      "ppg": 77.12,
+      "apg": 11.38,
+      "rpg": 33.31,
+      "three_pm": 8.09,
+      "topg": 9.94,
+      "spg": 8.66,
+      "bpg": 2.62
+    },
+    "North Dakota State": {
+      "g": 31,
+      "ppg": 81.45,
+      "apg": 15.71,
+      "rpg": 36.03,
+      "three_pm": 9.48,
+      "topg": 10.9,
+      "spg": 8.45,
+      "bpg": 2.97
+    },
+    "North Florida": {
+      "g": 32,
+      "ppg": 79.59,
+      "apg": 13.88,
+      "rpg": 32.25,
+      "three_pm": 11.03,
+      "topg": 12.53,
+      "spg": 5.06,
+      "bpg": 1.38
+    },
+    "North Texas": {
+      "g": 31,
+      "ppg": 70.42,
+      "apg": 12.23,
+      "rpg": 34.71,
+      "three_pm": 5.65,
+      "topg": 11.55,
+      "spg": 9.35,
+      "bpg": 4.26
+    },
+    "Northeastern": {
+      "g": 29,
+      "ppg": 74.38,
+      "apg": 15.28,
+      "rpg": 31.66,
+      "three_pm": 7.62,
+      "topg": 11.62,
+      "spg": 6.83,
+      "bpg": 3.0
+    },
+    "Northern Arizona": {
+      "g": 31,
+      "ppg": 71.52,
+      "apg": 13.16,
+      "rpg": 29.87,
+      "three_pm": 7.58,
+      "topg": 10.55,
+      "spg": 6.87,
+      "bpg": 2.65
+    },
+    "Northern Colorado": {
+      "g": 31,
+      "ppg": 82.29,
+      "apg": 16.61,
+      "rpg": 36.71,
+      "three_pm": 9.61,
+      "topg": 11.1,
+      "spg": 4.39,
+      "bpg": 2.71
+    },
+    "Northern Illinois": {
+      "g": 29,
+      "ppg": 70.03,
+      "apg": 12.76,
+      "rpg": 35.07,
+      "three_pm": 8.07,
+      "topg": 14.97,
+      "spg": 5.9,
+      "bpg": 1.86
+    },
+    "Northern Iowa": {
+      "g": 31,
+      "ppg": 69.29,
+      "apg": 14.45,
+      "rpg": 32.13,
+      "three_pm": 7.74,
+      "topg": 9.23,
+      "spg": 6.65,
+      "bpg": 3.06
+    },
+    "Northern Kentucky": {
+      "g": 32,
+      "ppg": 82.53,
+      "apg": 15.53,
+      "rpg": 35.38,
+      "three_pm": 9.28,
+      "topg": 11.97,
+      "spg": 8.75,
+      "bpg": 3.56
+    },
+    "Northwestern": {
+      "g": 30,
+      "ppg": 73.43,
+      "apg": 17.0,
+      "rpg": 31.03,
+      "three_pm": 6.33,
+      "topg": 8.63,
+      "spg": 5.83,
+      "bpg": 3.87
+    },
+    "Northwestern State": {
+      "g": 31,
+      "ppg": 68.97,
+      "apg": 12.03,
+      "rpg": 31.32,
+      "three_pm": 5.94,
+      "topg": 11.61,
+      "spg": 6.39,
+      "bpg": 2.35
+    },
+    "Notre Dame": {
+      "g": 30,
+      "ppg": 74.63,
+      "apg": 12.33,
+      "rpg": 36.6,
+      "three_pm": 8.93,
+      "topg": 11.5,
+      "spg": 4.47,
+      "bpg": 2.17
+    },
+    "Oakland": {
+      "g": 32,
+      "ppg": 82.56,
+      "apg": 15.75,
+      "rpg": 34.97,
+      "three_pm": 7.22,
+      "topg": 10.47,
+      "spg": 7.62,
+      "bpg": 3.62
+    },
+    "Ohio": {
+      "g": 30,
+      "ppg": 76.97,
+      "apg": 13.63,
+      "rpg": 33.6,
+      "three_pm": 6.83,
+      "topg": 10.97,
+      "spg": 6.33,
+      "bpg": 3.5
+    },
+    "Ohio State": {
+      "g": 30,
+      "ppg": 80.1,
+      "apg": 14.47,
+      "rpg": 34.0,
+      "three_pm": 8.07,
+      "topg": 10.43,
+      "spg": 4.87,
+      "bpg": 2.43
+    },
+    "Oklahoma": {
+      "g": 30,
+      "ppg": 82.57,
+      "apg": 14.07,
+      "rpg": 35.57,
+      "three_pm": 10.03,
+      "topg": 10.17,
+      "spg": 6.27,
+      "bpg": 3.77
+    },
+    "Oklahoma State": {
+      "g": 30,
+      "ppg": 84.2,
+      "apg": 14.9,
+      "rpg": 37.97,
+      "three_pm": 7.77,
+      "topg": 12.27,
+      "spg": 7.4,
+      "bpg": 2.67
+    },
+    "Old Dominion": {
+      "g": 33,
+      "ppg": 76.18,
+      "apg": 13.09,
+      "rpg": 34.88,
+      "three_pm": 7.7,
+      "topg": 10.91,
+      "spg": 5.73,
+      "bpg": 3.15
+    },
+    "Omaha": {
+      "g": 31,
+      "ppg": 76.81,
+      "apg": 13.35,
+      "rpg": 34.61,
+      "three_pm": 8.65,
+      "topg": 11.23,
+      "spg": 5.87,
+      "bpg": 2.81
+    },
+    "Oral Roberts": {
+      "g": 32,
+      "ppg": 73.59,
+      "apg": 11.78,
+      "rpg": 34.81,
+      "three_pm": 8.41,
+      "topg": 13.22,
+      "spg": 6.0,
+      "bpg": 3.34
+    },
+    "Oregon": {
+      "g": 30,
+      "ppg": 70.73,
+      "apg": 14.1,
+      "rpg": 34.8,
+      "three_pm": 7.83,
+      "topg": 12.03,
+      "spg": 6.03,
+      "bpg": 4.07
+    },
+    "Oregon State": {
+      "g": 31,
+      "ppg": 71.39,
+      "apg": 13.84,
+      "rpg": 32.39,
+      "three_pm": 8.19,
+      "topg": 11.84,
+      "spg": 5.68,
+      "bpg": 3.58
+    },
+    "Pacific": {
+      "g": 31,
+      "ppg": 73.23,
+      "apg": 15.13,
+      "rpg": 38.19,
+      "three_pm": 7.16,
+      "topg": 13.19,
+      "spg": 5.45,
+      "bpg": 2.26
+    },
+    "Penn State": {
+      "g": 30,
+      "ppg": 74.33,
+      "apg": 12.57,
+      "rpg": 28.97,
+      "three_pm": 7.03,
+      "topg": 10.33,
+      "spg": 7.13,
+      "bpg": 1.6
+    },
+    "Pennsylvania": {
+      "g": 26,
+      "ppg": 75.96,
+      "apg": 13.88,
+      "rpg": 36.54,
+      "three_pm": 7.81,
+      "topg": 10.85,
+      "spg": 6.31,
+      "bpg": 3.12
+    },
+    "Pepperdine": {
+      "g": 31,
+      "ppg": 72.39,
+      "apg": 14.03,
+      "rpg": 33.65,
+      "three_pm": 7.19,
+      "topg": 12.9,
+      "spg": 6.03,
+      "bpg": 2.87
+    },
+    "Pittsburgh": {
+      "g": 30,
+      "ppg": 70.13,
+      "apg": 13.47,
+      "rpg": 34.53,
+      "three_pm": 8.3,
+      "topg": 11.33,
+      "spg": 6.63,
+      "bpg": 3.1
+    },
+    "Portland": {
+      "g": 31,
+      "ppg": 74.65,
+      "apg": 16.65,
+      "rpg": 33.39,
+      "three_pm": 6.13,
+      "topg": 13.77,
+      "spg": 6.13,
+      "bpg": 2.87
+    },
+    "Portland State": {
+      "g": 29,
+      "ppg": 76.52,
+      "apg": 14.9,
+      "rpg": 37.0,
+      "three_pm": 6.83,
+      "topg": 12.07,
+      "spg": 7.62,
+      "bpg": 3.93
+    },
+    "Prairie View": {
+      "g": 30,
+      "ppg": 80.3,
+      "apg": 11.87,
+      "rpg": 33.6,
+      "three_pm": 6.03,
+      "topg": 12.33,
+      "spg": 8.57,
+      "bpg": 4.57
+    },
+    "Presbyterian": {
+      "g": 31,
+      "ppg": 71.81,
+      "apg": 12.9,
+      "rpg": 35.29,
+      "three_pm": 5.0,
+      "topg": 12.94,
+      "spg": 5.71,
+      "bpg": 4.58
+    },
+    "Princeton": {
+      "g": 28,
+      "ppg": 69.14,
+      "apg": 12.93,
+      "rpg": 33.5,
+      "three_pm": 8.36,
+      "topg": 10.93,
+      "spg": 4.79,
+      "bpg": 2.14
+    },
+    "Providence": {
+      "g": 30,
+      "ppg": 85.77,
+      "apg": 14.13,
+      "rpg": 38.87,
+      "three_pm": 8.97,
+      "topg": 12.2,
+      "spg": 5.4,
+      "bpg": 4.07
+    },
+    "Purdue": {
+      "g": 30,
+      "ppg": 81.9,
+      "apg": 19.67,
+      "rpg": 35.6,
+      "three_pm": 9.4,
+      "topg": 9.17,
+      "spg": 5.67,
+      "bpg": 2.67
+    },
+    "Purdue Fort Wayne": {
+      "g": 32,
+      "ppg": 78.09,
+      "apg": 13.75,
+      "rpg": 30.28,
+      "three_pm": 9.38,
+      "topg": 9.94,
+      "spg": 8.53,
+      "bpg": 3.16
+    },
+    "Queens (NC)": {
+      "g": 31,
+      "ppg": 84.74,
+      "apg": 15.77,
+      "rpg": 33.29,
+      "three_pm": 9.97,
+      "topg": 10.58,
+      "spg": 5.68,
+      "bpg": 2.94
+    },
+    "Quinnipiac": {
+      "g": 31,
+      "ppg": 75.35,
+      "apg": 13.58,
+      "rpg": 36.71,
+      "three_pm": 7.35,
+      "topg": 10.9,
+      "spg": 7.9,
+      "bpg": 4.48
+    },
+    "Radford": {
+      "g": 31,
+      "ppg": 81.26,
+      "apg": 13.16,
+      "rpg": 35.68,
+      "three_pm": 9.55,
+      "topg": 12.55,
+      "spg": 7.74,
+      "bpg": 3.55
+    },
+    "Rhode Island": {
+      "g": 30,
+      "ppg": 70.87,
+      "apg": 11.4,
+      "rpg": 32.97,
+      "three_pm": 7.13,
+      "topg": 12.63,
+      "spg": 8.63,
+      "bpg": 3.77
+    },
+    "Rice": {
+      "g": 30,
+      "ppg": 73.7,
+      "apg": 12.2,
+      "rpg": 37.67,
+      "three_pm": 9.13,
+      "topg": 12.4,
+      "spg": 6.77,
+      "bpg": 3.9
+    },
+    "Richmond": {
+      "g": 30,
+      "ppg": 77.03,
+      "apg": 14.1,
+      "rpg": 33.73,
+      "three_pm": 8.9,
+      "topg": 9.67,
+      "spg": 7.2,
+      "bpg": 2.3
+    },
+    "Rider": {
+      "g": 29,
+      "ppg": 63.45,
+      "apg": 10.31,
+      "rpg": 34.97,
+      "three_pm": 4.45,
+      "topg": 11.24,
+      "spg": 6.03,
+      "bpg": 3.38
+    },
+    "Robert Morris": {
+      "g": 32,
+      "ppg": 77.84,
+      "apg": 17.81,
+      "rpg": 37.84,
+      "three_pm": 9.12,
+      "topg": 12.47,
+      "spg": 5.78,
+      "bpg": 2.59
+    },
+    "Rutgers": {
+      "g": 29,
+      "ppg": 70.24,
+      "apg": 11.62,
+      "rpg": 33.31,
+      "three_pm": 6.38,
+      "topg": 10.24,
+      "spg": 6.07,
+      "bpg": 3.38
+    },
+    "Sacramento State": {
+      "g": 30,
+      "ppg": 78.77,
+      "apg": 13.17,
+      "rpg": 34.3,
+      "three_pm": 7.6,
+      "topg": 10.47,
+      "spg": 7.57,
+      "bpg": 3.2
+    },
+    "Sacred Heart": {
+      "g": 31,
+      "ppg": 75.58,
+      "apg": 14.68,
+      "rpg": 35.13,
+      "three_pm": 10.68,
+      "topg": 12.16,
+      "spg": 5.94,
+      "bpg": 2.71
+    },
+    "Saint Francis (PA)": {
+      "g": 31,
+      "ppg": 71.48,
+      "apg": 13.42,
+      "rpg": 32.65,
+      "three_pm": 7.71,
+      "topg": 12.94,
+      "spg": 7.42,
+      "bpg": 2.06
+    },
+    "Saint Joseph's": {
+      "g": 30,
+      "ppg": 73.23,
+      "apg": 15.63,
+      "rpg": 38.93,
+      "three_pm": 8.23,
+      "topg": 11.9,
+      "spg": 5.67,
+      "bpg": 4.97
+    },
+    "Saint Louis": {
+      "g": 30,
+      "ppg": 88.83,
+      "apg": 18.7,
+      "rpg": 40.67,
+      "three_pm": 11.2,
+      "topg": 12.33,
+      "spg": 7.27,
+      "bpg": 3.47
+    },
+    "Saint Mary's (CA)": {
+      "g": 31,
+      "ppg": 78.42,
+      "apg": 15.55,
+      "rpg": 40.35,
+      "three_pm": 8.19,
+      "topg": 10.84,
+      "spg": 5.77,
+      "bpg": 3.61
+    },
+    "Saint Peter's": {
+      "g": 28,
+      "ppg": 71.39,
+      "apg": 13.0,
+      "rpg": 35.68,
+      "three_pm": 7.39,
+      "topg": 11.54,
+      "spg": 9.11,
+      "bpg": 3.75
+    },
+    "Sam Houston": {
+      "g": 29,
+      "ppg": 83.45,
+      "apg": 15.59,
+      "rpg": 40.69,
+      "three_pm": 8.52,
+      "topg": 11.93,
+      "spg": 7.24,
+      "bpg": 3.17
+    },
+    "Samford": {
+      "g": 31,
+      "ppg": 78.84,
+      "apg": 14.9,
+      "rpg": 36.55,
+      "three_pm": 9.58,
+      "topg": 9.16,
+      "spg": 4.58,
+      "bpg": 2.74
+    },
+    "San Diego": {
+      "g": 31,
+      "ppg": 75.35,
+      "apg": 16.39,
+      "rpg": 31.48,
+      "three_pm": 9.26,
+      "topg": 12.52,
+      "spg": 8.1,
+      "bpg": 2.71
+    },
+    "San Diego State": {
+      "g": 29,
+      "ppg": 79.1,
+      "apg": 15.38,
+      "rpg": 34.97,
+      "three_pm": 6.9,
+      "topg": 11.97,
+      "spg": 7.76,
+      "bpg": 4.41
+    },
+    "San Francisco": {
+      "g": 31,
+      "ppg": 74.35,
+      "apg": 13.77,
+      "rpg": 35.97,
+      "three_pm": 9.0,
+      "topg": 11.06,
+      "spg": 5.13,
+      "bpg": 3.1
+    },
+    "San Jose State": {
+      "g": 30,
+      "ppg": 71.23,
+      "apg": 10.73,
+      "rpg": 30.1,
+      "three_pm": 7.93,
+      "topg": 10.3,
+      "spg": 5.7,
+      "bpg": 2.03
+    },
+    "Santa Clara": {
+      "g": 31,
+      "ppg": 83.77,
+      "apg": 16.94,
+      "rpg": 35.68,
+      "three_pm": 9.97,
+      "topg": 11.16,
+      "spg": 9.29,
+      "bpg": 3.81
+    },
+    "Seattle": {
+      "g": 31,
+      "ppg": 72.81,
+      "apg": 13.39,
+      "rpg": 33.0,
+      "three_pm": 7.35,
+      "topg": 11.61,
+      "spg": 8.03,
+      "bpg": 4.84
+    },
+    "Seton Hall": {
+      "g": 30,
+      "ppg": 70.53,
+      "apg": 13.17,
+      "rpg": 35.73,
+      "three_pm": 4.9,
+      "topg": 11.27,
+      "spg": 9.47,
+      "bpg": 5.73
+    },
+    "Siena": {
+      "g": 31,
+      "ppg": 70.81,
+      "apg": 13.23,
+      "rpg": 33.65,
+      "three_pm": 5.26,
+      "topg": 10.29,
+      "spg": 6.03,
+      "bpg": 2.87
+    },
+    "South Alabama": {
+      "g": 31,
+      "ppg": 74.26,
+      "apg": 11.74,
+      "rpg": 35.52,
+      "three_pm": 7.13,
+      "topg": 8.71,
+      "spg": 8.06,
+      "bpg": 2.32
+    },
+    "South Carolina": {
+      "g": 30,
+      "ppg": 75.33,
+      "apg": 13.3,
+      "rpg": 32.47,
+      "three_pm": 7.87,
+      "topg": 9.83,
+      "spg": 5.63,
+      "bpg": 2.37
+    },
+    "South Carolina State": {
+      "g": 29,
+      "ppg": 66.14,
+      "apg": 11.9,
+      "rpg": 30.59,
+      "three_pm": 6.0,
+      "topg": 14.66,
+      "spg": 7.07,
+      "bpg": 3.59
+    },
+    "South Carolina Upstate": {
+      "g": 32,
+      "ppg": 74.25,
+      "apg": 12.84,
+      "rpg": 36.78,
+      "three_pm": 7.22,
+      "topg": 12.5,
+      "spg": 6.66,
+      "bpg": 4.69
+    },
+    "South Dakota": {
+      "g": 31,
+      "ppg": 80.16,
+      "apg": 12.48,
+      "rpg": 34.19,
+      "three_pm": 6.9,
+      "topg": 12.0,
+      "spg": 6.35,
+      "bpg": 2.45
+    },
+    "South Dakota State": {
+      "g": 31,
+      "ppg": 75.68,
+      "apg": 14.32,
+      "rpg": 37.32,
+      "three_pm": 8.1,
+      "topg": 11.03,
+      "spg": 5.74,
+      "bpg": 2.35
+    },
+    "South Florida": {
+      "g": 29,
+      "ppg": 88.28,
+      "apg": 17.14,
+      "rpg": 42.9,
+      "three_pm": 9.62,
+      "topg": 11.38,
+      "spg": 9.07,
+      "bpg": 4.31
+    },
+    "Southeast Missouri State": {
+      "g": 31,
+      "ppg": 75.19,
+      "apg": 12.61,
+      "rpg": 33.84,
+      "three_pm": 6.52,
+      "topg": 11.9,
+      "spg": 6.81,
+      "bpg": 3.55
+    },
+    "Southeastern Louisiana": {
+      "g": 31,
+      "ppg": 65.03,
+      "apg": 11.65,
+      "rpg": 32.0,
+      "three_pm": 6.03,
+      "topg": 12.42,
+      "spg": 6.94,
+      "bpg": 2.81
+    },
+    "Southern": {
+      "g": 30,
+      "ppg": 79.87,
+      "apg": 14.87,
+      "rpg": 35.53,
+      "three_pm": 7.0,
+      "topg": 12.03,
+      "spg": 9.67,
+      "bpg": 3.8
+    },
+    "Southern California": {
+      "g": 30,
+      "ppg": 78.93,
+      "apg": 14.83,
+      "rpg": 36.67,
+      "three_pm": 6.17,
+      "topg": 12.67,
+      "spg": 6.5,
+      "bpg": 5.53
+    },
+    "Southern Illinois": {
+      "g": 31,
+      "ppg": 73.32,
+      "apg": 13.58,
+      "rpg": 37.9,
+      "three_pm": 5.03,
+      "topg": 12.1,
+      "spg": 8.1,
+      "bpg": 3.58
+    },
+    "SIU Edwardsville": {
+      "g": 32,
+      "ppg": 70.97,
+      "apg": 13.19,
+      "rpg": 36.66,
+      "three_pm": 7.31,
+      "topg": 11.72,
+      "spg": 7.59,
+      "bpg": 3.94
+    },
+    "Southern Indiana": {
+      "g": 30,
+      "ppg": 68.7,
+      "apg": 10.33,
+      "rpg": 37.5,
+      "three_pm": 7.57,
+      "topg": 11.97,
+      "spg": 6.33,
+      "bpg": 4.23
+    },
+    "Southern Methodist": {
+      "g": 30,
+      "ppg": 85.23,
+      "apg": 17.27,
+      "rpg": 37.63,
+      "three_pm": 8.23,
+      "topg": 11.27,
+      "spg": 7.13,
+      "bpg": 3.7
+    },
+    "Southern Mississippi": {
+      "g": 31,
+      "ppg": 73.94,
+      "apg": 11.71,
+      "rpg": 36.84,
+      "three_pm": 5.32,
+      "topg": 13.35,
+      "spg": 7.68,
+      "bpg": 3.87
+    },
+    "Southern Utah": {
+      "g": 29,
+      "ppg": 76.41,
+      "apg": 14.03,
+      "rpg": 36.31,
+      "three_pm": 7.55,
+      "topg": 14.34,
+      "spg": 5.66,
+      "bpg": 4.34
+    },
+    "St. Bonaventure": {
+      "g": 30,
+      "ppg": 76.93,
+      "apg": 16.0,
+      "rpg": 35.27,
+      "three_pm": 7.2,
+      "topg": 11.47,
+      "spg": 7.63,
+      "bpg": 4.73
+    },
+    "St. John's (NY)": {
+      "g": 30,
+      "ppg": 82.2,
+      "apg": 16.37,
+      "rpg": 39.0,
+      "three_pm": 7.07,
+      "topg": 10.53,
+      "spg": 7.97,
+      "bpg": 4.77
+    },
+    "St. Thomas": {
+      "g": 31,
+      "ppg": 83.29,
+      "apg": 17.23,
+      "rpg": 33.48,
+      "three_pm": 9.87,
+      "topg": 9.48,
+      "spg": 7.61,
+      "bpg": 2.65
+    },
+    "Stanford": {
+      "g": 30,
+      "ppg": 76.1,
+      "apg": 12.07,
+      "rpg": 33.83,
+      "three_pm": 9.2,
+      "topg": 10.67,
+      "spg": 7.87,
+      "bpg": 3.63
+    },
+    "Stephen F. Austin": {
+      "g": 31,
+      "ppg": 77.45,
+      "apg": 13.94,
+      "rpg": 38.1,
+      "three_pm": 9.1,
+      "topg": 9.19,
+      "spg": 6.87,
+      "bpg": 3.68
+    },
+    "Stetson": {
+      "g": 32,
+      "ppg": 74.09,
+      "apg": 15.38,
+      "rpg": 32.97,
+      "three_pm": 9.31,
+      "topg": 12.62,
+      "spg": 6.19,
+      "bpg": 2.06
+    },
+    "Stonehill": {
+      "g": 32,
+      "ppg": 66.88,
+      "apg": 12.72,
+      "rpg": 37.69,
+      "three_pm": 7.69,
+      "topg": 13.12,
+      "spg": 4.78,
+      "bpg": 3.94
+    },
+    "Stony Brook": {
+      "g": 31,
+      "ppg": 71.16,
+      "apg": 13.32,
+      "rpg": 35.06,
+      "three_pm": 9.52,
+      "topg": 11.29,
+      "spg": 6.68,
+      "bpg": 3.84
+    },
+    "Syracuse": {
+      "g": 30,
+      "ppg": 75.4,
+      "apg": 12.83,
+      "rpg": 34.23,
+      "three_pm": 7.1,
+      "topg": 11.07,
+      "spg": 6.33,
+      "bpg": 6.03
+    },
+    "Tarleton State": {
+      "g": 30,
+      "ppg": 74.9,
+      "apg": 11.37,
+      "rpg": 33.0,
+      "three_pm": 4.63,
+      "topg": 14.5,
+      "spg": 10.53,
+      "bpg": 3.17
+    },
+    "TCU": {
+      "g": 30,
+      "ppg": 78.1,
+      "apg": 15.63,
+      "rpg": 36.17,
+      "three_pm": 7.37,
+      "topg": 11.13,
+      "spg": 7.97,
+      "bpg": 4.57
+    },
+    "Temple": {
+      "g": 29,
+      "ppg": 73.86,
+      "apg": 12.45,
+      "rpg": 33.55,
+      "three_pm": 6.79,
+      "topg": 9.0,
+      "spg": 5.41,
+      "bpg": 4.14
+    },
+    "Tennessee": {
+      "g": 30,
+      "ppg": 80.0,
+      "apg": 17.2,
+      "rpg": 42.67,
+      "three_pm": 6.67,
+      "topg": 11.97,
+      "spg": 7.63,
+      "bpg": 3.43
+    },
+    "Tennessee State": {
+      "g": 30,
+      "ppg": 80.53,
+      "apg": 13.13,
+      "rpg": 37.83,
+      "three_pm": 5.97,
+      "topg": 12.17,
+      "spg": 9.53,
+      "bpg": 3.63
+    },
+    "Tennessee Tech": {
+      "g": 31,
+      "ppg": 73.29,
+      "apg": 12.16,
+      "rpg": 36.19,
+      "three_pm": 6.81,
+      "topg": 13.29,
+      "spg": 5.94,
+      "bpg": 2.97
+    },
+    "Tennessee-Martin": {
+      "g": 31,
+      "ppg": 70.39,
+      "apg": 13.61,
+      "rpg": 40.32,
+      "three_pm": 8.03,
+      "topg": 14.55,
+      "spg": 8.87,
+      "bpg": 4.42
+    },
+    "Texas": {
+      "g": 30,
+      "ppg": 84.33,
+      "apg": 12.27,
+      "rpg": 37.83,
+      "three_pm": 7.33,
+      "topg": 10.93,
+      "spg": 5.93,
+      "bpg": 2.9
+    },
+    "Texas A&M": {
+      "g": 30,
+      "ppg": 88.33,
+      "apg": 18.6,
+      "rpg": 37.5,
+      "three_pm": 10.93,
+      "topg": 10.9,
+      "spg": 7.93,
+      "bpg": 3.23
+    },
+    "Texas A&M-Corpus Christi": {
+      "g": 31,
+      "ppg": 72.94,
+      "apg": 13.26,
+      "rpg": 35.94,
+      "three_pm": 6.26,
+      "topg": 12.97,
+      "spg": 7.81,
+      "bpg": 3.03
+    },
+    "Texas Southern": {
+      "g": 28,
+      "ppg": 75.64,
+      "apg": 11.21,
+      "rpg": 35.07,
+      "three_pm": 6.36,
+      "topg": 13.79,
+      "spg": 6.86,
+      "bpg": 3.14
+    },
+    "Texas State": {
+      "g": 31,
+      "ppg": 73.81,
+      "apg": 13.16,
+      "rpg": 35.81,
+      "three_pm": 4.81,
+      "topg": 12.68,
+      "spg": 8.48,
+      "bpg": 3.71
+    },
+    "Texas Tech": {
+      "g": 30,
+      "ppg": 81.47,
+      "apg": 16.07,
+      "rpg": 37.3,
+      "three_pm": 11.47,
+      "topg": 10.9,
+      "spg": 5.93,
+      "bpg": 3.87
+    },
+    "Texas-Rio Grande Valley": {
+      "g": 31,
+      "ppg": 75.45,
+      "apg": 16.55,
+      "rpg": 34.77,
+      "three_pm": 9.29,
+      "topg": 11.68,
+      "spg": 6.0,
+      "bpg": 2.84
+    },
+    "The Citadel": {
+      "g": 31,
+      "ppg": 69.61,
+      "apg": 12.52,
+      "rpg": 33.16,
+      "three_pm": 9.39,
+      "topg": 10.58,
+      "spg": 5.55,
+      "bpg": 2.42
+    },
+    "Toledo": {
+      "g": 30,
+      "ppg": 80.87,
+      "apg": 15.73,
+      "rpg": 34.33,
+      "three_pm": 6.97,
+      "topg": 10.23,
+      "spg": 7.67,
+      "bpg": 3.03
+    },
+    "Towson": {
+      "g": 31,
+      "ppg": 68.84,
+      "apg": 10.26,
+      "rpg": 39.19,
+      "three_pm": 6.35,
+      "topg": 10.48,
+      "spg": 6.06,
+      "bpg": 3.32
+    },
+    "Troy": {
+      "g": 31,
+      "ppg": 80.45,
+      "apg": 16.06,
+      "rpg": 38.39,
+      "three_pm": 9.65,
+      "topg": 11.61,
+      "spg": 8.0,
+      "bpg": 3.35
+    },
+    "Tulane": {
+      "g": 29,
+      "ppg": 72.17,
+      "apg": 12.9,
+      "rpg": 31.21,
+      "three_pm": 7.76,
+      "topg": 11.17,
+      "spg": 7.83,
+      "bpg": 4.83
+    },
+    "Tulsa": {
+      "g": 29,
+      "ppg": 86.03,
+      "apg": 15.59,
+      "rpg": 38.14,
+      "three_pm": 10.55,
+      "topg": 10.48,
+      "spg": 6.41,
+      "bpg": 2.48
+    },
+    "UAB": {
+      "g": 30,
+      "ppg": 78.9,
+      "apg": 13.83,
+      "rpg": 40.43,
+      "three_pm": 5.63,
+      "topg": 9.03,
+      "spg": 7.97,
+      "bpg": 3.5
+    },
+    "UC Davis": {
+      "g": 29,
+      "ppg": 78.21,
+      "apg": 15.9,
+      "rpg": 33.31,
+      "three_pm": 8.69,
+      "topg": 12.83,
+      "spg": 7.93,
+      "bpg": 2.69
+    },
+    "UC Irvine": {
+      "g": 30,
+      "ppg": 76.3,
+      "apg": 16.1,
+      "rpg": 39.97,
+      "three_pm": 5.63,
+      "topg": 12.67,
+      "spg": 7.8,
+      "bpg": 5.97
+    },
+    "UC Riverside": {
+      "g": 31,
+      "ppg": 72.9,
+      "apg": 12.84,
+      "rpg": 35.03,
+      "three_pm": 7.29,
+      "topg": 13.19,
+      "spg": 5.42,
+      "bpg": 4.23
+    },
+    "UC San Diego": {
+      "g": 30,
+      "ppg": 76.53,
+      "apg": 14.93,
+      "rpg": 37.4,
+      "three_pm": 8.67,
+      "topg": 11.3,
+      "spg": 7.57,
+      "bpg": 2.7
+    },
+    "UC Santa Barbara": {
+      "g": 30,
+      "ppg": 78.23,
+      "apg": 14.6,
+      "rpg": 35.03,
+      "three_pm": 9.13,
+      "topg": 12.73,
+      "spg": 6.53,
+      "bpg": 2.37
+    },
+    "UCF": {
+      "g": 29,
+      "ppg": 82.9,
+      "apg": 16.41,
+      "rpg": 36.69,
+      "three_pm": 8.34,
+      "topg": 11.28,
+      "spg": 5.66,
+      "bpg": 3.07
+    },
+    "UCLA": {
+      "g": 30,
+      "ppg": 77.6,
+      "apg": 16.0,
+      "rpg": 32.3,
+      "three_pm": 7.87,
+      "topg": 9.07,
+      "spg": 6.4,
+      "bpg": 3.0
+    },
+    "UNC Asheville": {
+      "g": 30,
+      "ppg": 73.1,
+      "apg": 11.07,
+      "rpg": 34.8,
+      "three_pm": 6.87,
+      "topg": 12.03,
+      "spg": 5.6,
+      "bpg": 3.63
+    },
+    "UNC Greensboro": {
+      "g": 31,
+      "ppg": 78.68,
+      "apg": 12.81,
+      "rpg": 35.26,
+      "three_pm": 8.45,
+      "topg": 10.23,
+      "spg": 5.61,
+      "bpg": 1.71
+    },
+    "UNC Wilmington": {
+      "g": 31,
+      "ppg": 77.26,
+      "apg": 13.61,
+      "rpg": 39.94,
+      "three_pm": 8.19,
+      "topg": 9.97,
+      "spg": 5.32,
+      "bpg": 2.42
+    },
+    "UT Arlington": {
+      "g": 28,
+      "ppg": 70.61,
+      "apg": 12.36,
+      "rpg": 37.04,
+      "three_pm": 5.07,
+      "topg": 14.04,
+      "spg": 7.61,
+      "bpg": 3.79
+    },
+    "Utah": {
+      "g": 30,
+      "ppg": 74.6,
+      "apg": 13.77,
+      "rpg": 33.97,
+      "three_pm": 7.83,
+      "topg": 11.4,
+      "spg": 5.5,
+      "bpg": 3.47
+    },
+    "Utah State": {
+      "g": 30,
+      "ppg": 82.67,
+      "apg": 17.7,
+      "rpg": 34.63,
+      "three_pm": 8.83,
+      "topg": 10.67,
+      "spg": 8.77,
+      "bpg": 2.97
+    },
+    "Utah Tech": {
+      "g": 31,
+      "ppg": 76.1,
+      "apg": 14.32,
+      "rpg": 34.13,
+      "three_pm": 7.84,
+      "topg": 12.19,
+      "spg": 7.23,
+      "bpg": 3.16
+    },
+    "Utah Valley": {
+      "g": 29,
+      "ppg": 80.07,
+      "apg": 18.79,
+      "rpg": 37.0,
+      "three_pm": 6.59,
+      "topg": 14.38,
+      "spg": 9.83,
+      "bpg": 5.79
+    },
+    "UTEP": {
+      "g": 29,
+      "ppg": 69.31,
+      "apg": 11.9,
+      "rpg": 32.41,
+      "three_pm": 7.41,
+      "topg": 11.72,
+      "spg": 7.52,
+      "bpg": 3.66
+    },
+    "UTSA": {
+      "g": 29,
+      "ppg": 69.41,
+      "apg": 10.93,
+      "rpg": 35.86,
+      "three_pm": 7.52,
+      "topg": 12.21,
+      "spg": 6.72,
+      "bpg": 4.38
+    },
+    "Valparaiso": {
+      "g": 31,
+      "ppg": 71.9,
+      "apg": 11.87,
+      "rpg": 36.06,
+      "three_pm": 7.23,
+      "topg": 10.35,
+      "spg": 5.84,
+      "bpg": 3.48
+    },
+    "Vanderbilt": {
+      "g": 30,
+      "ppg": 86.97,
+      "apg": 16.63,
+      "rpg": 35.97,
+      "three_pm": 9.7,
+      "topg": 9.6,
+      "spg": 8.27,
+      "bpg": 4.83
+    },
+    "Vermont": {
+      "g": 31,
+      "ppg": 74.1,
+      "apg": 13.1,
+      "rpg": 35.13,
+      "three_pm": 8.74,
+      "topg": 9.48,
+      "spg": 4.45,
+      "bpg": 2.97
+    },
+    "Villanova": {
+      "g": 30,
+      "ppg": 77.13,
+      "apg": 15.23,
+      "rpg": 34.63,
+      "three_pm": 9.6,
+      "topg": 10.23,
+      "spg": 7.63,
+      "bpg": 2.27
+    },
+    "Virginia": {
+      "g": 30,
+      "ppg": 81.03,
+      "apg": 16.73,
+      "rpg": 40.93,
+      "three_pm": 10.13,
+      "topg": 10.8,
+      "spg": 6.57,
+      "bpg": 6.23
+    },
+    "Virginia Commonwealth": {
+      "g": 30,
+      "ppg": 82.9,
+      "apg": 14.27,
+      "rpg": 37.13,
+      "three_pm": 9.43,
+      "topg": 10.93,
+      "spg": 7.47,
+      "bpg": 4.5
+    },
+    "VMI": {
+      "g": 31,
+      "ppg": 72.03,
+      "apg": 12.58,
+      "rpg": 33.39,
+      "three_pm": 10.74,
+      "topg": 10.0,
+      "spg": 7.1,
+      "bpg": 2.42
+    },
+    "Virginia Tech": {
+      "g": 30,
+      "ppg": 78.67,
+      "apg": 14.33,
+      "rpg": 34.5,
+      "three_pm": 8.6,
+      "topg": 10.37,
+      "spg": 6.37,
+      "bpg": 3.13
+    },
+    "Wagner": {
+      "g": 30,
+      "ppg": 71.8,
+      "apg": 12.7,
+      "rpg": 37.3,
+      "three_pm": 7.53,
+      "topg": 12.77,
+      "spg": 5.53,
+      "bpg": 2.5
+    },
+    "Wake Forest": {
+      "g": 30,
+      "ppg": 78.83,
+      "apg": 14.33,
+      "rpg": 32.93,
+      "three_pm": 9.03,
+      "topg": 10.8,
+      "spg": 8.17,
+      "bpg": 3.43
+    },
+    "Washington": {
+      "g": 30,
+      "ppg": 76.7,
+      "apg": 13.53,
+      "rpg": 36.93,
+      "three_pm": 6.47,
+      "topg": 10.63,
+      "spg": 5.73,
+      "bpg": 4.23
+    },
+    "Washington State": {
+      "g": 31,
+      "ppg": 76.35,
+      "apg": 13.65,
+      "rpg": 34.29,
+      "three_pm": 9.48,
+      "topg": 13.23,
+      "spg": 5.61,
+      "bpg": 3.0
+    },
+    "Weber State": {
+      "g": 31,
+      "ppg": 81.26,
+      "apg": 13.65,
+      "rpg": 37.26,
+      "three_pm": 7.19,
+      "topg": 11.13,
+      "spg": 7.23,
+      "bpg": 1.55
+    },
+    "West Georgia": {
+      "g": 31,
+      "ppg": 77.0,
+      "apg": 12.97,
+      "rpg": 36.68,
+      "three_pm": 7.23,
+      "topg": 11.16,
+      "spg": 6.48,
+      "bpg": 5.03
+    },
+    "West Virginia": {
+      "g": 30,
+      "ppg": 69.63,
+      "apg": 13.0,
+      "rpg": 34.77,
+      "three_pm": 7.8,
+      "topg": 11.13,
+      "spg": 6.4,
+      "bpg": 2.8
+    },
+    "Western Carolina": {
+      "g": 29,
+      "ppg": 78.9,
+      "apg": 13.03,
+      "rpg": 38.45,
+      "three_pm": 8.72,
+      "topg": 11.28,
+      "spg": 6.17,
+      "bpg": 2.79
+    },
+    "Western Illinois": {
+      "g": 31,
+      "ppg": 64.87,
+      "apg": 8.42,
+      "rpg": 31.87,
+      "three_pm": 5.87,
+      "topg": 11.77,
+      "spg": 5.19,
+      "bpg": 1.97
+    },
+    "Western Kentucky": {
+      "g": 29,
+      "ppg": 79.62,
+      "apg": 13.62,
+      "rpg": 39.69,
+      "three_pm": 8.62,
+      "topg": 10.34,
+      "spg": 7.69,
+      "bpg": 2.41
+    },
+    "Western Michigan": {
+      "g": 30,
+      "ppg": 74.67,
+      "apg": 12.6,
+      "rpg": 36.37,
+      "three_pm": 7.17,
+      "topg": 12.17,
+      "spg": 4.6,
+      "bpg": 2.63
+    },
+    "Wichita State": {
+      "g": 30,
+      "ppg": 77.93,
+      "apg": 11.53,
+      "rpg": 41.2,
+      "three_pm": 7.23,
+      "topg": 10.33,
+      "spg": 5.9,
+      "bpg": 3.97
+    },
+    "William & Mary": {
+      "g": 30,
+      "ppg": 84.23,
+      "apg": 18.3,
+      "rpg": 35.1,
+      "three_pm": 8.33,
+      "topg": 12.17,
+      "spg": 8.03,
+      "bpg": 3.83
+    },
+    "Winthrop": {
+      "g": 31,
+      "ppg": 84.16,
+      "apg": 14.68,
+      "rpg": 40.94,
+      "three_pm": 9.71,
+      "topg": 10.87,
+      "spg": 7.23,
+      "bpg": 2.84
+    },
+    "Wisconsin": {
+      "g": 30,
+      "ppg": 82.8,
+      "apg": 15.8,
+      "rpg": 36.33,
+      "three_pm": 11.37,
+      "topg": 9.07,
+      "spg": 5.67,
+      "bpg": 3.1
+    },
+    "Wofford": {
+      "g": 31,
+      "ppg": 78.97,
+      "apg": 14.1,
+      "rpg": 34.84,
+      "three_pm": 9.13,
+      "topg": 9.61,
+      "spg": 5.81,
+      "bpg": 3.13
+    },
+    "Wright State": {
+      "g": 32,
+      "ppg": 80.5,
+      "apg": 13.78,
+      "rpg": 35.41,
+      "three_pm": 7.12,
+      "topg": 11.34,
+      "spg": 7.44,
+      "bpg": 4.31
+    },
+    "Wyoming": {
+      "g": 30,
+      "ppg": 76.97,
+      "apg": 14.03,
+      "rpg": 35.47,
+      "three_pm": 8.33,
+      "topg": 11.2,
+      "spg": 6.7,
+      "bpg": 2.43
+    },
+    "Xavier": {
+      "g": 30,
+      "ppg": 78.37,
+      "apg": 17.67,
+      "rpg": 34.67,
+      "three_pm": 9.4,
+      "topg": 10.07,
+      "spg": 6.53,
+      "bpg": 4.13
+    },
+    "Yale": {
+      "g": 27,
+      "ppg": 81.59,
+      "apg": 16.07,
+      "rpg": 34.74,
+      "three_pm": 8.52,
+      "topg": 9.52,
+      "spg": 5.37,
+      "bpg": 3.07
+    },
+    "Youngstown State": {
+      "g": 32,
+      "ppg": 77.97,
+      "apg": 14.72,
+      "rpg": 34.56,
+      "three_pm": 9.94,
+      "topg": 12.66,
+      "spg": 7.22,
+      "bpg": 3.62
+    }
+  }
+}

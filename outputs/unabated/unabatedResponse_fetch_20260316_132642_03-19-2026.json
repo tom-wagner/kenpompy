@@ -1,0 +1,5297 @@
+{
+  "AJ Levine": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "pennsylvania",
+      "player_name": "AJ Levine",
+      "team": "Pennsylvania"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "AK Okereke": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "AK Okereke",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 10.5,
+        "over": -123,
+        "under": -119
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": -110,
+        "under": -118
+      },
+      "sleeper": {
+        "line": 10.5,
+        "over": -137,
+        "under": -120
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -123,
+        "under": -133
+      },
+      "sleeper": {
+        "line": 18.5,
+        "over": -123,
+        "under": -133
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Amare Bynum": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "ohio st",
+      "player_name": "Amare Bynum",
+      "team": "Ohio State"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Amari McCottry": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Amari McCottry",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Amir Taylor": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "kennesaw st",
+      "player_name": "Amir Taylor",
+      "team": "Kennesaw St"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Andrej Stojakovic": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Andrej Stojakovic",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Andy Stefonowicz": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Andy Stefonowicz",
+      "team": "North Dakota State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -133,
+        "under": -122
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -133,
+        "under": -122
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -132,
+        "under": -125
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -132,
+        "under": -125
+      }
+    },
+    "rebounds_assists": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    }
+  },
+  "Austin Rapp": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "wisconsin",
+      "player_name": "Austin Rapp",
+      "team": "Wisconsin"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Barry Evans": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Barry Evans",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 6.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -133,
+        "under": -123
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -133,
+        "under": -123
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 5.5,
+        "over": -132,
+        "under": -123
+      },
+      "sleeper": {
+        "line": 5.5,
+        "over": -132,
+        "under": -123
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {}
+  },
+  "Ben Humrichous": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Ben Humrichous",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {},
+    "threes": {}
+  },
+  "Berke B\u00fcy\u00fcktuncel": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Berke B\u00fcy\u00fcktuncel",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {}
+  },
+  "Biko Johnson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "idaho",
+      "player_name": "Biko Johnson",
+      "team": "Idaho"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Billy Richmond": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "Billy Richmond",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "turnovers": {}
+  },
+  "Blue Cain": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "georgia",
+      "player_name": "Blue Cain",
+      "team": "Georgia"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Braden Frager": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Braden Frager",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 10.1667,
+        "over": -109,
+        "under": -120
+      },
+      "caesars": {
+        "line": 9.5,
+        "over": -134,
+        "under": 100
+      },
+      "fanatics": {
+        "line": 10.5,
+        "over": 100,
+        "under": -130
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": 102,
+        "under": -132
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 119,
+        "under": -161
+      },
+      "caesars": {
+        "line": 1.5,
+        "over": 118,
+        "under": -157
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 120,
+        "under": -165
+      }
+    },
+    "turnovers": {}
+  },
+  "Braeden Carrington": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "wisconsin",
+      "player_name": "Braeden Carrington",
+      "team": "Wisconsin"
+    },
+    "points": {},
+    "threes": {}
+  },
+  "Brandon Jennings": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Brandon Jennings",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -122,
+        "under": -135
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -122,
+        "under": -135
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -119,
+        "under": -137
+      },
+      "sleeper": {
+        "line": 4.5,
+        "over": -119,
+        "under": -137
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 120,
+        "under": -160
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 120,
+        "under": -160
+      }
+    },
+    "turnovers": {}
+  },
+  "Brock Harding": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "tcu",
+      "player_name": "Brock Harding",
+      "team": "TCU"
+    },
+    "assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Brody Rowbury": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "idaho",
+      "player_name": "Brody Rowbury",
+      "team": "Idaho"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {},
+    "turnovers": {}
+  },
+  "Bruce Thornton": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "ohio st",
+      "player_name": "Bruce Thornton",
+      "team": "Ohio State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -119,
+        "under": -111
+      },
+      "caesars": {
+        "line": 19.5,
+        "over": -122,
+        "under": -109
+      },
+      "fanatics": {
+        "line": 19.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 19.5,
+        "over": -120,
+        "under": -108
+      }
+    },
+    "points_assists": {
+      "avgObj": {
+        "line": 24.5,
+        "over": -118,
+        "under": -108
+      },
+      "fanduel": {
+        "line": 24.5,
+        "over": -118,
+        "under": -108
+      }
+    },
+    "points_rebounds": {
+      "avgObj": {
+        "line": 24.5,
+        "over": -115,
+        "under": -111
+      },
+      "fanduel": {
+        "line": 24.5,
+        "over": -115,
+        "under": -111
+      }
+    },
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 29.5,
+        "over": -115,
+        "under": -111
+      },
+      "fanduel": {
+        "line": 29.5,
+        "over": -115,
+        "under": -111
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -122,
+        "under": -108
+      },
+      "fanatics": {
+        "line": 4.5,
+        "over": -120,
+        "under": -110
+      },
+      "fanduel": {
+        "line": 4.5,
+        "over": -125,
+        "under": -106
+      }
+    },
+    "rebounds_assists": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -120,
+        "under": -135
+      },
+      "fanduel": {
+        "line": 9.5,
+        "over": -120,
+        "under": -135
+      }
+    },
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -135,
+        "under": 101
+      },
+      "caesars": {
+        "line": 1.5,
+        "over": -130,
+        "under": -103
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -140,
+        "under": 105
+      }
+    },
+    "turnovers": {}
+  },
+  "CJ Brown": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "south florida",
+      "player_name": "CJ Brown",
+      "team": "South Florida"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Cale Jacobsen": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Cale Jacobsen",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Cameron Boozer": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "duke",
+      "player_name": "Cameron Boozer",
+      "team": "Duke"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 23.5,
+        "over": -116,
+        "under": -120
+      },
+      "caesars": {
+        "line": 23.5,
+        "over": -109,
+        "under": -122
+      },
+      "fanatics": {
+        "line": 23.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 23.5,
+        "over": -114,
+        "under": -114
+      },
+      "sleeper": {
+        "line": 23.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {
+      "avgObj": {
+        "line": 27.5,
+        "over": -113,
+        "under": -113
+      },
+      "fanduel": {
+        "line": 27.5,
+        "over": -113,
+        "under": -113
+      }
+    },
+    "points_rebounds": {
+      "avgObj": {
+        "line": 34.5,
+        "over": -106,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 34.5,
+        "over": -106,
+        "under": -120
+      }
+    },
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 38.5,
+        "over": -108,
+        "under": -118
+      },
+      "fanduel": {
+        "line": 38.5,
+        "over": -108,
+        "under": -118
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 10.5,
+        "over": -111,
+        "under": -125
+      },
+      "caesars": {
+        "line": 10.5,
+        "over": -113,
+        "under": -118
+      },
+      "fanatics": {
+        "line": 10.5,
+        "over": -105,
+        "under": -125
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": -108,
+        "under": -122
+      },
+      "sleeper": {
+        "line": 10.5,
+        "over": -120,
+        "under": -137
+      }
+    },
+    "rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -130,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 15.5,
+        "over": -130,
+        "under": -120
+      }
+    },
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 106,
+        "under": -153
+      },
+      "caesars": {
+        "line": 1.5,
+        "over": 107,
+        "under": -143
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 105,
+        "under": -140
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": 106,
+        "under": -179
+      }
+    },
+    "turnovers": {}
+  },
+  "Carson Cooper": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "michigan st",
+      "player_name": "Carson Cooper",
+      "team": "Michigan State"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 11.5,
+        "over": -130,
+        "under": -127
+      },
+      "sleeper": {
+        "line": 11.5,
+        "over": -130,
+        "under": -127
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "turnovers": {}
+  },
+  "Cayden Boozer": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "duke",
+      "player_name": "Cayden Boozer",
+      "team": "Duke"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -179,
+        "under": -165
+      },
+      "caesars": {
+        "line": 9.5,
+        "over": -124,
+        "under": -108
+      },
+      "fanatics": {
+        "line": 9.5,
+        "over": -125,
+        "under": -105
+      },
+      "fanduel": {
+        "line": 9.5,
+        "over": -114,
+        "under": -114
+      },
+      "prophetx": {
+        "line": 9.5,
+        "over": -20000,
+        "under": -20000
+      },
+      "sleeper": {
+        "line": 9.5,
+        "over": -133,
+        "under": -123
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Chandler Bing": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Chandler Bing",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "turnovers": {}
+  },
+  "Chris Cenac": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "houston",
+      "player_name": "Chris Cenac",
+      "team": "Houston"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Christoph Tilly": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "ohio st",
+      "player_name": "Christoph Tilly",
+      "team": "Ohio State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -112,
+        "under": -118
+      },
+      "caesars": {
+        "line": 9.5,
+        "over": -112,
+        "under": -120
+      },
+      "fanatics": {
+        "line": 9.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 9.5,
+        "over": -108,
+        "under": -120
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -100,
+        "under": -128
+      },
+      "fanduel": {
+        "line": 14.5,
+        "over": 100,
+        "under": -128
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -189,
+        "under": -183
+      },
+      "caesars": {
+        "line": 4.5,
+        "over": -122,
+        "under": -109
+      },
+      "fanatics": {
+        "line": 4.5,
+        "over": -120,
+        "under": -110
+      },
+      "fanduel": {
+        "line": 4.5,
+        "over": -110,
+        "under": -120
+      },
+      "prophetx": {
+        "line": 4.5,
+        "over": -20000,
+        "under": -20000
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Coen Carr": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "michigan st",
+      "player_name": "Coen Carr",
+      "team": "Michigan State"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 11.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 11.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 19.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 6.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Cooper Campbell": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "troy",
+      "player_name": "Cooper Campbell",
+      "team": "Troy"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 11.5,
+        "over": -112,
+        "under": -116
+      },
+      "fanatics": {
+        "line": 11.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 11.5,
+        "over": -110,
+        "under": -118
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "D.J. Wagner": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "D.J. Wagner",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {}
+  },
+  "Damari Wheeler-Thomas": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Damari Wheeler-Thomas",
+      "team": "North Dakota State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "threes": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    }
+  },
+  "Dame Sarr": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "duke",
+      "player_name": "Dame Sarr",
+      "team": "Duke"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -229,
+        "under": -229
+      },
+      "fanduel": {
+        "line": 8.5,
+        "over": -114,
+        "under": -114
+      },
+      "prophetx": {
+        "line": 8.5,
+        "over": -20000,
+        "under": -20000
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -106,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 13.5,
+        "over": -106,
+        "under": -120
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -121,
+        "under": -121
+      },
+      "fanduel": {
+        "line": 4.5,
+        "over": -114,
+        "under": -114
+      },
+      "sleeper": {
+        "line": 4.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Darius Acuff": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "Darius Acuff",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "David Mirkovic": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "David Mirkovic",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "David Punch": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "tcu",
+      "player_name": "David Punch",
+      "team": "TCU"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      }
+    },
+    "points": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -129,
+        "under": -102
+      },
+      "caesars": {
+        "line": 14.5,
+        "over": -130,
+        "under": -103
+      },
+      "fanatics": {
+        "line": 14.5,
+        "over": -130,
+        "under": 100
+      },
+      "fanduel": {
+        "line": 14.5,
+        "over": -128,
+        "under": -102
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 22.5,
+        "over": -106,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 22.5,
+        "over": -106,
+        "under": -120
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -136,
+        "under": 103
+      },
+      "caesars": {
+        "line": 6.5,
+        "over": -134,
+        "under": 101
+      },
+      "fanatics": {
+        "line": 6.5,
+        "over": -130,
+        "under": 100
+      },
+      "fanduel": {
+        "line": 6.5,
+        "over": -144,
+        "under": 108
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Davis Fogle": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "gonzaga",
+      "player_name": "Davis Fogle",
+      "team": "Gonzaga"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Derek Dixon": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "north carolina",
+      "player_name": "Derek Dixon",
+      "team": "North Carolina"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -147,
+        "under": -112
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -147,
+        "under": -112
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -130,
+        "under": -127
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -130,
+        "under": -127
+      }
+    },
+    "turnovers": {}
+  },
+  "Devin McGlockton": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Devin McGlockton",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 8.0,
+        "over": -129,
+        "under": -113
+      },
+      "fanduel": {
+        "line": 8.5,
+        "over": -130,
+        "under": 100
+      },
+      "sleeper": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -125,
+        "under": -102
+      },
+      "fanduel": {
+        "line": 15.5,
+        "over": -125,
+        "under": -102
+      }
+    },
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 16.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 16.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -142,
+        "under": -104
+      },
+      "fanduel": {
+        "line": 6.5,
+        "over": -132,
+        "under": 100
+      },
+      "sleeper": {
+        "line": 6.5,
+        "over": -152,
+        "under": -109
+      }
+    },
+    "rebounds_assists": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Devin Royal": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "ohio st",
+      "player_name": "Devin Royal",
+      "team": "Ohio State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -114,
+        "under": -115
+      },
+      "caesars": {
+        "line": 12.5,
+        "over": -110,
+        "under": -121
+      },
+      "fanatics": {
+        "line": 12.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 12.5,
+        "over": -118,
+        "under": -110
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -120,
+        "under": -106
+      },
+      "fanduel": {
+        "line": 18.5,
+        "over": -120,
+        "under": -106
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 5.5,
+        "over": -227,
+        "under": -153
+      },
+      "caesars": {
+        "line": 5.5,
+        "over": -154,
+        "under": 115
+      },
+      "fanatics": {
+        "line": 5.5,
+        "over": -150,
+        "under": 115
+      },
+      "fanduel": {
+        "line": 5.5,
+        "over": -136,
+        "under": 102
+      },
+      "prophetx": {
+        "line": 5.5,
+        "over": -20000,
+        "under": -20000
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Dillan Shaw": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "st marys ca",
+      "player_name": "Dillan Shaw",
+      "team": "Saint Marys CA"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Dion Brown": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Dion Brown",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Dre Bullock": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "hawaii",
+      "player_name": "Dre Bullock",
+      "team": "Hawaii"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Duke Miles": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Duke Miles",
+      "team": "Vanderbilt"
+    },
+    "assists": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -108,
+        "under": -152
+      },
+      "sleeper": {
+        "line": 4.5,
+        "over": -108,
+        "under": -152
+      }
+    },
+    "points": {
+      "avgObj": {
+        "line": 16.5,
+        "over": -126,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 16.5,
+        "over": -120,
+        "under": -108
+      },
+      "sleeper": {
+        "line": 16.5,
+        "over": -133,
+        "under": -123
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 25.5,
+        "over": -137,
+        "under": -120
+      },
+      "sleeper": {
+        "line": 25.5,
+        "over": -137,
+        "under": -120
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -135,
+        "under": -122
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -135,
+        "under": -122
+      }
+    },
+    "turnovers": {}
+  },
+  "Emanuel Sharp": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "houston",
+      "player_name": "Emanuel Sharp",
+      "team": "Houston"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Emmanuel Innocenti": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "gonzaga",
+      "player_name": "Emmanuel Innocenti",
+      "team": "Gonzaga"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 165,
+        "under": -225
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 165,
+        "under": -225
+      }
+    },
+    "stocks": {},
+    "threes": {}
+  },
+  "Francis Folefac": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "siena",
+      "player_name": "Francis Folefac",
+      "team": "Siena"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "turnovers": {}
+  },
+  "Frankquon Sherman": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "kennesaw st",
+      "player_name": "Frankquon Sherman",
+      "team": "Kennesaw St"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Garwey Dual": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "mcneese st",
+      "player_name": "Garwey Dual",
+      "team": "McNeese State"
+    },
+    "assists": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Gavin Doty": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "siena",
+      "player_name": "Gavin Doty",
+      "team": "Siena"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -106,
+        "under": -137
+      },
+      "fanduel": {
+        "line": 15.5,
+        "over": 102,
+        "under": -132
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -115,
+        "under": -143
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Graham Ike": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "gonzaga",
+      "player_name": "Graham Ike",
+      "team": "Gonzaga"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      }
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Harry Rouhliadeff": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "hawaii",
+      "player_name": "Harry Rouhliadeff",
+      "team": "Hawaii"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Henri Veesaar": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "north carolina",
+      "player_name": "Henri Veesaar",
+      "team": "North Carolina"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 185,
+        "under": -250
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 185,
+        "under": -250
+      }
+    },
+    "points": {
+      "avgObj": {
+        "line": 16.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 16.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 27.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 27.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Hunter Erickson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "hawaii",
+      "player_name": "Hunter Erickson",
+      "team": "Hawaii"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Isaac Finlinson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "hawaii",
+      "player_name": "Isaac Finlinson",
+      "team": "Hawaii"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Isaac Johnson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "hawaii",
+      "player_name": "Isaac Johnson",
+      "team": "Hawaii"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Isaac McKneely": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "louisville",
+      "player_name": "Isaac McKneely",
+      "team": "Louisville"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 10.5,
+        "over": -105,
+        "under": -125
+      },
+      "caesars": {
+        "line": 10.5,
+        "over": -110,
+        "under": -121
+      },
+      "fanatics": {
+        "line": 10.5,
+        "over": -105,
+        "under": -125
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": 100,
+        "under": -130
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Isaiah Brickner": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "idaho",
+      "player_name": "Isaiah Brickner",
+      "team": "Idaho"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Isaiah Evans": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "duke",
+      "player_name": "Isaiah Evans",
+      "team": "Duke"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 14.7,
+        "over": -179,
+        "under": -165
+      },
+      "caesars": {
+        "line": 14.5,
+        "over": -129,
+        "under": -104
+      },
+      "fanatics": {
+        "line": 14.5,
+        "over": -125,
+        "under": -105
+      },
+      "fanduel": {
+        "line": 14.5,
+        "over": -128,
+        "under": -102
+      },
+      "prophetx": {
+        "line": 14.5,
+        "over": -20000,
+        "under": -20000
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -114,
+        "under": -145
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -167,
+        "under": 123
+      },
+      "caesars": {
+        "line": 2.5,
+        "over": -170,
+        "under": 126
+      },
+      "fanatics": {
+        "line": 2.5,
+        "over": -165,
+        "under": 120
+      }
+    },
+    "turnovers": {}
+  },
+  "Ishan Sharma": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Ishan Sharma",
+      "team": "Saint Louis"
+    },
+    "points": {},
+    "points_rebounds": {},
+    "rebounds": {},
+    "threes": {}
+  },
+  "Izaiyah Nelson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "south florida",
+      "player_name": "Izaiyah Nelson",
+      "team": "South Florida"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -122,
+        "under": -106
+      },
+      "fanatics": {
+        "line": 13.5,
+        "over": -125,
+        "under": -105
+      },
+      "fanduel": {
+        "line": 13.5,
+        "over": -120,
+        "under": -108
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 21.5,
+        "over": -122,
+        "under": -104
+      },
+      "fanduel": {
+        "line": 21.5,
+        "over": -122,
+        "under": -104
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 7.5,
+        "over": -133,
+        "under": -100
+      },
+      "caesars": {
+        "line": 7.5,
+        "over": -130,
+        "under": -103
+      },
+      "fanatics": {
+        "line": 7.5,
+        "over": -140,
+        "under": 105
+      },
+      "fanduel": {
+        "line": 7.5,
+        "over": -130,
+        "under": -102
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -100,
+        "under": -130
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 100,
+        "under": -130
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "J'Vonne Hadley": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "louisville",
+      "player_name": "J'Vonne Hadley",
+      "team": "Louisville"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -117,
+        "under": -112
+      },
+      "fanatics": {
+        "line": 13.5,
+        "over": -120,
+        "under": -110
+      },
+      "fanduel": {
+        "line": 13.5,
+        "over": -114,
+        "under": -114
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jackson Rasmussen": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "idaho",
+      "player_name": "Jackson Rasmussen",
+      "team": "Idaho"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jadrian Tracey": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Jadrian Tracey",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -133,
+        "under": -123
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -133,
+        "under": -123
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Jake Davis": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Jake Davis",
+      "team": "Illinois"
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "threes": {}
+  },
+  "Jalen Washington": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Jalen Washington",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -122,
+        "under": -135
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -122,
+        "under": -135
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "turnovers": {}
+  },
+  "Jamarques Lawrence": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Jamarques Lawrence",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -115,
+        "under": -114
+      },
+      "caesars": {
+        "line": 9.5,
+        "over": -121,
+        "under": -110
+      },
+      "fanatics": {
+        "line": 9.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 9.5,
+        "over": -110,
+        "under": -118
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jarin Stevenson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "north carolina",
+      "player_name": "Jarin Stevenson",
+      "team": "North Carolina"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 10.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 10.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -115,
+        "under": -143
+      },
+      "sleeper": {
+        "line": 19.5,
+        "over": -115,
+        "under": -143
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Javohn Garcia": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "mcneese st",
+      "player_name": "Javohn Garcia",
+      "team": "McNeese State"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jaxon Kohler": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "michigan st",
+      "player_name": "Jaxon Kohler",
+      "team": "Michigan State"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 23.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 23.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Jayden Pierre": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "tcu",
+      "player_name": "Jayden Pierre",
+      "team": "TCU"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 11.1667,
+        "over": -108,
+        "under": -121
+      },
+      "caesars": {
+        "line": 11.5,
+        "over": 101,
+        "under": -134
+      },
+      "fanatics": {
+        "line": 10.5,
+        "over": -130,
+        "under": 100
+      },
+      "fanduel": {
+        "line": 11.5,
+        "over": 102,
+        "under": -132
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jeremiah Wilkinson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "georgia",
+      "player_name": "Jeremiah Wilkinson",
+      "team": "Georgia"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 145,
+        "under": -190
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 145,
+        "under": -190
+      }
+    },
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jeremy Fears": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "michigan st",
+      "player_name": "Jeremy Fears",
+      "team": "Michigan State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 17.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 17.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 29.5,
+        "over": -133,
+        "under": -123
+      },
+      "sleeper": {
+        "line": 29.5,
+        "over": -133,
+        "under": -123
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -135,
+        "under": -122
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -135,
+        "under": -122
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jerrell Bellamy": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "troy",
+      "player_name": "Jerrell Bellamy",
+      "team": "Troy"
+    },
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -104,
+        "under": -125
+      },
+      "fanatics": {
+        "line": 9.5,
+        "over": -105,
+        "under": -125
+      },
+      "fanduel": {
+        "line": 9.5,
+        "over": -104,
+        "under": -125
+      }
+    }
+  },
+  "John Blackwell": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "wisconsin",
+      "player_name": "John Blackwell",
+      "team": "Wisconsin"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -124,
+        "under": -106
+      },
+      "caesars": {
+        "line": 19.5,
+        "over": -125,
+        "under": -107
+      },
+      "fanatics": {
+        "line": 19.5,
+        "over": -125,
+        "under": -105
+      },
+      "fanduel": {
+        "line": 19.5,
+        "over": -122,
+        "under": -106
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 24.5,
+        "over": -122,
+        "under": -104
+      },
+      "fanduel": {
+        "line": 24.5,
+        "over": -122,
+        "under": -104
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -144,
+        "under": 109
+      },
+      "fanatics": {
+        "line": 4.5,
+        "over": -145,
+        "under": 110
+      },
+      "fanduel": {
+        "line": 4.5,
+        "over": -144,
+        "under": 108
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -154,
+        "under": 115
+      },
+      "caesars": {
+        "line": 2.5,
+        "over": -154,
+        "under": 115
+      }
+    },
+    "turnovers": {}
+  },
+  "John Mobley": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "ohio st",
+      "player_name": "John Mobley",
+      "team": "Ohio State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -193,
+        "under": -178
+      },
+      "caesars": {
+        "line": 15.5,
+        "over": -121,
+        "under": -110
+      },
+      "fanatics": {
+        "line": 15.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 15.5,
+        "over": -125,
+        "under": -104
+      },
+      "prophetx": {
+        "line": 15.5,
+        "over": -20000,
+        "under": -20000
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Jordan Scott": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "michigan st",
+      "player_name": "Jordan Scott",
+      "team": "Michigan State"
+    },
+    "assists": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -112,
+        "under": -145
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -112,
+        "under": -145
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Joseph Pinion": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "south florida",
+      "player_name": "Joseph Pinion",
+      "team": "South Florida"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -121,
+        "under": -109
+      },
+      "caesars": {
+        "line": 13.5,
+        "over": -125,
+        "under": -107
+      },
+      "fanatics": {
+        "line": 13.5,
+        "over": -120,
+        "under": -110
+      },
+      "fanduel": {
+        "line": 13.5,
+        "over": -118,
+        "under": -110
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 135,
+        "under": -175
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 135,
+        "under": -175
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Joseph Tugler": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "houston",
+      "player_name": "Joseph Tugler",
+      "team": "Houston"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 135,
+        "under": -175
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 135,
+        "under": -175
+      }
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "turnovers": {}
+  },
+  "Josh Omojafo": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "south florida",
+      "player_name": "Josh Omojafo",
+      "team": "South Florida"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Joshua Dent": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "st marys ca",
+      "player_name": "Joshua Dent",
+      "team": "Saint Marys CA"
+    },
+    "assists": {
+      "avgObj": {
+        "line": 5.5,
+        "over": -135,
+        "under": -120
+      },
+      "sleeper": {
+        "line": 5.5,
+        "over": -135,
+        "under": -120
+      }
+    },
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 22.5,
+        "over": -118,
+        "under": -141
+      },
+      "sleeper": {
+        "line": 22.5,
+        "over": -118,
+        "under": -141
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -116,
+        "under": -141
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -116,
+        "under": -141
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 150,
+        "under": -200
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 150,
+        "under": -200
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Justice Shoats": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T13:50:00-05:00",
+      "game_time_cst": "2026-03-19 01:50 PM CDT",
+      "normalized_team": "siena",
+      "player_name": "Justice Shoats",
+      "team": "Siena"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "steals": {},
+    "turnovers": {}
+  },
+  "Kanon Catchings": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "georgia",
+      "player_name": "Kanon Catchings",
+      "team": "Georgia"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 185,
+        "under": -250
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 185,
+        "under": -250
+      }
+    },
+    "threes": {},
+    "turnovers": {}
+  },
+  "Keaton Wagler": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Keaton Wagler",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Kellen Thames": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Kellen Thames",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {}
+  },
+  "Kingston Flemings": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "houston",
+      "player_name": "Kingston Flemings",
+      "team": "Houston"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 160,
+        "under": -210
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 160,
+        "under": -210
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Kolton Mitchell": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "idaho",
+      "player_name": "Kolton Mitchell",
+      "team": "Idaho"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Kylan Boswell": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Kylan Boswell",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Larry Johnson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "mcneese st",
+      "player_name": "Larry Johnson",
+      "team": "McNeese State"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 26.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 26.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Lazar Djokovic": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Lazar Djokovic",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 13.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 19.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Luka Bogavac": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "north carolina",
+      "player_name": "Luka Bogavac",
+      "team": "North Carolina"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 10.5,
+        "over": -119,
+        "under": -137
+      },
+      "sleeper": {
+        "line": 10.5,
+        "over": -119,
+        "under": -137
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Malique Ewin": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "Malique Ewin",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "turnovers": {}
+  },
+  "Marcus Hill": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "texas a m",
+      "player_name": "Marcus Hill",
+      "team": "Texas A&M"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Marcus Millender": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "georgia",
+      "player_name": "Marcus Millender",
+      "team": "Georgia"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Mario Saint-Sup\u00e9ry": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "gonzaga",
+      "player_name": "Mario Saint-Sup\u00e9ry",
+      "team": "Gonzaga"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Markhi Strickland": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Markhi Strickland",
+      "team": "North Dakota State"
+    },
+    "points": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -133,
+        "under": -122
+      },
+      "sleeper": {
+        "line": 6.5,
+        "over": -133,
+        "under": -122
+      }
+    },
+    "points_rebounds": {},
+    "rebounds": {}
+  },
+  "Meleek Thomas": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "Meleek Thomas",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 125,
+        "under": -165
+      }
+    },
+    "threes": {},
+    "turnovers": {}
+  },
+  "Micah Robinson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "tcu",
+      "player_name": "Micah Robinson",
+      "team": "TCU"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 11.1667,
+        "over": -113,
+        "under": -117
+      },
+      "caesars": {
+        "line": 11.5,
+        "over": -110,
+        "under": -121
+      },
+      "fanatics": {
+        "line": 11.5,
+        "over": -110,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": -118,
+        "under": -110
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Michael Belle": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Michael Belle",
+      "team": "Va Commonwealth"
+    },
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -125,
+        "under": -132
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -125,
+        "under": -132
+      }
+    },
+    "points_rebounds": {},
+    "rebounds": {},
+    "steals": {}
+  },
+  "Michael Zanoni": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "pennsylvania",
+      "player_name": "Michael Zanoni",
+      "team": "Pennsylvania"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Mikey Lewis": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "st marys ca",
+      "player_name": "Mikey Lewis",
+      "team": "Saint Marys CA"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 17.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 17.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 23.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 23.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Milos Uzan": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:10:00-05:00",
+      "game_time_cst": "2026-03-19 09:10 PM CDT",
+      "normalized_team": "houston",
+      "player_name": "Milos Uzan",
+      "team": "Houston"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Nick Boyd": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "wisconsin",
+      "player_name": "Nick Boyd",
+      "team": "Wisconsin"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 21.5,
+        "over": -117,
+        "under": -111
+      },
+      "fanatics": {
+        "line": 21.5,
+        "over": -120,
+        "under": -110
+      },
+      "fanduel": {
+        "line": 21.5,
+        "over": -115,
+        "under": -113
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 26.5,
+        "over": -104,
+        "under": -122
+      },
+      "fanduel": {
+        "line": 26.5,
+        "over": -104,
+        "under": -122
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": 103,
+        "under": -138
+      },
+      "fanatics": {
+        "line": 4.5,
+        "over": 105,
+        "under": -140
+      },
+      "fanduel": {
+        "line": 4.5,
+        "over": 102,
+        "under": -136
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Noah Feddersen": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Noah Feddersen",
+      "team": "North Dakota State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 5.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 5.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "threes": {}
+  },
+  "Nyk Lewis": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Nyk Lewis",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Owen Aquino": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "high point",
+      "player_name": "Owen Aquino",
+      "team": "High Point"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -100,
+        "under": -130
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 100,
+        "under": -130
+      }
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "turnovers": {}
+  },
+  "Paulius Murauskas": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "st marys ca",
+      "player_name": "Paulius Murauskas",
+      "team": "Saint Marys CA"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 30.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 30.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -123,
+        "under": -133
+      },
+      "sleeper": {
+        "line": 9.5,
+        "over": -123,
+        "under": -133
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Pop Isaacs": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "texas a m",
+      "player_name": "Pop Isaacs",
+      "team": "Texas A&M"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 9.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Pryce Sandfort": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Pryce Sandfort",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -121,
+        "under": -109
+      },
+      "caesars": {
+        "line": 18.5,
+        "over": -118,
+        "under": -113
+      },
+      "fanatics": {
+        "line": 18.5,
+        "over": -125,
+        "under": -105
+      },
+      "fanduel": {
+        "line": 18.5,
+        "over": -120,
+        "under": -108
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Quentin Jones": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Quentin Jones",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "RJ Johnson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "kennesaw st",
+      "player_name": "RJ Johnson",
+      "team": "Kennesaw St"
+    },
+    "assists": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "rebounds_assists": {},
+    "threes": {}
+  },
+  "Rashaun Agee": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "texas a m",
+      "player_name": "Rashaun Agee",
+      "team": "Texas A&M"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 26.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 26.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -118,
+        "under": -139
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -118,
+        "under": -139
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Rienk Mast": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Rienk Mast",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -121,
+        "under": -109
+      },
+      "caesars": {
+        "line": 12.5,
+        "over": -129,
+        "under": -104
+      },
+      "fanatics": {
+        "line": 12.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 12.5,
+        "over": -120,
+        "under": -108
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -102,
+        "under": -125
+      },
+      "fanduel": {
+        "line": 19.5,
+        "over": -102,
+        "under": -125
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 5.8333,
+        "over": -125,
+        "under": -106
+      },
+      "caesars": {
+        "line": 5.5,
+        "over": -154,
+        "under": 115
+      },
+      "fanatics": {
+        "line": 5.5,
+        "over": -150,
+        "under": 115
+      },
+      "fanduel": {
+        "line": 6.5,
+        "over": 118,
+        "under": -158
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Rob Martin": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "high point",
+      "player_name": "Rob Martin",
+      "team": "High Point"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -114,
+        "under": -114
+      },
+      "fanatics": {
+        "line": 15.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 15.5,
+        "over": -114,
+        "under": -114
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 175,
+        "under": -240
+      }
+    },
+    "threes": {},
+    "turnovers": {}
+  },
+  "Robbie Avila": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Robbie Avila",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Ryan Conwell": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "louisville",
+      "player_name": "Ryan Conwell",
+      "team": "Louisville"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 19.5,
+        "over": -105,
+        "under": -125
+      },
+      "caesars": {
+        "line": 19.5,
+        "over": -113,
+        "under": -118
+      },
+      "fanatics": {
+        "line": 19.5,
+        "over": 100,
+        "under": -130
+      },
+      "fanduel": {
+        "line": 19.5,
+        "over": -102,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Rylan Griffen": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "texas a m",
+      "player_name": "Rylan Griffen",
+      "team": "Texas A&M"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 12.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 18.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -132,
+        "under": -125
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -132,
+        "under": -125
+      }
+    },
+    "turnovers": {}
+  },
+  "Sam Hoiberg": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "nebraska",
+      "player_name": "Sam Hoiberg",
+      "team": "Nebraska"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -130,
+        "under": -100
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -130,
+        "under": 100
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Scotty Washington": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "high point",
+      "player_name": "Scotty Washington",
+      "team": "High Point"
+    },
+    "points": {},
+    "points_rebounds": {},
+    "rebounds": {},
+    "threes": {}
+  },
+  "Seth Trimble": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "north carolina",
+      "player_name": "Seth Trimble",
+      "team": "North Carolina"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 14.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 21.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 21.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 3.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Somto Cyril": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "georgia",
+      "player_name": "Somto Cyril",
+      "team": "Georgia"
+    },
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -160,
+        "under": 120
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -160,
+        "under": 120
+      }
+    },
+    "points": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {}
+  },
+  "TJ Power": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "pennsylvania",
+      "player_name": "TJ Power",
+      "team": "Pennsylvania"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Terrence Hill": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T17:50:00-05:00",
+      "game_time_cst": "2026-03-19 05:50 PM CDT",
+      "normalized_team": "va commonwealth",
+      "player_name": "Terrence Hill",
+      "team": "Va Commonwealth"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Terry Anderson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:50:00-05:00",
+      "game_time_cst": "2026-03-19 12:50 PM CDT",
+      "normalized_team": "high point",
+      "player_name": "Terry Anderson",
+      "team": "High Point"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 16.5,
+        "over": -112,
+        "under": -116
+      },
+      "fanatics": {
+        "line": 16.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 16.5,
+        "over": -110,
+        "under": -118
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 23.5,
+        "over": -104,
+        "under": -122
+      },
+      "fanduel": {
+        "line": 23.5,
+        "over": -104,
+        "under": -122
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -111,
+        "under": -118
+      },
+      "fanatics": {
+        "line": 6.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 6.5,
+        "over": -108,
+        "under": -122
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": 160,
+        "under": -210
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": 160,
+        "under": -210
+      }
+    },
+    "turnovers": {}
+  },
+  "Thomas Dowd": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "troy",
+      "player_name": "Thomas Dowd",
+      "team": "Troy"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -109,
+        "under": -120
+      },
+      "fanatics": {
+        "line": 12.5,
+        "over": -110,
+        "under": -120
+      },
+      "fanduel": {
+        "line": 12.5,
+        "over": -108,
+        "under": -120
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 20.5,
+        "over": -113,
+        "under": -113
+      },
+      "fanduel": {
+        "line": 20.5,
+        "over": -113,
+        "under": -113
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 8.5,
+        "over": 110,
+        "under": -146
+      },
+      "caesars": {
+        "line": 8.5,
+        "over": 105,
+        "under": -139
+      },
+      "fanatics": {
+        "line": 8.5,
+        "over": 110,
+        "under": -145
+      },
+      "fanduel": {
+        "line": 8.5,
+        "over": 116,
+        "under": -154
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -152,
+        "under": 115
+      },
+      "caesars": {
+        "line": 1.5,
+        "over": -154,
+        "under": 115
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -150,
+        "under": 115
+      }
+    },
+    "turnovers": {}
+  },
+  "Tomislav Ivisic": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:25:00-05:00",
+      "game_time_cst": "2026-03-19 08:25 PM CDT",
+      "normalized_team": "illinois",
+      "player_name": "Tomislav Ivisic",
+      "team": "Illinois"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Trevian Carson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Trevian Carson",
+      "team": "North Dakota State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 8.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 4.5,
+        "over": -137,
+        "under": -120
+      },
+      "sleeper": {
+        "line": 4.5,
+        "over": -137,
+        "under": -120
+      }
+    },
+    "rebounds_assists": {},
+    "threes": {}
+  },
+  "Trevon Brazile": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:25:00-05:00",
+      "game_time_cst": "2026-03-19 03:25 PM CDT",
+      "normalized_team": "arkansas",
+      "player_name": "Trevon Brazile",
+      "team": "Arkansas"
+    },
+    "assists": {},
+    "blocks": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -145,
+        "under": 110
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -145,
+        "under": 110
+      }
+    },
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -140,
+        "under": 105
+      },
+      "fanatics": {
+        "line": 1.5,
+        "over": -140,
+        "under": 105
+      }
+    },
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Trey Green": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T20:45:00-05:00",
+      "game_time_cst": "2026-03-19 08:45 PM CDT",
+      "normalized_team": "st louis",
+      "player_name": "Trey Green",
+      "team": "Saint Louis"
+    },
+    "assists": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Treyson Anderson": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T15:05:00-05:00",
+      "game_time_cst": "2026-03-19 03:05 PM CDT",
+      "normalized_team": "north dakota st",
+      "player_name": "Treyson Anderson",
+      "team": "North Dakota State"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 7.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "threes": {}
+  },
+  "Tyler Nickel": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Tyler Nickel",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 12.5,
+        "over": -108,
+        "under": -135
+      },
+      "fanduel": {
+        "line": 12.5,
+        "over": -104,
+        "under": -125
+      },
+      "sleeper": {
+        "line": 12.5,
+        "over": -112,
+        "under": -145
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 17.5,
+        "over": -104,
+        "under": -159
+      },
+      "sleeper": {
+        "line": 17.5,
+        "over": -104,
+        "under": -159
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "turnovers": {}
+  },
+  "Tyler Tanner": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "vanderbilt",
+      "player_name": "Tyler Tanner",
+      "team": "Vanderbilt"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 20.0,
+        "over": -114,
+        "under": -129
+      },
+      "fanduel": {
+        "line": 19.5,
+        "over": -102,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 20.5,
+        "over": -127,
+        "under": -130
+      }
+    },
+    "points_assists": {
+      "avgObj": {
+        "line": 25.5,
+        "over": -125,
+        "under": -102
+      },
+      "fanduel": {
+        "line": 25.5,
+        "over": -125,
+        "under": -102
+      }
+    },
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 29.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 29.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {
+      "avgObj": {
+        "line": 1.5,
+        "over": -112,
+        "under": -147
+      },
+      "sleeper": {
+        "line": 1.5,
+        "over": -112,
+        "under": -147
+      }
+    },
+    "turnovers": {}
+  },
+  "Tyon Grant-Foster": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T21:00:00-05:00",
+      "game_time_cst": "2026-03-19 09:00 PM CDT",
+      "normalized_team": "gonzaga",
+      "player_name": "Tyon Grant-Foster",
+      "team": "Gonzaga"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {},
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "turnovers": {}
+  },
+  "Tyshawn Archie": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T14:15:00-05:00",
+      "game_time_cst": "2026-03-19 02:15 PM CDT",
+      "normalized_team": "mcneese st",
+      "player_name": "Tyshawn Archie",
+      "team": "McNeese State"
+    },
+    "assists": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points": {
+      "avgObj": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 15.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {
+      "avgObj": {
+        "line": 20.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 20.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds": {
+      "avgObj": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      },
+      "sleeper": {
+        "line": 2.5,
+        "over": -128,
+        "under": -128
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Victor Valdes": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:40:00-05:00",
+      "game_time_cst": "2026-03-19 11:40 AM CDT",
+      "normalized_team": "troy",
+      "player_name": "Victor Valdes",
+      "team": "Troy"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 10.8333,
+        "over": -107,
+        "under": -123
+      },
+      "caesars": {
+        "line": 11.5,
+        "over": 103,
+        "under": -137
+      },
+      "fanatics": {
+        "line": 10.5,
+        "over": -115,
+        "under": -115
+      },
+      "fanduel": {
+        "line": 10.5,
+        "over": -110,
+        "under": -118
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Wes Enis": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T12:30:00-05:00",
+      "game_time_cst": "2026-03-19 12:30 PM CDT",
+      "normalized_team": "south florida",
+      "player_name": "Wes Enis",
+      "team": "South Florida"
+    },
+    "assists": {},
+    "points": {
+      "avgObj": {
+        "line": 17.5,
+        "over": -115,
+        "under": -115
+      },
+      "caesars": {
+        "line": 17.5,
+        "over": -120,
+        "under": -112
+      },
+      "fanduel": {
+        "line": 17.5,
+        "over": -110,
+        "under": -118
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {},
+    "points_rebounds_assists": {},
+    "rebounds": {},
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Xavier Edmonds": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T11:15:00-05:00",
+      "game_time_cst": "2026-03-19 11:15 AM CDT",
+      "normalized_team": "tcu",
+      "player_name": "Xavier Edmonds",
+      "team": "TCU"
+    },
+    "assists": {},
+    "blocks": {},
+    "points": {
+      "avgObj": {
+        "line": 12.8333,
+        "over": -121,
+        "under": -109
+      },
+      "caesars": {
+        "line": 12.5,
+        "over": -136,
+        "under": 101
+      },
+      "fanatics": {
+        "line": 13.5,
+        "over": -105,
+        "under": -125
+      },
+      "fanduel": {
+        "line": 12.5,
+        "over": -125,
+        "under": -104
+      }
+    },
+    "points_assists": {},
+    "points_rebounds": {
+      "avgObj": {
+        "line": 21.5,
+        "over": -113,
+        "under": -113
+      },
+      "fanduel": {
+        "line": 21.5,
+        "over": -113,
+        "under": -113
+      }
+    },
+    "points_rebounds_assists": {},
+    "rebounds": {
+      "avgObj": {
+        "line": 8.5,
+        "over": -103,
+        "under": -129
+      },
+      "caesars": {
+        "line": 8.5,
+        "over": -106,
+        "under": -127
+      },
+      "fanatics": {
+        "line": 8.5,
+        "over": 100,
+        "under": -130
+      },
+      "fanduel": {
+        "line": 8.5,
+        "over": -102,
+        "under": -130
+      }
+    },
+    "rebounds_assists": {},
+    "steals": {},
+    "stocks": {},
+    "threes": {},
+    "turnovers": {}
+  },
+  "Zach Clemence": {
+    "__meta__": {
+      "event_start_cst_iso": "2026-03-19T18:35:00-05:00",
+      "game_time_cst": "2026-03-19 06:35 PM CDT",
+      "normalized_team": "texas a m",
+      "player_name": "Zach Clemence",
+      "team": "Texas A&M"
+    },
+    "points": {
+      "avgObj": {
+        "line": 6.5,
+        "over": -115,
+        "under": -143
+      },
+      "sleeper": {
+        "line": 6.5,
+        "over": -115,
+        "under": -143
+      }
+    },
+    "points_rebounds": {},
+    "rebounds": {},
+    "threes": {},
+    "turnovers": {}
+  }
+}

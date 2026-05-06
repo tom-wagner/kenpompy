@@ -1,0 +1,391 @@
+{
+    "entryGroupKeys": [
+        "ed6b9ec9-7dcf-4f5b-b277-cfe76e968e67"
+    ],
+    "pickSetId": 13132,
+    "picks": [
+        {
+            "pickItemId": "210265",
+            "pickItemOutcomeIds": [
+                429903
+            ]
+        },
+        {
+            "pickItemId": "210266",
+            "pickItemOutcomeIds": [
+                429905
+            ]
+        },
+        {
+            "pickItemId": "210267",
+            "pickItemOutcomeIds": [
+                429908
+            ]
+        },
+        {
+            "pickItemId": "210268",
+            "pickItemOutcomeIds": [
+                429909
+            ]
+        },
+        {
+            "pickItemId": "210269",
+            "pickItemOutcomeIds": [
+                429912
+            ]
+        },
+        {
+            "pickItemId": "210270",
+            "pickItemOutcomeIds": [
+                429913
+            ]
+        },
+        {
+            "pickItemId": "210271",
+            "pickItemOutcomeIds": [
+                429916
+            ]
+        },
+        {
+            "pickItemId": "210272",
+            "pickItemOutcomeIds": [
+                429918
+            ]
+        },
+        {
+            "pickItemId": "210273",
+            "pickItemOutcomeIds": [
+                429919
+            ]
+        },
+        {
+            "pickItemId": "210274",
+            "pickItemOutcomeIds": [
+                429921
+            ]
+        },
+        {
+            "pickItemId": "210275",
+            "pickItemOutcomeIds": [
+                429924
+            ]
+        },
+        {
+            "pickItemId": "210276",
+            "pickItemOutcomeIds": [
+                429926
+            ]
+        },
+        {
+            "pickItemId": "210277",
+            "pickItemOutcomeIds": [
+                429927
+            ]
+        },
+        {
+            "pickItemId": "210278",
+            "pickItemOutcomeIds": [
+                429929
+            ]
+        },
+        {
+            "pickItemId": "210279",
+            "pickItemOutcomeIds": [
+                429932
+            ]
+        },
+        {
+            "pickItemId": "210280",
+            "pickItemOutcomeIds": [
+                429934
+            ]
+        },
+        {
+            "pickItemId": "210281",
+            "pickItemOutcomeIds": [
+                429936
+            ]
+        },
+        {
+            "pickItemId": "210282",
+            "pickItemOutcomeIds": [
+                429937
+            ]
+        },
+        {
+            "pickItemId": "210283",
+            "pickItemOutcomeIds": [
+                429939
+            ]
+        },
+        {
+            "pickItemId": "210284",
+            "pickItemOutcomeIds": [
+                429941
+            ]
+        },
+        {
+            "pickItemId": "210285",
+            "pickItemOutcomeIds": [
+                429944
+            ]
+        },
+        {
+            "pickItemId": "210286",
+            "pickItemOutcomeIds": [
+                429946
+            ]
+        },
+        {
+            "pickItemId": "210287",
+            "pickItemOutcomeIds": [
+                429948
+            ]
+        },
+        {
+            "pickItemId": "210288",
+            "pickItemOutcomeIds": [
+                429950
+            ]
+        },
+        {
+            "pickItemId": "210289",
+            "pickItemOutcomeIds": [
+                429952
+            ]
+        },
+        {
+            "pickItemId": "210290",
+            "pickItemOutcomeIds": [
+                429953
+            ]
+        },
+        {
+            "pickItemId": "210291",
+            "pickItemOutcomeIds": [
+                429956
+            ]
+        },
+        {
+            "pickItemId": "210292",
+            "pickItemOutcomeIds": [
+                429958
+            ]
+        },
+        {
+            "pickItemId": "210293",
+            "pickItemOutcomeIds": [
+                429960
+            ]
+        },
+        {
+            "pickItemId": "210294",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210295",
+            "pickItemOutcomeIds": [
+                429964
+            ]
+        },
+        {
+            "pickItemId": "210296",
+            "pickItemOutcomeIds": [
+                429965
+            ]
+        },
+        {
+            "pickItemId": "210297",
+            "pickItemOutcomeIds": [
+                429903
+            ]
+        },
+        {
+            "pickItemId": "210298",
+            "pickItemOutcomeIds": [
+                429908
+            ]
+        },
+        {
+            "pickItemId": "210299",
+            "pickItemOutcomeIds": [
+                429913
+            ]
+        },
+        {
+            "pickItemId": "210300",
+            "pickItemOutcomeIds": [
+                429916
+            ]
+        },
+        {
+            "pickItemId": "210301",
+            "pickItemOutcomeIds": [
+                429919
+            ]
+        },
+        {
+            "pickItemId": "210302",
+            "pickItemOutcomeIds": [
+                429924
+            ]
+        },
+        {
+            "pickItemId": "210303",
+            "pickItemOutcomeIds": [
+                429927
+            ]
+        },
+        {
+            "pickItemId": "210304",
+            "pickItemOutcomeIds": [
+                429934
+            ]
+        },
+        {
+            "pickItemId": "210305",
+            "pickItemOutcomeIds": [
+                429937
+            ]
+        },
+        {
+            "pickItemId": "210306",
+            "pickItemOutcomeIds": [
+                429939
+            ]
+        },
+        {
+            "pickItemId": "210307",
+            "pickItemOutcomeIds": [
+                429946
+            ]
+        },
+        {
+            "pickItemId": "210308",
+            "pickItemOutcomeIds": [
+                429950
+            ]
+        },
+        {
+            "pickItemId": "210309",
+            "pickItemOutcomeIds": [
+                429953
+            ]
+        },
+        {
+            "pickItemId": "210310",
+            "pickItemOutcomeIds": [
+                429958
+            ]
+        },
+        {
+            "pickItemId": "210311",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210312",
+            "pickItemOutcomeIds": [
+                429964
+            ]
+        },
+        {
+            "pickItemId": "210313",
+            "pickItemOutcomeIds": [
+                429903
+            ]
+        },
+        {
+            "pickItemId": "210314",
+            "pickItemOutcomeIds": [
+                429916
+            ]
+        },
+        {
+            "pickItemId": "210315",
+            "pickItemOutcomeIds": [
+                429924
+            ]
+        },
+        {
+            "pickItemId": "210316",
+            "pickItemOutcomeIds": [
+                429927
+            ]
+        },
+        {
+            "pickItemId": "210317",
+            "pickItemOutcomeIds": [
+                429939
+            ]
+        },
+        {
+            "pickItemId": "210318",
+            "pickItemOutcomeIds": [
+                429950
+            ]
+        },
+        {
+            "pickItemId": "210319",
+            "pickItemOutcomeIds": [
+                429953
+            ]
+        },
+        {
+            "pickItemId": "210320",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210321",
+            "pickItemOutcomeIds": [
+                429916
+            ]
+        },
+        {
+            "pickItemId": "210322",
+            "pickItemOutcomeIds": [
+                429924
+            ]
+        },
+        {
+            "pickItemId": "210323",
+            "pickItemOutcomeIds": [
+                429939
+            ]
+        },
+        {
+            "pickItemId": "210324",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210325",
+            "pickItemOutcomeIds": [
+                429924
+            ]
+        },
+        {
+            "pickItemId": "210326",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210327",
+            "pickItemOutcomeIds": [
+                429962
+            ]
+        },
+        {
+            "pickItemId": "210328",
+            "pickItemOutcomeIds": null,
+            "pickAnswer": 160
+        }
+    ]
+}
